@@ -91,7 +91,7 @@ export default function Header() {
                 </li>
 
                 <Link
-                  className="mt-6 text-sm lg:text-base w-fit font-bold lg:mt-0 text-white text-center bg-s2s-purple px-10 py-2 rounded-xl lg:hover:bg-s2s-orange lg:hover:text-white"
+                  className="mt-6 text-sm lg:text-base w-fit font-bold lg:mt-0 text-white text-center bg-s2s-purple px-10 py-2 rounded-xl lg:hover:bg-s2s-orange"
                   href="/"
                   onClick={() => setIsOpen(false)}
                 >
