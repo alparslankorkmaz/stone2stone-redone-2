@@ -17,3 +17,27 @@ export const footerLinks = [
     links: ["Terms", "Usage"],
   },
 ];
+
+// TESTIMONIALS
+import amisha from "public/img/testimonials/amisha.webp";
+
+export const testimonials = [
+  {
+    body: "Having worked with Stone2stone on many projects, we have always found that the team possesses the right balance of professionalism, knowledge and creativity to suit our needs. Stone2stone listens to our briefs, understands the challenges and has always created solutions that hit the spot.",
+    name: "Amisha Shah",
+    role: "Senior International Marketing at ECI",
+    img: amisha,
+  },
+  {
+    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, ipsum nesciunt dicta, voluptas quasi quo natus nostrum totam esse laboriosam repudiandae cum, non voluptatem quas iste? Dolorum dicta sequi debitis?",
+    name: "Amisha 2",
+    role: "2 International Marketing at ECI",
+    img: amisha,
+  },
+  {
+    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, ipsum nesciunt dicta, voluptas quasi quo natus nostrum totam esse laboriosam repudiandae cum, non voluptatem quas iste? Dolorum dicta sequi debitis?",
+    name: "3",
+    role: "3",
+    img: amisha,
+  },
+];

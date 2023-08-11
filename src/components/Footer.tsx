@@ -10,7 +10,7 @@ type ColumnProps = {
 };
 
 const FooterColumn = ({ title, links }: ColumnProps) => (
-  <div className="">
+  <div>
     <h4 className="font-semibold text-white lg:text-3xl mb-4">{title}</h4>
     <ul className="flex flex-col text-footer-gray text-sm lg:text-base">
       {links.map((link) => (
