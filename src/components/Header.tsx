@@ -1,8 +1,9 @@
 "use client";
 import Image from "next/image";
-import logo from "public/logo/logo.svg";
+import logo from "public/img/logo/logo.svg";
 import Link from "next/link";
 import { useState } from "react";
+import { navLinks } from "@/constant";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -58,38 +59,20 @@ export default function Header() {
                   : "hidden"
               }`}
             >
-              <ul className="font-semibold lg:h-auto items-end flex flex-col justify-center lg:flex-row lg:items-center text-3xl lg:text-sm lg:gap-7">
-                <li className="w-fit text-sm lg:text-base lg:mt-0 text-white text-center lg:hover:text-s2s-orange lg:hover:bg-transparent">
-                  <Link href="/" onClick={() => setIsOpen(false)}>
-                    Home
+              <ul className="gap-5 font-semibold lg:h-auto flex flex-col items-end justify-center lg:flex-row lg:items-center text-3xl lg:text-sm lg:gap-7">
+                {navLinks.map((link) => (
+                  <Link
+                    href={link.href}
+                    key={link.text}
+                    onClick={() => setIsOpen(false)}
+                    className="text-sm lg:text-base w-fit lg:mt-0 text-white text-center lg:hover:text-s2s-orange"
+                  >
+                    {link.text}
                   </Link>
-                </li>
-                <li className="mt-6 text-sm lg:text-base w-fit lg:mt-0 text-white text-center lg:hover:text-s2s-orange lg:hover:bg-transparent">
-                  <Link href="/" onClick={() => setIsOpen(false)}>
-                    Who we are
-                  </Link>
-                </li>
-                <li className="mt-6 text-sm lg:text-base w-fit lg:mt-0 text-white text-center lg:hover:text-s2s-orange lg:hover:bg-transparent">
-                  <Link href="/" onClick={() => setIsOpen(false)}>
-                    What we do
-                  </Link>
-                </li>
-                <li className="mt-6 text-sm lg:text-base w-fit lg:mt-0 text-white text-center lg:hover:text-s2s-orange lg:hover:bg-transparent">
-                  <Link href="/" onClick={() => setIsOpen(false)}>
-                    Work
-                  </Link>
-                </li>
-                <li className="mt-6 text-sm lg:text-base w-fit lg:mt-0 text-white text-center lg:hover:text-s2s-orange lg:hover:bg-transparent">
-                  <Link href="/" onClick={() => setIsOpen(false)}>
-                    Blog
-                  </Link>
-                </li>
-                <li className="mt-6 text-sm lg:text-base w-fit lg:mt-0 text-white text-center lg:hover:text-s2s-orange lg:hover:bg-transparent lg:border-r-2 lg:pr-6 border-r-s2s-purple">
-                  <Link href="/" onClick={() => setIsOpen(false)}>
-                    Contact us
-                  </Link>
-                </li>
-
+                ))}
+                <div className="hidden lg:block text-s2s-purple text-5xl font-thin">
+                  I
+                </div>
                 <Link
                   className="mt-6 text-sm lg:text-base w-fit font-bold lg:mt-0 text-white text-center bg-s2s-purple px-10 py-2 rounded-xl lg:hover:bg-s2s-orange"
                   href="/"

@@ -1,8 +1,8 @@
 import Link from "next/link";
 import Image from "next/image";
-import left from "public/hero/left.webp";
-import mid from "public/hero/mid.webp";
-import right from "public/hero/right.webp";
+import left from "public/img/hero/left.webp";
+import mid from "public/img/hero/mid.webp";
+import right from "public/img/hero/right.webp";
 
 export default function Hero() {
   return (
@@ -11,7 +11,7 @@ export default function Hero() {
         <h1 className="text-4xl lg:text-7xl leading-none font-semibold mt-16 lg:mt-24">
           Losing leads through outdated B2B technology marketing?
         </h1>
-        <p className="mt-3 px-8 lg:px-60 text-sm leading-none lg:text-lg">
+        <p className="mt-3 lg:mt-5 px-8 lg:px-60 text-sm leading-none lg:text-lg">
           Stop recycling traditional white papers and hosting mundane
           roundtables. By using Stone2stone you can generate leads, push
           boundaries, unleash dynamic potential, and forge meaningful

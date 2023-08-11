@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={gantari.className}>
-        <main className="bg-[#f7f7f7]">
+        <main>
           <Header />
           {children}
           <Footer />
