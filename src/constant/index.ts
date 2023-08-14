@@ -20,6 +20,11 @@ export const footerLinks = [
 
 // TESTIMONIALS
 import amisha from "public/img/testimonials/amisha.webp";
+import luke from "public/img/testimonials/luke.webp";
+import jen from "public/img/testimonials/jen.webp";
+import neil from "public/img/testimonials/neil.webp";
+import andreea from "public/img/testimonials/andreea.webp";
+import chris from "public/img/testimonials/chris.webp";
 
 export const testimonials = [
   {
@@ -29,15 +34,33 @@ export const testimonials = [
     img: amisha,
   },
   {
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, ipsum nesciunt dicta, voluptas quasi quo natus nostrum totam esse laboriosam repudiandae cum, non voluptatem quas iste? Dolorum dicta sequi debitis?",
-    name: "Amisha 2",
-    role: "2 International Marketing at ECI",
-    img: amisha,
+    body: "Working with Stone2stone has been an absolute game-changer for our marketing initiatives. From the very beginning, their team demonstrated an in-depth understanding of our unique needs, challenges, and target audience.",
+    name: "Luke Day",
+    role: "Partner Accounts Manager at Red Hat",
+    img: luke,
   },
   {
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, ipsum nesciunt dicta, voluptas quasi quo natus nostrum totam esse laboriosam repudiandae cum, non voluptatem quas iste? Dolorum dicta sequi debitis?",
-    name: "3",
-    role: "3",
-    img: amisha,
+    body: "I have used Stone2stone for a year now and would highly recommend them. They are responsive, adaptable, reliable and creative. A real pleasure to work with.",
+    name: "Jen Falasca",
+    role: "Senior Marketing Director at ECI",
+    img: jen,
+  },
+  {
+    body: "I have always used the team at Stone2stone. They have always been great to work with. They have a great understanding of the IT channel and have delivered fantastic creative work for us time and time again.",
+    name: "Neil Langridge",
+    role: "Marketing Director at e92 Plus",
+    img: neil,
+  },
+  {
+    body: "Stone2stone have been my go to marketing agency for over a year now. They are always reactive and imaginative in their approach and are definitely fun to work with. I would 1000% recommend them.",
+    name: "Andreea Caesar",
+    role: "Senior Marketing Manager at Trend Micro",
+    img: andreea,
+  },
+  {
+    body: "Stone2stone have a great team in place, a fab creative outlook and are brilliantly responsive. They are always a pleasure to work with and I will continue to recommend them to anybody looking for a B2B Marketing Agency.",
+    name: "Chris Hepple",
+    role: "Int Marketing Director at Forescout",
+    img: chris,
   },
 ];
