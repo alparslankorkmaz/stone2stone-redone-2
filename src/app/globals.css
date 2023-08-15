@@ -9,3 +9,11 @@ body::-webkit-scrollbar {
 body {
   background-color: #f7f7f7;
 }
+
+.collapse-arrow .collapse-title:after {
+  color: #ec9638;
+  width: 1.5rem;
+  height: 1.5rem;
+  right: 2.5rem;
+  top: 55%;
+}
