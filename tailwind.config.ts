@@ -10,6 +10,7 @@ const config: Config = {
     extend: {
       backgroundImage: {
         hero_bg: "url('/img/hero/hero_bg.webp')",
+        hub_bg: "url('/img/misc/hub_bg.webp')",
         footer_bg: "url('/img/footer/footer_bg.webp')",
       },
       colors: {
