@@ -12,7 +12,7 @@ export default function ClientMarquee() {
   return (
     <>
       <div className="grid grid-cols-2 p-10 gap-14 lg:p-20">
-        <div className="col-span-2 lg:col-span-1 font-semibold text-lg lg:text-5xl ">
+        <div className="col-span-2 lg:col-span-1 font-semibold text-2xl lg:text-5xl ">
           <p className="text-s2s-gray">
             <span className="text-black font-semibold">50+ clients </span> who
             are pushing B2B marketing boundaries

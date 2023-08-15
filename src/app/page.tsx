@@ -1,7 +1,8 @@
 import ClientMarquee from "@/components/ClientMarquee";
-import Hero from "@/components/Hero";
-import Testimonials from "@/components/Testimonials";
-import WhatWeDo from "@/components/WhatWeDo";
+import Hero from "@/components/home/Hero";
+import PushingTheBoundries from "@/components/home/PushingTheBoundries";
+import Testimonials from "@/components/home/Testimonials";
+import WhatWeDo from "@/components/home/WhatWeDo";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <ClientMarquee />
       <Testimonials />
       <WhatWeDo />
+      <PushingTheBoundries />
     </>
   );
 }
