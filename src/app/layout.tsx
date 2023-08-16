@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 const gantari = Gantari({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "stone2stone",
+  title: "Stone2stone",
   description: "Digital Marketing Agency",
 };
 

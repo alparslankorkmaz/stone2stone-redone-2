@@ -74,7 +74,7 @@ export default function Header() {
                   <div className="dropdown dropdown-bottom dropdown-end h-5">
                     <label
                       tabIndex={0}
-                      className=" relative w-fit lg:mt-0 text-white text-center hover:text-s2s-orange duration-200"
+                      className="relative w-fit lg:mt-0 text-white text-center hover:text-s2s-orange duration-200"
                     >
                       About Stone2stone{" "}
                       <i className="font-sans text-[.7rem]">&#x25BC;</i>
