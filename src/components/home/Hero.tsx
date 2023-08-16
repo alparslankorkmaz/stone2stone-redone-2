@@ -9,7 +9,7 @@ export default function Hero() {
     <div className="relative bg-hero_bg bg-cover bg-bottom bg-no-repeat z-10">
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        className="mix-blend-overlay absolute opacity-50 -z-10"
+        className="mix-blend-overlay absolute bottom-0 opacity-50 -z-10"
         fill="none"
         viewBox="0 0 1920 1080"
         stroke="#ffffff"
