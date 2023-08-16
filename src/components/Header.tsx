@@ -9,7 +9,7 @@ export default function Header() {
 
   return (
     <>
-      <nav className="w-full top-0 left-0 right-0 absolute z-10">
+      <nav className="w-full top-0 left-0 right-0 absolute z-20">
         <div className="lg:flex lg:items-center lg:max-w-7xl mx-auto justify-between items-center">
           <div>
             <div className="flex items-center justify-between px-4 py-3 lg:py-10 lg:block">
