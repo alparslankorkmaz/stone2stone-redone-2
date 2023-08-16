@@ -3,7 +3,6 @@ import Image from "next/image";
 import logo from "public/img/logo/logo.svg";
 import Link from "next/link";
 import { useState } from "react";
-import { navLinks } from "@/constant";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,9 +10,9 @@ export default function Header() {
   return (
     <>
       <nav className="w-full top-0 left-0 right-0 absolute z-10">
-        <div className="lg:flex lg:items-center lg:max-w-7xl mx-auto px-4 justify-between items-center">
+        <div className="lg:flex lg:items-center lg:max-w-7xl mx-auto justify-between items-center">
           <div>
-            <div className="flex items-center justify-between py-3 lg:py-10 lg:block">
+            <div className="flex items-center justify-between px-4 py-3 lg:py-10 lg:block">
               {/* LOGO */}
               <Link href="/">
                 <Image
@@ -55,31 +54,143 @@ export default function Header() {
             <div
               className={`flex-1 justify-self-center p-10 lg:block lg:p-0 lg:mt-0 ${
                 isOpen
-                  ? "p-12 rounded-lg lg:p-0 block bg-s2s-orange lg:bg-transparent"
+                  ? "p-12 rounded-lg lg:p-0 block bg-mobile_menu_bg bg-cover bg-bottom lg:bg-transparent h-screen lg:h-auto"
                   : "hidden"
               }`}
             >
-              <ul className="gap-5 font-semibold lg:h-auto flex flex-col items-end justify-center lg:flex-row lg:items-center text-3xl lg:text-sm lg:gap-7">
-                {navLinks.map((link) => (
+              <ul className="gap-8 h-full font-semibold lg:h-auto flex flex-col items-center lg:flex-row lg:items-center text-xl lg:text-sm lg:gap-7">
+                {/* HOME */}
+                <li>
                   <Link
-                    href={link.href}
-                    key={link.text}
+                    href="/"
                     onClick={() => setIsOpen(false)}
-                    className="text-sm lg:text-base w-fit lg:mt-0 text-white text-center lg:hover:text-s2s-orange"
+                    className="w-fit lg:mt-0 text-white text-center hover:text-s2s-orange duration-200"
                   >
-                    {link.text}
+                    Home
                   </Link>
-                ))}
-                <div className="hidden lg:block text-s2s-purple text-5xl font-thin">
+                </li>
+                {/* ABOUT */}
+                <li>
+                  <div className="dropdown dropdown-bottom dropdown-end h-5">
+                    <label
+                      tabIndex={0}
+                      className=" relative w-fit lg:mt-0 text-white text-center hover:text-s2s-orange duration-200"
+                    >
+                      About Stone2stone{" "}
+                      <i className="font-sans text-[.7rem]">&#x25BC;</i>
+                    </label>
+                    <ul
+                      tabIndex={0}
+                      className="flex justify-center items-center lg:block dropdown-content mt-3 -left-3 lg:-left-7 divide-y-2 divide-s2s-purple z-[1] menu p-2 text-white bg-menu-gray rounded-box w-52"
+                    >
+                      <li>
+                        <Link href="/" className="hover:text-s2s-orange">
+                          About us
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="/" className="hover:text-s2s-orange">
+                          Who we are
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="/" className="hover:text-s2s-orange">
+                          Our clients
+                        </Link>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                {/* WHAT WE DO */}
+                <li>
+                  <div className="dropdown dropdown-bottom dropdown-end h-5">
+                    <label
+                      tabIndex={0}
+                      className=" relative w-fit lg:mt-0 text-white text-center hover:text-s2s-orange duration-200"
+                    >
+                      What we do{" "}
+                      <i className="font-sans text-[.7rem]">&#x25BC;</i>
+                    </label>
+                    <ul
+                      tabIndex={0}
+                      className="flex justify-center items-center lg:block dropdown-content mt-3 -left-[5.3rem] lg:-left-7 divide-y-2 divide-s2s-purple z-[1] menu p-2 text-white bg-menu-gray rounded-box w-72"
+                    >
+                      <li>
+                        <Link href="/" className="hover:text-s2s-orange">
+                          Strategy, Branding & Proposition
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="/" className="hover:text-s2s-orange">
+                          Digital Marketing
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="/" className="hover:text-s2s-orange">
+                          Account Based Marketing
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="/" className="hover:text-s2s-orange">
+                          Content Marketing
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="/" className="hover:text-s2s-orange">
+                          Gamification
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="/" className="hover:text-s2s-orange">
+                          See all{" "}
+                        </Link>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                {/* WORK */}
+                <li>
+                  <Link
+                    href="/"
+                    onClick={() => setIsOpen(false)}
+                    className="w-fit lg:mt-0 text-white text-center hover:text-s2s-orange duration-200"
+                  >
+                    Work
+                  </Link>
+                </li>
+                {/* BLOG */}
+                <li>
+                  <Link
+                    href="/"
+                    onClick={() => setIsOpen(false)}
+                    className="w-fit lg:mt-0 text-white text-center hover:text-s2s-orange duration-200"
+                  >
+                    Blog
+                  </Link>
+                </li>
+                {/* CONTACT US */}
+                <li>
+                  <Link
+                    href="/"
+                    onClick={() => setIsOpen(false)}
+                    className="w-fit lg:mt-0 text-white text-center hover:text-s2s-orange duration-200"
+                  >
+                    Contact us
+                  </Link>
+                </li>
+
+                <li className="hidden lg:block text-s2s-purple text-5xl font-thin">
                   I
-                </div>
-                <Link
-                  className="mt-6 text-sm lg:text-base w-fit font-bold lg:mt-0 text-white text-center bg-s2s-purple px-10 py-2 rounded-xl lg:hover:bg-s2s-orange"
-                  href="/"
-                  onClick={() => setIsOpen(false)}
-                >
-                  Log in
-                </Link>
+                </li>
+                <li>
+                  <Link
+                    className=" w-fit font-bold lg:mt-0 text-white text-center bg-s2s-purple px-10 py-2 rounded-xl hover:bg-s2s-orange duration-200"
+                    href="/"
+                    onClick={() => setIsOpen(false)}
+                  >
+                    Log in
+                  </Link>
+                </li>
               </ul>
             </div>
           </div>

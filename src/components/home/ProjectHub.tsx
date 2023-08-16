@@ -14,7 +14,7 @@ export default function ProjectHub() {
             while instant meetings ensure effective communication and swift
             decision-making with our expert team.
           </p>
-          <div className="w-fit mt-8 text-white lg:text-xl font-semibold bg-s2s-purple hover:bg-s2s-orange py-2 px-4 rounded-xl">
+          <div className="w-fit mt-8 text-white lg:text-xl font-semibold bg-s2s-purple hover:bg-s2s-orange duration-200 py-2 px-4 rounded-xl">
             Coming soon
           </div>
           <img

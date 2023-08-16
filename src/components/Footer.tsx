@@ -25,7 +25,7 @@ const FooterColumn = ({ title, links }: ColumnProps) => (
 export default function Footer() {
   return (
     <>
-      <div className="flex flex-wrap justify-between p-10 lg:p-20 bg-footer_bg bg-cover bg-no-repeat bg-center">
+      <div className="flex flex-wrap justify-between p-10 lg:p-20 bg-footer_bg bg-cover bg-no-repeat bg-top">
         {/* LOGO */}
         <div className="my-10 lg:my-0">
           <Link href="/">

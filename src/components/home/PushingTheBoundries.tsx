@@ -17,7 +17,7 @@ export default function PushingTheBoundries() {
           </h4>
           <Link
             href="/"
-            className="w-fit h-fit mt-5 lg:mt-0 whitespace-nowrap text-white text-base lg:text-xl font-semibold bg-s2s-purple hover:bg-s2s-orange py-2 px-4 rounded-xl"
+            className="w-fit h-fit mt-5 lg:mt-0 whitespace-nowrap text-white text-base lg:text-xl font-semibold bg-s2s-purple hover:bg-s2s-orange duration-200 py-2 px-4 rounded-xl"
           >
             Work with us
           </Link>
