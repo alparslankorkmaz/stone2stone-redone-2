@@ -84,17 +84,29 @@ export default function Header() {
                       className="flex justify-center items-center lg:block dropdown-content mt-3 -left-3 lg:-left-7 divide-y-2 divide-s2s-purple z-[1] menu p-2 text-white bg-menu-gray rounded-box w-52"
                     >
                       <li>
-                        <Link href="/" className="hover:text-s2s-orange">
+                        <Link
+                          href="/about-us"
+                          onClick={() => setIsOpen(false)}
+                          className="hover:text-s2s-orange"
+                        >
                           About us
                         </Link>
                       </li>
                       <li>
-                        <Link href="/" className="hover:text-s2s-orange">
+                        <Link
+                          href="/who-we-are"
+                          onClick={() => setIsOpen(false)}
+                          className="hover:text-s2s-orange"
+                        >
                           Who we are
                         </Link>
                       </li>
                       <li>
-                        <Link href="/" className="hover:text-s2s-orange">
+                        <Link
+                          href="/our-clients"
+                          onClick={() => setIsOpen(false)}
+                          className="hover:text-s2s-orange"
+                        >
                           Our clients
                         </Link>
                       </li>
@@ -116,32 +128,56 @@ export default function Header() {
                       className="flex justify-center items-center lg:block dropdown-content mt-3 -left-[5.3rem] lg:-left-7 divide-y-2 divide-s2s-purple z-[1] menu p-2 text-white bg-menu-gray rounded-box w-72"
                     >
                       <li>
-                        <Link href="/" className="hover:text-s2s-orange">
+                        <Link
+                          href="/"
+                          onClick={() => setIsOpen(false)}
+                          className="hover:text-s2s-orange"
+                        >
                           Strategy, Branding & Proposition
                         </Link>
                       </li>
                       <li>
-                        <Link href="/" className="hover:text-s2s-orange">
+                        <Link
+                          href="/"
+                          onClick={() => setIsOpen(false)}
+                          className="hover:text-s2s-orange"
+                        >
                           Digital Marketing
                         </Link>
                       </li>
                       <li>
-                        <Link href="/" className="hover:text-s2s-orange">
+                        <Link
+                          href="/"
+                          onClick={() => setIsOpen(false)}
+                          className="hover:text-s2s-orange"
+                        >
                           Account Based Marketing
                         </Link>
                       </li>
                       <li>
-                        <Link href="/" className="hover:text-s2s-orange">
+                        <Link
+                          href="/"
+                          onClick={() => setIsOpen(false)}
+                          className="hover:text-s2s-orange"
+                        >
                           Content Marketing
                         </Link>
                       </li>
                       <li>
-                        <Link href="/" className="hover:text-s2s-orange">
+                        <Link
+                          href="/"
+                          onClick={() => setIsOpen(false)}
+                          className="hover:text-s2s-orange"
+                        >
                           Gamification
                         </Link>
                       </li>
                       <li>
-                        <Link href="/" className="hover:text-s2s-orange">
+                        <Link
+                          href="/"
+                          onClick={() => setIsOpen(false)}
+                          className="hover:text-s2s-orange"
+                        >
                           See all{" "}
                         </Link>
                       </li>

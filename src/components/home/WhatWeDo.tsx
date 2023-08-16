@@ -123,7 +123,7 @@ export default function WhatWeDo() {
                 <div className="col-span-5 lg:col-span-2 flex justify-center items-center order-first lg:order-none">
                   <img
                     src="/img/accordion/digital.webp"
-                    className="w-full h-52 lg:h-[28rem]  object-cover rounded-xl"
+                    className="w-full h-52 lg:h-[28rem] object-cover rounded-xl"
                     alt="man in a meeting"
                   />
                 </div>

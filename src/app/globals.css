@@ -16,3 +16,21 @@ body {
   height: 1rem;
   right: 2.5rem;
 }
+
+.line1 {
+  stroke-dasharray: 1957px;
+  stroke-dashoffset: 1957px;
+  animation: move 3s linear forwards;
+}
+.line2 {
+  stroke-dasharray: 2525px;
+  stroke-dashoffset: 2525px;
+  animation: move 3s linear forwards;
+  animation-delay: 2s;
+}
+
+@keyframes move {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
