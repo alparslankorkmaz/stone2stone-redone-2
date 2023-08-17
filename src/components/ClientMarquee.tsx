@@ -26,39 +26,52 @@ export default function ClientMarquee() {
             gradientWidth={100}
             gradientColor={[247, 247, 247]}
           >
-            <div className="mx-8">
-              <Image
-                src={checkpoint}
-                width={154}
-                height={32}
+            <div className="mx-8 flex justify-center items-center w-full h-full">
+              <img
+                src="/img/clients/checkpoint.svg"
+                className="w-44 aspect-3/2"
                 alt="client logo"
               />
             </div>
-            <div className="mx-8">
-              <Image src={cynet} width={106} height={27} alt="client logo" />
-            </div>
-            <div className="mx-8">
-              <Image src={eci} width={87} height={46} alt="client logo" />
-            </div>
-            <div className="mx-8">
-              <Image src={redhat} width={127} height={30} alt="client logo" />
-            </div>
-            <div className="mx-8">
-              <Image src={scc} width={100} height={33} alt="client logo" />
-            </div>
-            <div className="mx-8">
-              <Image
-                src={stackoverflow}
-                width={172}
-                height={34}
+            <div className="mx-8 flex justify-center items-center w-full h-full">
+              <img
+                src="/img/clients/cynet.svg"
+                className="w-28 aspect-3/2"
                 alt="client logo"
               />
             </div>
-            <div className="mx-8">
-              <Image
-                src={trendmicro}
-                width={156}
-                height={33}
+            <div className="mx-8 flex justify-center items-center w-full h-full">
+              <img
+                src="/img/clients/eci.svg"
+                className="w-24 aspect-3/2"
+                alt="client logo"
+              />
+            </div>
+            <div className="mx-8 flex justify-center items-center w-full h-full">
+              <img
+                src="/img/clients/redhat.svg"
+                className="w-40 aspect-3/2"
+                alt="client logo"
+              />
+            </div>
+            <div className="mx-8 flex justify-center items-center w-full h-full">
+              <img
+                src="/img/clients/scc.svg"
+                className="w-40 aspect-3/2"
+                alt="client logo"
+              />
+            </div>
+            <div className="mx-8 flex justify-center items-center w-full h-full">
+              <img
+                src="/img/clients/stackoverflow.svg"
+                className="w-44 aspect-3/2"
+                alt="client logo"
+              />
+            </div>
+            <div className="mx-8 flex justify-center items-center w-full h-full">
+              <img
+                src="/img/clients/trendmicro.svg"
+                className="w-40 aspect-3/2"
                 alt="client logo"
               />
             </div>

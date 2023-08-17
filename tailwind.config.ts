@@ -14,6 +14,9 @@ const config: Config = {
         mobile_menu_bg: "url('/img/misc/mobile_menu_bg.webp')",
         footer_bg: "url('/img/footer/footer_bg.webp')",
       },
+      aspectRatio: {
+        "3/2": "3 / 2",
+      },
       colors: {
         "s2s-orange": "#EC9638",
         "s2s-purple": "#4640E2",
