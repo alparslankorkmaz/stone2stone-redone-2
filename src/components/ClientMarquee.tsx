@@ -23,7 +23,7 @@ export default function ClientMarquee() {
           <Marquee
             speed={50}
             gradient
-            gradientWidth={100}
+            gradientWidth={50}
             gradientColor={[247, 247, 247]}
           >
             <div className="mx-8 flex justify-center items-center w-full h-full">
