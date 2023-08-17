@@ -25,11 +25,11 @@ export default function OurBlog() {
           <Link href="/" className="col-span-3 lg:col-span-1 ">
             <div className="relative group ">
               <img
-                src="/img/our_blog/1.webp"
-                alt="Forescout event"
+                src="/img/our-blog/1.webp"
+                alt="blog thumbnail"
                 className="w-full rounded-xl"
               />
-              <div className="flex justify-center items-center opacity-0 bg-[url('/img/our_work/hover.webp')] rounded-xl bg-center bg-cover ease-in-out duration-300 group-hover:opacity-100 absolute top-0 left-0 h-full w-full"></div>
+              <div className="flex justify-center items-center opacity-0 bg-[url('/img/our-work/hover.webp')] rounded-xl bg-center bg-cover ease-in-out duration-300 group-hover:opacity-100 absolute top-0 left-0 h-full w-full"></div>
               <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center opacity-0 hover:opacity-100 ease-in-out duration-300">
                 <div className="text-white flex flex-col h-full text-center justify-evenly items-center">
                   <p className="mt-20 font-semibold text-5xl">
@@ -48,11 +48,11 @@ export default function OurBlog() {
           <Link href="/" className="col-span-3 lg:col-span-1 ">
             <div className="relative group ">
               <img
-                src="/img/our_blog/2.webp"
-                alt="Forescout event"
+                src="/img/our-blog/2.webp"
+                alt="blog thumbnail"
                 className="w-full rounded-xl"
               />
-              <div className="flex justify-center items-center opacity-0 bg-[url('/img/our_work/hover.webp')] rounded-xl bg-center bg-cover ease-in-out duration-300 group-hover:opacity-100 absolute top-0 left-0 h-full w-full"></div>
+              <div className="flex justify-center items-center opacity-0 bg-[url('/img/our-work/hover.webp')] rounded-xl bg-center bg-cover ease-in-out duration-300 group-hover:opacity-100 absolute top-0 left-0 h-full w-full"></div>
               <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center opacity-0 hover:opacity-100 ease-in-out duration-300">
                 <div className="text-white flex flex-col h-full text-center justify-evenly items-center">
                   <p className="mt-20 font-semibold text-5xl">
@@ -71,11 +71,11 @@ export default function OurBlog() {
           <Link href="/" className="col-span-3 lg:col-span-1 ">
             <div className="relative group ">
               <img
-                src="/img/our_blog/3.webp"
-                alt="Forescout event"
+                src="/img/our-blog/3.webp"
+                alt="blog thumbnail"
                 className="w-full rounded-xl"
               />
-              <div className="flex justify-center items-center opacity-0 bg-[url('/img/our_work/hover.webp')] rounded-xl bg-center bg-cover ease-in-out duration-300 group-hover:opacity-100 absolute top-0 left-0 h-full w-full"></div>
+              <div className="flex justify-center items-center opacity-0 bg-[url('/img/our-work/hover.webp')] rounded-xl bg-center bg-cover ease-in-out duration-300 group-hover:opacity-100 absolute top-0 left-0 h-full w-full"></div>
               <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center opacity-0 hover:opacity-100 ease-in-out duration-300">
                 <div className="text-white flex flex-col h-full text-center justify-evenly items-center">
                   <p className="mt-20 font-semibold text-5xl">

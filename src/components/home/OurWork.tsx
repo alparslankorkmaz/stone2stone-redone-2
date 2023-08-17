@@ -24,15 +24,15 @@ export default function OurWork() {
           <Link href="/" className="col-span-3 lg:col-span-1 ">
             <div className="relative group ">
               <img
-                src="/img/our_work/forescout.webp"
+                src="/img/our-work/forescout.webp"
                 alt="Forescout event"
                 className="w-full rounded-xl"
               />
-              <div className="flex justify-center items-center opacity-0 bg-[url('/img/our_work/hover.webp')] rounded-xl bg-center bg-cover ease-in-out duration-300 group-hover:opacity-100 absolute top-0 left-0 h-full w-full"></div>
+              <div className="flex justify-center items-center opacity-0 bg-[url('/img/our-work/hover.webp')] rounded-xl bg-center bg-cover ease-in-out duration-300 group-hover:opacity-100 absolute top-0 left-0 h-full w-full"></div>
               <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center opacity-0 hover:opacity-100 ease-in-out duration-300">
                 <div className="text-white flex flex-col h-full text-center justify-center items-center">
                   <img
-                    src="/img/our_work/forescoutlogo.webp"
+                    src="/img/our-work/forescoutlogo.webp"
                     alt="forescout logo"
                     className="my-5 w-2/3"
                   />
@@ -48,15 +48,15 @@ export default function OurWork() {
           <Link href="/" className="col-span-3 lg:col-span-1 ">
             <div className="relative group ">
               <img
-                src="/img/our_work/2.webp"
+                src="/img/our-work/2.webp"
                 alt="Forescout event"
                 className="w-full rounded-xl"
               />
-              <div className="flex justify-center items-center opacity-0 bg-[url('/img/our_work/hover.webp')] rounded-xl bg-center bg-cover ease-in-out duration-300 group-hover:opacity-100 absolute top-0 left-0 h-full w-full"></div>
+              <div className="flex justify-center items-center opacity-0 bg-[url('/img/our-work/hover.webp')] rounded-xl bg-center bg-cover ease-in-out duration-300 group-hover:opacity-100 absolute top-0 left-0 h-full w-full"></div>
               <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center opacity-0 hover:opacity-100 ease-in-out duration-300">
                 <div className="text-white flex flex-col h-full text-center justify-center items-center">
                   <img
-                    src="/img/our_work/forescoutlogo.webp"
+                    src="/img/our-work/forescoutlogo.webp"
                     alt="forescout logo"
                     className="my-5 w-2/3"
                   />
@@ -72,15 +72,15 @@ export default function OurWork() {
           <Link href="/" className="col-span-3 lg:col-span-1 ">
             <div className="relative group ">
               <img
-                src="/img/our_work/3.webp"
+                src="/img/our-work/3.webp"
                 alt="Forescout event"
                 className="w-full rounded-xl"
               />
-              <div className="flex justify-center items-center opacity-0 bg-[url('/img/our_work/hover.webp')] rounded-xl bg-center bg-cover ease-in-out duration-300 group-hover:opacity-100 absolute top-0 left-0 h-full w-full"></div>
+              <div className="flex justify-center items-center opacity-0 bg-[url('/img/our-work/hover.webp')] rounded-xl bg-center bg-cover ease-in-out duration-300 group-hover:opacity-100 absolute top-0 left-0 h-full w-full"></div>
               <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center opacity-0 hover:opacity-100 ease-in-out duration-300">
                 <div className="text-white flex flex-col h-full text-center justify-center items-center">
                   <img
-                    src="/img/our_work/forescoutlogo.webp"
+                    src="/img/our-work/forescoutlogo.webp"
                     alt="forescout logo"
                     className="my-5 w-2/3"
                   />

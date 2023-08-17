@@ -101,7 +101,7 @@ export default function page() {
             </p>
             <div className="mt-10 mb-5 lg:mb-0">
               <Link
-                href="/"
+                href="/who-we-are"
                 className="w-fit text-white lg:text-2xl font-semibold bg-s2s-purple hover:bg-s2s-orange duration-200 py-2 px-7 rounded-xl"
               >
                 Meet the team
@@ -140,7 +140,7 @@ export default function page() {
           </p>
           <div className="mt-10 mb-5 lg:mb-0">
             <Link
-              href="/"
+              href="/our-clients"
               className="w-fit text-white lg:text-2xl font-semibold bg-s2s-purple hover:bg-s2s-orange duration-200 py-2 px-7 rounded-xl"
             >
               See our clients
