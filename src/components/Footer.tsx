@@ -26,7 +26,7 @@ export default function Footer() {
               </li>
               <li>
                 {" "}
-                <Link href="/">What we do</Link>
+                <Link href="/what-we-do">What we do</Link>
               </li>
               <li>
                 {" "}
