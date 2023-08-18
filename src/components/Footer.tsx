@@ -2,25 +2,6 @@ import Image from "next/image";
 import Link from "next/link";
 import logo from "public/img/logo/logo.svg";
 import linkedin from "public/img/footer/linkedin.svg";
-import { footerLinks } from "@/constant";
-
-type ColumnProps = {
-  title: string;
-  links: Array<string>;
-};
-
-const FooterColumn = ({ title, links }: ColumnProps) => (
-  <div>
-    <h4 className="font-semibold text-white lg:text-3xl mb-4">{title}</h4>
-    <ul className="flex flex-col text-footer-gray text-sm lg:text-base">
-      {links.map((link) => (
-        <Link href="/" key={link}>
-          {link}
-        </Link>
-      ))}
-    </ul>
-  </div>
-);
 
 export default function Footer() {
   return (
@@ -32,15 +13,50 @@ export default function Footer() {
             <Image src={logo} alt="stone2stone logo" width={250} height={44} />
           </Link>
         </div>
+        {/* QUICK LINKS */}
         <div className="flex gap-16 lg:gap-44 lg:mr-16">
-          <FooterColumn
-            title={footerLinks[0].title}
-            links={footerLinks[0].links}
-          />
-          <FooterColumn
-            title={footerLinks[1].title}
-            links={footerLinks[1].links}
-          />
+          <div>
+            <h6 className="font-semibold text-white lg:text-3xl mb-4">
+              Quick Links
+            </h6>
+            <ul className="flex flex-col text-footer-gray text-sm lg:text-xl">
+              <li>
+                {" "}
+                <Link href="/who-we-are">Who we are</Link>
+              </li>
+              <li>
+                {" "}
+                <Link href="/">What we do</Link>
+              </li>
+              <li>
+                {" "}
+                <Link href="/">Work</Link>
+              </li>
+              <li>
+                {" "}
+                <Link href="/">Contact us</Link>
+              </li>
+              <li>
+                {" "}
+                <Link href="/">Log in</Link>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h6 className="font-semibold text-white lg:text-3xl mb-4">
+              Company
+            </h6>
+            <ul className="flex flex-col text-footer-gray text-sm lg:text-xl">
+              <li>
+                {" "}
+                <Link href="/who-we-are">Terms</Link>
+              </li>
+              <li>
+                {" "}
+                <Link href="/">Usage</Link>
+              </li>
+            </ul>
+          </div>
         </div>
         <div className="basis-full flex justify-between my-10 lg:my-0 items-center">
           <div className="text-footer-gray">Copyright @ Stone2stone 2023</div>

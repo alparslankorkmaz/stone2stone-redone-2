@@ -1,12 +1,4 @@
 import Marquee from "react-fast-marquee";
-import Image from "next/image";
-import checkpoint from "public/img/clients/checkpoint.svg";
-import cynet from "public/img/clients/cynet.svg";
-import eci from "public/img/clients/eci.svg";
-import redhat from "public/img/clients/redhat.svg";
-import scc from "public/img/clients/scc.svg";
-import stackoverflow from "public/img/clients/stackoverflow.svg";
-import trendmicro from "public/img/clients/trendmicro.svg";
 
 export default function ClientMarquee() {
   return (
