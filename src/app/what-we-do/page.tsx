@@ -31,9 +31,9 @@ export default function page() {
           </div>
         </div>
       </div>
-      <div className="me-5 my-16 p-5 lg:py-20 lg:px-16">
+      <div className="my-16 p-5 lg:py-20 lg:px-16">
         {/* TITLE */}
-        <h2 className="text-s2s-gray text-3xl lg:text-5xl font-semibold w-10/12">
+        <h2 className="text-s2s-gray text-3xl lg:text-5xl font-semibold lg:w-10/12">
           Solutions that create lead generation for B2B businesses by
           strategically{" "}
           <span className="text-black">
@@ -49,10 +49,10 @@ export default function page() {
             <div>
               <img
                 src="/img/what-we-do/strategy.svg"
-                className="rounded-full p-7 bg-s2s-purple my-3"
+                className="rounded-full p-4 lg:p-7 bg-s2s-purple my-3"
                 alt="strategy"
               />
-              <h3 className="font-semibold text-3xl w-1/2">
+              <h3 className="font-semibold text-2xl lg:text-3xl w-1/2">
                 Strategy, Branding and Proposition
               </h3>
             </div>
@@ -63,7 +63,7 @@ export default function page() {
               className="w-full h-[2px] my-5"
             />
             <ul>
-              <li className="my-3 flex text-s2s-gray text-2xl font-medium">
+              <li className="my-3 flex text-s2s-gray text-xl lg:text-2xl font-medium">
                 <img
                   src="/img/what-we-do/tick.svg"
                   alt="tick"
@@ -71,7 +71,7 @@ export default function page() {
                 />
                 Brand Identity Revamp
               </li>
-              <li className="my-3 flex text-s2s-gray text-2xl font-medium">
+              <li className="my-3 flex text-s2s-gray text-xl lg:text-2xl font-medium">
                 <img
                   src="/img/what-we-do/tick.svg"
                   alt="tick"
@@ -79,7 +79,7 @@ export default function page() {
                 />
                 Market Segmentation Strategy{" "}
               </li>
-              <li className="my-3 flex text-s2s-gray text-2xl font-medium">
+              <li className="my-3 flex text-s2s-gray text-xl lg:text-2xl font-medium">
                 <img
                   src="/img/what-we-do/tick.svg"
                   alt="tick"
@@ -87,7 +87,7 @@ export default function page() {
                 />
                 New Product Proposition
               </li>
-              <li className="my-3 flex text-s2s-gray text-2xl font-medium">
+              <li className="my-3 flex text-s2s-gray text-xl lg:text-2xl font-medium">
                 <img
                   src="/img/what-we-do/tick.svg"
                   alt="tick"
@@ -95,7 +95,7 @@ export default function page() {
                 />
                 Competitior Analysis
               </li>
-              <li className="my-3 flex text-s2s-gray text-2xl font-medium">
+              <li className="my-3 flex text-s2s-gray text-xl lg:text-2xl font-medium">
                 <img
                   src="/img/what-we-do/tick.svg"
                   alt="tick"
@@ -103,7 +103,7 @@ export default function page() {
                 />
                 Brand Communication Strategy
               </li>
-              <li className="my-3 flex text-s2s-gray text-2xl font-medium">
+              <li className="my-3 flex text-s2s-gray text-xl lg:text-2xl font-medium">
                 <img
                   src="/img/what-we-do/tick.svg"
                   alt="tick"
@@ -114,7 +114,7 @@ export default function page() {
             </ul>
             <div className="my-10">
               <Link
-                className="rounded-lg py-3 px-8 text-white bg-s2s-purple w-fit hover:bg-s2s-orange duration-200 text-2xl"
+                className="rounded-lg py-3 px-8 text-white bg-s2s-purple w-fit hover:bg-s2s-orange duration-200 text-xl lg:text-2xl"
                 href="/"
               >
                 Find out more
@@ -127,10 +127,10 @@ export default function page() {
             <div>
               <img
                 src="/img/what-we-do/digital.svg"
-                className="rounded-full p-7 bg-s2s-purple my-3"
+                className="rounded-full p-4 lg:p-7 bg-s2s-purple my-3"
                 alt="digital"
               />
-              <h3 className="font-semibold text-3xl w-1/2">
+              <h3 className="font-semibold text-2xl lg:text-3xl w-1/2">
                 Digital Marketing
               </h3>
             </div>
@@ -141,7 +141,7 @@ export default function page() {
               className="w-full h-[2px] my-5"
             />
             <ul>
-              <li className="my-3 flex text-s2s-gray text-2xl font-medium">
+              <li className="my-3 flex text-s2s-gray text-xl lg:text-2xl font-medium">
                 <img
                   src="/img/what-we-do/tick.svg"
                   alt="tick"
@@ -149,7 +149,7 @@ export default function page() {
                 />
                 Search Engine Optimisation
               </li>
-              <li className="my-3 flex text-s2s-gray text-2xl font-medium">
+              <li className="my-3 flex text-s2s-gray text-xl lg:text-2xl font-medium">
                 <img
                   src="/img/what-we-do/tick.svg"
                   alt="tick"
@@ -157,7 +157,7 @@ export default function page() {
                 />
                 Pay-Per-Click
               </li>
-              <li className="my-3 flex text-s2s-gray text-2xl font-medium">
+              <li className="my-3 flex text-s2s-gray text-xl lg:text-2xl font-medium">
                 <img
                   src="/img/what-we-do/tick.svg"
                   alt="tick"
@@ -165,7 +165,7 @@ export default function page() {
                 />
                 Content Marketing Strategy
               </li>
-              <li className="my-3 flex text-s2s-gray text-2xl font-medium">
+              <li className="my-3 flex text-s2s-gray text-xl lg:text-2xl font-medium">
                 <img
                   src="/img/what-we-do/tick.svg"
                   alt="tick"
@@ -173,7 +173,7 @@ export default function page() {
                 />
                 Social Media Marketing
               </li>
-              <li className="my-3 flex text-s2s-gray text-2xl font-medium">
+              <li className="my-3 flex text-s2s-gray text-xl lg:text-2xl font-medium">
                 <img
                   src="/img/what-we-do/tick.svg"
                   alt="tick"
@@ -181,7 +181,7 @@ export default function page() {
                 />
                 Email Marketing Automation
               </li>
-              <li className="my-3 flex text-s2s-gray text-2xl font-medium">
+              <li className="my-3 flex text-s2s-gray text-xl lg:text-2xl font-medium">
                 <img
                   src="/img/what-we-do/tick.svg"
                   alt="tick"
@@ -192,7 +192,7 @@ export default function page() {
             </ul>
             <div className="my-10">
               <Link
-                className="rounded-lg py-3 px-8 text-white bg-s2s-purple w-fit hover:bg-s2s-orange duration-200 text-2xl"
+                className="rounded-lg py-3 px-8 text-white bg-s2s-purple w-fit hover:bg-s2s-orange duration-200 text-xl lg:text-2xl"
                 href="/"
               >
                 Find out more
@@ -205,10 +205,10 @@ export default function page() {
             <div>
               <img
                 src="/img/what-we-do/abm.svg"
-                className="rounded-full p-7 bg-s2s-purple my-3"
+                className="rounded-full p-4 lg:p-7 bg-s2s-purple my-3"
                 alt="abm"
               />
-              <h3 className="font-semibold text-3xl w-1/2">ABM</h3>
+              <h3 className="font-semibold text-2xl lg:text-3xl w-1/2">ABM</h3>
             </div>
             {/* DIVIDER */}
             <img
@@ -217,7 +217,7 @@ export default function page() {
               className="w-full h-[2px] my-5"
             />
             <ul>
-              <li className="my-3 flex text-s2s-gray text-2xl font-medium">
+              <li className="my-3 flex text-s2s-gray text-xl lg:text-2xl font-medium">
                 <img
                   src="/img/what-we-do/tick.svg"
                   alt="tick"
@@ -225,7 +225,7 @@ export default function page() {
                 />
                 1:1 campaigns
               </li>
-              <li className="my-3 flex text-s2s-gray text-2xl font-medium">
+              <li className="my-3 flex text-s2s-gray text-xl lg:text-2xl font-medium">
                 <img
                   src="/img/what-we-do/tick.svg"
                   alt="tick"
@@ -233,7 +233,7 @@ export default function page() {
                 />
                 1:many campaign
               </li>
-              <li className="my-3 flex text-s2s-gray text-2xl font-medium">
+              <li className="my-3 flex text-s2s-gray text-xl lg:text-2xl font-medium">
                 <img
                   src="/img/what-we-do/tick.svg"
                   alt="tick"
@@ -241,7 +241,7 @@ export default function page() {
                 />
                 Multi-Touch Campaigns
               </li>
-              <li className="my-3 flex text-s2s-gray text-2xl font-medium">
+              <li className="my-3 flex text-s2s-gray text-xl lg:text-2xl font-medium">
                 <img
                   src="/img/what-we-do/tick.svg"
                   alt="tick"
@@ -249,7 +249,7 @@ export default function page() {
                 />
                 Sales and Marketing Alignment
               </li>
-              <li className="my-3 flex text-s2s-gray text-2xl font-medium">
+              <li className="my-3 flex text-s2s-gray text-xl lg:text-2xl font-medium">
                 <img
                   src="/img/what-we-do/tick.svg"
                   alt="tick"
@@ -257,7 +257,7 @@ export default function page() {
                 />
                 Personalised Outreach
               </li>
-              <li className="my-3 flex text-s2s-gray text-2xl font-medium">
+              <li className="my-3 flex text-s2s-gray text-xl lg:text-2xl font-medium">
                 <img
                   src="/img/what-we-do/tick.svg"
                   alt="tick"
@@ -268,7 +268,7 @@ export default function page() {
             </ul>
             <div className="my-10">
               <Link
-                className="rounded-lg py-3 px-8 text-white bg-s2s-purple w-fit hover:bg-s2s-orange duration-200 text-2xl"
+                className="rounded-lg py-3 px-8 text-white bg-s2s-purple w-fit hover:bg-s2s-orange duration-200 text-xl lg:text-2xl"
                 href="/"
               >
                 Find out more
@@ -281,10 +281,10 @@ export default function page() {
             <div>
               <img
                 src="/img/what-we-do/content.svg"
-                className="rounded-full p-7 bg-s2s-purple my-3"
+                className="rounded-full p-4 lg:p-7 bg-s2s-purple my-3"
                 alt="content"
               />
-              <h3 className="font-semibold text-3xl w-1/2">
+              <h3 className="font-semibold text-2xl lg:text-3xl w-1/2">
                 Content Marketing
               </h3>
             </div>
@@ -295,7 +295,7 @@ export default function page() {
               className="w-full h-[2px] my-5"
             />
             <ul>
-              <li className="my-3 flex text-s2s-gray text-2xl font-medium">
+              <li className="my-3 flex text-s2s-gray text-xl lg:text-2xl font-medium">
                 <img
                   src="/img/what-we-do/tick.svg"
                   alt="tick"
@@ -303,7 +303,7 @@ export default function page() {
                 />
                 Informative blog posts
               </li>
-              <li className="my-3 flex text-s2s-gray text-2xl font-medium">
+              <li className="my-3 flex text-s2s-gray text-xl lg:text-2xl font-medium">
                 <img
                   src="/img/what-we-do/tick.svg"
                   alt="tick"
@@ -311,7 +311,7 @@ export default function page() {
                 />
                 Video content
               </li>
-              <li className="my-3 flex text-s2s-gray text-2xl font-medium">
+              <li className="my-3 flex text-s2s-gray text-xl lg:text-2xl font-medium">
                 <img
                   src="/img/what-we-do/tick.svg"
                   alt="tick"
@@ -319,7 +319,7 @@ export default function page() {
                 />
                 Visually appealing infographics
               </li>
-              <li className="my-3 flex text-s2s-gray text-2xl font-medium">
+              <li className="my-3 flex text-s2s-gray text-xl lg:text-2xl font-medium">
                 <img
                   src="/img/what-we-do/tick.svg"
                   alt="tick"
@@ -327,7 +327,7 @@ export default function page() {
                 />
                 Tailored content
               </li>
-              <li className="my-3 flex text-s2s-gray text-2xl font-medium">
+              <li className="my-3 flex text-s2s-gray text-xl lg:text-2xl font-medium">
                 <img
                   src="/img/what-we-do/tick.svg"
                   alt="tick"
@@ -338,7 +338,7 @@ export default function page() {
             </ul>
             <div className="my-10">
               <Link
-                className="rounded-lg py-3 px-8 text-white bg-s2s-purple w-fit hover:bg-s2s-orange duration-200 text-2xl"
+                className="rounded-lg py-3 px-8 text-white bg-s2s-purple w-fit hover:bg-s2s-orange duration-200 text-xl lg:text-2xl"
                 href="/"
               >
                 Find out more
@@ -351,10 +351,12 @@ export default function page() {
             <div>
               <img
                 src="/img/what-we-do/gamification.svg"
-                className="rounded-full p-7 bg-s2s-purple my-3"
+                className="rounded-full p-4 lg:p-7 bg-s2s-purple my-3"
                 alt="gamification"
               />
-              <h3 className="font-semibold text-3xl w-1/2">Gamification </h3>
+              <h3 className="font-semibold text-2xl lg:text-3xl w-1/2">
+                Gamification{" "}
+              </h3>
             </div>
             {/* DIVIDER */}
             <img
@@ -363,7 +365,7 @@ export default function page() {
               className="w-full h-[2px] my-5"
             />
             <ul>
-              <li className="my-3 flex text-s2s-gray text-2xl font-medium">
+              <li className="my-3 flex text-s2s-gray text-xl lg:text-2xl font-medium">
                 <img
                   src="/img/what-we-do/tick.svg"
                   alt="tick"
@@ -371,7 +373,7 @@ export default function page() {
                 />
                 Loyalty programs
               </li>
-              <li className="my-3 flex text-s2s-gray text-2xl font-medium">
+              <li className="my-3 flex text-s2s-gray text-xl lg:text-2xl font-medium">
                 <img
                   src="/img/what-we-do/tick.svg"
                   alt="tick"
@@ -379,7 +381,7 @@ export default function page() {
                 />
                 Interactive quizzes
               </li>
-              <li className="my-3 flex text-s2s-gray text-2xl font-medium">
+              <li className="my-3 flex text-s2s-gray text-xl lg:text-2xl font-medium">
                 <img
                   src="/img/what-we-do/tick.svg"
                   alt="tick"
@@ -387,7 +389,7 @@ export default function page() {
                 />
                 Customisable experiences
               </li>
-              <li className="my-3 flex text-s2s-gray text-2xl font-medium">
+              <li className="my-3 flex text-s2s-gray text-xl lg:text-2xl font-medium">
                 <img
                   src="/img/what-we-do/tick.svg"
                   alt="tick"
@@ -395,7 +397,7 @@ export default function page() {
                 />
                 Foster deeper connections
               </li>
-              <li className="my-3 flex text-s2s-gray text-2xl font-medium">
+              <li className="my-3 flex text-s2s-gray text-xl lg:text-2xl font-medium">
                 <img
                   src="/img/what-we-do/tick.svg"
                   alt="tick"
@@ -406,7 +408,7 @@ export default function page() {
             </ul>
             <div className="my-10">
               <Link
-                className="rounded-lg py-3 px-8 text-white bg-s2s-purple w-fit hover:bg-s2s-orange duration-200 text-2xl"
+                className="rounded-lg py-3 px-8 text-white bg-s2s-purple w-fit hover:bg-s2s-orange duration-200 text-xl lg:text-2xl"
                 href="/"
               >
                 Find out more
@@ -419,10 +421,10 @@ export default function page() {
             <div>
               <img
                 src="/img/what-we-do/dots.svg"
-                className="rounded-full p-7 bg-s2s-purple my-3"
+                className="rounded-full p-4 lg:p-7 bg-s2s-purple my-3"
                 alt="dots"
               />
-              <h3 className="font-semibold text-3xl w-1/2">
+              <h3 className="font-semibold text-2xl lg:text-3xl w-1/2">
                 And much more...{" "}
               </h3>
             </div>
@@ -433,7 +435,7 @@ export default function page() {
               className="w-full h-[2px] my-5"
             />
             <ul>
-              <li className="my-3 flex text-s2s-gray text-2xl font-medium">
+              <li className="my-3 flex text-s2s-gray text-xl lg:text-2xl font-medium">
                 <img
                   src="/img/what-we-do/tick.svg"
                   alt="tick"
@@ -441,7 +443,7 @@ export default function page() {
                 />
                 Event support
               </li>
-              <li className="my-3 flex text-s2s-gray text-2xl font-medium">
+              <li className="my-3 flex text-s2s-gray text-xl lg:text-2xl font-medium">
                 <img
                   src="/img/what-we-do/tick.svg"
                   alt="tick"
@@ -449,7 +451,7 @@ export default function page() {
                 />
                 Stand design
               </li>
-              <li className="my-3 flex text-s2s-gray text-2xl font-medium">
+              <li className="my-3 flex text-s2s-gray text-xl lg:text-2xl font-medium">
                 <img
                   src="/img/what-we-do/tick.svg"
                   alt="tick"
@@ -457,7 +459,7 @@ export default function page() {
                 />
                 Print design
               </li>
-              <li className="my-3 flex text-s2s-gray text-2xl font-medium">
+              <li className="my-3 flex text-s2s-gray text-xl lg:text-2xl font-medium">
                 <img
                   src="/img/what-we-do/tick.svg"
                   alt="tick"
@@ -465,7 +467,7 @@ export default function page() {
                 />
                 Data research
               </li>
-              <li className="my-3 flex text-s2s-gray text-2xl font-medium">
+              <li className="my-3 flex text-s2s-gray text-xl lg:text-2xl font-medium">
                 <img
                   src="/img/what-we-do/tick.svg"
                   alt="tick"
@@ -476,7 +478,7 @@ export default function page() {
             </ul>
             <div className="my-10">
               <Link
-                className="rounded-lg py-3 px-8 text-white bg-s2s-purple w-fit hover:bg-s2s-orange duration-200 text-2xl"
+                className="rounded-lg py-3 px-8 text-white bg-s2s-purple w-fit hover:bg-s2s-orange duration-200 text-xl lg:text-2xl"
                 href="/"
               >
                 Find out more
