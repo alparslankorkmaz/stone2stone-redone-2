@@ -1,30 +1,30 @@
-import ClientMarquee from "@/components/ClientMarquee";
 import Link from "next/link";
+import ClientMarquee from "@/components/ClientMarquee";
 
 export default function page() {
   return (
     <>
+      {" "}
       {/* HERO */}
       <div className="flex justify-center items-center bg-hero_bg bg-cover bg-bottom bg-no-repeat">
         <div className="mt-16 lg:mt-20 grid grid-cols-2 gap-5 justify-center items-center p-5 lg:p-16">
           {/* TEXT */}
           <div className="md:mt-2 lg:mt-0 col-span-2 lg:col-span-1 text-white text-center lg:text-start">
             <h1 className="text-4xl lg:text-7xl mb-5 font-semibold">
-              Strategy, Branding and Proposition for B2B Technology Companies{" "}
+              Digital Marketing for B2B Technology Companies{" "}
             </h1>
             <p className="lg:text-xl ">
-              Your strategic approach must combine meticulous market analysis,
-              customer insights, and competitor research to craft a tailored
-              plan for your brand's growth. It's about creating a distinct
-              identity that resonates with your target audience.{" "}
+              You need a team of skilled digital marketers that leverage the
+              latest trends, tools, and technologies to create a comprehensive
+              strategy tailored to your specific objectives.{" "}
             </p>
           </div>
           {/* IMAGE */}
           <div className="col-span-2 lg:col-span-1 flex justify-end items-center">
             <div className="h-48 w-full lg:h-[30rem] lg:w-[30rem]">
               <img
-                src="/img/accordion/strategy.webp"
-                alt="man in a meeting"
+                src="/img/accordion/digital.webp"
+                alt="digital marketing"
                 className="h-full w-full object-cover rounded-xl"
               />
             </div>
@@ -35,26 +35,22 @@ export default function page() {
       <div className="my-16 p-5 lg:py-20 lg:px-16">
         {/* TITLE */}
         <h2 className="text-s2s-gray text-3xl lg:text-5xl font-semibold lg:w-10/12 lg:leading-tight">
-          Collaborate with Stone2stone to develop a
+          Ensure that your brand will gain{" "}
           <span className="text-black">
             {" "}
-            compelling brand story and visuals that capture the essence of your
-            business.
+            maximum visibility and engagement across all your digital platforms.{" "}
           </span>
         </h2>
         {/* CARDS */}
         <div className="grid grid-cols-2 gap-5 lg:gap-20 mt-20">
-          {/* BRAND IDENTITY REVAMP */}
+          {/* Search Engine Optimisation (SEO) */}
           <div className="col-span-2 lg:col-span-1 bg-white rounded-lg p-7 flex flex-col justify-evenly gap-5">
             {/* ICON & TITLE */}
             <div className="rounded-full p-4 lg:p-7 bg-s2s-purple my-8 w-fit">
-              <img
-                src="/img/strategy-branding-proposition/brandidentity.svg"
-                alt="brandidentity"
-              />
+              <img src="/img/digital-marketing/seo.svg" alt="seo" />
             </div>
             <h3 className="font-semibold text-2xl lg:text-3xl">
-              Brand Identity Revamp
+              Search Engine Optimisation (SEO){" "}
             </h3>
             {/* DIVIDER */}
             <img
@@ -63,12 +59,12 @@ export default function page() {
               className="w-full h-[2px] my-6"
             />
             <p className="font-medium text-xl lg:text-2xl text-s2s-gray lg:leading-snug">
-              Reevaluating and updating the visual elements of your brand, such
-              as logo, colours, typography, and imagery. This aims to{" "}
+              Conduct a thorough audit of your website's SEO performance,
+              including on-page and off-page factors. Develop a
               <span className="text-black">
                 {" "}
-                give your brand a fresh, modern look that aligns with your
-                company's values and resonates with your target audience.
+                comprehensive optimization strategy to improve your website's
+                search engine rankings and organic visibility.{" "}
               </span>
             </p>
             <div className="my-10">
@@ -80,17 +76,14 @@ export default function page() {
               </Link>
             </div>
           </div>
-          {/* MARKET SEG */}
+          {/* Pay-Per-Click (PPC) */}
           <div className="col-span-2 lg:col-span-1 bg-white rounded-lg p-7 flex flex-col justify-evenly gap-5">
             {/* ICON & TITLE */}
             <div className="rounded-full p-4 lg:p-7 bg-s2s-purple my-8 w-fit">
-              <img
-                src="/img/strategy-branding-proposition/market.svg"
-                alt="digital"
-              />
+              <img src="/img/digital-marketing/ppc.svg" alt="ppc" />
             </div>
             <h3 className="font-semibold text-2xl lg:text-3xl">
-              Market Segmentation Strategy{" "}
+              Pay-Per-Click (PPC){" "}
             </h3>
             {/* DIVIDER */}
             <img
@@ -99,13 +92,13 @@ export default function page() {
               className="w-full h-[2px] my-6"
             />
             <p className="font-medium text-xl lg:text-2xl text-s2s-gray lg:leading-snug">
-              This involves identifying distinct customer segments and tailoring
-              your branding and value proposition to each group. This project
-              helps you{" "}
+              Create and manage a targeted PPC campaign on platforms like Google
+              Ads or social media to drive traffic and conversions. This
+              includes
               <span className="text-black">
                 {" "}
-                better understand your customers' needs and preferences, leading
-                to more effective marketing and communication.{" "}
+                keyword research, ad copywriting, bid management, and continuous
+                performance analysis.{" "}
               </span>
             </p>
             <div className="my-10">
@@ -117,17 +110,17 @@ export default function page() {
               </Link>
             </div>
           </div>
-          {/* NEW PRODUCT PROPOSITION */}
+          {/* Content Marketing Strategy */}
           <div className="col-span-2 lg:col-span-1 bg-white rounded-lg p-7 flex flex-col justify-evenly gap-5">
             {/* ICON & TITLE */}
             <div className="rounded-full p-4 lg:p-7 bg-s2s-purple my-8 w-fit">
               <img
-                src="/img/strategy-branding-proposition/product.svg"
-                alt="product"
+                src="/img/digital-marketing/contentmarketing.svg"
+                alt="content marketing"
               />
             </div>
             <h3 className="font-semibold text-2xl lg:text-3xl">
-              New Product Proposition
+              Content Marketing Strategy
             </h3>
             {/* DIVIDER */}
             <img
@@ -136,14 +129,14 @@ export default function page() {
               className="w-full h-[2px] my-6"
             />
             <p className="font-medium text-xl lg:text-2xl text-s2s-gray lg:leading-snug">
-              This focuses on creating a{" "}
+              Develop a content plan that includes blog posts, articles, videos,
+              infographics, and other valuable content to
               <span className="text-black">
                 {" "}
-                compelling value proposition that clearly articulates the unique
-                benefits and advantages products offer{" "}
+                engage your target audience and drive organic traffic.{" "}
               </span>
-              compared to competitors. This includes messaging, positioning, and
-              identifying the target market.
+              Ensure the content is optimised for SEO and shareable on social
+              media.{" "}
             </p>
             <div className="my-10">
               <Link
@@ -154,17 +147,17 @@ export default function page() {
               </Link>
             </div>
           </div>
-          {/* COMPETITOR ANALYSIS */}
+          {/* Social Media Marketing */}
           <div className="col-span-2 lg:col-span-1 bg-white rounded-lg p-7 flex flex-col justify-evenly gap-5">
             {/* ICON & TITLE */}
             <div className="rounded-full p-4 lg:p-7 bg-s2s-purple my-8 w-fit">
               <img
-                src="/img/strategy-branding-proposition/competitoranalysis.svg"
-                alt="competitoranalysis"
+                src="/img/digital-marketing/socialmedia.svg"
+                alt="social media"
               />
             </div>
             <h3 className="font-semibold text-2xl lg:text-3xl">
-              Competitor Analysis{" "}
+              Social Media Marketing{" "}
             </h3>
             {/* DIVIDER */}
             <img
@@ -173,13 +166,12 @@ export default function page() {
               className="w-full h-[2px] my-6"
             />
             <p className="font-medium text-xl lg:text-2xl text-s2s-gray lg:leading-snug">
-              Analysing your competitors' branding and propositions to identify
-              gaps and opportunities for differentiation. You can then develop a
-              strategy to
+              Design and execute a social media strategy across your chosen
+              platforms. This can include content creation, community
+              engagement, influencer partnerships, and performance tracking to
               <span className="text-black">
                 {" "}
-                highlight your brand's unique strengths and advantages, setting
-                you apart in the market.{" "}
+                gain visibility across all your channels.{" "}
               </span>
             </p>
             <div className="my-10">
@@ -191,17 +183,17 @@ export default function page() {
               </Link>
             </div>
           </div>
-          {/* BRAND COMMUNICATION STRATEGY  */}
+          {/* Email Marketing Automation  */}
           <div className="col-span-2 lg:col-span-1 bg-white rounded-lg p-7 flex flex-col justify-evenly gap-5">
             {/* ICON & TITLE */}
             <div className="rounded-full p-4 lg:p-7 bg-s2s-purple my-8 w-fit">
               <img
-                src="/img/strategy-branding-proposition/brandcommunication.svg"
-                alt="brandcommunication"
+                src="/img/digital-marketing/emailmarketing.svg"
+                alt="email marketing"
               />
             </div>
             <h3 className="font-semibold text-2xl lg:text-3xl">
-              Brand Communication Strategy{" "}
+              Email Marketing Automation{" "}
             </h3>
             {/* DIVIDER */}
             <img
@@ -210,14 +202,13 @@ export default function page() {
               className="w-full h-[2px] my-6"
             />
             <p className="font-medium text-xl lg:text-2xl text-s2s-gray lg:leading-snug">
-              Crafting a comprehensive plan for how your brand will{" "}
+              Implement an email marketing automation campaign to{" "}
               <span className="text-black">
                 {" "}
-                communicate its values, messaging, and offerings to the target
-                audience across various channels.{" "}
-              </span>
-              It encompasses content strategy, social media planning, PR
-              initiatives, and more.{" "}
+                nurture leads, retain customers, and drive conversions.{" "}
+              </span>{" "}
+              Develop personalised email sequences, segment your audience, and
+              track key metrics like open rates and click-through rates.
             </p>
             <div className="my-10">
               <Link
@@ -228,17 +219,17 @@ export default function page() {
               </Link>
             </div>
           </div>
-          {/* BRAND EXTENSION STRATEGY */}
+          {/* Conversion Rate Opitimisation */}
           <div className="col-span-2 lg:col-span-1 bg-white rounded-lg p-7 flex flex-col justify-evenly gap-5">
             {/* ICON & TITLE */}
             <div className="rounded-full p-4 lg:p-7 bg-s2s-purple my-8 w-fit">
               <img
-                src="/img/strategy-branding-proposition/brandextension.svg"
-                alt="brandextension"
+                src="/img/digital-marketing/conversionrate.svg"
+                alt="conversion rate"
               />
             </div>
             <h3 className="font-semibold text-2xl lg:text-3xl">
-              Brand Extension Strategy{" "}
+              Conversion Rate Opitimisation{" "}
             </h3>
             {/* DIVIDER */}
             <img
@@ -247,15 +238,14 @@ export default function page() {
               className="w-full h-[2px] my-6"
             />
             <p className="font-medium text-xl lg:text-2xl text-s2s-gray lg:leading-snug">
-              Considering expanding your brand into new markets or product
-              categories involves{" "}
+              Analyse your website's user experience and design to identify
+              areas for improvement. Implement A/B testing, user behaviour
+              analysis, and site optimisation techniques to{" "}
               <span className="text-black">
                 {" "}
-                developing a strategy to ensure a seamless extension of your
-                brand's identity and proposition.{" "}
+                increase the percentage of website visitors who convert into
+                customers.
               </span>
-              It addresses the specific needs and preferences of the new
-              audience.{" "}
             </p>
             <div className="my-10">
               <Link

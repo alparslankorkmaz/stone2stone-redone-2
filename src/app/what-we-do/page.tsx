@@ -31,6 +31,7 @@ export default function page() {
           </div>
         </div>
       </div>
+      {/* CONTENT */}
       <div className="my-16 p-5 lg:py-20 lg:px-16">
         {/* TITLE */}
         <h2 className="text-s2s-gray text-3xl lg:text-5xl font-semibold lg:w-10/12 lg:leading-tight">
@@ -46,16 +47,12 @@ export default function page() {
           {/* STRATEGY */}
           <div className="col-span-2 lg:col-span-1 bg-white rounded-lg p-7 flex flex-col justify-evenly">
             {/* ICON & TITLE */}
-            <div>
-              <img
-                src="/img/what-we-do/strategy.svg"
-                className="rounded-full p-4 lg:p-7 bg-s2s-purple my-8"
-                alt="strategy"
-              />
-              <h3 className="font-semibold text-2xl lg:text-3xl">
-                Strategy, Branding and Proposition
-              </h3>
+            <div className="rounded-full p-4 lg:p-7 bg-s2s-purple my-8 w-fit">
+              <img src="/img/what-we-do/strategy.svg" alt="strategy" />
             </div>
+            <h3 className="font-semibold text-2xl lg:text-3xl">
+              Strategy, Branding and Proposition
+            </h3>
             {/* DIVIDER */}
             <img
               src="/img/misc/divider.webp"
@@ -124,16 +121,12 @@ export default function page() {
           {/* DIGITAL */}
           <div className="col-span-2 lg:col-span-1 bg-white rounded-lg p-7 flex flex-col justify-evenly">
             {/* ICON & TITLE */}
-            <div>
-              <img
-                src="/img/what-we-do/digital.svg"
-                className="rounded-full p-4 lg:p-7 bg-s2s-purple my-8"
-                alt="digital"
-              />
-              <h3 className="font-semibold text-2xl lg:text-3xl">
-                Digital Marketing
-              </h3>
+            <div className="rounded-full p-4 lg:p-7 bg-s2s-purple my-8 w-fit">
+              <img src="/img/what-we-do/digital.svg" alt="digital" />
             </div>
+            <h3 className="font-semibold text-2xl lg:text-3xl">
+              Digital Marketing
+            </h3>
             {/* DIVIDER */}
             <img
               src="/img/misc/divider.webp"
@@ -202,14 +195,10 @@ export default function page() {
           {/* ABM */}
           <div className="col-span-2 lg:col-span-1 bg-white rounded-lg p-7 flex flex-col justify-evenly">
             {/* ICON & TITLE */}
-            <div>
-              <img
-                src="/img/what-we-do/abm.svg"
-                className="rounded-full p-4 lg:p-7 bg-s2s-purple my-8"
-                alt="abm"
-              />
-              <h3 className="font-semibold text-2xl lg:text-3xl">ABM</h3>
+            <div className="rounded-full p-4 lg:p-7 bg-s2s-purple my-8 w-fit">
+              <img src="/img/what-we-do/abm.svg" alt="abm" />
             </div>
+            <h3 className="font-semibold text-2xl lg:text-3xl">ABM</h3>
             {/* DIVIDER */}
             <img
               src="/img/misc/divider.webp"
@@ -278,16 +267,12 @@ export default function page() {
           {/* CONTENT */}
           <div className="col-span-2 lg:col-span-1 bg-white rounded-lg p-7 flex flex-col justify-evenly">
             {/* ICON & TITLE */}
-            <div>
-              <img
-                src="/img/what-we-do/content.svg"
-                className="rounded-full p-4 lg:p-7 bg-s2s-purple my-8"
-                alt="content"
-              />
-              <h3 className="font-semibold text-2xl lg:text-3xl">
-                Content Marketing
-              </h3>
+            <div className="rounded-full p-4 lg:p-7 bg-s2s-purple my-8 w-fit">
+              <img src="/img/what-we-do/content.svg" alt="content" />
             </div>
+            <h3 className="font-semibold text-2xl lg:text-3xl">
+              Content Marketing
+            </h3>
             {/* DIVIDER */}
             <img
               src="/img/misc/divider.webp"
@@ -348,16 +333,12 @@ export default function page() {
           {/* GAMIFICATION */}
           <div className="col-span-2 lg:col-span-1 bg-white rounded-lg p-7 flex flex-col justify-evenly">
             {/* ICON & TITLE */}
-            <div>
-              <img
-                src="/img/what-we-do/gamification.svg"
-                className="rounded-full p-4 lg:p-7 bg-s2s-purple my-8"
-                alt="gamification"
-              />
-              <h3 className="font-semibold text-2xl lg:text-3xl">
-                Gamification{" "}
-              </h3>
+            <div className="rounded-full p-4 lg:p-7 bg-s2s-purple my-8 w-fit">
+              <img src="/img/what-we-do/gamification.svg" alt="gamification" />
             </div>
+            <h3 className="font-semibold text-2xl lg:text-3xl">
+              Gamification{" "}
+            </h3>
             {/* DIVIDER */}
             <img
               src="/img/misc/divider.webp"
@@ -418,16 +399,12 @@ export default function page() {
           {/* MORE */}
           <div className="col-span-2 lg:col-span-1 bg-white rounded-lg p-7 flex flex-col justify-evenly">
             {/* ICON & TITLE */}
-            <div>
-              <img
-                src="/img/what-we-do/dots.svg"
-                className="rounded-full p-4 lg:p-7 bg-s2s-purple my-8"
-                alt="dots"
-              />
-              <h3 className="font-semibold text-2xl lg:text-3xl">
-                And much more...{" "}
-              </h3>
+            <div className="rounded-full p-4 lg:p-7 bg-s2s-purple my-8 w-fit">
+              <img src="/img/what-we-do/dots.svg" alt="dots" />
             </div>
+            <h3 className="font-semibold text-2xl lg:text-3xl">
+              And much more...{" "}
+            </h3>
             {/* DIVIDER */}
             <img
               src="/img/misc/divider.webp"
