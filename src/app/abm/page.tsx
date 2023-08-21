@@ -10,20 +10,19 @@ export default function page() {
           {/* TEXT */}
           <div className="md:mt-2 lg:mt-0 col-span-2 lg:col-span-1 text-white text-center lg:text-start">
             <h1 className="text-4xl lg:text-7xl mb-5 font-semibold">
-              Digital Marketing for B2B Technology Companies{" "}
+              ABM for B2B Technology Companies{" "}
             </h1>
             <p className="lg:text-xl ">
-              You need a team of skilled digital marketers that leverage the
-              latest trends, tools, and technologies to create a comprehensive
-              strategy tailored to your specific objectives.{" "}
+              Focus on personalised and tailored marketing efforts that are
+              directed at specific key accounts or a few target companies.{" "}
             </p>
           </div>
           {/* IMAGE */}
           <div className="col-span-2 lg:col-span-1 flex justify-end items-center">
             <div className="h-48 w-full lg:h-[30rem] lg:w-[30rem]">
               <img
-                src="/img/accordion/digital.webp"
-                alt="digital marketing"
+                src="/img/accordion/abm.webp"
+                alt="abm"
                 className="h-full w-full object-cover rounded-xl"
               />
             </div>
@@ -42,14 +41,78 @@ export default function page() {
         </h2>
         {/* CARDS */}
         <div className="grid grid-cols-2 gap-5 lg:gap-20 mt-20">
-          {/* Search Engine Optimisation (SEO) */}
+          {/* 1:1 ABM */}
           <div className="col-span-2 lg:col-span-1 bg-white rounded-lg p-7 flex flex-col justify-evenly gap-5">
             {/* ICON & TITLE */}
             <div className="rounded-full p-4 lg:p-7 bg-s2s-purple my-8 w-fit">
-              <img src="/img/digital-marketing/seo.svg" alt="seo" />
+              <img src="/img/abm/1-1abm.svg" alt="1-1abm" />
+            </div>
+            <h3 className="font-semibold text-2xl lg:text-3xl">1:1 ABM</h3>
+            {/* DIVIDER */}
+            <img
+              src="/img/misc/divider.webp"
+              alt="divider"
+              className="w-full h-[2px] my-6"
+            />
+            <p className="font-medium text-xl lg:text-2xl text-s2s-gray lg:leading-snug">
+              Identify and prioritise high-value target accounts based on{" "}
+              <span className="text-black">
+                {" "}
+                factors such as revenue potential, fit with your ideal customer
+                profile, and strategic importance.{" "}
+              </span>
+              This involves data analysis and market research.
+            </p>
+            <div className="my-10">
+              <Link
+                className="rounded-lg py-3 px-8 text-white bg-s2s-purple w-fit hover:bg-s2s-orange duration-200 text-xl lg:text-2xl"
+                href="/"
+              >
+                Our process
+              </Link>
+            </div>
+          </div>
+          {/* 1:Many ABM */}
+          <div className="col-span-2 lg:col-span-1 bg-white rounded-lg p-7 flex flex-col justify-evenly gap-5">
+            {/* ICON & TITLE */}
+            <div className="rounded-full p-4 lg:p-7 bg-s2s-purple my-8 w-fit">
+              <img src="/img/abm/1-manyabm.svg" alt="1-manyabm" />
+            </div>
+            <h3 className="font-semibold text-2xl lg:text-3xl">1:Many ABM</h3>
+            {/* DIVIDER */}
+            <img
+              src="/img/misc/divider.webp"
+              alt="divider"
+              className="w-full h-[2px] my-6"
+            />
+            <p className="font-medium text-xl lg:text-2xl text-s2s-gray lg:leading-snug">
+              Develop
+              <span className="text-black">
+                {" "}
+                tailored content and messaging that speaks to the needs and
+                challenges of specific targets.{" "}
+              </span>
+              This may include creating industry-specific case studies,
+              white-papers, videos, and more that resonate with each account's
+              decision-makers.{" "}
+            </p>
+            <div className="my-10">
+              <Link
+                className="rounded-lg py-3 px-8 text-white bg-s2s-purple w-fit hover:bg-s2s-orange duration-200 text-xl lg:text-2xl"
+                href="/"
+              >
+                Our process
+              </Link>
+            </div>
+          </div>
+          {/* Multi-Touch Campaigns */}
+          <div className="col-span-2 lg:col-span-1 bg-white rounded-lg p-7 flex flex-col justify-evenly gap-5">
+            {/* ICON & TITLE */}
+            <div className="rounded-full p-4 lg:p-7 bg-s2s-purple my-8 w-fit">
+              <img src="/img/abm/multitouch.svg" alt="multi touch" />
             </div>
             <h3 className="font-semibold text-2xl lg:text-3xl">
-              Search Engine Optimisation (SEO){" "}
+              Multi-Touch Campaigns
             </h3>
             {/* DIVIDER */}
             <img
@@ -58,12 +121,13 @@ export default function page() {
               className="w-full h-[2px] my-6"
             />
             <p className="font-medium text-xl lg:text-2xl text-s2s-gray lg:leading-snug">
-              Conduct a thorough audit of your website's SEO performance,
-              including on-page and off-page factors. Develop a
+              Design and execute multi-touch ABM campaigns that span various
+              channels, such as email, social media, targeted advertising, and
+              direct mail.
               <span className="text-black">
                 {" "}
-                comprehensive optimization strategy to improve your website's
-                search engine rankings and organic visibility.{" "}
+                Ensure consistent messaging and coordinated touch-points to
+                engage accounts.{" "}
               </span>
             </p>
             <div className="my-10">
@@ -75,51 +139,17 @@ export default function page() {
               </Link>
             </div>
           </div>
-          {/* Pay-Per-Click (PPC) */}
-          <div className="col-span-2 lg:col-span-1 bg-white rounded-lg p-7 flex flex-col justify-evenly gap-5">
-            {/* ICON & TITLE */}
-            <div className="rounded-full p-4 lg:p-7 bg-s2s-purple my-8 w-fit">
-              <img src="/img/digital-marketing/ppc.svg" alt="ppc" />
-            </div>
-            <h3 className="font-semibold text-2xl lg:text-3xl">
-              Pay-Per-Click (PPC){" "}
-            </h3>
-            {/* DIVIDER */}
-            <img
-              src="/img/misc/divider.webp"
-              alt="divider"
-              className="w-full h-[2px] my-6"
-            />
-            <p className="font-medium text-xl lg:text-2xl text-s2s-gray lg:leading-snug">
-              Create and manage a targeted PPC campaign on platforms like Google
-              Ads or social media to drive traffic and conversions. This
-              includes
-              <span className="text-black">
-                {" "}
-                keyword research, ad copywriting, bid management, and continuous
-                performance analysis.{" "}
-              </span>
-            </p>
-            <div className="my-10">
-              <Link
-                className="rounded-lg py-3 px-8 text-white bg-s2s-purple w-fit hover:bg-s2s-orange duration-200 text-xl lg:text-2xl"
-                href="/"
-              >
-                Our process
-              </Link>
-            </div>
-          </div>
-          {/* Content Marketing Strategy */}
+          {/* Sales and Marketing Alignment */}
           <div className="col-span-2 lg:col-span-1 bg-white rounded-lg p-7 flex flex-col justify-evenly gap-5">
             {/* ICON & TITLE */}
             <div className="rounded-full p-4 lg:p-7 bg-s2s-purple my-8 w-fit">
               <img
-                src="/img/digital-marketing/contentmarketing.svg"
-                alt="content marketing"
+                src="/img/abm/salesandmarketing.svg"
+                alt="sails and marketing"
               />
             </div>
             <h3 className="font-semibold text-2xl lg:text-3xl">
-              Content Marketing Strategy
+              Sales and Marketing Alignment
             </h3>
             {/* DIVIDER */}
             <img
@@ -128,49 +158,13 @@ export default function page() {
               className="w-full h-[2px] my-6"
             />
             <p className="font-medium text-xl lg:text-2xl text-s2s-gray lg:leading-snug">
-              Develop a content plan that includes blog posts, articles, videos,
-              infographics, and other valuable content to
+              Facilitate better collaboration between sales and marketing teams
+              by establishing clear communication channels, shared goals, and
+              lead handoff processes.
               <span className="text-black">
                 {" "}
-                engage your target audience and drive organic traffic.{" "}
-              </span>
-              Ensure the content is optimised for SEO and shareable on social
-              media.{" "}
-            </p>
-            <div className="my-10">
-              <Link
-                className="rounded-lg py-3 px-8 text-white bg-s2s-purple w-fit hover:bg-s2s-orange duration-200 text-xl lg:text-2xl"
-                href="/"
-              >
-                Our process
-              </Link>
-            </div>
-          </div>
-          {/* Social Media Marketing */}
-          <div className="col-span-2 lg:col-span-1 bg-white rounded-lg p-7 flex flex-col justify-evenly gap-5">
-            {/* ICON & TITLE */}
-            <div className="rounded-full p-4 lg:p-7 bg-s2s-purple my-8 w-fit">
-              <img
-                src="/img/digital-marketing/socialmedia.svg"
-                alt="social media"
-              />
-            </div>
-            <h3 className="font-semibold text-2xl lg:text-3xl">
-              Social Media Marketing{" "}
-            </h3>
-            {/* DIVIDER */}
-            <img
-              src="/img/misc/divider.webp"
-              alt="divider"
-              className="w-full h-[2px] my-6"
-            />
-            <p className="font-medium text-xl lg:text-2xl text-s2s-gray lg:leading-snug">
-              Design and execute a social media strategy across your chosen
-              platforms. This can include content creation, community
-              engagement, influencer partnerships, and performance tracking to
-              <span className="text-black">
-                {" "}
-                gain visibility across all your channels.{" "}
+                This aims to ensure seamless coordination between both teams to
+                maximise ABM effectiveness.{" "}
               </span>
             </p>
             <div className="my-10">
@@ -182,17 +176,14 @@ export default function page() {
               </Link>
             </div>
           </div>
-          {/* Email Marketing Automation  */}
+          {/* Personalised Outreach  */}
           <div className="col-span-2 lg:col-span-1 bg-white rounded-lg p-7 flex flex-col justify-evenly gap-5">
             {/* ICON & TITLE */}
             <div className="rounded-full p-4 lg:p-7 bg-s2s-purple my-8 w-fit">
-              <img
-                src="/img/digital-marketing/emailmarketing.svg"
-                alt="email marketing"
-              />
+              <img src="/img/abm/personalised.svg" alt="personalised" />
             </div>
             <h3 className="font-semibold text-2xl lg:text-3xl">
-              Email Marketing Automation{" "}
+              Personalised Outreach
             </h3>
             {/* DIVIDER */}
             <img
@@ -201,13 +192,14 @@ export default function page() {
               className="w-full h-[2px] my-6"
             />
             <p className="font-medium text-xl lg:text-2xl text-s2s-gray lg:leading-snug">
-              Implement an email marketing automation campaign to{" "}
+              Craft outreach strategies for each target account, involving
+              direct engagement with key stakeholders through emails, social
+              interactions, and relevant content.
               <span className="text-black">
                 {" "}
-                nurture leads, retain customers, and drive conversions.{" "}
+                This approach helps build meaningful relationships and drive
+                account engagement.{" "}
               </span>{" "}
-              Develop personalised email sequences, segment your audience, and
-              track key metrics like open rates and click-through rates.
             </p>
             <div className="my-10">
               <Link
@@ -218,17 +210,14 @@ export default function page() {
               </Link>
             </div>
           </div>
-          {/* Conversion Rate Opitimisation */}
+          {/* Measurement and Reporting */}
           <div className="col-span-2 lg:col-span-1 bg-white rounded-lg p-7 flex flex-col justify-evenly gap-5">
             {/* ICON & TITLE */}
             <div className="rounded-full p-4 lg:p-7 bg-s2s-purple my-8 w-fit">
-              <img
-                src="/img/digital-marketing/conversionrate.svg"
-                alt="conversion rate"
-              />
+              <img src="/img/abm/measurement.svg" alt="measurement" />
             </div>
             <h3 className="font-semibold text-2xl lg:text-3xl">
-              Conversion Rate Opitimisation{" "}
+              Measurement and Reporting{" "}
             </h3>
             {/* DIVIDER */}
             <img
@@ -237,13 +226,12 @@ export default function page() {
               className="w-full h-[2px] my-6"
             />
             <p className="font-medium text-xl lg:text-2xl text-s2s-gray lg:leading-snug">
-              Analyse your website's user experience and design to identify
-              areas for improvement. Implement A/B testing, user behaviour
-              analysis, and site optimisation techniques to{" "}
+              Develop a comprehensive system to measure the effectiveness of
+              your ABM efforts.
               <span className="text-black">
                 {" "}
-                increase the percentage of website visitors who convert into
-                customers.
+                Track metrics such as engagement rates, pipeline contribution,
+                deal velocity, and revenue generated from target accounts.{" "}
               </span>
             </p>
             <div className="my-10">
