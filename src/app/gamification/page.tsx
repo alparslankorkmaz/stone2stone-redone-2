@@ -4,9 +4,8 @@ import ClientMarquee from "@/components/ClientMarquee";
 export default function page() {
   return (
     <>
-      {" "}
       {/* HERO */}
-      <div className="flex justify-center items-center bg-hero_bg bg-cover bg-bottom bg-no-repeat">
+      <div className="flex justify-center items-center bg-hero_bg bg-cover bg-bottom bg-no-repeat min-h-screen">
         <div className="mt-16 lg:mt-20 grid grid-cols-2 gap-5 justify-center items-center p-5 lg:p-16">
           {/* TEXT */}
           <div className="md:mt-2 lg:mt-0 col-span-2 lg:col-span-1 text-white text-center lg:text-start">
