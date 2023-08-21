@@ -156,7 +156,7 @@ export default function Header() {
                       </li>
                       <li>
                         <Link
-                          href="/"
+                          href="/content-marketing"
                           onClick={() => setIsOpen(false)}
                           className="hover:text-s2s-orange"
                         >
