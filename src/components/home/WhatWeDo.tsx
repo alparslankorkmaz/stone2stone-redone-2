@@ -4,7 +4,7 @@ export default function WhatWeDo() {
   return (
     <>
       <div className="p-5 lg:px-20">
-        <div className="text-2xl lg:text-5xl font-semibold my-14">
+        <div className="text-2xl lg:text-5xl font-semibold my-14 lg:leading-tight">
           <h3 className="text-black">
             {" "}
             What we do:{" "}

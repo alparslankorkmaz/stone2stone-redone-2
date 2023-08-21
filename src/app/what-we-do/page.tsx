@@ -33,7 +33,7 @@ export default function page() {
       </div>
       <div className="my-16 p-5 lg:py-20 lg:px-16">
         {/* TITLE */}
-        <h2 className="text-s2s-gray text-3xl lg:text-5xl font-semibold lg:w-10/12">
+        <h2 className="text-s2s-gray text-3xl lg:text-5xl font-semibold lg:w-10/12 lg:leading-tight">
           Solutions that create lead generation for B2B businesses by
           strategically{" "}
           <span className="text-black">
@@ -44,15 +44,15 @@ export default function page() {
         {/* CARDS */}
         <div className="grid grid-cols-2 gap-5 lg:gap-20 mt-20">
           {/* STRATEGY */}
-          <div className="col-span-2 lg:col-span-1 bg-white rounded-lg p-7 flex flex-col justify-center">
+          <div className="col-span-2 lg:col-span-1 bg-white rounded-lg p-7 flex flex-col justify-evenly">
             {/* ICON & TITLE */}
             <div>
               <img
                 src="/img/what-we-do/strategy.svg"
-                className="rounded-full p-4 lg:p-7 bg-s2s-purple my-3"
+                className="rounded-full p-4 lg:p-7 bg-s2s-purple my-8"
                 alt="strategy"
               />
-              <h3 className="font-semibold text-2xl lg:text-3xl w-1/2">
+              <h3 className="font-semibold text-2xl lg:text-3xl">
                 Strategy, Branding and Proposition
               </h3>
             </div>
@@ -60,7 +60,7 @@ export default function page() {
             <img
               src="/img/misc/divider.webp"
               alt="divider"
-              className="w-full h-[2px] my-5"
+              className="w-full h-[2px] my-9"
             />
             <ul>
               <li className="my-3 flex text-s2s-gray text-xl lg:text-2xl font-medium">
@@ -122,15 +122,15 @@ export default function page() {
             </div>
           </div>
           {/* DIGITAL */}
-          <div className="col-span-2 lg:col-span-1 bg-white rounded-lg p-7 flex flex-col justify-center">
+          <div className="col-span-2 lg:col-span-1 bg-white rounded-lg p-7 flex flex-col justify-evenly">
             {/* ICON & TITLE */}
             <div>
               <img
                 src="/img/what-we-do/digital.svg"
-                className="rounded-full p-4 lg:p-7 bg-s2s-purple my-3"
+                className="rounded-full p-4 lg:p-7 bg-s2s-purple my-8"
                 alt="digital"
               />
-              <h3 className="font-semibold text-2xl lg:text-3xl w-1/2">
+              <h3 className="font-semibold text-2xl lg:text-3xl">
                 Digital Marketing
               </h3>
             </div>
@@ -138,7 +138,7 @@ export default function page() {
             <img
               src="/img/misc/divider.webp"
               alt="divider"
-              className="w-full h-[2px] my-5"
+              className="w-full h-[2px] my-9"
             />
             <ul>
               <li className="my-3 flex text-s2s-gray text-xl lg:text-2xl font-medium">
@@ -200,21 +200,21 @@ export default function page() {
             </div>
           </div>
           {/* ABM */}
-          <div className="col-span-2 lg:col-span-1 bg-white rounded-lg p-7 flex flex-col justify-center">
+          <div className="col-span-2 lg:col-span-1 bg-white rounded-lg p-7 flex flex-col justify-evenly">
             {/* ICON & TITLE */}
             <div>
               <img
                 src="/img/what-we-do/abm.svg"
-                className="rounded-full p-4 lg:p-7 bg-s2s-purple my-3"
+                className="rounded-full p-4 lg:p-7 bg-s2s-purple my-8"
                 alt="abm"
               />
-              <h3 className="font-semibold text-2xl lg:text-3xl w-1/2">ABM</h3>
+              <h3 className="font-semibold text-2xl lg:text-3xl">ABM</h3>
             </div>
             {/* DIVIDER */}
             <img
               src="/img/misc/divider.webp"
               alt="divider"
-              className="w-full h-[2px] my-5"
+              className="w-full h-[2px] my-9"
             />
             <ul>
               <li className="my-3 flex text-s2s-gray text-xl lg:text-2xl font-medium">
@@ -276,15 +276,15 @@ export default function page() {
             </div>
           </div>
           {/* CONTENT */}
-          <div className="col-span-2 lg:col-span-1 bg-white rounded-lg p-7 flex flex-col justify-center">
+          <div className="col-span-2 lg:col-span-1 bg-white rounded-lg p-7 flex flex-col justify-evenly">
             {/* ICON & TITLE */}
             <div>
               <img
                 src="/img/what-we-do/content.svg"
-                className="rounded-full p-4 lg:p-7 bg-s2s-purple my-3"
+                className="rounded-full p-4 lg:p-7 bg-s2s-purple my-8"
                 alt="content"
               />
-              <h3 className="font-semibold text-2xl lg:text-3xl w-1/2">
+              <h3 className="font-semibold text-2xl lg:text-3xl">
                 Content Marketing
               </h3>
             </div>
@@ -292,7 +292,7 @@ export default function page() {
             <img
               src="/img/misc/divider.webp"
               alt="divider"
-              className="w-full h-[2px] my-5"
+              className="w-full h-[2px] my-9"
             />
             <ul>
               <li className="my-3 flex text-s2s-gray text-xl lg:text-2xl font-medium">
@@ -346,15 +346,15 @@ export default function page() {
             </div>
           </div>
           {/* GAMIFICATION */}
-          <div className="col-span-2 lg:col-span-1 bg-white rounded-lg p-7 flex flex-col justify-center">
+          <div className="col-span-2 lg:col-span-1 bg-white rounded-lg p-7 flex flex-col justify-evenly">
             {/* ICON & TITLE */}
             <div>
               <img
                 src="/img/what-we-do/gamification.svg"
-                className="rounded-full p-4 lg:p-7 bg-s2s-purple my-3"
+                className="rounded-full p-4 lg:p-7 bg-s2s-purple my-8"
                 alt="gamification"
               />
-              <h3 className="font-semibold text-2xl lg:text-3xl w-1/2">
+              <h3 className="font-semibold text-2xl lg:text-3xl">
                 Gamification{" "}
               </h3>
             </div>
@@ -362,7 +362,7 @@ export default function page() {
             <img
               src="/img/misc/divider.webp"
               alt="divider"
-              className="w-full h-[2px] my-5"
+              className="w-full h-[2px] my-9"
             />
             <ul>
               <li className="my-3 flex text-s2s-gray text-xl lg:text-2xl font-medium">
@@ -416,15 +416,15 @@ export default function page() {
             </div>
           </div>
           {/* MORE */}
-          <div className="col-span-2 lg:col-span-1 bg-white rounded-lg p-7 flex flex-col justify-center">
+          <div className="col-span-2 lg:col-span-1 bg-white rounded-lg p-7 flex flex-col justify-evenly">
             {/* ICON & TITLE */}
             <div>
               <img
                 src="/img/what-we-do/dots.svg"
-                className="rounded-full p-4 lg:p-7 bg-s2s-purple my-3"
+                className="rounded-full p-4 lg:p-7 bg-s2s-purple my-8"
                 alt="dots"
               />
-              <h3 className="font-semibold text-2xl lg:text-3xl w-1/2">
+              <h3 className="font-semibold text-2xl lg:text-3xl">
                 And much more...{" "}
               </h3>
             </div>
@@ -432,7 +432,7 @@ export default function page() {
             <img
               src="/img/misc/divider.webp"
               alt="divider"
-              className="w-full h-[2px] my-5"
+              className="w-full h-[2px] my-9"
             />
             <ul>
               <li className="my-3 flex text-s2s-gray text-xl lg:text-2xl font-medium">

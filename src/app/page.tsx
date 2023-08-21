@@ -3,7 +3,7 @@ import Hero from "@/components/home/Hero";
 import OurBlog from "@/components/home/OurBlog";
 import OurWork from "@/components/home/OurWork";
 import ProjectHub from "@/components/home/ProjectHub";
-import PushingTheBoundries from "@/components/home/PushingTheBoundries";
+import PushingTheBoundaries from "@/components/home/PushingTheBoundaries";
 import Testimonials from "@/components/home/Testimonials";
 import WhatWeDo from "@/components/home/WhatWeDo";
 import type { Metadata } from "next";
@@ -20,7 +20,7 @@ export default function Home() {
       <ClientMarquee />
       <Testimonials />
       <WhatWeDo />
-      <PushingTheBoundries />
+      <PushingTheBoundaries />
       <OurWork />
       <ProjectHub />
       <OurBlog />

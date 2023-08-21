@@ -53,7 +53,7 @@ export default function page() {
       </div>
       {/* FORGING */}
       <div className="bg-white rounded-lg justify-center grid grid-cols-5 mx-5 my-16 lg:m-20 p-5 lg:py-20 lg:px-10 gap-5 lg:gap-16">
-        <h2 className="col-span-5 lg:col-span-2 text-3xl lg:text-5xl font-semibold text-s2s-gray">
+        <h2 className="col-span-5 lg:col-span-2 text-3xl lg:text-5xl font-semibold text-s2s-gray lg:leading-tight">
           Forging meaningful connections that{" "}
           <span className="text-black">
             elevate your brand above the competition.
@@ -121,7 +121,7 @@ export default function page() {
       </div>
       {/* CLIENTS */}
       <div className="bg-white rounded-lg justify-center grid grid-cols-5 mx-5 my-16 lg:m-20 p-5 lg:py-20 lg:px-10 gap-5 lg:gap-16">
-        <h4 className="col-span-5 lg:col-span-2 text-3xl lg:text-5xl font-semibold text-s2s-gray">
+        <h4 className="col-span-5 lg:col-span-2 text-3xl lg:text-5xl font-semibold text-s2s-gray lg:leading-tight">
           Clients we are{" "}
           <span className="text-black">generating leads for.</span>{" "}
         </h4>
@@ -151,7 +151,7 @@ export default function page() {
       {/* ROI */}
       <div className="bg-white rounded-lg justify-center grid grid-cols-2 mx-5 my-16 lg:m-20 py-16 px-10 gap-5 lg:gap-16">
         <div className="col-span-2 lg:col-span-1">
-          <h5 className="text-3xl lg:text-5xl font-semibold text-s2s-gray mb-5 lg:mb-10">
+          <h5 className="text-3xl lg:text-5xl font-semibold text-s2s-gray mb-5 lg:mb-10 lg:leading-tight">
             How we work with clients to{" "}
             <span className="text-black">boost ROI and visibility</span>{" "}
           </h5>

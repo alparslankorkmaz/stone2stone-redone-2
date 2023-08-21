@@ -33,7 +33,7 @@ export default function page() {
       </div>
       {/* TEAM */}
       <div className="justify-center grid grid-cols-5 mx-5 my-16 p-5 lg:py-20 lg:px-10 gap-5 lg:gap-16">
-        <h2 className="col-span-5 lg:col-span-2 text-3xl lg:text-5xl font-semibold text-s2s-gray">
+        <h2 className="col-span-5 lg:col-span-2 text-3xl lg:text-5xl font-semibold text-s2s-gray lg:leading-tight">
           The team behind our{" "}
           <span className="text-black">exceptional results.</span>{" "}
         </h2>

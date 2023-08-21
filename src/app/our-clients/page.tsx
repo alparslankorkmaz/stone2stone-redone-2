@@ -31,7 +31,7 @@ export default function page() {
         </div>
       </div>
       <div className="justify-center grid grid-cols-5 mx-5 my-10 p-5 lg:px-20 gap-5 lg:gap-16">
-        <h2 className="col-span-5 lg:col-span-3 text-3xl lg:text-5xl font-semibold text-black">
+        <h2 className="col-span-5 lg:col-span-3 text-3xl lg:text-5xl font-semibold text-black lg:leading-tight">
           Technology companies{" "}
           <span className="text-s2s-gray block">we have worked with</span>{" "}
         </h2>

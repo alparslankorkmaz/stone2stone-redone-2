@@ -1,12 +1,12 @@
 import Link from "next/link";
 
-export default function PushingTheBoundries() {
+export default function PushingTheBoundaries() {
   return (
     <>
       {" "}
       {/* PUSHING THE BOUNDARIES */}
       <div className="p-5 lg:px-20 my-10">
-        <div className="flex flex-wrap lg:flex-nowrap justify-between items-center text-2xl lg:text-5xl font-semibold my-14">
+        <div className="flex flex-wrap lg:flex-nowrap justify-between items-center text-2xl lg:text-5xl font-semibold my-14 lg:leading-tight">
           <h4 className="text-s2s-gray w-3/4">
             {" "}
             Why you should{" "}
