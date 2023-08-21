@@ -165,7 +165,7 @@ export default function Header() {
                       </li>
                       <li>
                         <Link
-                          href="/"
+                          href="/gamification"
                           onClick={() => setIsOpen(false)}
                           className="hover:text-s2s-orange"
                         >
@@ -174,7 +174,7 @@ export default function Header() {
                       </li>
                       <li>
                         <Link
-                          href="/"
+                          href="/what-we-do"
                           onClick={() => setIsOpen(false)}
                           className="hover:text-s2s-orange"
                         >
