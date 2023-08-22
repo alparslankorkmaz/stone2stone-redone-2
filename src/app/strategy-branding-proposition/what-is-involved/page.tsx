@@ -1,10 +1,10 @@
 import ClientMarquee from "@/components/ClientMarquee";
 import OurWorkSBP from "@/components/what-is-involved/sbp/OurWorkSBP";
-import Slider1 from "@/components/what-is-involved/sbp/Slider1";
-import Slider2 from "@/components/what-is-involved/sbp/Slider2";
-import Slider3 from "@/components/what-is-involved/sbp/Slider3";
-import Slider4 from "@/components/what-is-involved/sbp/Slider4";
-import Slider5 from "@/components/what-is-involved/sbp/Slider5";
+import SBPSlider1 from "@/components/what-is-involved/sbp/SBPSlider1";
+import SBPSlider2 from "@/components/what-is-involved/sbp/SBPSlider2";
+import SBPSlider3 from "@/components/what-is-involved/sbp/SBPSlider3";
+import SBPSlider4 from "@/components/what-is-involved/sbp/SBPSlider4";
+import SBPSlider5 from "@/components/what-is-involved/sbp/SBPSlider5";
 import Link from "next/link";
 
 export default function page() {
@@ -24,11 +24,11 @@ export default function page() {
         </div>
       </div>
       {/* CONTENT */}
-      <Slider1 />
-      <Slider2 />
-      <Slider3 />
-      <Slider4 />
-      <Slider5 />
+      <SBPSlider1 />
+      <SBPSlider2 />
+      <SBPSlider3 />
+      <SBPSlider4 />
+      <SBPSlider5 />
       {/* SUMMARY */}
       <div className="grid grid-cols-10 gap-5 lg:gap-10 bg-white rounded-xl m-5 lg:m-16 p-3 lg:p-5">
         <div className="col-span-10 lg:col-span-3">

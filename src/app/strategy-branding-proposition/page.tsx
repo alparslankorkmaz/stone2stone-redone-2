@@ -74,7 +74,7 @@ export default function page() {
             <div className="my-10">
               <Link
                 className="rounded-lg py-3 px-8 text-white bg-s2s-purple w-fit hover:bg-s2s-orange duration-200 text-xl lg:text-2xl"
-                href="/what-is-involved/sbp"
+                href="/strategy-branding-proposition/what-is-involved"
               >
                 Our process
               </Link>
@@ -111,7 +111,7 @@ export default function page() {
             <div className="my-10">
               <Link
                 className="rounded-lg py-3 px-8 text-white bg-s2s-purple w-fit hover:bg-s2s-orange duration-200 text-xl lg:text-2xl"
-                href="/what-is-involved/sbp"
+                href="/strategy-branding-proposition/what-is-involved"
               >
                 Our process
               </Link>
@@ -148,7 +148,7 @@ export default function page() {
             <div className="my-10">
               <Link
                 className="rounded-lg py-3 px-8 text-white bg-s2s-purple w-fit hover:bg-s2s-orange duration-200 text-xl lg:text-2xl"
-                href="/what-is-involved/sbp"
+                href="/strategy-branding-proposition/what-is-involved"
               >
                 Our process
               </Link>
@@ -185,7 +185,7 @@ export default function page() {
             <div className="my-10">
               <Link
                 className="rounded-lg py-3 px-8 text-white bg-s2s-purple w-fit hover:bg-s2s-orange duration-200 text-xl lg:text-2xl"
-                href="/what-is-involved/sbp"
+                href="/strategy-branding-proposition/what-is-involved"
               >
                 Our process
               </Link>
@@ -222,7 +222,7 @@ export default function page() {
             <div className="my-10">
               <Link
                 className="rounded-lg py-3 px-8 text-white bg-s2s-purple w-fit hover:bg-s2s-orange duration-200 text-xl lg:text-2xl"
-                href="/what-is-involved/sbp"
+                href="/strategy-branding-proposition/what-is-involved"
               >
                 Our process
               </Link>
@@ -260,7 +260,7 @@ export default function page() {
             <div className="my-10">
               <Link
                 className="rounded-lg py-3 px-8 text-white bg-s2s-purple w-fit hover:bg-s2s-orange duration-200 text-xl lg:text-2xl"
-                href="/what-is-involved/sbp"
+                href="/strategy-branding-proposition/what-is-involved"
               >
                 Our process
               </Link>

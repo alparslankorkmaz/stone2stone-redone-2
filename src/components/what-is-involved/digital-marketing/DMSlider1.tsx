@@ -1,28 +1,29 @@
-export default function Slider4() {
+export default function DMSlider1() {
   return (
     <>
       <div className="flex justify-center items-center">
         <div className="carousel lg:w-[90%] ">
-          {/* CHALLENGE 4 */}
+          {/* CHALLENGE 1 */}
           <div
-            id="slide4-1"
+            id="slide1-1"
             className="carousel-item relative w-full bg-white m-6 rounded-xl"
           >
             <div className="p-3 lg:p-5 grid grid-cols-5 gap-3 lg:justify-center lg:items-center">
               {/* TEXT */}
               <div className="col-span-4 flex gap-8 flex-col justify-center text-sm lg:text-2xl p-4 lg:p-10">
                 <h2 className="text-xl lg:text-4xl font-extrabold text-s2s-purple ">
-                  Challenge 4
+                  Challenge 1
                 </h2>
                 <h2 className="font-semibold text-xl lg:text-4xl">
-                  Gaining Internal Alignment
+                  Audience Targeting and Segmentation
                 </h2>
                 <p className="text-s2s-gray font-medium">
-                  Various internal stakeholders may have different views on the{" "}
+                  Defining and{" "}
                   <span className="text-black">
-                    {" "}
-                    company's brand identity and value proposition.
+                    reaching the right audience with tailored messages can be
+                    challenging
                   </span>
+                  , leading to inefficiencies and wasted resources.
                 </p>
               </div>
 
@@ -49,7 +50,7 @@ export default function Slider4() {
                 </div>
 
                 <a
-                  href="#slide4-2"
+                  href="#slide1-2"
                   title="right arrow"
                   className="p-2 text-s2s-orange transition-colors duration-300 border border-s2s-orange rounded-full rtl:-scale-x-100 lg:mx-6 hover:text-white hover:bg-s2s-orange"
                 >
@@ -71,34 +72,33 @@ export default function Slider4() {
               </div>
             </div>
           </div>
-          {/* SOLUTION 4 */}
+          {/* SOLUTION 1 */}
           <div
-            id="slide4-2"
+            id="slide1-2"
             className="carousel-item relative w-full bg-white m-6 rounded-xl"
           >
             <div className="p-3 lg:p-5 grid grid-cols-5 gap-3 lg:justify-center lg:items-center">
               {/* TEXT */}
               <div className="col-span-4 flex gap-8 flex-col justify-center text-sm lg:text-2xl p-4 lg:p-10">
                 <h2 className="text-xl lg:text-4xl font-extrabold text-s2s-purple ">
-                  Solution 4
+                  Solution 1
                 </h2>
                 <h2 className="font-semibold text-xl lg:text-4xl">
-                  Gaining Internal Alignment{" "}
+                  Audience Targeting and Segmentation{" "}
                 </h2>
                 <ul className="list-disc list-inside text-s2s-gray font-medium">
                   <li>
-                    Host workshops and collaborative sessions to{" "}
-                    <span className="text-black">
-                      involve cross-functional teams in the branding and
-                      proposition process.
-                    </span>{" "}
-                  </li>
-                  <li>
-                    Communicate the importance of
+                    Conduct thorough market research to{" "}
                     <span className="text-black">
                       {" "}
-                      consistent messaging and alignment to the company's
-                      success.
+                      understand customer demographics, behaviours, and
+                      preferences.
+                    </span>
+                  </li>
+                  <li>
+                    Develop detailed buyer personas to
+                    <span className="text-black">
+                      guide targeting and messaging strategies.
                     </span>{" "}
                   </li>
                 </ul>
@@ -107,7 +107,7 @@ export default function Slider4() {
               <div className="absolute top-1 lg:top-5 right-5 flex items-center justify-around gap-5 lg:gap-0 lg:justify-start">
                 <a
                   title="left arrow"
-                  href="#slide4-1"
+                  href="#slide1-1"
                   className="p-2 text-s2s-orange transition-colors duration-300 border border-s2s-orange rounded-full rtl:-scale-x-100 hover:text-white hover:bg-s2s-orange"
                 >
                   <svg
@@ -127,7 +127,7 @@ export default function Slider4() {
                 </a>
 
                 <a
-                  href="#slide4-3"
+                  href="#slide1-3"
                   title="right arrow"
                   className="p-2 text-s2s-orange transition-colors duration-300 border border-s2s-orange rounded-full rtl:-scale-x-100 lg:mx-6 hover:text-white hover:bg-s2s-orange"
                 >
@@ -149,40 +149,36 @@ export default function Slider4() {
               </div>
             </div>
           </div>
-          {/* HOW WE TACKLE 4 */}
+          {/* HOW WE TACKLE 1 */}
           <div
-            id="slide4-3"
+            id="slide1-3"
             className="carousel-item relative w-full bg-white m-6 rounded-xl"
           >
             <div className="p-3 lg:p-5 grid grid-cols-5 gap-3 lg:justify-center lg:items-center">
               {/* TEXT */}
               <div className="col-span-4 flex gap-8 flex-col justify-center text-sm lg:text-2xl p-4 lg:p-10">
                 <h2 className="text-xl lg:text-4xl font-extrabold text-s2s-purple ">
-                  How we tackle Challenge 4
+                  How we tackle Challenge 1
                 </h2>
                 <h2 className="font-semibold text-xl lg:text-4xl">
-                  Gaining Internal Alignment
+                  Audience Targeting and Segmentation{" "}
                 </h2>
                 <ul className="list-disc list-inside text-s2s-gray font-medium">
                   <li>
-                    <span className="text-black">
-                      Facilitate cross-functional workshops
-                    </span>{" "}
-                    to ensure that your teams have a shared understanding of the
-                    brand strategy and value proposition.
+                    <span className="text-black">Use data analytics tools</span>{" "}
+                    to gather insights on audience behaviour and engagement.
                   </li>
                   <li>
                     <span className="text-black">
-                      Develop internal communication materials
-                    </span>{" "}
-                    that educate employees about the revised branding and
-                    proposition.
+                      Create segments based on demographics
+                    </span>
+                    , interests, and online behaviour.
                   </li>
                   <li>
                     <span className="text-black">
-                      Foster a culture of alignment and engagement
+                      Craft personalised content and campaigns{" "}
                     </span>{" "}
-                    through regular updates and open communication channels.
+                    for each segment, optimising reach and engagement.
                   </li>
                 </ul>
               </div>
@@ -191,7 +187,7 @@ export default function Slider4() {
               <div className="absolute top-1 lg:top-5 right-5 flex items-center justify-around gap-5 lg:gap-0 lg:justify-start">
                 <a
                   title="left arrow"
-                  href="#slide4-2"
+                  href="#slide1-2"
                   className="p-2 text-s2s-orange transition-colors duration-300 border border-s2s-orange rounded-full rtl:-scale-x-100 hover:text-white hover:bg-s2s-orange"
                 >
                   <svg

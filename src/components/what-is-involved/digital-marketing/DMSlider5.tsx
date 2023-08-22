@@ -1,29 +1,30 @@
-export default function Slider3() {
+export default function DMSlider5() {
   return (
     <>
+      {" "}
       <div className="flex justify-center items-center">
         <div className="carousel lg:w-[90%] ">
-          {/* CHALLENGE 3 */}
+          {/* CHALLENGE 5 */}
           <div
-            id="slide3-1"
+            id="slide5-1"
             className="carousel-item relative w-full bg-white m-6 rounded-xl"
           >
             <div className="p-3 lg:p-5 grid grid-cols-5 gap-3 lg:justify-center lg:items-center">
               {/* TEXT */}
               <div className="col-span-4 flex gap-8 flex-col justify-center text-sm lg:text-2xl p-4 lg:p-10">
                 <h2 className="text-xl lg:text-4xl font-extrabold text-s2s-purple ">
-                  Challenge 3
+                  Challenge 5
                 </h2>
                 <h2 className="font-semibold text-xl lg:text-4xl">
-                  Identifying a Compelling Value Proposition
+                  Adapting to Algorithm Changes
                 </h2>
                 <p className="text-s2s-gray font-medium">
-                  The company may
+                  Changes in search engine algorithms and social media
+                  algorithms can{" "}
                   <span className="text-black">
                     {" "}
-                    struggle to articulate a compelling value proposition
-                  </span>{" "}
-                  that differentiates it from competitors.
+                    impact visibility and reach.
+                  </span>
                 </p>
               </div>
 
@@ -50,7 +51,7 @@ export default function Slider3() {
                 </div>
 
                 <a
-                  href="#slide3-2"
+                  href="#slide5-2"
                   title="right arrow"
                   className="p-2 text-s2s-orange transition-colors duration-300 border border-s2s-orange rounded-full rtl:-scale-x-100 lg:mx-6 hover:text-white hover:bg-s2s-orange"
                 >
@@ -72,34 +73,32 @@ export default function Slider3() {
               </div>
             </div>
           </div>
-          {/* SOLUTION 3 */}
+          {/* SOLUTION 5 */}
           <div
-            id="slide3-2"
+            id="slide5-2"
             className="carousel-item relative w-full bg-white m-6 rounded-xl"
           >
             <div className="p-3 lg:p-5 grid grid-cols-5 gap-3 lg:justify-center lg:items-center">
               {/* TEXT */}
               <div className="col-span-4 flex gap-8 flex-col justify-center text-sm lg:text-2xl p-4 lg:p-10">
                 <h2 className="text-xl lg:text-4xl font-extrabold text-s2s-purple ">
-                  Solution 3
+                  Solution 5
                 </h2>
                 <h2 className="font-semibold text-xl lg:text-4xl">
-                  Identifying a Compelling Value Proposition{" "}
+                  Adapting to Algorithm Changes{" "}
                 </h2>
                 <ul className="list-disc list-inside text-s2s-gray font-medium">
                   <li>
-                    Conduct customer research and market analysis to{" "}
-                    <span className="text-black">
-                      {" "}
-                      understand customer needs, pain points, and preferences.
-                    </span>{" "}
+                    Stay updated on industry trends and algorithm changes
+                    through{" "}
+                    <span className="text-black"> continuous learning.</span>
                   </li>
                   <li>
-                    Define a unique value proposition that
                     <span className="text-black">
                       {" "}
-                      highlights the company's distinct offerings and benefits.
+                      Diversify your digital marketing efforts
                     </span>{" "}
+                    across multiple platforms to reduce reliance on one channel.
                   </li>
                 </ul>
               </div>
@@ -107,7 +106,7 @@ export default function Slider3() {
               <div className="absolute top-1 lg:top-5 right-5 flex items-center justify-around gap-5 lg:gap-0 lg:justify-start">
                 <a
                   title="left arrow"
-                  href="#slide3-1"
+                  href="#slide5-1"
                   className="p-2 text-s2s-orange transition-colors duration-300 border border-s2s-orange rounded-full rtl:-scale-x-100 hover:text-white hover:bg-s2s-orange"
                 >
                   <svg
@@ -125,9 +124,8 @@ export default function Slider3() {
                     />
                   </svg>
                 </a>
-
                 <a
-                  href="#slide3-3"
+                  href="#slide5-3"
                   title="right arrow"
                   className="p-2 text-s2s-orange transition-colors duration-300 border border-s2s-orange rounded-full rtl:-scale-x-100 lg:mx-6 hover:text-white hover:bg-s2s-orange"
                 >
@@ -149,42 +147,41 @@ export default function Slider3() {
               </div>
             </div>
           </div>
-          {/* HOW WE TACKLE 3 */}
+          {/* HOW WE TACKLE 5 */}
           <div
-            id="slide3-3"
+            id="slide5-3"
             className="carousel-item relative w-full bg-white m-6 rounded-xl"
           >
             <div className="p-3 lg:p-5 grid grid-cols-5 gap-3 lg:justify-center lg:items-center">
               {/* TEXT */}
               <div className="col-span-4 flex gap-8 flex-col justify-center text-sm lg:text-2xl p-4 lg:p-10">
                 <h2 className="text-xl lg:text-4xl font-extrabold text-s2s-purple ">
-                  How we tackle Challenge 3
+                  How we tackle Challenge 5
                 </h2>
                 <h2 className="font-semibold text-xl lg:text-4xl">
-                  Identifying a Compelling Value Proposition
+                  Adapting to Algorithm Changes
                 </h2>
                 <ul className="list-disc list-inside text-s2s-gray font-medium">
                   <li>
                     <span className="text-black">
-                      Engage in customer interviews, surveys, and focus groups{" "}
+                      Attend webinars, forums, and industry publications with
+                      you
                     </span>{" "}
-                    to gather insights into customer perceptions and
-                    preferences.
+                    to stay informed about algorithm updates.
                   </li>
                   <li>
                     <span className="text-black">
                       {" "}
-                      Develop a value proposition
+                      Employ a mix of organic and paid strategies
                     </span>{" "}
-                    that addresses specific customer challenges and demonstrates
-                    how your products or services provide solutions.
+                    to maintain visibility across changing platforms.
                   </li>
                   <li>
+                    {" "}
                     <span className="text-black">
-                      Test the value proposition{" "}
-                    </span>
-                    with a sample of the target audience and refine it based on
-                    feedback.
+                      Continuously refine the strategies
+                    </span>{" "}
+                    based on algorithm updates and audience behaviour.{" "}
                   </li>
                 </ul>
               </div>
@@ -193,7 +190,7 @@ export default function Slider3() {
               <div className="absolute top-1 lg:top-5 right-5 flex items-center justify-around gap-5 lg:gap-0 lg:justify-start">
                 <a
                   title="left arrow"
-                  href="#slide3-2"
+                  href="#slide5-2"
                   className="p-2 text-s2s-orange transition-colors duration-300 border border-s2s-orange rounded-full rtl:-scale-x-100 hover:text-white hover:bg-s2s-orange"
                 >
                   <svg

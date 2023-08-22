@@ -1,29 +1,29 @@
-export default function Slider2() {
+export default function DMSlider3() {
   return (
     <>
       <div className="flex justify-center items-center">
         <div className="carousel lg:w-[90%] ">
-          {/* CHALLENGE 2 */}
+          {/* CHALLENGE 3 */}
           <div
-            id="slide2-1"
+            id="slide3-1"
             className="carousel-item relative w-full bg-white m-6 rounded-xl"
           >
             <div className="p-3 lg:p-5 grid grid-cols-5 gap-3 lg:justify-center lg:items-center">
               {/* TEXT */}
               <div className="col-span-4 flex gap-8 flex-col justify-center text-sm lg:text-2xl p-4 lg:p-10">
                 <h2 className="text-xl lg:text-4xl font-extrabold text-s2s-purple ">
-                  Challenge 2
+                  Challenge 3
                 </h2>
                 <h2 className="font-semibold text-xl lg:text-4xl">
-                  Inconsistent Brand Messaging and Positioning
+                  Multi-Channel Coordination
                 </h2>
                 <p className="text-s2s-gray font-medium">
-                  The company's brand messaging and positioning may be
+                  Managing multiple digital channels (social media, email, SEO,
+                  etc.) and{" "}
                   <span className="text-black">
                     {" "}
-                    inconsistent or unclear across different communication
-                    channels.
-                  </span>
+                    ensuring consistent messaging can be complex.
+                  </span>{" "}
                 </p>
               </div>
 
@@ -50,7 +50,7 @@ export default function Slider2() {
                 </div>
 
                 <a
-                  href="#slide2-2"
+                  href="#slide3-2"
                   title="right arrow"
                   className="p-2 text-s2s-orange transition-colors duration-300 border border-s2s-orange rounded-full rtl:-scale-x-100 lg:mx-6 hover:text-white hover:bg-s2s-orange"
                 >
@@ -72,38 +72,34 @@ export default function Slider2() {
               </div>
             </div>
           </div>
-          {/* SOLUTION 2 */}
+          {/* SOLUTION 3 */}
           <div
-            id="slide2-2"
+            id="slide3-2"
             className="carousel-item relative w-full bg-white m-6 rounded-xl"
           >
             <div className="p-3 lg:p-5 grid grid-cols-5 gap-3 lg:justify-center lg:items-center">
               {/* TEXT */}
               <div className="col-span-4 flex gap-8 flex-col justify-center text-sm lg:text-2xl p-4 lg:p-10">
                 <h2 className="text-xl lg:text-4xl font-extrabold text-s2s-purple ">
-                  Solution 2
+                  Solution 3
                 </h2>
                 <h2 className="font-semibold text-xl lg:text-4xl">
-                  Inconsistent Brand Messaging and Positioning{" "}
+                  Multi-Channel Coordination{" "}
                 </h2>
                 <ul className="list-disc list-inside text-s2s-gray font-medium">
                   <li>
-                    Conduct a{" "}
+                    Develop an integrated marketing strategy that{" "}
                     <span className="text-black">
                       {" "}
-                      brand audit to assess the current state of brand
+                      outlines how each channel supports overall goals.
                     </span>{" "}
-                    messaging, visual identity, and market perception.
                   </li>
                   <li>
-                    Develop
+                    Implement marketing automation tools to
                     <span className="text-black">
                       {" "}
-                      a unified brand messaging framework and positioning
-                      strategy Facilitate strategic planning sessions
+                      streamline cross-channel coordination.
                     </span>{" "}
-                    that communicates the company's unique value to the target
-                    audience.
                   </li>
                 </ul>
               </div>
@@ -111,7 +107,7 @@ export default function Slider2() {
               <div className="absolute top-1 lg:top-5 right-5 flex items-center justify-around gap-5 lg:gap-0 lg:justify-start">
                 <a
                   title="left arrow"
-                  href="#slide2-1"
+                  href="#slide3-1"
                   className="p-2 text-s2s-orange transition-colors duration-300 border border-s2s-orange rounded-full rtl:-scale-x-100 hover:text-white hover:bg-s2s-orange"
                 >
                   <svg
@@ -131,7 +127,7 @@ export default function Slider2() {
                 </a>
 
                 <a
-                  href="#slide2-3"
+                  href="#slide3-3"
                   title="right arrow"
                   className="p-2 text-s2s-orange transition-colors duration-300 border border-s2s-orange rounded-full rtl:-scale-x-100 lg:mx-6 hover:text-white hover:bg-s2s-orange"
                 >
@@ -153,40 +149,40 @@ export default function Slider2() {
               </div>
             </div>
           </div>
-          {/* HOW WE TACKLE 2 */}
+          {/* HOW WE TACKLE 3 */}
           <div
-            id="slide2-3"
+            id="slide3-3"
             className="carousel-item relative w-full bg-white m-6 rounded-xl"
           >
             <div className="p-3 lg:p-5 grid grid-cols-5 gap-3 lg:justify-center lg:items-center">
               {/* TEXT */}
               <div className="col-span-4 flex gap-8 flex-col justify-center text-sm lg:text-2xl p-4 lg:p-10">
                 <h2 className="text-xl lg:text-4xl font-extrabold text-s2s-purple ">
-                  How we tackle Challenge 2
+                  How we tackle Challenge 3
                 </h2>
                 <h2 className="font-semibold text-xl lg:text-4xl">
-                  Inconsistent Brand Messaging and Positioning{" "}
+                  Multi-Channel Coordination
                 </h2>
                 <ul className="list-disc list-inside text-s2s-gray font-medium">
                   <li>
                     <span className="text-black">
-                      Collaborate with your marketing and communication teams
+                      Use a centralised dashboard{" "}
                     </span>{" "}
-                    to understand existing brand messaging challenges.
+                    to monitor and manage all channels in one place.
+                  </li>
+                  <li>
+                    Ensure that
+                    <span className="text-black">
+                      {" "}
+                      brand messaging and visual identity are consistent
+                    </span>{" "}
+                    across all platforms.
                   </li>
                   <li>
                     <span className="text-black">
-                      Create a brand messaging guide
-                    </span>{" "}
-                    that provides clear guidelines for tone of voice, key
-                    messages, and value propositions.
-                  </li>
-                  <li>
-                    Ensure all marketing materials, website content, and
-                    communications{" "}
-                    <span className="text-black">
-                      adhere to the new messaging framework.
+                      Optimise content for each channel's{" "}
                     </span>
+                    unique characteristics and audience behaviours.
                   </li>
                 </ul>
               </div>
@@ -195,7 +191,7 @@ export default function Slider2() {
               <div className="absolute top-1 lg:top-5 right-5 flex items-center justify-around gap-5 lg:gap-0 lg:justify-start">
                 <a
                   title="left arrow"
-                  href="#slide2-2"
+                  href="#slide3-2"
                   className="p-2 text-s2s-orange transition-colors duration-300 border border-s2s-orange rounded-full rtl:-scale-x-100 hover:text-white hover:bg-s2s-orange"
                 >
                   <svg
