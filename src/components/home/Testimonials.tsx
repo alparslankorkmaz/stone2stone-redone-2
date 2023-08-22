@@ -8,9 +8,9 @@ export default function Testimonials() {
             id="slide1"
             className="carousel-item relative w-full bg-white m-6 rounded-xl"
           >
-            <div className="p-3 lg:p-5 grid grid-cols-5 gap-3 lg:justify-center lg:items-center">
+            <div className="p-3 lg:p-5 grid grid-cols-10 gap-3 lg:justify-center lg:items-center">
               {/* IMAGE */}
-              <div className="col-span-2 flex justify-center">
+              <div className="col-span-4 lg:col-span-3 flex justify-center">
                 <img
                   src="/img/testimonials/amisha.webp"
                   className="object-cover rounded-lg w-96 h-full"
@@ -18,7 +18,7 @@ export default function Testimonials() {
                 />
               </div>
               {/* TEXT */}
-              <div className="col-span-3 flex flex-col justify-center text-sm lg:text-2xl lg:p-5">
+              <div className="col-span-6 lg:col-span-7 flex flex-col justify-center text-sm lg:text-2xl lg:p-5">
                 <p className="text-5xl font-semibold text-s2s-purple ">“</p>
 
                 <p className=" text-s2s-gray">
@@ -93,9 +93,9 @@ export default function Testimonials() {
             id="slide2"
             className="carousel-item relative w-full bg-white m-6 rounded-xl"
           >
-            <div className="p-3 lg:p-5 grid grid-cols-5 gap-3 lg:justify-center lg:items-center">
+            <div className="p-3 lg:p-5 grid grid-cols-10 gap-3 lg:justify-center lg:items-center">
               {/* IMAGE */}
-              <div className="col-span-2 flex justify-center">
+              <div className="col-span-4 lg:col-span-3 flex justify-center">
                 <img
                   src="/img/testimonials/luke.webp"
                   className="object-cover rounded-lg w-96 h-full"
@@ -103,7 +103,7 @@ export default function Testimonials() {
                 />
               </div>
               {/* TEXT */}
-              <div className="col-span-3 flex flex-col justify-center text-sm lg:text-2xl lg:p-5">
+              <div className="col-span-6 lg:col-span-7 flex flex-col justify-center text-sm lg:text-2xl lg:p-5">
                 <p className="text-5xl font-semibold text-s2s-purple ">“</p>
 
                 <p className=" text-s2s-gray">
@@ -176,9 +176,9 @@ export default function Testimonials() {
             id="slide3"
             className="carousel-item relative w-full bg-white m-6 rounded-xl"
           >
-            <div className="p-3 lg:p-5 grid grid-cols-5 gap-3 lg:justify-center lg:items-center">
+            <div className="p-3 lg:p-5 grid grid-cols-10 gap-3 lg:justify-center lg:items-center">
               {/* IMAGE */}
-              <div className="col-span-2 flex justify-center">
+              <div className="col-span-4 lg:col-span-3 flex justify-center">
                 <img
                   src="/img/testimonials/jen.webp"
                   className="object-cover rounded-lg w-96 h-full"
@@ -186,7 +186,7 @@ export default function Testimonials() {
                 />
               </div>
               {/* TEXT */}
-              <div className="col-span-3 flex flex-col justify-center text-sm lg:text-2xl lg:p-5">
+              <div className="col-span-6 lg:col-span-7 flex flex-col justify-center text-sm lg:text-2xl lg:p-5">
                 <p className="text-5xl font-semibold text-s2s-purple ">“</p>
 
                 <p className=" text-s2s-gray">
@@ -259,9 +259,9 @@ export default function Testimonials() {
             id="slide4"
             className="carousel-item relative w-full bg-white m-6 rounded-xl"
           >
-            <div className="p-3 lg:p-5 grid grid-cols-5 gap-3 lg:justify-center lg:items-center">
+            <div className="p-3 lg:p-5 grid grid-cols-10 gap-3 lg:justify-center lg:items-center">
               {/* IMAGE */}
-              <div className="col-span-2 flex justify-center">
+              <div className="col-span-4 lg:col-span-3 flex justify-center">
                 <img
                   src="/img/testimonials/neil.webp"
                   className="object-cover rounded-lg w-96 h-full"
@@ -269,7 +269,7 @@ export default function Testimonials() {
                 />
               </div>
               {/* TEXT */}
-              <div className="col-span-3 flex flex-col justify-center text-sm lg:text-2xl lg:p-5">
+              <div className="col-span-6 lg:col-span-7 flex flex-col justify-center text-sm lg:text-2xl lg:p-5">
                 <p className="text-5xl font-semibold text-s2s-purple ">“</p>
 
                 <p className=" text-s2s-gray">
@@ -343,9 +343,9 @@ export default function Testimonials() {
             id="slide5"
             className="carousel-item relative w-full bg-white m-6 rounded-xl"
           >
-            <div className="p-3 lg:p-5 grid grid-cols-5 gap-3 lg:justify-center lg:items-center">
+            <div className="p-3 lg:p-5 grid grid-cols-10 gap-3 lg:justify-center lg:items-center">
               {/* IMAGE */}
-              <div className="col-span-2 flex justify-center">
+              <div className="col-span-4 lg:col-span-3 flex justify-center">
                 <img
                   src="/img/testimonials/andreea.webp"
                   className="object-cover rounded-lg w-96 h-full"
@@ -353,7 +353,7 @@ export default function Testimonials() {
                 />
               </div>
               {/* TEXT */}
-              <div className="col-span-3 flex flex-col justify-center text-sm lg:text-2xl lg:p-5">
+              <div className="col-span-6 lg:col-span-7 flex flex-col justify-center text-sm lg:text-2xl lg:p-5">
                 <p className="text-5xl font-semibold text-s2s-purple ">“</p>
 
                 <p className=" text-s2s-gray">
@@ -427,9 +427,9 @@ export default function Testimonials() {
             id="slide6"
             className="carousel-item relative w-full bg-white m-6 rounded-xl"
           >
-            <div className="p-3 lg:p-5 grid grid-cols-5 gap-3 lg:justify-center lg:items-center">
+            <div className="p-3 lg:p-5 grid grid-cols-10 gap-3 lg:justify-center lg:items-center">
               {/* IMAGE */}
-              <div className="col-span-2 flex justify-center">
+              <div className="col-span-4 lg:col-span-3 flex justify-center">
                 <img
                   src="/img/testimonials/chris.webp"
                   className="object-cover rounded-lg w-96 h-full"
@@ -437,7 +437,7 @@ export default function Testimonials() {
                 />
               </div>
               {/* TEXT */}
-              <div className="col-span-3 flex flex-col justify-center text-sm lg:text-2xl lg:p-5">
+              <div className="col-span-6 lg:col-span-7 flex flex-col justify-center text-sm lg:text-2xl lg:p-5">
                 <p className="text-5xl font-semibold text-s2s-purple ">“</p>
 
                 <p className=" text-s2s-gray">
