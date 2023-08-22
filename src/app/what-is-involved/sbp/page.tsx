@@ -1,4 +1,11 @@
+import ClientMarquee from "@/components/ClientMarquee";
+import OurWorkSBP from "@/components/what-is-involved/sbp/OurWorkSBP";
 import Slider1 from "@/components/what-is-involved/sbp/Slider1";
+import Slider2 from "@/components/what-is-involved/sbp/Slider2";
+import Slider3 from "@/components/what-is-involved/sbp/Slider3";
+import Slider4 from "@/components/what-is-involved/sbp/Slider4";
+import Slider5 from "@/components/what-is-involved/sbp/Slider5";
+import Link from "next/link";
 
 export default function page() {
   return (
@@ -18,6 +25,46 @@ export default function page() {
       </div>
       {/* CONTENT */}
       <Slider1 />
+      <Slider2 />
+      <Slider3 />
+      <Slider4 />
+      <Slider5 />
+      {/* SUMMARY */}
+      <div className="grid grid-cols-10 gap-5 lg:gap-10 bg-white rounded-xl m-5 lg:m-16 p-3 lg:p-5">
+        <div className="col-span-10 lg:col-span-3">
+          <img
+            src="/img/accordion/strategy.webp"
+            className="object-cover rounded-lg  w-full h-44 object-top lg:object-left lg:h-[28rem]"
+            alt="strategy"
+          />
+        </div>
+        <div className="col-span-10 lg:col-span-7 flex flex-col justify-center gap-5">
+          <h6 className="font-semibold text-s2s-gray text-3xl lg:text-5xl">
+            In <span className="text-black">summary</span>
+          </h6>
+          <p className="font-medium text-lg lg:text-2xl text-s2s-gray">
+            A successful Strategy, Branding, and Proposition project involves
+            <span className="text-black">
+              {" "}
+              aligning the company's strategic direction, brand identity, and
+              value proposition to create a compelling and coherent market
+              presence.{" "}
+            </span>
+            By addressing challenges through thorough analysis, collaboration,
+            and strategic implementation, you can develop a strong brand that
+            resonates with the target audience and helps the company achieve its
+            business goals.
+          </p>
+          <Link
+            href="/"
+            className="text-white font-medium text-lg lg:text-2xl w-fit lg:mt-5 p-3 bg-s2s-purple rounded-lg hover:bg-s2s-orange duration-200"
+          >
+            Book a meeting with our Branding team
+          </Link>
+        </div>
+      </div>
+      <OurWorkSBP />
+      <ClientMarquee />
     </>
   );
 }

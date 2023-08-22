@@ -1,28 +1,31 @@
-export default function Slider1() {
+export default function Slider5() {
   return (
     <>
+      {" "}
       <div className="flex justify-center items-center">
         <div className="carousel lg:w-[90%] ">
-          {/* CHALLENGE 1 */}
+          {/* CHALLENGE 5 */}
           <div
-            id="slide1-1"
+            id="slide5-1"
             className="carousel-item relative w-full bg-white m-6 rounded-xl"
           >
             <div className="p-3 lg:p-5 grid grid-cols-5 gap-3 lg:justify-center lg:items-center">
               {/* TEXT */}
               <div className="col-span-4 flex gap-8 flex-col justify-center text-sm lg:text-2xl p-4 lg:p-10">
                 <h2 className="text-xl lg:text-4xl font-extrabold text-s2s-purple ">
-                  Challenge 1
+                  Challenge 5
                 </h2>
                 <h2 className="font-semibold text-xl lg:text-4xl">
-                  Lack of Clarity in Business Strategy{" "}
+                  Implementation and Execution
                 </h2>
                 <p className="text-s2s-gray font-medium">
-                  The company may have an{" "}
+                  Translating the defined brand strategy, messaging, and value
+                  proposition into tangible{" "}
                   <span className="text-black">
-                    unclear or outdated business strategy
-                  </span>{" "}
-                  that doesn't align with its goals or market trends.
+                    {" "}
+                    marketing materials and customer interactions can be
+                    challenging.
+                  </span>
                 </p>
               </div>
 
@@ -49,7 +52,7 @@ export default function Slider1() {
                 </div>
 
                 <a
-                  href="#slide1-2"
+                  href="#slide5-2"
                   title="right arrow"
                   className="p-2 text-s2s-orange transition-colors duration-300 border border-s2s-orange rounded-full rtl:-scale-x-100 lg:mx-6 hover:text-white hover:bg-s2s-orange"
                 >
@@ -71,35 +74,35 @@ export default function Slider1() {
               </div>
             </div>
           </div>
-          {/* SOLUTION 1 */}
+          {/* SOLUTION 5 */}
           <div
-            id="slide1-2"
+            id="slide5-2"
             className="carousel-item relative w-full bg-white m-6 rounded-xl"
           >
             <div className="p-3 lg:p-5 grid grid-cols-5 gap-3 lg:justify-center lg:items-center">
               {/* TEXT */}
               <div className="col-span-4 flex gap-8 flex-col justify-center text-sm lg:text-2xl p-4 lg:p-10">
                 <h2 className="text-xl lg:text-4xl font-extrabold text-s2s-purple ">
-                  Solution 1
+                  Solution 5
                 </h2>
                 <h2 className="font-semibold text-xl lg:text-4xl">
-                  Lack of Clarity in Business Strategy{" "}
+                  Implementation and Execution{" "}
                 </h2>
                 <ul className="list-disc list-inside text-s2s-gray font-medium">
                   <li>
-                    Conduct a{" "}
+                    Develop detailed brand guidelines that{" "}
                     <span className="text-black">
                       {" "}
-                      comprehensive analysis of the company's current strategy
+                      cover visual identity, messaging, and communication style.
                     </span>
-                    , competitive landscape, and market trends.
                   </li>
                   <li>
+                    Create an implementation plan that outlines specific steps
+                    for rolling out the
                     <span className="text-black">
-                      Facilitate strategic planning sessions{" "}
+                      {" "}
+                      new branding and proposition across various touchpoints.
                     </span>{" "}
-                    with key stakeholders to define or refine the company's
-                    vision, mission, and strategic goals.
                   </li>
                 </ul>
               </div>
@@ -107,7 +110,7 @@ export default function Slider1() {
               <div className="absolute top-1 lg:top-5 right-5 flex items-center justify-around gap-5 lg:gap-0 lg:justify-start">
                 <a
                   title="left arrow"
-                  href="#slide1-1"
+                  href="#slide5-1"
                   className="p-2 text-s2s-orange transition-colors duration-300 border border-s2s-orange rounded-full rtl:-scale-x-100 hover:text-white hover:bg-s2s-orange"
                 >
                   <svg
@@ -125,9 +128,8 @@ export default function Slider1() {
                     />
                   </svg>
                 </a>
-
                 <a
-                  href="#slide1-3"
+                  href="#slide5-3"
                   title="right arrow"
                   className="p-2 text-s2s-orange transition-colors duration-300 border border-s2s-orange rounded-full rtl:-scale-x-100 lg:mx-6 hover:text-white hover:bg-s2s-orange"
                 >
@@ -149,39 +151,42 @@ export default function Slider1() {
               </div>
             </div>
           </div>
-          {/* HOW WE TACKLE 1 */}
+          {/* HOW WE TACKLE 5 */}
           <div
-            id="slide1-3"
+            id="slide5-3"
             className="carousel-item relative w-full bg-white m-6 rounded-xl"
           >
             <div className="p-3 lg:p-5 grid grid-cols-5 gap-3 lg:justify-center lg:items-center">
               {/* TEXT */}
               <div className="col-span-4 flex gap-8 flex-col justify-center text-sm lg:text-2xl p-4 lg:p-10">
                 <h2 className="text-xl lg:text-4xl font-extrabold text-s2s-purple ">
-                  How we tackle Challenge 1
+                  How we tackle Challenge 5
                 </h2>
                 <h2 className="font-semibold text-xl lg:text-4xl">
-                  Lack of Clarity in Business Strategy{" "}
+                  Implementation and Execution
                 </h2>
                 <ul className="list-disc list-inside text-s2s-gray font-medium">
                   <li>
                     <span className="text-black">
-                      Collaborate with the your leadership team{" "}
-                    </span>
-                    to gather insights and perspectives on the company's
-                    direction. , competitive landscape, and market trends.
+                      Collaborate with your marketing team{" "}
+                    </span>{" "}
+                    to ensure the new brand identity is consistently applied to
+                    all materials and channels.
                   </li>
                   <li>
                     <span className="text-black">
                       {" "}
-                      Develop a clear and concise strategic roadmap
+                      Monitor the implementation process{" "}
                     </span>{" "}
-                    that outlines your goals, priorities, and action steps.{" "}
+                    and address any deviations from the established guidelines.
                   </li>
                   <li>
-                    Ensure that the align{" "}
-                    <span className="text-black">branding and proposition</span>{" "}
-                    with the revised strategic direction.
+                    {" "}
+                    <span className="text-black">
+                      Provide training and resources
+                    </span>{" "}
+                    to your internal teams to ensure consistent execution of the
+                    new branding and proposition.
                   </li>
                 </ul>
               </div>
@@ -190,7 +195,7 @@ export default function Slider1() {
               <div className="absolute top-1 lg:top-5 right-5 flex items-center justify-around gap-5 lg:gap-0 lg:justify-start">
                 <a
                   title="left arrow"
-                  href="#slide1-2"
+                  href="#slide5-2"
                   className="p-2 text-s2s-orange transition-colors duration-300 border border-s2s-orange rounded-full rtl:-scale-x-100 hover:text-white hover:bg-s2s-orange"
                 >
                   <svg

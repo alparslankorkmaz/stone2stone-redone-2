@@ -51,7 +51,7 @@ export default function WhatWeDo() {
                   </p>
                   {/* BUTTON */}
                   <Link href="/">
-                    <div className="text-white w-fit mt-10 lg:mt-20 p-3 bg-s2s-purple rounded-lg hover:bg-s2s-orange">
+                    <div className="text-white w-fit mt-10 lg:mt-20 p-3 bg-s2s-purple rounded-lg hover:bg-s2s-orange duration-200">
                       Book a meeting with our Brand Growth team
                     </div>
                   </Link>
@@ -114,7 +114,7 @@ export default function WhatWeDo() {
                   </p>
                   {/* BUTTON */}
                   <Link href="/">
-                    <div className="text-white w-fit mt-10 lg:mt-20 p-3 bg-s2s-purple rounded-lg hover:bg-s2s-orange">
+                    <div className="text-white w-fit mt-10 lg:mt-20 p-3 bg-s2s-purple rounded-lg hover:bg-s2s-orange duration-200">
                       Book a meeting with our Digital team
                     </div>
                   </Link>
@@ -176,7 +176,7 @@ export default function WhatWeDo() {
                   </p>
                   {/* BUTTON */}
                   <Link href="/">
-                    <div className="text-white w-fit mt-10 lg:mt-20 p-3 bg-s2s-purple rounded-lg hover:bg-s2s-orange">
+                    <div className="text-white w-fit mt-10 lg:mt-20 p-3 bg-s2s-purple rounded-lg hover:bg-s2s-orange duration-200">
                       Book a meeting with our ABM team
                     </div>
                   </Link>
@@ -239,7 +239,7 @@ export default function WhatWeDo() {
                   </p>
                   {/* BUTTON */}
                   <Link href="/">
-                    <div className="text-white w-fit mt-10 lg:mt-20 p-3 bg-s2s-purple rounded-lg hover:bg-s2s-orange">
+                    <div className="text-white w-fit mt-10 lg:mt-20 p-3 bg-s2s-purple rounded-lg hover:bg-s2s-orange duration-200">
                       Book a meeting with our Content team
                     </div>
                   </Link>
@@ -302,7 +302,7 @@ export default function WhatWeDo() {
                   </p>
                   {/* BUTTON */}
                   <Link href="/">
-                    <div className="text-white w-fit mt-10 lg:mt-20 p-3 bg-s2s-purple rounded-lg hover:bg-s2s-orange">
+                    <div className="text-white w-fit mt-10 lg:mt-20 p-3 bg-s2s-purple rounded-lg hover:bg-s2s-orange duration-200">
                       Book a meeting with our Gamification team
                     </div>
                   </Link>
