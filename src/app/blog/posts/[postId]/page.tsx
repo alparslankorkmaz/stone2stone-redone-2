@@ -39,15 +39,21 @@ export default async function Post({ params }: { params: { postId: string } }) {
   const pubDate = getFormattedDate(date);
 
   return (
-    <section className="p-32 bg-hero_bg bg-cover bg-bottom text-white min-h-screen prose prose-xl w-full">
-      <h1 className="text-3xl mt-4 mb-0">{title}</h1>
-      <p className="mt-0">{pubDate}</p>
-      <article>
-        <section dangerouslySetInnerHTML={{ __html: contentHtml }} />
-        <p className="my-5">
-          <Link href="/blog">← Back to posts</Link>
-        </p>
-      </article>
-    </section>
+    <>
+      <div className="flex flex-col gap-10 justify-center items-center text-white bg-hero_bg bg-cover bg-bottom min-h-screen">
+        <h1 className="text-5xl">{title}</h1>
+        <p className="mt-0">{pubDate}</p>
+      </div>
+      <div className="flex justify-center items-center">
+        <div className="my-24 text-slate-900 prose prose-xl">
+          <article>
+            <section dangerouslySetInnerHTML={{ __html: contentHtml }} />
+            <p className="my-5">
+              <Link href="/blog">← Back to posts</Link>
+            </p>
+          </article>
+        </div>
+      </div>
+    </>
   );
 }
