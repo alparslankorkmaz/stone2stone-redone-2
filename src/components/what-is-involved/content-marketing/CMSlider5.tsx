@@ -1,4 +1,4 @@
-export default function ABMSlider5() {
+export default function CMSlider5() {
   return (
     <>
       {" "}
@@ -16,13 +16,13 @@ export default function ABMSlider5() {
                   Challenge 5
                 </h2>
                 <h2 className="font-semibold text-xl lg:text-4xl">
-                  Measuring and Demonstrating ROI
+                  Measuring Content Effectiveness
                 </h2>
                 <p className="text-s2s-gray font-medium">
                   <span className="text-black">
-                    Proving the impact and ROI of your ABM efforts
-                  </span>{" "}
-                  can be challenging without accurate measurement and reporting.
+                    Evaluating the impact of your content marketing efforts{" "}
+                  </span>
+                  and attributing results to business goals can be complex.
                 </p>
               </div>
 
@@ -83,24 +83,23 @@ export default function ABMSlider5() {
                   Solution 5
                 </h2>
                 <h2 className="font-semibold text-xl lg:text-4xl">
-                  Measuring and Demonstrating ROI{" "}
+                  Measuring Content Effectiveness{" "}
                 </h2>
                 <ul className="list-disc list-inside text-s2s-gray font-medium">
                   <li>
                     Define{" "}
                     <span className="text-black">
-                      clear KPIs that align with your ABM objectives,{" "}
-                    </span>
-                    such as pipeline contribution, deal velocity, or customer
-                    lifetime value.{" "}
+                      clear content KPIs aligned with your marketing objectives,
+                    </span>{" "}
+                    such as traffic, engagement, leads, and conversions.
                   </li>
                   <li>
-                    Implement
+                    Implement analytics
                     <span className="text-black">
                       {" "}
-                      robust attribution models to track the influence
+                      tools to track and measure the performance
                     </span>{" "}
-                    of ABM activities on conversion.
+                    of your content.
                   </li>
                 </ul>
               </div>
@@ -161,30 +160,29 @@ export default function ABMSlider5() {
                   How we tackle Challenge 5
                 </h2>
                 <h2 className="font-semibold text-xl lg:text-4xl">
-                  Measuring and Demonstrating ROI
+                  Measuring Content Effectiveness
                 </h2>
                 <ul className="list-disc list-inside text-s2s-gray font-medium">
                   <li>
                     <span className="text-black">
-                      Integrate your marketing automation platform{" "}
+                      Set up goal tracking and conversion funnels
                     </span>{" "}
-                    with your CRM to capture end-to-end account engagement data.
+                    to monitor user journeys and content-driven conversions.
                   </li>
                   <li>
                     <span className="text-black">
                       {" "}
-                      Regularly analyse and report on the key metrics,
+                      Regularly review content performance
                     </span>{" "}
-                    demonstrating the impact of your ABM campaigns on revenue
-                    generation.
+                    reports and adjust the strategy based on data insights.
                   </li>
                   <li>
                     {" "}
                     <span className="text-black">
-                      Collaborate with your finance team
+                      Utilise marketing automation platforms
                     </span>{" "}
-                    to quantify the financial impact of closed deals attributed
-                    to ABM efforts.
+                    to attribute leads and conversions to specific content
+                    pieces.
                   </li>
                 </ul>
               </div>

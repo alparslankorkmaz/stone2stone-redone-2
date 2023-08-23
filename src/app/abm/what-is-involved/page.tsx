@@ -16,7 +16,7 @@ export default function page() {
           <h1 className="text-4xl lg:text-7xl leading-none font-semibold mt-16 lg:mt-24 lg:w-3/5">
             What is involved in an ABM project?{" "}
           </h1>
-          <p className="mt-3 lg:mt-10 px-8 lg:px-72 text-sm leading-none lg:text-lg">
+          <p className="mt-3 lg:mt-10 px-8 lg:px-72 text-sm leading-none font-medium lg:text-xl">
             Here are some common challenges that may arise during a ABM project
             along with how Stone2stone address them{" "}
           </p>

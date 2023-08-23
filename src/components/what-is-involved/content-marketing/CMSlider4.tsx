@@ -1,28 +1,28 @@
-export default function ABMSlider5() {
+export default function CMSlider4() {
   return (
     <>
-      {" "}
       <div className="flex justify-center items-center">
         <div className="carousel lg:w-[90%] ">
-          {/* CHALLENGE 5 */}
+          {/* CHALLENGE 4 */}
           <div
-            id="slide5-1"
+            id="slide4-1"
             className="carousel-item relative w-full bg-white m-6 rounded-xl"
           >
             <div className="p-3 lg:p-5 grid grid-cols-5 gap-3 lg:justify-center lg:items-center">
               {/* TEXT */}
               <div className="col-span-4 flex gap-8 flex-col justify-center text-sm lg:text-2xl p-4 lg:p-10">
                 <h2 className="text-xl lg:text-4xl font-extrabold text-s2s-purple ">
-                  Challenge 5
+                  Challenge 4
                 </h2>
                 <h2 className="font-semibold text-xl lg:text-4xl">
-                  Measuring and Demonstrating ROI
+                  Audience Engagement and Interactivity
                 </h2>
                 <p className="text-s2s-gray font-medium">
+                  Fostering
                   <span className="text-black">
-                    Proving the impact and ROI of your ABM efforts
+                    engagement and interaction with your content
                   </span>{" "}
-                  can be challenging without accurate measurement and reporting.
+                  can be a hurdle, especially in competitive online spaces.
                 </p>
               </div>
 
@@ -49,7 +49,7 @@ export default function ABMSlider5() {
                 </div>
 
                 <a
-                  href="#slide5-2"
+                  href="#slide4-2"
                   title="right arrow"
                   className="p-2 text-s2s-orange transition-colors duration-300 border border-s2s-orange rounded-full rtl:-scale-x-100 lg:mx-6 hover:text-white hover:bg-s2s-orange"
                 >
@@ -71,36 +71,36 @@ export default function ABMSlider5() {
               </div>
             </div>
           </div>
-          {/* SOLUTION 5 */}
+          {/* SOLUTION 4 */}
           <div
-            id="slide5-2"
+            id="slide4-2"
             className="carousel-item relative w-full bg-white m-6 rounded-xl"
           >
             <div className="p-3 lg:p-5 grid grid-cols-5 gap-3 lg:justify-center lg:items-center">
               {/* TEXT */}
               <div className="col-span-4 flex gap-8 flex-col justify-center text-sm lg:text-2xl p-4 lg:p-10">
                 <h2 className="text-xl lg:text-4xl font-extrabold text-s2s-purple ">
-                  Solution 5
+                  Solution 4
                 </h2>
                 <h2 className="font-semibold text-xl lg:text-4xl">
-                  Measuring and Demonstrating ROI{" "}
+                  Audience Engagement and Interactivity{" "}
                 </h2>
                 <ul className="list-disc list-inside text-s2s-gray font-medium">
                   <li>
-                    Define{" "}
+                    Create{" "}
                     <span className="text-black">
-                      clear KPIs that align with your ABM objectives,{" "}
-                    </span>
-                    such as pipeline contribution, deal velocity, or customer
-                    lifetime value.{" "}
+                      interactive content formats
+                    </span>{" "}
+                    such as quizzes, polls, surveys, and interactive
+                    infographics.
                   </li>
                   <li>
-                    Implement
+                    Encourage
                     <span className="text-black">
                       {" "}
-                      robust attribution models to track the influence
+                      user-generated content and facilitate discussions
                     </span>{" "}
-                    of ABM activities on conversion.
+                    through comments and social media.
                   </li>
                 </ul>
               </div>
@@ -108,7 +108,7 @@ export default function ABMSlider5() {
               <div className="absolute top-1 lg:top-5 right-5 flex items-center justify-around gap-5 lg:gap-0 lg:justify-start">
                 <a
                   title="left arrow"
-                  href="#slide5-1"
+                  href="#slide4-1"
                   className="p-2 text-s2s-orange transition-colors duration-300 border border-s2s-orange rounded-full rtl:-scale-x-100 hover:text-white hover:bg-s2s-orange"
                 >
                   <svg
@@ -126,8 +126,9 @@ export default function ABMSlider5() {
                     />
                   </svg>
                 </a>
+
                 <a
-                  href="#slide5-3"
+                  href="#slide4-3"
                   title="right arrow"
                   className="p-2 text-s2s-orange transition-colors duration-300 border border-s2s-orange rounded-full rtl:-scale-x-100 lg:mx-6 hover:text-white hover:bg-s2s-orange"
                 >
@@ -149,42 +150,39 @@ export default function ABMSlider5() {
               </div>
             </div>
           </div>
-          {/* HOW WE TACKLE 5 */}
+          {/* HOW WE TACKLE 4 */}
           <div
-            id="slide5-3"
+            id="slide4-3"
             className="carousel-item relative w-full bg-white m-6 rounded-xl"
           >
             <div className="p-3 lg:p-5 grid grid-cols-5 gap-3 lg:justify-center lg:items-center">
               {/* TEXT */}
               <div className="col-span-4 flex gap-8 flex-col justify-center text-sm lg:text-2xl p-4 lg:p-10">
                 <h2 className="text-xl lg:text-4xl font-extrabold text-s2s-purple ">
-                  How we tackle Challenge 5
+                  How we tackle Challenge 4
                 </h2>
                 <h2 className="font-semibold text-xl lg:text-4xl">
-                  Measuring and Demonstrating ROI
+                  Audience Engagement and Interactivity
                 </h2>
                 <ul className="list-disc list-inside text-s2s-gray font-medium">
                   <li>
                     <span className="text-black">
-                      Integrate your marketing automation platform{" "}
+                      Experiment with different interactive content formats
                     </span>{" "}
-                    with your CRM to capture end-to-end account engagement data.
+                    to captivate your audience's attention.
                   </li>
                   <li>
                     <span className="text-black">
-                      {" "}
-                      Regularly analyse and report on the key metrics,
+                      Respond promptly to comments
                     </span>{" "}
-                    demonstrating the impact of your ABM campaigns on revenue
-                    generation.
+                    and feedback to encourage ongoing engagement.
                   </li>
                   <li>
-                    {" "}
                     <span className="text-black">
-                      Collaborate with your finance team
+                      Promote user-generated content
                     </span>{" "}
-                    to quantify the financial impact of closed deals attributed
-                    to ABM efforts.
+                    by featuring customer stories, testimonials, and
+                    contributions.
                   </li>
                 </ul>
               </div>
@@ -193,7 +191,7 @@ export default function ABMSlider5() {
               <div className="absolute top-1 lg:top-5 right-5 flex items-center justify-around gap-5 lg:gap-0 lg:justify-start">
                 <a
                   title="left arrow"
-                  href="#slide5-2"
+                  href="#slide4-2"
                   className="p-2 text-s2s-orange transition-colors duration-300 border border-s2s-orange rounded-full rtl:-scale-x-100 hover:text-white hover:bg-s2s-orange"
                 >
                   <svg

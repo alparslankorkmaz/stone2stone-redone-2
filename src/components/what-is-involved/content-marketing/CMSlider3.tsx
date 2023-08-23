@@ -1,28 +1,29 @@
-export default function ABMSlider5() {
+export default function CMSlider3() {
   return (
     <>
-      {" "}
       <div className="flex justify-center items-center">
         <div className="carousel lg:w-[90%] ">
-          {/* CHALLENGE 5 */}
+          {/* CHALLENGE 3 */}
           <div
-            id="slide5-1"
+            id="slide3-1"
             className="carousel-item relative w-full bg-white m-6 rounded-xl"
           >
             <div className="p-3 lg:p-5 grid grid-cols-5 gap-3 lg:justify-center lg:items-center">
               {/* TEXT */}
               <div className="col-span-4 flex gap-8 flex-col justify-center text-sm lg:text-2xl p-4 lg:p-10">
                 <h2 className="text-xl lg:text-4xl font-extrabold text-s2s-purple ">
-                  Challenge 5
+                  Challenge 3
                 </h2>
                 <h2 className="font-semibold text-xl lg:text-4xl">
-                  Measuring and Demonstrating ROI
+                  SEO and Content Optimisation
                 </h2>
                 <p className="text-s2s-gray font-medium">
+                  Ensuring that your
                   <span className="text-black">
-                    Proving the impact and ROI of your ABM efforts
+                    {" "}
+                    content is discoverable and ranks well in search engines
                   </span>{" "}
-                  can be challenging without accurate measurement and reporting.
+                  is crucial for driving organic traffic.
                 </p>
               </div>
 
@@ -49,7 +50,7 @@ export default function ABMSlider5() {
                 </div>
 
                 <a
-                  href="#slide5-2"
+                  href="#slide3-2"
                   title="right arrow"
                   className="p-2 text-s2s-orange transition-colors duration-300 border border-s2s-orange rounded-full rtl:-scale-x-100 lg:mx-6 hover:text-white hover:bg-s2s-orange"
                 >
@@ -71,36 +72,36 @@ export default function ABMSlider5() {
               </div>
             </div>
           </div>
-          {/* SOLUTION 5 */}
+          {/* SOLUTION 3 */}
           <div
-            id="slide5-2"
+            id="slide3-2"
             className="carousel-item relative w-full bg-white m-6 rounded-xl"
           >
             <div className="p-3 lg:p-5 grid grid-cols-5 gap-3 lg:justify-center lg:items-center">
               {/* TEXT */}
               <div className="col-span-4 flex gap-8 flex-col justify-center text-sm lg:text-2xl p-4 lg:p-10">
                 <h2 className="text-xl lg:text-4xl font-extrabold text-s2s-purple ">
-                  Solution 5
+                  Solution 3
                 </h2>
                 <h2 className="font-semibold text-xl lg:text-4xl">
-                  Measuring and Demonstrating ROI{" "}
+                  SEO and Content Optimisation{" "}
                 </h2>
                 <ul className="list-disc list-inside text-s2s-gray font-medium">
                   <li>
-                    Define{" "}
-                    <span className="text-black">
-                      clear KPIs that align with your ABM objectives,{" "}
-                    </span>
-                    such as pipeline contribution, deal velocity, or customer
-                    lifetime value.{" "}
-                  </li>
-                  <li>
-                    Implement
+                    Conduct
                     <span className="text-black">
                       {" "}
-                      robust attribution models to track the influence
+                      keyword research to identify relevant and high-impact
+                      keywords
                     </span>{" "}
-                    of ABM activities on conversion.
+                    for your industry.
+                  </li>
+                  <li>
+                    Optimise your content for on-page SEO elements, such as
+                    <span className="text-black">
+                      {" "}
+                      meta titles, descriptions, and headings.
+                    </span>{" "}
                   </li>
                 </ul>
               </div>
@@ -108,7 +109,7 @@ export default function ABMSlider5() {
               <div className="absolute top-1 lg:top-5 right-5 flex items-center justify-around gap-5 lg:gap-0 lg:justify-start">
                 <a
                   title="left arrow"
-                  href="#slide5-1"
+                  href="#slide3-1"
                   className="p-2 text-s2s-orange transition-colors duration-300 border border-s2s-orange rounded-full rtl:-scale-x-100 hover:text-white hover:bg-s2s-orange"
                 >
                   <svg
@@ -126,8 +127,9 @@ export default function ABMSlider5() {
                     />
                   </svg>
                 </a>
+
                 <a
-                  href="#slide5-3"
+                  href="#slide3-3"
                   title="right arrow"
                   className="p-2 text-s2s-orange transition-colors duration-300 border border-s2s-orange rounded-full rtl:-scale-x-100 lg:mx-6 hover:text-white hover:bg-s2s-orange"
                 >
@@ -149,42 +151,39 @@ export default function ABMSlider5() {
               </div>
             </div>
           </div>
-          {/* HOW WE TACKLE 5 */}
+          {/* HOW WE TACKLE 3 */}
           <div
-            id="slide5-3"
+            id="slide3-3"
             className="carousel-item relative w-full bg-white m-6 rounded-xl"
           >
             <div className="p-3 lg:p-5 grid grid-cols-5 gap-3 lg:justify-center lg:items-center">
               {/* TEXT */}
               <div className="col-span-4 flex gap-8 flex-col justify-center text-sm lg:text-2xl p-4 lg:p-10">
                 <h2 className="text-xl lg:text-4xl font-extrabold text-s2s-purple ">
-                  How we tackle Challenge 5
+                  How we tackle Challenge 3
                 </h2>
                 <h2 className="font-semibold text-xl lg:text-4xl">
-                  Measuring and Demonstrating ROI
+                  SEO and Content Optimisation
                 </h2>
                 <ul className="list-disc list-inside text-s2s-gray font-medium">
                   <li>
-                    <span className="text-black">
-                      Integrate your marketing automation platform{" "}
-                    </span>{" "}
-                    with your CRM to capture end-to-end account engagement data.
+                    <span className="text-black">Integrate SEO tools</span> to
+                    conduct keyword analysis and track keyword rankings.
                   </li>
                   <li>
+                    Create
                     <span className="text-black">
                       {" "}
-                      Regularly analyse and report on the key metrics,
+                      in-depth, informative, and valuable content
                     </span>{" "}
-                    demonstrating the impact of your ABM campaigns on revenue
-                    generation.
+                    that addresses user search intent.
                   </li>
                   <li>
-                    {" "}
+                    Regularly
                     <span className="text-black">
-                      Collaborate with your finance team
+                      update and refresh existing content
                     </span>{" "}
-                    to quantify the financial impact of closed deals attributed
-                    to ABM efforts.
+                    to align with evolving search algorithms.
                   </li>
                 </ul>
               </div>
@@ -193,7 +192,7 @@ export default function ABMSlider5() {
               <div className="absolute top-1 lg:top-5 right-5 flex items-center justify-around gap-5 lg:gap-0 lg:justify-start">
                 <a
                   title="left arrow"
-                  href="#slide5-2"
+                  href="#slide3-2"
                   className="p-2 text-s2s-orange transition-colors duration-300 border border-s2s-orange rounded-full rtl:-scale-x-100 hover:text-white hover:bg-s2s-orange"
                 >
                   <svg
