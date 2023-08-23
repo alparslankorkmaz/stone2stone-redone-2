@@ -11,7 +11,7 @@ export default function page() {
             <h1 className="text-4xl lg:text-7xl mb-5 font-semibold">
               Unleash potential in B2B Technology Marketing
             </h1>
-            <p className="lg:text-xl lg:w-10/12">
+            <p className="lg:text-xl font-medium lg:w-10/12">
               Stone2Stone has already developed a vast catalogue of treasured
               clients, some old, many new. As a result, we too have had to
               expand. With a dedicated team of 9, we continue to grow as
@@ -37,7 +37,7 @@ export default function page() {
           The team behind our{" "}
           <span className="text-black">exceptional results.</span>{" "}
         </h2>
-        <div className="col-span-5 lg:col-span-3 lg:text-2xl">
+        <div className="col-span-5  lg:col-span-3 lg:text-2xl">
           <p className="text-s2s-gray mb-5">
             A great workplace isn't defined by its location or size. It's the
             people who make the real difference. We believe that exceptional

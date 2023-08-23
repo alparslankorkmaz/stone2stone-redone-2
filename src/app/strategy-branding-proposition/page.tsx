@@ -12,7 +12,7 @@ export default function page() {
             <h1 className="text-4xl lg:text-7xl mb-5 font-semibold">
               Strategy, Branding and Proposition for B2B Technology Companies{" "}
             </h1>
-            <p className="lg:text-xl ">
+            <p className="lg:text-xl font-medium">
               Your strategic approach must combine meticulous market analysis,
               customer insights, and competitor research to craft a tailored
               plan for your brand's growth. It's about creating a distinct

@@ -29,6 +29,10 @@ const config: Config = {
   daisyui: {
     themes: [],
   },
-  plugins: [require("daisyui")],
+  plugins: [
+    require("daisyui"),
+    require("@tailwindcss/forms"),
+    require("@tailwindcss/typography"),
+  ],
 };
 export default config;

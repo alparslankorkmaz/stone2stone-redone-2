@@ -12,7 +12,7 @@ export default function page() {
             <h1 className="text-4xl lg:text-7xl mb-5 font-semibold">
               Gamification for B2B Technology Companies{" "}
             </h1>
-            <p className="lg:text-xl ">
+            <p className="lg:text-xl font-medium">
               Leverage the inherent human desire for competition, achievement,
               and rewards, a gamification service can unlock new avenues for
               your customer interaction{" "}

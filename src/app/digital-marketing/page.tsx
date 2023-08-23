@@ -12,7 +12,7 @@ export default function page() {
             <h1 className="text-4xl lg:text-7xl mb-5 font-semibold">
               Digital Marketing for B2B Technology Companies{" "}
             </h1>
-            <p className="lg:text-xl ">
+            <p className="lg:text-xl font-medium">
               You need a team of skilled digital marketers that leverage the
               latest trends, tools, and technologies to create a comprehensive
               strategy tailored to your specific objectives.{" "}

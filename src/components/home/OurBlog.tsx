@@ -3,7 +3,6 @@ import Link from "next/link";
 export default function OurBlog() {
   return (
     <>
-      {" "}
       <div className="p-5 lg:px-20 my-10">
         <div className="flex flex-wrap lg:flex-nowrap justify-between items-center text-2xl lg:text-5xl font-semibold my-14 lg:leading-tight">
           <h4 className="text-black w-3/5">

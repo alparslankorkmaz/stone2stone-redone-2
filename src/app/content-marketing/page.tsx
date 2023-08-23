@@ -12,7 +12,7 @@ export default function page() {
             <h1 className="text-4xl lg:text-7xl mb-5 font-semibold">
               Content Marketing for B2B Technology Companies{" "}
             </h1>
-            <p className="lg:text-xl ">
+            <p className="lg:text-xl font-medium">
               By using Stone2stone you have access to talented content creators
               and strategists who craft high-quality, relevant, and shareable
               content that resonates with your target audience.{" "}

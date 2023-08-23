@@ -12,7 +12,7 @@ export default function page() {
             <h1 className="text-4xl lg:text-7xl mb-5 font-semibold">
               Tailored solutions for B2B Technology Marketing{" "}
             </h1>
-            <p className="lg:text-xl ">
+            <p className="lg:text-xl font-medium">
               With a combination of meticulous strategy development, tailored
               solutions, and a deep understanding of your industry landscape,
               you can ensure every effort is dedicated to delivering measurable

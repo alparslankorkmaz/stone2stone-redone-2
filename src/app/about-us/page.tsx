@@ -12,7 +12,7 @@ export default function page() {
             <h1 className="text-4xl lg:text-7xl mb-5 font-semibold">
               Lay a new path in B2B Technology Marketing
             </h1>
-            <p className="lg:text-xl lg:w-10/12">
+            <p className="lg:text-xl font-medium lg:w-10/12">
               Move away from the repetitive cycle that limits your creativity
               and reduces your core strenghts. Commit to pushing the boundaries
               of B2B marketing and unleash your potential.

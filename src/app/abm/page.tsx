@@ -12,7 +12,7 @@ export default function page() {
             <h1 className="text-4xl lg:text-7xl mb-5 font-semibold">
               ABM for B2B Technology Companies{" "}
             </h1>
-            <p className="lg:text-xl ">
+            <p className="lg:text-xl font-medium">
               Focus on personalised and tailored marketing efforts that are
               directed at specific key accounts or a few target companies.{" "}
             </p>

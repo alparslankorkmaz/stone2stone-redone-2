@@ -11,7 +11,7 @@ export default function page() {
             <h1 className="text-4xl lg:text-7xl mb-5 font-semibold">
               Elevating brands across the B2B Marketing world{" "}
             </h1>
-            <p className="lg:text-xl lg:w-10/12">
+            <p className="lg:text-xl lg:w-10/12 font-medium">
               Although our journey began in the technology sector, our path has
               evolved far beyond those origins. Today, we proudly collaborate
               with diverse B2B companies, helping them connect with their target

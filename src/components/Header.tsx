@@ -187,7 +187,7 @@ export default function Header() {
                 {/* WORK */}
                 <li>
                   <Link
-                    href="/"
+                    href="/case-studies"
                     onClick={() => setIsOpen(false)}
                     className="w-fit lg:mt-0 text-white text-center hover:text-s2s-orange duration-200"
                   >
@@ -197,7 +197,7 @@ export default function Header() {
                 {/* BLOG */}
                 <li>
                   <Link
-                    href="/"
+                    href="/blog"
                     onClick={() => setIsOpen(false)}
                     className="w-fit lg:mt-0 text-white text-center hover:text-s2s-orange duration-200"
                   >
