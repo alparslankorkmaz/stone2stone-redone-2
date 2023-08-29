@@ -6,7 +6,6 @@ export default function WhatWeDo() {
       <div className="p-5 lg:px-20">
         <div className="text-2xl lg:text-5xl font-semibold my-14 lg:leading-tight">
           <h3 className="text-black">
-            {" "}
             What we do:{" "}
             <span className="block text-s2s-gray">
               Lead Generation in B2B Technology Marketing

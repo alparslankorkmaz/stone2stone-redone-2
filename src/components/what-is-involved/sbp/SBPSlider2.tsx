@@ -6,7 +6,7 @@ export default function SBPSlider2() {
           {/* CHALLENGE 2 */}
           <div
             id="slide2-1"
-            className="carousel-item relative w-full bg-white m-6 rounded-xl"
+            className="carousel-item relative w-[90%] bg-white m-6 rounded-xl"
           >
             <div className="p-3 lg:p-5 grid grid-cols-5 gap-3 lg:justify-center lg:items-center">
               {/* TEXT */}
@@ -75,7 +75,7 @@ export default function SBPSlider2() {
           {/* SOLUTION 2 */}
           <div
             id="slide2-2"
-            className="carousel-item relative w-full bg-white m-6 rounded-xl"
+            className="carousel-item relative w-[90%] bg-white m-6 rounded-xl"
           >
             <div className="p-3 lg:p-5 grid grid-cols-5 gap-3 lg:justify-center lg:items-center">
               {/* TEXT */}
@@ -156,7 +156,7 @@ export default function SBPSlider2() {
           {/* HOW WE TACKLE 2 */}
           <div
             id="slide2-3"
-            className="carousel-item relative w-full bg-white m-6 rounded-xl"
+            className="carousel-item relative w-[90%] bg-white m-6 rounded-xl"
           >
             <div className="p-3 lg:p-5 grid grid-cols-5 gap-3 lg:justify-center lg:items-center">
               {/* TEXT */}

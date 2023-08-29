@@ -1,4 +1,11 @@
+"use client";
+import { useState } from "react";
+import Link from "next/link";
+
+import { studies } from "../../../constant/caseStudies";
+
 export default function page() {
+  const [filteredStudies, setFilteredStudies] = useState(studies);
   return (
     <>
       {/* HERO */}
@@ -59,7 +66,7 @@ export default function page() {
                   type="radio"
                   name="radio"
                   id="sbp"
-                  className="mx-2 cursor-pointer rounded-none text-s2s-orange w-3 h-3"
+                  className="form-radio mx-2 cursor-pointer rounded-none text-s2s-orange w-3 h-3"
                 ></input>
                 <label className="cursor-pointer" htmlFor="sbp">
                   Strategy, Branding and Proposition
@@ -70,7 +77,7 @@ export default function page() {
                   type="radio"
                   name="radio"
                   id="dm"
-                  className="mx-2 cursor-pointer rounded-none text-s2s-orange w-3 h-3"
+                  className="form-radio mx-2 cursor-pointer rounded-none text-s2s-orange w-3 h-3"
                 ></input>
                 <label className="cursor-pointer" htmlFor="dm">
                   Digital Marketing
@@ -81,7 +88,7 @@ export default function page() {
                   type="radio"
                   name="radio"
                   id="abm"
-                  className="mx-2 cursor-pointer rounded-none text-s2s-orange w-3 h-3"
+                  className="form-radio mx-2 cursor-pointer rounded-none text-s2s-orange w-3 h-3"
                 ></input>
                 <label className="cursor-pointer" htmlFor="abm">
                   Account Based Marketing
@@ -92,7 +99,7 @@ export default function page() {
                   type="radio"
                   name="radio"
                   id="cm"
-                  className="mx-2 cursor-pointer rounded-none text-s2s-orange w-3 h-3"
+                  className="form-radio mx-2 cursor-pointer rounded-none text-s2s-orange w-3 h-3"
                 ></input>
                 <label className="cursor-pointer" htmlFor="cm">
                   Content Marketing
@@ -103,7 +110,7 @@ export default function page() {
                   type="radio"
                   name="radio"
                   id="gam"
-                  className="mx-2 cursor-pointer rounded-none text-s2s-orange w-3 h-3"
+                  className="form-radio mx-2 cursor-pointer rounded-none text-s2s-orange w-3 h-3"
                 ></input>
                 <label className="cursor-pointer" htmlFor="gam">
                   Gamification
@@ -114,7 +121,7 @@ export default function page() {
                   type="radio"
                   name="radio"
                   id="all"
-                  className="mx-2 cursor-pointer rounded-none text-s2s-orange w-3 h-3"
+                  className="form-radio mx-2 cursor-pointer rounded-none text-s2s-orange w-3 h-3"
                 ></input>
                 <label className="cursor-pointer" htmlFor="all">
                   All
@@ -123,6 +130,45 @@ export default function page() {
             </ul>
           </div>
         </div>
+      </div>
+      <div className="m-5 lg:m-20">
+        <ul className="grid grid-cols-2 lg:grid-cols-9 gap-4 lg:gap-8">
+          {filteredStudies.map((study) => {
+            const { id, link, img, logo, name, type } = study;
+            return (
+              <li
+                key={id}
+                className="col-span-1 lg:col-span-3 flex justify-center items-center"
+              >
+                <Link href={link} className="">
+                  <div className="relative group w-44 h-44 md:w-72 md:h-72 lg:w-96 lg:h-96">
+                    <img
+                      src={`/img/case-studies/${img}.webp`}
+                      alt="thumbnail"
+                      className="object-cover w-full h-full rounded-xl"
+                    />
+                    <div className="flex justify-center items-center opacity-0 bg-[url('/img/our-work/hover.webp')] rounded-xl bg-center bg-cover ease-in-out duration-300 group-hover:opacity-100 absolute top-0 left-0 h-full w-full"></div>
+                    <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center opacity-0 hover:opacity-100 ease-in-out duration-300">
+                      <div className="text-white flex flex-col h-full text-center justify-center items-center p-5">
+                        <div className="flex justify-center items-center w-28 h-auto">
+                          <img
+                            src={`/img/our-clients/white-logos/${logo}.png`}
+                            alt="company logo"
+                            className="my-5 w-full h-full object-contain"
+                          />
+                        </div>
+                        <p className="lg:mb-5 font-semibold text-lg lg:text-4xl">
+                          {name}
+                        </p>
+                        <p className="lg:my-5 text-sm lg:text-2xl">{type}</p>
+                      </div>
+                    </div>
+                  </div>
+                </Link>
+              </li>
+            );
+          })}
+        </ul>
       </div>
     </>
   );

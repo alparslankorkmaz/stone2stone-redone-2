@@ -6,7 +6,7 @@ export default function GSlider3() {
           {/* CHALLENGE 3 */}
           <div
             id="slide3-1"
-            className="carousel-item relative w-full bg-white m-6 rounded-xl"
+            className="carousel-item relative w-[90%] bg-white m-6 rounded-xl"
           >
             <div className="p-3 lg:p-5 grid grid-cols-5 gap-3 lg:justify-center lg:items-center">
               {/* TEXT */}
@@ -75,7 +75,7 @@ export default function GSlider3() {
           {/* SOLUTION 3 */}
           <div
             id="slide3-2"
-            className="carousel-item relative w-full bg-white m-6 rounded-xl"
+            className="carousel-item relative w-[90%] bg-white m-6 rounded-xl"
           >
             <div className="p-3 lg:p-5 grid grid-cols-5 gap-3 lg:justify-center lg:items-center">
               {/* TEXT */}
@@ -154,7 +154,7 @@ export default function GSlider3() {
           {/* HOW WE TACKLE 3 */}
           <div
             id="slide3-3"
-            className="carousel-item relative w-full bg-white m-6 rounded-xl"
+            className="carousel-item relative w-[90%] bg-white m-6 rounded-xl"
           >
             <div className="p-3 lg:p-5 grid grid-cols-5 gap-3 lg:justify-center lg:items-center">
               {/* TEXT */}

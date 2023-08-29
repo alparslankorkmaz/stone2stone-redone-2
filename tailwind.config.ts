@@ -31,7 +31,7 @@ const config: Config = {
   },
   plugins: [
     require("daisyui"),
-    require("@tailwindcss/forms"),
+    require("@tailwindcss/forms")({ strategy: "class" }),
     require("@tailwindcss/typography"),
   ],
 };
