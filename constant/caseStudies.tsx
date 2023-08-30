@@ -2,10 +2,16 @@ import { BsFillCameraVideoFill } from "react-icons/bs";
 import { BsFillPersonFill } from "react-icons/bs";
 import { FaPlus } from "react-icons/fa";
 import { BsArrowReturnLeft } from "react-icons/bs";
+import { AiFillProfile } from "react-icons/ai";
+import { BsFillClipboard2CheckFill } from "react-icons/bs";
+import { PiPercentBold } from "react-icons/pi";
 const camera = BsFillCameraVideoFill;
 const person = BsFillPersonFill;
 const plus = FaPlus;
 const arrow = BsArrowReturnLeft;
+const register = AiFillProfile;
+const clipboard = BsFillClipboard2CheckFill;
+const percentage = PiPercentBold;
 
 export const studies = [
   {
@@ -30,6 +36,21 @@ export const studies = [
     logo: "cdw",
     img: "cdw-grounds",
     name: "Grounds for Security",
+    text: "A 7 week coffee break series on cyber security for CDW. Comprised of a dedicated portal filled with white papers, videos and Q&As.",
+    challenge:
+      "To give customers a thorough understanding of all the secure cloud solutions CDW offers in a unique, engaging way, from the experts themselves.",
+    target:
+      "Potential users of CDW cyber security solutions, along with those that are already customers but would like to find out more about all they can offer.",
+    solution:
+      "The creation of a series of virtual coffee breaks over 7 weeks, each one led by a cloud security expert. Each watched video resulted in a stamp, with 5 stamps leading to a coffee hamper and invitation to a virtual coffee experience (complete with an expert barista!).",
+    outcome:
+      "An influx of registrations from net new potential customers, along with established ones too.",
+    icon1: camera(),
+    icon2: register(),
+    icon3: person(),
+    result1: "7 Weekly Video Sessions",
+    result2: "300 Registrations",
+    result3: "28 Dedicated Leads",
     tag: "Content Marketing",
   },
   {
@@ -62,6 +83,21 @@ export const studies = [
     logo: "check-point",
     img: "checkpoint-pa21",
     name: "Partner Awards 2021",
+    text: " A completely virtual awards ceremony, carefully curated with presenters including special guest Ollie Ollerton, complete with live feed style acceptance speeches and physical awards design, production and delivery.",
+    challenge:
+      "To create and host the annual Check Point Partner Awards Ceremony, completely virtually. It had to be just as exciting and engaging as its formerly in-person predecessors.",
+    target:
+      "Check Point’s partners and employees who were honoured with awards, as well as potential leads.",
+    solution:
+      "Through creating virtual backgrounds, social banners and award scripting, Stone2Stone was able to construct all aspects of an in person awards ceremony (minus the celebrity drama).",
+    outcome:
+      "A gala event with a stunning amount of registrations and hundreds of attendees that created an exciting atmosphere that was engaging for all participants.",
+    icon1: clipboard(),
+    icon2: person(),
+    icon3: percentage(),
+    result1: "300 Registrations",
+    result2: "200 Event Attendees",
+    result3: "50% Social Media Increase",
     tag: "Strategy, Branding and Proposition",
   },
   {
