@@ -5,7 +5,7 @@ export const studies = [
     logo: "eci",
     img: "eci-7-resolutions",
     name: "7 Resolutions",
-    type: "Digital Marketing",
+    tag: "Digital Marketing",
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ export const studies = [
     logo: "csi",
     img: "csi-12-days",
     name: "12 Days of Christmas",
-    type: "Digital Marketing",
+    tag: "Digital Marketing",
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ export const studies = [
     logo: "cdw",
     img: "cdw-grounds",
     name: "Grounds for Security",
-    type: "Content Marketing",
+    tag: "Content Marketing",
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ export const studies = [
     logo: "cradlepoint",
     img: "cradlepoint-pinpoint",
     name: "Pinpoint",
-    type: "Strategy, Branding and Proposition",
+    tag: "Strategy, Branding and Proposition",
   },
   {
     id: 5,
@@ -37,7 +37,7 @@ export const studies = [
     logo: "dell-technologies",
     img: "cdw-dell",
     name: "Dell Technologies Video",
-    type: "Content Marketing",
+    tag: "Content Marketing",
   },
   {
     id: 6,
@@ -45,7 +45,7 @@ export const studies = [
     logo: "check-point",
     img: "checkpoint-straight-to-the-point",
     name: "Straight to the Point",
-    type: "Content Marketing",
+    tag: "Content Marketing",
   },
   {
     id: 7,
@@ -53,7 +53,7 @@ export const studies = [
     logo: "check-point",
     img: "checkpoint-pa21",
     name: "Partner Awards 2021",
-    type: "Strategy, Branding and Proposition",
+    tag: "Strategy, Branding and Proposition",
   },
   {
     id: 8,
@@ -61,7 +61,7 @@ export const studies = [
     logo: "e2e-assure",
     img: "e2e-assure-animation",
     name: "Company Animation",
-    type: "Strategy, Branding and Proposition",
+    tag: "Strategy, Branding and Proposition",
   },
   {
     id: 9,
@@ -69,7 +69,7 @@ export const studies = [
     logo: "eci",
     img: "eci-forcepoint",
     name: "Lead Generation Posters",
-    type: "ABM",
+    tag: "ABM",
   },
   {
     id: 10,
@@ -77,7 +77,7 @@ export const studies = [
     logo: "e92-plus",
     img: "e92plus-calculator",
     name: "MDR Calculator",
-    type: "Digital Marketing",
+    tag: "Digital Marketing",
   },
   {
     id: 11,
@@ -85,7 +85,7 @@ export const studies = [
     logo: "netally",
     img: "netally",
     name: "WiFi Wonder person",
-    type: "ABM",
+    tag: "ABM",
   },
   {
     id: 12,
@@ -93,7 +93,7 @@ export const studies = [
     logo: "check-point",
     img: "checkpoint-pa22",
     name: "Partner Awards 2022",
-    type: "Strategy, Branding and Proposition",
+    tag: "Strategy, Branding and Proposition",
   },
   {
     id: 13,
@@ -101,7 +101,7 @@ export const studies = [
     logo: "scc",
     img: "scc-quiz",
     name: "Phillips Product Quiz",
-    type: "Gamification",
+    tag: "Gamification",
   },
   {
     id: 14,
@@ -109,7 +109,7 @@ export const studies = [
     logo: "software-one",
     img: "software-one",
     name: "SoftwareONE Duet",
-    type: "Gamification",
+    tag: "Gamification",
   },
   {
     id: 15,
@@ -117,7 +117,7 @@ export const studies = [
     logo: "red-hat",
     img: "innovation-island",
     name: "Innovation Island",
-    type: "Gamification",
+    tag: "Gamification",
   },
   {
     id: 16,
@@ -125,7 +125,7 @@ export const studies = [
     logo: "abacus",
     img: "abacus",
     name: "Forged Coins",
-    type: "ABM",
+    tag: "ABM",
   },
   {
     id: 17,
@@ -133,7 +133,7 @@ export const studies = [
     logo: "forescout",
     img: "forescout-hoodie",
     name: "Graphic Event Hoodie",
-    type: "Strategy, Branding and Proposition",
+    tag: "Strategy, Branding and Proposition",
   },
   {
     id: 18,
@@ -141,7 +141,7 @@ export const studies = [
     logo: "trend-micro",
     img: "trendmicro-aws",
     name: "AWS Event Video",
-    type: "Content Marketing",
+    tag: "Content Marketing",
   },
   {
     id: 19,
@@ -149,7 +149,7 @@ export const studies = [
     logo: "forescout",
     img: "forescout-infosecurity",
     name: "Infosecurity Event Video",
-    type: "Content Marketing",
+    tag: "Content Marketing",
   },
   {
     id: 20,
@@ -157,6 +157,6 @@ export const studies = [
     logo: "scc",
     img: "scc-animation",
     name: "Company Animation",
-    type: "Strategy, Branding and Proposition",
+    tag: "Strategy, Branding and Proposition",
   },
 ];

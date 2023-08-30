@@ -6,6 +6,13 @@ import { studies } from "../../../constant/caseStudies";
 
 export default function page() {
   const [filteredStudies, setFilteredStudies] = useState(studies);
+
+  const filterByTag = (tag: string) => {
+    setFilteredStudies(studies.filter((study) => study.tag === tag));
+  };
+
+  const tags = Array.from(new Set(studies.map((study) => study.tag)));
+
   return (
     <>
       {/* HERO */}
@@ -43,98 +50,33 @@ export default function page() {
               lead generation for B2B businesses{" "}
             </span>
           </h4>
-          <div className="dropdown my-7 lg:my-0">
-            <label
-              tabIndex={0}
-              className="w-fit h-fit text-white
-              text-lg lg:text-xl font-semibold hover:bg-s2s-orange bg-s2s-purple hover:
-              duration-200 py-2 ps-16 pe-24 rounded-xl cursor-pointer relative"
+          <div className="text-lg">
+            <select
+              className="form-select w-48 rounded-xl bg-s2s-purple  text-white font-semibold"
+              value={"default"}
+              onChange={(e) => filterByTag(e.target.value)}
             >
-              Filter
-            </label>
-            <img
-              src="/img/case-studies/filter.svg"
-              alt="filter icon"
-              className="absolute right-[3.8rem] top-3 lg:top-8"
-            />
-            <ul
-              tabIndex={0}
-              className="dropdown-content p-3 lg:mt-1 top-[2rem] lg:top-[3rem] z-[1] w-full text-sm text-white bg-s2s-purple rounded-b-xl"
-            >
-              <li className="flex items-center my-3 p-2 hover:bg-s2s-orange duration-200 rounded-xl">
-                <input
-                  type="radio"
-                  name="radio"
-                  id="sbp"
-                  className="form-radio mx-2 cursor-pointer rounded-none text-s2s-orange w-3 h-3"
-                ></input>
-                <label className="cursor-pointer" htmlFor="sbp">
-                  Strategy, Branding and Proposition
-                </label>
-              </li>
-              <li className="flex items-center my-3 p-2 hover:bg-s2s-orange duration-200 rounded-xl">
-                <input
-                  type="radio"
-                  name="radio"
-                  id="dm"
-                  className="form-radio mx-2 cursor-pointer rounded-none text-s2s-orange w-3 h-3"
-                ></input>
-                <label className="cursor-pointer" htmlFor="dm">
-                  Digital Marketing
-                </label>
-              </li>
-              <li className="flex items-center my-3 p-2 hover:bg-s2s-orange duration-200 rounded-xl">
-                <input
-                  type="radio"
-                  name="radio"
-                  id="abm"
-                  className="form-radio mx-2 cursor-pointer rounded-none text-s2s-orange w-3 h-3"
-                ></input>
-                <label className="cursor-pointer" htmlFor="abm">
-                  Account Based Marketing
-                </label>
-              </li>
-              <li className="flex items-center my-3 p-2 hover:bg-s2s-orange duration-200 rounded-xl">
-                <input
-                  type="radio"
-                  name="radio"
-                  id="cm"
-                  className="form-radio mx-2 cursor-pointer rounded-none text-s2s-orange w-3 h-3"
-                ></input>
-                <label className="cursor-pointer" htmlFor="cm">
-                  Content Marketing
-                </label>
-              </li>
-              <li className="flex items-center my-3 p-2 hover:bg-s2s-orange duration-200 rounded-xl">
-                <input
-                  type="radio"
-                  name="radio"
-                  id="gam"
-                  className="form-radio mx-2 cursor-pointer rounded-none text-s2s-orange w-3 h-3"
-                ></input>
-                <label className="cursor-pointer" htmlFor="gam">
-                  Gamification
-                </label>
-              </li>
-              <li className="flex items-center my-3 p-2 hover:bg-s2s-orange duration-200 rounded-xl">
-                <input
-                  type="radio"
-                  name="radio"
-                  id="all"
-                  className="form-radio mx-2 cursor-pointer rounded-none text-s2s-orange w-3 h-3"
-                ></input>
-                <label className="cursor-pointer" htmlFor="all">
-                  All
-                </label>
-              </li>
-            </ul>
+              <option disabled value="default" className="text-center">
+                Filter
+              </option>
+
+              {tags.map((tag) => {
+                return (
+                  <option key={tag} className="">
+                    {tag}
+                  </option>
+                );
+              })}
+
+              <option value="">All</option>
+            </select>
           </div>
         </div>
       </div>
       <div className="m-5 lg:m-20">
         <ul className="grid grid-cols-2 lg:grid-cols-9 gap-4 lg:gap-8">
           {filteredStudies.map((study) => {
-            const { id, link, img, logo, name, type } = study;
+            const { id, link, img, logo, name, tag } = study;
             return (
               <li
                 key={id}
@@ -160,7 +102,7 @@ export default function page() {
                         <p className="lg:mb-5 font-semibold text-lg lg:text-4xl">
                           {name}
                         </p>
-                        <p className="lg:my-5 text-sm lg:text-2xl">{type}</p>
+                        <p className="lg:my-5 text-sm lg:text-2xl">{tag}</p>
                       </div>
                     </div>
                   </div>
