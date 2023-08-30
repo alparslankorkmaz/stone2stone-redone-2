@@ -65,6 +65,19 @@ export const studies = [
     logo: "cradlepoint",
     img: "cradlepoint-pinpoint",
     name: "Pinpoint",
+    text: "An aesthetically and educationally fulfilling interactive map highlighting Cradlepoint’s successful wireless solutions across Europe.",
+    challenge:
+      "To showcase the benefits of Cradlepoint’s wireless WAN solutions to both new and old customers in an easy-to-understand way.",
+    target:
+      "Potential Customers In Industries Suffering From Connectivity And Wireless Problems That Need A Proven Solution.",
+    solution:
+      "A map highlighting crucial past successes of Cradlepoint’s solutions in order to showcase their effectiveness to new customers.",
+    outcome:
+      "A visually engaging and educational interactive map, Pinpoint, where visitors can easily explore Cradlepoint’s previous successes with their wireless solutions whilst virtually travelling across Europe.",
+    icon1: person(),
+    icon2: click(),
+    result1: "235 Unique Visitors",
+    result2: "600 Click Throughs",
     tag: "Strategy, Branding and Proposition",
   },
   {
