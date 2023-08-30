@@ -105,6 +105,21 @@ export const studies = [
     logo: "dell-technologies",
     img: "cdw-dell",
     name: "Dell Technologies Video",
+    text: "An educational, long form promotional video explaining the support CDW and Dell Technologies can offer customers evolving into a hybrid working environment.",
+    challenge:
+      "To inform both new and established customers about how CDW and Dell Technologies’ joint server solutions are designed to help them.",
+    target:
+      "IT Managers That Need To Adapt Their Data Processing And Storage Systems To Match A Hybrid Working Environment.",
+    solution:
+      "Creation of an informative video hosted by leading experts from Dell Technologies outlining the benefits of their and CDW’s newly developed 15G PowerEdge Servers in a hybrid working environment.",
+    outcome:
+      "An engaging & conversational 7-minute video teaching IT Managers about the benefits of Dell and CDW’s servers for both remote and in office data processing and storage.",
+    icon1: camera(),
+    icon2: click(),
+    icon3: share(),
+    result1: "6230 Video Views",
+    result2: "235 Click Throughs",
+    result3: "121 Shares",
     tag: "Content Marketing",
   },
   {
