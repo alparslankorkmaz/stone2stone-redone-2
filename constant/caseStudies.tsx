@@ -5,6 +5,8 @@ import { BsArrowReturnLeft } from "react-icons/bs";
 import { AiFillProfile } from "react-icons/ai";
 import { BsFillClipboard2CheckFill } from "react-icons/bs";
 import { PiPercentBold } from "react-icons/pi";
+import { BsFillEyeFill } from "react-icons/bs";
+import { HiCursorClick } from "react-icons/hi";
 const camera = BsFillCameraVideoFill;
 const person = BsFillPersonFill;
 const plus = FaPlus;
@@ -12,6 +14,8 @@ const arrow = BsArrowReturnLeft;
 const register = AiFillProfile;
 const clipboard = BsFillClipboard2CheckFill;
 const percentage = PiPercentBold;
+const view = BsFillEyeFill;
+const click = HiCursorClick;
 
 export const studies = [
   {
@@ -138,6 +142,21 @@ export const studies = [
     logo: "check-point",
     img: "checkpoint-pa22",
     name: "Partner Awards 2022",
+    text: "An action packed in-person awards gala celebrating Check Point’s partners, complete with special guest star Ollie Ollerton, three course meal and physical awards.",
+    challenge:
+      "To organise and host the Check Point Partner Awards ceremony in a physical setting, following previous events held virtually. It had to be more engaging and virtually captivating than its online predecessor.",
+    target:
+      "Check Point’s partners and employees who were honoured with awards, as well as potential leads both attending and not.",
+    solution:
+      "Stone2Stone successfully mounted an engaging gala evening, bringing together all the crucial parts of a high-class awards event, including, but not limited to, background and presentation scheduling.",
+    outcome:
+      "A hugely successful first large-scale event post covid, with over a hundred attendees and incredible social media engagement post event.",
+    icon1: person(),
+    icon2: view(),
+    icon3: click(),
+    result1: "130 Attendees",
+    result2: "37,694 Impressions",
+    result3: "15,731 Social Clicks",
     tag: "Strategy, Branding and Proposition",
   },
   {
