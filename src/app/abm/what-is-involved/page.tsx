@@ -6,6 +6,12 @@ import ABMSlider4 from "@/components/what-is-involved/abm/ABMSlider4";
 import ABMSlider5 from "@/components/what-is-involved/abm/ABMSlider5";
 import OurWorkABM from "@/components/what-is-involved/abm/OurWorkABM";
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "What is involved?",
+  description: "Digital Marketing Agency",
+};
 
 export default function page() {
   return (

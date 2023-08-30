@@ -1,5 +1,11 @@
 import ClientMarquee from "@/components/ClientMarquee";
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "About us",
+  description: "Digital Marketing Agency",
+};
 
 export default function page() {
   return (

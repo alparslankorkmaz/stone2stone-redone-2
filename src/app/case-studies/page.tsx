@@ -1,4 +1,10 @@
 import FilterWork from "@/components/case-studies/FilterWork";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Case studies",
+  description: "Digital Marketing Agency",
+};
 
 export default function page() {
   return (

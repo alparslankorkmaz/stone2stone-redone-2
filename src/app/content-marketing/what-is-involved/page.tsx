@@ -6,6 +6,12 @@ import CMSlider4 from "@/components/what-is-involved/content-marketing/CMSlider4
 import CMSlider5 from "@/components/what-is-involved/content-marketing/CMSlider5";
 import OurWorkCM from "@/components/what-is-involved/content-marketing/OurWorkCM";
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "What is involved?",
+  description: "Digital Marketing Agency",
+};
 
 export default function page() {
   return (

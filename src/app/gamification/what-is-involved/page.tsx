@@ -6,6 +6,12 @@ import GSlider4 from "@/components/what-is-involved/gamification/GSlider4";
 import GSlider5 from "@/components/what-is-involved/gamification/GSlider5";
 import OurWorkG from "@/components/what-is-involved/gamification/OurWorkG";
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "What is involved?",
+  description: "Digital Marketing Agency",
+};
 
 export default function page() {
   return (

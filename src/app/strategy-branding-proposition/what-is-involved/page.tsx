@@ -6,6 +6,12 @@ import SBPSlider3 from "@/components/what-is-involved/sbp/SBPSlider3";
 import SBPSlider4 from "@/components/what-is-involved/sbp/SBPSlider4";
 import SBPSlider5 from "@/components/what-is-involved/sbp/SBPSlider5";
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "What is involved?",
+  description: "Digital Marketing Agency",
+};
 
 export default function page() {
   return (

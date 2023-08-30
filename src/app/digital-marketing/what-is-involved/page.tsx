@@ -6,6 +6,12 @@ import DMSlider4 from "@/components/what-is-involved/digital-marketing/DMSlider4
 import DMSlider5 from "@/components/what-is-involved/digital-marketing/DMSlider5";
 import OurWorkDM from "@/components/what-is-involved/digital-marketing/OurWorkDM";
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "What is involved",
+  description: "Digital Marketing Agency",
+};
 
 export default function page() {
   return (
