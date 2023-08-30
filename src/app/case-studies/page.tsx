@@ -43,7 +43,7 @@ export default function page() {
       </div>
       {/* FILTER */}
       <div className="p-5 lg:px-20 lg:my-10">
-        <div className="flex flex-wrap lg:flex-nowrap justify-between items-center text-2xl lg:text-5xl font-semibold my-14 lg:leading-tight">
+        <div className="flex flex-wrap lg:flex-nowrap justify-between items-center text-2xl lg:text-5xl font-semibold lg:my-14 lg:leading-tight">
           <h4 className="text-black w-4/5">
             Our previous work that has created{" "}
             <span className="text-s2s-gray">
@@ -52,23 +52,17 @@ export default function page() {
           </h4>
           <div className="text-lg">
             <select
-              className="form-select w-48 rounded-xl bg-s2s-purple  text-white font-semibold"
-              value={"default"}
+              className="form-select mt-5 lg:mt-0 w-32 lg:w-52 rounded-xl bg-blend-color-dodge bg-s2s-purple lg:text-xl text-white font-semibold"
               onChange={(e) => filterByTag(e.target.value)}
+              value={"default"}
             >
               <option disabled value="default" className="text-center">
                 Filter
               </option>
 
               {tags.map((tag) => {
-                return (
-                  <option key={tag} className="">
-                    {tag}
-                  </option>
-                );
+                return <option key={tag}>{tag}</option>;
               })}
-
-              <option value="">All</option>
             </select>
           </div>
         </div>
