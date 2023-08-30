@@ -8,6 +8,8 @@ import { PiPercentBold } from "react-icons/pi";
 import { BsFillEyeFill } from "react-icons/bs";
 import { HiCursorClick } from "react-icons/hi";
 import { PiShareBold } from "react-icons/pi";
+import { PiChatsFill } from "react-icons/pi";
+import { FaRegThumbsUp } from "react-icons/fa";
 const camera = BsFillCameraVideoFill;
 const person = BsFillPersonFill;
 const plus = FaPlus;
@@ -18,6 +20,8 @@ const percentage = PiPercentBold;
 const view = BsFillEyeFill;
 const click = HiCursorClick;
 const share = PiShareBold;
+const chats = PiChatsFill;
+const like = FaRegThumbsUp;
 
 export const studies = [
   {
@@ -34,6 +38,21 @@ export const studies = [
     logo: "csi",
     img: "csi-12-days",
     name: "12 Days of Christmas",
+    text: "An easy-to-use interactive Christmas calendar informing customers about CSI and IBM’s solutions through the magic of Santa’s Workshop.",
+    challenge:
+      "To create an informative series of videos about who CSI, and IBM, are and how their solutions can benefit customers in a visually stimulating medium.",
+    target:
+      "Potential Customers With Great Christmas Elf Skills That Would Benefit From CSI’s Managed Support And Cloud Services.",
+    solution:
+      "The creation of 12 short form videos presented by experts from CSI and IBM, educating viewers in a conversational manner on their services from power servers to hybrid cloud solutions.",
+    outcome:
+      "A fun, interactive 12 Days of Christmas calendar filled with informational videos with a corresponding quiz to win a variety of amazing prizes.",
+    icon1: chats(),
+    icon2: camera(),
+    icon3: like(),
+    result1: "287 Correct Answers",
+    result2: "346 Video Views",
+    result3: "53% Increased Social",
     tag: "Digital Marketing",
   },
   {
