@@ -22,7 +22,7 @@ export default function page() {
                       <img
                         src={`/img/our-clients/white-logos/${study.logo}.png`}
                         alt="company logo"
-                        className="w-1/2"
+                        className="w-1/4"
                       />{" "}
                     </div>
                     <h1 className="text-4xl lg:text-7xl font-semibold">

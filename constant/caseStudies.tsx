@@ -136,7 +136,7 @@ export const studies = [
     logo: "check-point",
     img: "checkpoint-pa21",
     name: "Partner Awards 2021",
-    text: " A completely virtual awards ceremony, carefully curated with presenters including special guest Ollie Ollerton, complete with live feed style acceptance speeches and physical awards design, production and delivery.",
+    text: "A completely virtual awards ceremony, carefully curated with presenters including special guest Ollie Ollerton, complete with live feed style acceptance speeches and physical awards design, production and delivery.",
     challenge:
       "To create and host the annual Check Point Partner Awards Ceremony, completely virtually. It had to be just as exciting and engaging as its formerly in-person predecessors.",
     target:
@@ -159,6 +159,21 @@ export const studies = [
     logo: "e2e-assure",
     img: "e2e-assure-animation",
     name: "Company Animation",
+    text: "A short, engaging and informative animation showcasing the benefits of e2e assure’s cyber security solutions.",
+    challenge:
+      "To create an engaging, informative animation explaining the benefits of e2e assure’s SOC that was no more than 90 seconds long and maintained attention throughout.",
+    target:
+      "Potential new customers for e2e assure that are unenlightened about the variety of benefits e2e assure’s cyber security solutions provide.",
+    solution:
+      " Our team designed, scripted and animated an exciting, clear and concise video animation that promotes the benefits of partnering with e2e assure.",
+    outcome:
+      "Creation of an 80 second animation that was both educational and eye catching, that informed the user of e2e assure’s benefits.",
+    icon1: camera(),
+    icon2: click(),
+    icon3: share(),
+    result1: "869 Views",
+    result2: "87 Click Throughs",
+    result3: "32 Shares",
     tag: "Strategy, Branding and Proposition",
   },
   {
