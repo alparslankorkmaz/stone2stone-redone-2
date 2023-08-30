@@ -7,6 +7,7 @@ import { BsFillClipboard2CheckFill } from "react-icons/bs";
 import { PiPercentBold } from "react-icons/pi";
 import { BsFillEyeFill } from "react-icons/bs";
 import { HiCursorClick } from "react-icons/hi";
+import { PiShareBold } from "react-icons/pi";
 const camera = BsFillCameraVideoFill;
 const person = BsFillPersonFill;
 const plus = FaPlus;
@@ -16,6 +17,7 @@ const clipboard = BsFillClipboard2CheckFill;
 const percentage = PiPercentBold;
 const view = BsFillEyeFill;
 const click = HiCursorClick;
+const share = PiShareBold;
 
 export const studies = [
   {
@@ -79,6 +81,21 @@ export const studies = [
     logo: "check-point",
     img: "checkpoint-straight-to-the-point",
     name: "Straight to the Point",
+    text: "A series of informative social media campaign videos highlighting the benefits of Check Point’s security solutions.",
+    challenge:
+      "To create an engaging and informative social media campaign to showcase Check Point’s solutions.",
+    target:
+      "Potential Check Point users that are looking for a trustworthy cyber security solution for their organisation’s issues.",
+    solution:
+      "Creation of ‘Straight to the Point’, a series of conversational and informative social media videos to teach viewers about the wide reaching benefits of Check Point’s solutions.",
+    outcome:
+      "Creation of a highly engaging, informative series of social media videos hosted by leading figures from Check Point, showcasing the benefits of Check Point security solutions.",
+    icon1: camera(),
+    icon2: click(),
+    icon3: share(),
+    result1: "8879 Video Views",
+    result2: "173 Click Throughs",
+    result3: "74 Shares",
     tag: "Content Marketing",
   },
   {

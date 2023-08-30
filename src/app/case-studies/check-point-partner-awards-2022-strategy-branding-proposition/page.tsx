@@ -106,7 +106,7 @@ export default function page() {
         })}
       ;
       <div className="flex justify-center items-center lg:p-20 gap-10">
-        <div className="aspect-video w-1/2">
+        <div className="aspect-video lg:w-1/2">
           <ReactPlayer
             className="react-player"
             url="https://www.youtube.com/playlist?list=PLXT5tViSP4xDhgl8851D9V9j4B_E2r8Ly"
