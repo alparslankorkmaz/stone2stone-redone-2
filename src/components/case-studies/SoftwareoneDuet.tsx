@@ -1,11 +1,14 @@
+"use client";
 import { studies } from "../../../constant/caseStudies";
+import dynamic from "next/dynamic";
+const ReactPlayer = dynamic(() => import("react-player"), { ssr: false });
 
-export default function ForescoutHoodie() {
+export default function SoftwareoneDuet() {
   return (
     <>
       {studies
         .filter((study) => {
-          return study.id === 17;
+          return study.id === 14;
         })
         .map((study) => {
           return (
@@ -20,7 +23,7 @@ export default function ForescoutHoodie() {
                       <img
                         src={`/img/our-clients/white-logos/${study.logo}.png`}
                         alt="company logo"
-                        className="w-1/2"
+                        className="w-1/4"
                       />{" "}
                     </div>
                     <h1 className="text-4xl lg:text-7xl font-semibold">
@@ -70,12 +73,48 @@ export default function ForescoutHoodie() {
                     </h3>
                     <p className="col-span-3 lg:text-xl">{study.outcome}</p>
                   </div>
+                  <div className="grid grid-cols-5 rounded-xl bg-white gap-5 p-5 lg:p-16">
+                    <h3 className="col-span-2 text-xl lg:text-4xl text-s2s-gray font-semibold">
+                      The <span className="text-black">Results</span>
+                    </h3>
+                    <ul className="flex flex-col gap-10 col-span-3 lg:text-xl">
+                      <li className="flex items-center gap-8">
+                        <span className="text-s2s-orange text-2xl lg:text-5xl">
+                          {study.icon1}
+                        </span>
+                        {study.result1}
+                      </li>
+                      <li className="flex items-center gap-8">
+                        <span className="text-s2s-orange text-2xl lg:text-5xl">
+                          {study.icon2}
+                        </span>
+                        {study.result2}
+                      </li>
+                      <li className="flex items-center gap-8">
+                        <span className="text-s2s-orange text-2xl lg:text-5xl">
+                          {study.icon3}
+                        </span>
+                        {study.result3}
+                      </li>
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>
           );
         })}
       ;
+      <div className="flex justify-center items-center lg:p-20 gap-10">
+        <div className="aspect-video lg:w-1/2">
+          <ReactPlayer
+            className="react-player"
+            url="https://youtu.be/9ydx1Hra-rY"
+            width="100%"
+            height="100%"
+            controls
+          />
+        </div>
+      </div>
     </>
   );
 }

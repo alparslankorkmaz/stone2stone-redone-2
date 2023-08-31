@@ -339,6 +339,21 @@ export const studies = [
     logo: "software-one",
     img: "software-one",
     name: "SoftwareONE Duet",
+    text: "A dating app style platform with a variety of questions, designed to match users with the cyber security vendor best suited to solve their individual issues.",
+    challenge:
+      "To create a unique, informative and easy to use platform for SoftwareOne users to find the best vendor partner for them.",
+    target:
+      "SoftwareOne users that are looking for a cyber security solution to their organisation’s issues.",
+    solution:
+      "Creation of ‘SoftwareOne Duet’, a dating app style site that easily matches users with the cyber security solution for them.",
+    outcome:
+      "Creation of an interactive landing page, email & social media campaigns all to provide an easy, informative way to solve users’ cyber security problems.",
+    icon1: person(),
+    icon2: journey(),
+    icon3: click(),
+    result1: "268 Visitors",
+    result2: "178 Possible Journeys",
+    result3: "1240 Click-Throughs",
     tag: "Gamification",
   },
   {
@@ -409,6 +424,21 @@ export const studies = [
     logo: "trend-micro",
     img: "trendmicro-aws",
     name: "AWS Event Video",
+    text: "Stone2Stone collaborated with Trend Micro to develop engaging social media video content that highlighted their active participation in the AWS event held at the ExCel in London.",
+    challenge:
+      "To effectively showcase Trend Micro, its comprehensive services, dedicated employees, and active participation in the AWS event at the ExCel in London.",
+    target:
+      "Both existing clients and new potential targets who demonstrated interest in Trend Micro's services, employees, and participation at the AWS event in London.",
+    solution:
+      "Trend Micro leveraged compelling and informative social media content to effectively showcase their company and highlight their presence at the AWS London event on LinkedIn.",
+    outcome:
+      "A collection of videos was produced to showcase the Trend Micro booth, featuring their keynote speaker and demonstrating the range of services offered by the company.",
+    icon1: camera(),
+    icon2: click(),
+    icon3: share(),
+    result1: "6750 Views",
+    result2: "205 Click Throughs",
+    result3: "104 Shares",
     tag: "Content Marketing",
   },
   {
