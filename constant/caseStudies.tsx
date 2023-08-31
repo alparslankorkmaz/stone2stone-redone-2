@@ -14,6 +14,9 @@ import { GoOrganization } from "react-icons/go";
 import { MdHandshake } from "react-icons/md";
 import { IoMdMailOpen } from "react-icons/io";
 import { GiOpenBook } from "react-icons/gi";
+import { GiConsoleController } from "react-icons/gi";
+import { TbRoute } from "react-icons/tb";
+import { MdOutlineMonitor } from "react-icons/md";
 const camera = BsFillCameraVideoFill;
 const person = BsFillPersonFill;
 const plus = FaPlus;
@@ -30,6 +33,9 @@ const organisation = GoOrganization;
 const lead = MdHandshake;
 const mail = IoMdMailOpen;
 const book = GiOpenBook;
+const controller = GiConsoleController;
+const journey = TbRoute;
+const monitor = MdOutlineMonitor;
 
 export const studies = [
   {
@@ -310,6 +316,21 @@ export const studies = [
     logo: "scc",
     img: "scc-quiz",
     name: "Phillips Product Quiz",
+    text: "A fully interactive, user controlled online quiz based on a series of lifestyle questions to match the user with the Philips screen best suited to them.",
+    challenge:
+      "To create a unique and engaging format with which to help users decide on the best Philips screen for them.",
+    target:
+      "Users from a wide array of lifestyles and business environments looking for a Philips monitor that works specifically for them.",
+    solution:
+      "An interactive series of questions that allowed the user to specify their individual needs in order to narrow down the results, eventually being suggested the monitor suited to them.",
+    outcome:
+      "A user controlled interactive quiz that provided an attractive, clear service that through specific questions would match the user with the Philips monitor best suited for their needs.",
+    icon1: journey(),
+    icon2: monitor(),
+    icon3: click(),
+    result1: "296 Possible Journeys",
+    result2: "34 Suggested Monitors",
+    result3: "2436 Click-Throughs",
     tag: "Gamification",
   },
   {
@@ -326,6 +347,21 @@ export const studies = [
     logo: "red-hat",
     img: "innovation-island",
     name: "Innovation Island",
+    text: "Stone2Stone worked with SCC and Red Hat to create Innovation Island. A platform that allowed SCC and Red Hat to market their products and partnership in an innovative way.",
+    challenge:
+      "To create a central hub for both SCC and Red Hat which would act as a place which clients and targets would go to find out about certain products and services.",
+    target:
+      "New, potential and existing Red Hat and SCC clients. Innovation Island served as an informational centre where anyone could go to do an array of activities.",
+    solution:
+      "An informational and captivating platform that engaged users with its retro vibe. Allowing users to explore Innovation Island to find information and collect power-ups for the prize draw.",
+    outcome:
+      "New, potential and existing Red Hat and SCC clients. Innovation Island served as an informational centre where anyone could go to do an array of activities.",
+    icon1: person(),
+    icon2: controller(),
+    icon3: register(),
+    result1: "200 users in first week",
+    result2: "600+ playthroughs",
+    result3: "21 completed forms",
     tag: "Gamification",
   },
   {
@@ -404,6 +440,21 @@ export const studies = [
     logo: "scc",
     img: "scc-animation",
     name: "Company Animation",
+    text: "A short, engaging and informative animation showcasing the benefits of SCC’s services and solutions.",
+    challenge:
+      "To create an engaging, informative animation explaining the benefits of SCC’s cloud products that was no more than 5 minutes long and maintained attention throughout.",
+    target:
+      "Potential new customers for SCC that are unenlightened about the variety of benefits SCC’s cloud solutions provide.",
+    solution:
+      "Our team designed, scripted and animated an exciting, clear and concise video animation that promotes the benefits of partnering with SCC.",
+    outcome:
+      "Creation of a 4 minute animation that was both educational and eye catching, that informed the user of SCC’s benefits.",
+    icon1: camera(),
+    icon2: click(),
+    icon3: share(),
+    result1: "3245 Views",
+    result2: "125 Click Throughs",
+    result3: "46 Shares",
     tag: "Strategy, Branding and Proposition",
   },
 ];
