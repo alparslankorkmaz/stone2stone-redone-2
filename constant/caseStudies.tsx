@@ -205,6 +205,21 @@ export const studies = [
     logo: "e92-plus",
     img: "e92plus-calculator",
     name: "MDR Calculator",
+    text: "An interactive calculator demonstrating the benefits of using e92plus’ vendor partner Bitdefender’s MDR services.",
+    challenge:
+      "To create an easy way for customers to find out how much they will benefit from employing Bitdefender’s MDR services compared to their current service.",
+    target:
+      "Potential Customers looking for an easy way to reduce the cost and increase the efficiency of their SOC with bitdefender.",
+    solution:
+      "The creation of an interactive calculator, where the user can input their company’s endpoints and what tools they would like, then Bitdefender works out how much money they could be saving them.",
+    outcome:
+      "An easy-to-use online calculator that quickly and effectively informs users how much they could be saving if they used Bitdefender MDR, saving them time and hopefully money.",
+    icon1: person(),
+    icon2: chats(),
+    icon3: like(),
+    result1: "256 Unique Visitors",
+    result2: "122 Entries",
+    result3: "47 Review Requests",
     tag: "Digital Marketing",
   },
   {
