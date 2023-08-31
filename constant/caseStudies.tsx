@@ -10,6 +10,8 @@ import { HiCursorClick } from "react-icons/hi";
 import { PiShareBold } from "react-icons/pi";
 import { PiChatsFill } from "react-icons/pi";
 import { FaRegThumbsUp } from "react-icons/fa";
+import { GoOrganization } from "react-icons/go";
+import { MdHandshake } from "react-icons/md";
 const camera = BsFillCameraVideoFill;
 const person = BsFillPersonFill;
 const plus = FaPlus;
@@ -22,6 +24,8 @@ const click = HiCursorClick;
 const share = PiShareBold;
 const chats = PiChatsFill;
 const like = FaRegThumbsUp;
+const organisation = GoOrganization;
+const lead = MdHandshake;
 
 export const studies = [
   {
@@ -30,6 +34,19 @@ export const studies = [
     logo: "eci",
     img: "eci-7-resolutions",
     name: "7 Resolutions",
+    text: "A series of videos and corresponding ‘resolutions’ informing viewers about how ECI’s services can transform their business in a visually stimulating environment. New Year, better security!",
+    challenge:
+      "To create an engaging way to encourage new users to utilise ECI’s services going into 2022.",
+    target:
+      "Potential customers whose companies would benefit from ECI’s managed IT, cybersecurity and transformation services.",
+    solution:
+      "The creation of 7 ‘resolutions’ each demonstrating a benefit of ECI’s services, with a corresponding video hosted by ECI experts engaging in conversation.",
+    outcome:
+      "A visually engaging series of interesting tech ‘resolutions’ backed up by videos hosted by experts from ECI, discussing why each resolution is so beneficial to customers – and why they don’t need to make their own resolutions this year!",
+    icon1: person(),
+    icon2: camera(),
+    result1: "292 Unique Visitors",
+    result2: "481 video views",
     tag: "Digital Marketing",
   },
   {
@@ -180,7 +197,7 @@ export const studies = [
     target:
       "Potential new customers for e2e assure that are unenlightened about the variety of benefits e2e assure’s cyber security solutions provide.",
     solution:
-      " Our team designed, scripted and animated an exciting, clear and concise video animation that promotes the benefits of partnering with e2e assure.",
+      "Our team designed, scripted and animated an exciting, clear and concise video animation that promotes the benefits of partnering with e2e assure.",
     outcome:
       "Creation of an 80 second animation that was both educational and eye catching, that informed the user of e2e assure’s benefits.",
     icon1: camera(),
@@ -197,6 +214,21 @@ export const studies = [
     logo: "eci",
     img: "eci-forcepoint",
     name: "Lead Generation Posters",
+    text: "2 separate Highly engaging, bold campaigns made up of niche posters sent to targeted personnel on behalf of ForcePoint and ECI.",
+    challenge:
+      "Stone2Stone were tasked by our clients ForcePoint and ECI to identify ideal potential targets from within specific sectors and to create a thought provoking, memorable engagement.",
+    target:
+      "Valuable potential leads were identified and researched from the key organisations in the specific sectors requested.",
+    solution:
+      "Identify key individuals from chosen organisations and carry out in depth intel gathering on said targets. Design, write copy and create a spoof bespoke poster featuring the target in a setting that fits their interests, delivered both physically and digitally.",
+    outcome:
+      "Fulfilment and deployment of a total of 45 individual assets by recorded delivery, followed up with a personalised letter. They were also sent the same posters digitally, generating quality leads for ForcePoint and ECI, respectively.",
+    icon1: person(),
+    icon2: organisation(),
+    icon3: lead(),
+    result1: "45 Individual Identified",
+    result2: "30 Organisations Identified",
+    result3: "28 Leads Generated",
     tag: "ABM",
   },
   {
