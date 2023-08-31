@@ -12,6 +12,8 @@ import { PiChatsFill } from "react-icons/pi";
 import { FaRegThumbsUp } from "react-icons/fa";
 import { GoOrganization } from "react-icons/go";
 import { MdHandshake } from "react-icons/md";
+import { IoMdMailOpen } from "react-icons/io";
+import { GiOpenBook } from "react-icons/gi";
 const camera = BsFillCameraVideoFill;
 const person = BsFillPersonFill;
 const plus = FaPlus;
@@ -26,6 +28,8 @@ const chats = PiChatsFill;
 const like = FaRegThumbsUp;
 const organisation = GoOrganization;
 const lead = MdHandshake;
+const mail = IoMdMailOpen;
+const book = GiOpenBook;
 
 export const studies = [
   {
@@ -260,6 +264,21 @@ export const studies = [
     logo: "netally",
     img: "netally",
     name: "WiFi Wonder person",
+    text: "Personalised comic book strips were created using the likeness of senior Telco targets to promote the netAlly handheld device, including bespoke posters and landing pages.",
+    challenge:
+      "To create an utterly unique and engaging campaign for e92plus vendor netAlly’s new handheld device.",
+    target:
+      "Senior contacts including engineering and operational directors at Telcos, who’s engineers rely on accurate and reliable testing equipment.",
+    solution:
+      "Creation of ‘Wi-Fi Wonderperson’, our very own superhero with the power to save networks everywhere.",
+    outcome:
+      "Creation of personalised comic book strips and email campaigns featuring targets as the superhero – because who wouldn’t want to save the (Wi-Fi) world?",
+    icon1: book(),
+    icon2: mail(),
+    icon3: click(),
+    result1: "29 Targeted Comic Books",
+    result2: "20 Unique opens",
+    result3: "15 Click-Throughs",
     tag: "ABM",
   },
   {
@@ -337,6 +356,15 @@ export const studies = [
     logo: "forescout",
     img: "forescout-hoodie",
     name: "Graphic Event Hoodie",
+    text: "Stone2Stone worked with Forescout to create some striking event apparel that would be recognisable whilst displaying visual information regarding Forescout’s services.",
+    challenge:
+      "Forescout approached Stone2Stone with a hoodie design that aimed to establish recognizable branding while effectively conveying information about Forescout's services.",
+    target:
+      "Event attendees that were actively looking for services at events such as Infosecurity 2023.",
+    solution:
+      "A hoodie design featured a combination of cyber-related illustrations and the company logo stamp, resulting in a visually striking design. Additionally, the graphic incorporated the event name and relevant cyber-related terminology.",
+    outcome:
+      "The hoodie design gained significant popularity during the events. This captivating design became a regular feature at every event where Forescout participated, making it a consistent and recognizable element of their branding.",
     tag: "Strategy, Branding and Proposition",
   },
   {
@@ -353,6 +381,21 @@ export const studies = [
     logo: "forescout",
     img: "forescout-infosecurity",
     name: "Infosecurity Event Video",
+    text: "Stone2Stone collaborated with Forescout to develop engaging social media video content that highlighted their active participation in the Infosecurity event held at the ExCel in London.",
+    challenge:
+      "To effectively showcase Forescout, its comprehensive services, dedicated employees, and active participation in the Infosecurity event at the ExCel in London.",
+    target:
+      "Both existing clients and new potential targets who demonstrated interest in Forescout's services, employees, and participation at the Infosecurity event in London.",
+    solution:
+      "Forescout capitalized on Rik Ferguson, renowned as the Cyber Rockstar, interviewing attendees. This engaging content was shared on LinkedIn, allowing Forescout to effectively demonstrate their expertise and create visibility among their target audience.",
+    outcome:
+      "A collection of 3 videos was produced to showcase the Forescout booth, presence and demonstrating the range of services offered by the company.",
+    icon1: camera(),
+    icon2: click(),
+    icon3: share(),
+    result1: "110,328 Combined Views",
+    result2: "604 Combined Click Throughs",
+    result3: "324 Combined Shares",
     tag: "Content Marketing",
   },
   {
