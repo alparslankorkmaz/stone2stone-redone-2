@@ -21,23 +21,18 @@ export default function Footer() {
             </h6>
             <ul className="flex flex-col text-footer-gray text-sm lg:text-xl">
               <li>
-                {" "}
                 <Link href="/who-we-are">Who we are</Link>
               </li>
               <li>
-                {" "}
                 <Link href="/what-we-do">What we do</Link>
               </li>
               <li>
-                {" "}
-                <Link href="/">Work</Link>
+                <Link href="/case-studies">Work</Link>
               </li>
               <li>
-                {" "}
-                <Link href="/">Contact us</Link>
+                <Link href="/contact-us">Contact us</Link>
               </li>
               <li>
-                {" "}
                 <Link href="/">Log in</Link>
               </li>
             </ul>
@@ -48,11 +43,9 @@ export default function Footer() {
             </h6>
             <ul className="flex flex-col text-footer-gray text-sm lg:text-xl">
               <li>
-                {" "}
-                <Link href="/who-we-are">Terms</Link>
+                <Link href="/">Terms</Link>
               </li>
               <li>
-                {" "}
                 <Link href="/">Usage</Link>
               </li>
             </ul>
@@ -61,7 +54,10 @@ export default function Footer() {
         <div className="basis-full flex justify-between my-10 lg:my-0 items-center">
           <div className="text-footer-gray">Copyright @ Stone2stone 2023</div>
           <div className="">
-            <Link href="/" target="_blank">
+            <Link
+              href="https://www.linkedin.com/company/stone2stone/"
+              target="_blank"
+            >
               <Image
                 src={linkedin}
                 width={38}

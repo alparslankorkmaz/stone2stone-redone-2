@@ -207,7 +207,7 @@ export default function Header() {
                 {/* CONTACT US */}
                 <li>
                   <Link
-                    href="/"
+                    href="/contact-us"
                     onClick={() => setIsOpen(false)}
                     className="w-fit lg:mt-0 text-white text-center hover:text-s2s-orange duration-200"
                   >

@@ -1,4 +1,4 @@
-import Posts from "@/components/Posts";
+import Posts from "@/components/blog/Posts";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -23,7 +23,7 @@ export default function page() {
             <div className=" lg:h-[30rem] lg:w-[30rem]">
               <img
                 src="/img/our-blog/our-blog.webp"
-                alt="bird's eye view of a curvy road"
+                alt="girl writing a blog post"
                 className="h-full w-full object-cover rounded-xl"
               />
             </div>
@@ -32,7 +32,7 @@ export default function page() {
       </div>
 
       <div className="flex flex-col justify-center items-center p-5 lg:px-20 lg:my-10">
-        <div className="flex flex-wrap lg:flex-nowrap justify-between items-center text-2xl lg:text-5xl font-semibold lg:my-14 lg:leading-tight">
+        <div className="flex justify-between items-center text-2xl lg:text-5xl font-semibold lg:my-14 lg:leading-tight">
           <h4 className="text-black w-4/5">
             <span className="text-s2s-gray">Our posts that speak about</span>{" "}
             lead generation for B2B businesses
