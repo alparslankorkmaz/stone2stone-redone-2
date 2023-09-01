@@ -1,0 +1,24 @@
+---
+img: "history-of-marketing"
+title: "The History of Marketing: a brief tumble through time"
+author: "Stone2stone"
+date: "2023-01-16"
+---
+
+**That’s right, we’re going back to school (minus the cliques and questionable food). We’re going to do some history today, looking at when modern marketing started coming into play and how it has evolved over time. Spoiler alert – it’s a heck of a lot older than you might think. Let’s begin our foray into the history of marketing with ancient China and ancient Rome. I told you it was older than you thought. In fact, the very word ‘market’ is taken from the ancient Latin word ‘mercatus’ meaning ‘market place’.**
+
+In (very) early days in ancient China, sweet vendors used to play flutes and other instruments to entice customers to come and buy their goods. You could say this was the earliest example of the ice cream truck’s use of a jingle. As soon as you hear that happy go lucky music you go running for a Mister Whippy – a very effective bit of marketing.
+
+Still staying in China for the time being, we look to the Song Dynasty (920-1279) and the earliest known printed advertisement in history. It is a printing plate which states “we buy high quality steel rods and make fine quality needles that are ready for use at home in no time.” This was for a needle shop, and it not only states that their products are high quality but are also efficient. The plate also features a logo for the shop; a rabbit holding a needle. How cool is that? Sorry, it’s difficult not to have a little nerd excitement from this.
+
+Let’s journey across Europe now to the ancient Roman Empire, and our new best friend Umbricius Scaurus. Back when poor Pompeii was still thriving and Mount Vesuvius was still peacefully sleeping, Scaurus was famed across the city for his fish sauce, or ‘garum’. In fact, it’s postulated that he accounted for a third of the entire fish sauce business in Pompeii. What a guy, right? The likely reason why he was so successful (besides a kick-ass recipe) was because he actually inscribed his containers with his name. Furthermore, with all of the money he was raking in, he had a very large house. Within his atrium (front room) he placed mosaics on the walls depicting amphoras (jugs) displaying various messages, such as the one here translating to “The flower of garum, made of the mackerel, a product of Scaurus, from the shop of Scaurus”. He also had others boasting of the high quality of his product. Our Scaurus really knew how to market himself to potential customers, and it’s fortunate these early examples of marketing survive.
+
+Now let’s go across the sea, a little closer to home. In the English middle ages, travelling markets became commonplace, with each vendor having their own stalls, but marketing was still very much an intimate, localised thing. You had to hear about a business from word of mouth or by passing by, not through mass marketing as it didn’t really exist. This is why travelling markets were so important in the middle ages, as they could reach many more customers on the move than they could by simply staying in place and yelling about their wares. That is until the 15th century, when mass printing began to develop.
+
+Up until the 15th century, Europe were rather far behind the Middle East and Asia. Previously, books were written by scribes in a very time consuming process, until a German printer names Johannes Gutenberg created his moving type printing press that changed the way manuscripts were created forever, and by 17th century nearly 600 million books had been printed via this groundbreaking process.
+
+The world’s first magazine (at least the first to have the correct characteristics of one) was printed in 1731; ‘The Gentleman’s Magazine’ in London, running everything from Latin poetry to prices of local commodities (aka, marketing!!!). In the early 1800s, posters and billboards grew in popularity, and suddenly the ability to market to large audiences without face to face contact became far easier. Now marketing was less about building a relationship with the customer, but getting as many people to view your product as possible.
+
+And now we’re in the 1900s, when technological breakthroughs are being created at a rapid pace. I spoke about marketing in the 90s in my previous blog post (check it out!) but the 90s are where marketing ceases to be a business to consumer led sector, as the introduction of email and the internet allows B2B to thrive too.
+
+So there you have it. The (condensed) history of marketing. Whoulda thunk we’d go from ancient mosaics of fish sauce to a world filled to bursting with opportunities to do successful marketing in many different forms. All I can say is thank the lord I live in a world where I have the internet, because I’m definitely not known for my mosaic making skills.

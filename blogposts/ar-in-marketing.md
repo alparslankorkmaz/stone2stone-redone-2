@@ -1,0 +1,18 @@
+---
+img: "ar-in-marketing"
+title: "AR in Marketing: a new B2B reality"
+author: "Stone2stone"
+date: "2023-01-30"
+---
+
+**When I think of AR (Augmented Reality) I automatically think of Pokemon Go. Now this might just be because I am a massive nerd, but one can’t really talk about far reaching modern AR without mentioning this game. In just one year of running, it had over 500 million global users sign up for the game. At the time that was 6.7% of the entire world population – safe to say it was a pretty big deal. It was also a genius move on the part of the Pokemon creators. With every year that passes the things we do by hand reduce and the list of things we can do with our phones gets longer and longer. It’s only sensible then to try and utilise the online world as much as possible, and in as unique a way as possible as internet traffic increases. It’s no longer just games that benefit from this technology – let’s take a little dive into AR in Marketing.**
+
+The things that B2B marketeers do for companies is rather extensive – from events to tactical selling to campaigns centred around BBQ’s (keep an eye out, you’ll get that one later). Due to the pandemic (drink every time I use those words in my blog posts), we’ve all been forced to market online now, in an already overcrowded market. It’s important now more than ever to stand out amongst the noise, and AR is the perfect way to do that. It’s engaging, fun, and it’s applications are almost limitless.
+
+With the majority of physical events cancelled recently, continuing into the near future too, AR has presented marketing companies with an alternative choice of creating events. Aircards recently created a virtual ‘Life Unstoppable’ show for Samsung in lieu of the real IFA Electronics show, which was cancelled due to our old pal Covid. This consisted of live web based AR product demonstrations, with customisations available (e.g. if you tapped the screen you could look at different colours of the product etc.). With over 1350 Web AR activations during the livestream, it’s not difficult to see how engaging the event was to consumers.
+
+Now whilst the pandemic (drink!) forced us to move online and adapt faster than we might’ve liked, there are quite a few reasons why AR in marketing should stick around long after the world returns to something akin to normality. Creating virtual samples for clients to look over and scrutinise instead of going through the production process of multiple physical sample designs, virtual samples are a much faster, efficient and money saving process. It also means it can go through as many redesigns as necessary without wasting a lot of time and wallets.
+
+AR is also growing in the sales presentation aspect of marketing. Instead of writing copy telling people why they should use your agency, you can create AR presentations to orchestrate a more engaging, personal experience. For example, instead of reading about the amazing, talented CEO of a company, wouldn’t you rather watch and hear from that amazing, talented person in a virtual format? That way you get a much better sense of the people you are looking to work with and their values before you commit to anything permanent with them. This in turn leads to a working relationship built on loyalty and trust that simply reading text would not evoke. Don’t tell them who you are, show them.
+
+Whilst AR in marketing is typically dominating the B2C market, B2B is slowly incorporating it to create a more cost efficient, personable and exciting way to connect with clients and leads, which is essential in a world where we all live online following the pandemic (drink!).

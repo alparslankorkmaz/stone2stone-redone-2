@@ -14,7 +14,6 @@ export default function FilterWork() {
 
   return (
     <>
-      {" "}
       {/* FILTER */}
       <div className="p-5 lg:px-20 lg:my-10">
         <div className="flex flex-wrap lg:flex-nowrap justify-between items-center text-2xl lg:text-5xl font-semibold lg:my-14 lg:leading-tight">

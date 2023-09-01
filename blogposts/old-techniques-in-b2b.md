@@ -1,0 +1,20 @@
+---
+img: "old-techniques-in-b2b"
+title: "Throwback Thursday: is the secret to good marketing in old techniques?"
+author: "Stone2stone"
+date: "2022-12-26"
+---
+
+**Can we, in 2022, go back to using 90’s B2B Marketing techniques? To put it bluntly, no. Going back to the days of infomercials and yellow pages is hardly the way forward when inventing successful marketing campaigns and techniques. However, the reason why I say no so swiftly isn’t because I’m against using things learned from the past, but because if you look at the marketing of today you will be able to see how old marketing techniques are indeed being used, albeit in an evolved way.**
+
+Let’s rewind back to the fabulous beginnings of the 90’s. Think denim on denim, Lelli Kelly, Mr Frosty and original Gameboys. Are you there yet? Now think about marketing back then. The internet was still just a newborn at the time, so marketing had to rely on being a lot more physical and in your face. Companies had to pay to put their messages on TV, in newspapers and direct mail (e.g. magazines). There were essentially no customer journeys and no CTA’s except for a phone number perhaps. The lack of a customer journey also limited building relationships with clients, so niche brands tended to fall to the wayside whilst big companies dominated.
+
+When it came to B2B businesses it was even more difficult to market to potential clients, with trade magazines being one of the only ways to properly campaign. Trade magazines have little to no general audience content and rely on subscriptions, which limited B2B Marketing agencies even further. Don’t even get me started on yellow pages – I think the only thing my family used ours for was to use the weight of the giant thing to flatten pieces of paper.
+
+As we moved into the late 90’s and NSYNC and Friends became the centre of attention, the internet slowly started to flourish and everybody’s least favourite trend was invented; the email chain. At first this presented a wonderful new marketing possibility; the ability to have your content passed on to many more people at a fraction of the price of a physical alternative. However, as swiftly as it rose it then fell. Chain emails are nearly impossible to stop, and the idea was soon hijacked by scams and hoaxes. This made it increasingly difficult to distinguish between genuine marketing campaigns and false ones. Due to this difficulty, it soon became programmed into peoples’ email accounts that all email chains were declared SPAM and sent straight into the junk folder, regardless of whether it was a real marketing campaign or not. Personally, I don’t believe anyone will miss them too much.
+
+With the introduction of the Google Search engine and computers becoming a necessary household appliance people gained much more autonomy with what they wanted to see and interact with. Marketing again had to evolve in order to focus on a more relationship building approach. It now became a case of marketing to the individual, which is where the ever growing social media networks came into play. Now, looking at say a LinkedIn campaign compared to a 1990’s trade magazine, you might not see a lot of obvious similarities. But think about a blog. Like a magazine it can be tailored to a specific area of information or be more generalised. It carries the same tone, they both run along fixed schedules and both are used primarily for marketing purposes. See it’s not that we’ve eliminated old marketing techniques, they have simply been renamed and adapted to suit modern requirements.
+
+With the new internet era, the ability for B2B Marketing companies to advertise themselves and find potential leads has caught up to match that of B2C companies, which have benefited from traditional TV & paper marketing for decades. In fact, in 2016, digital marketing revenue overtook that of TV ad revenue for the first time in history.
+
+The 90’s gave us a lot of things that should never be repeated (dresses worn over jeans come to mind), but it also created a starting point for new ways of marketing, especially ones that could improve B2B Marketing techniques to rival B2C.
