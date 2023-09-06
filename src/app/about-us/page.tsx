@@ -12,13 +12,13 @@ export default function page() {
     <>
       {/* HERO */}
       <div className="flex justify-center items-center bg-hero_bg bg-cover bg-bottom bg-no-repeat">
-        <div className="mt-16 lg:mt-20 grid grid-cols-2 gap-5 lg:gap-20 justify-center items-center p-5 lg:p-16">
+        <div className="mt-16 lg:mt-20 grid grid-cols-2 gap-5 lg:gap-20 justify-center p-5 lg:px-0 lg:py-16 lg:max-w-7xl mx-auto">
           {/* TEXT */}
           <div className="md:mt-2 lg:mt-0 col-span-2 lg:col-span-1 text-white text-center lg:text-start">
             <h1 className="text-4xl lg:text-7xl mb-5 font-semibold">
               Lay a new path in B2B Technology Marketing
             </h1>
-            <p className="lg:text-xl font-medium lg:w-10/12">
+            <p className="lg:text-2xl">
               Move away from the repetitive cycle that limits your creativity
               and reduces your core strenghts. Commit to pushing the boundaries
               of B2B marketing and unleash your potential.
@@ -35,7 +35,7 @@ export default function page() {
             </div>
           </div>
           {/* STATS */}
-          <div className="col-span-2 grid grid-cols-3 gap-2 lg:gap-10 ">
+          <div className="col-span-2 grid grid-cols-3 gap-2 lg:gap-10">
             <div className="flex flex-col justify-center items-center text-3xl lg:text-8xl p-3 lg:py-10 lg:px-20 text-center text-white font-semibold bg-black bg-opacity-50 rounded-xl">
               50+{" "}
               <span className="text-xs lg:text-xl font-normal">
@@ -58,7 +58,7 @@ export default function page() {
         </div>
       </div>
       {/* FORGING */}
-      <div className="bg-white rounded-lg justify-center grid grid-cols-5 mx-5 my-16 lg:m-20 p-5 lg:py-20 lg:px-10 gap-5 lg:gap-16">
+      <div className="bg-white rounded-lg justify-center grid grid-cols-5 p-5 lg:p-20 my-5 lg:my-20 lg:max-w-7xl mx-auto gap-5 lg:gap-16">
         <h2 className="col-span-5 lg:col-span-2 text-3xl lg:text-5xl font-semibold text-s2s-gray lg:leading-tight">
           Forging meaningful connections that{" "}
           <span className="text-black">
@@ -74,7 +74,7 @@ export default function page() {
               {" "}
               You need a team of skilled marketers that leverage the latest
               trends, tools, and technologies to create a comprehensive strategy
-              tailored to your specific onjectives.
+              tailored to your specific objectives.
             </span>
           </p>
           <p className="text-black">
@@ -88,7 +88,7 @@ export default function page() {
         </div>
       </div>
       {/* TEAM */}
-      <div className="bg-hub_bg bg-center bg-cover py-8 px-5 lg:py-12 lg:px-10 mx-5 my-16 lg:m-20 rounded-xl">
+      <div className="bg-hub_bg bg-center bg-cover py-8 px-5 lg:p-12 my-5 lg:my-20 lg:max-w-7xl mx-auto rounded-xl">
         <div className="grid grid-cols-5 justify-center items-center gap-5">
           <div className="text-white col-span-5 lg:col-span-3 w-11/12">
             <h3 className="text-3xl lg:text-5xl font-semibold mb-10">
@@ -126,7 +126,7 @@ export default function page() {
         </div>
       </div>
       {/* CLIENTS */}
-      <div className="bg-white rounded-lg justify-center grid grid-cols-5 mx-5 my-16 lg:m-20 p-5 lg:py-20 lg:px-10 gap-5 lg:gap-16">
+      <div className="bg-white rounded-lg justify-center grid grid-cols-5 p-5 lg:p-20 my-5 lg:my-20 lg:max-w-7xl mx-auto gap-5 lg:gap-16">
         <h4 className="col-span-5 lg:col-span-2 text-3xl lg:text-5xl font-semibold text-s2s-gray lg:leading-tight">
           Clients we are{" "}
           <span className="text-black">generating leads for.</span>{" "}
@@ -155,7 +155,7 @@ export default function page() {
         </div>
       </div>
       {/* ROI */}
-      <div className="bg-white rounded-lg justify-center grid grid-cols-2 mx-5 my-16 lg:m-20 py-16 px-10 gap-5 lg:gap-16">
+      <div className="bg-white rounded-lg justify-center grid grid-cols-2 p-5 lg:p-16 my-5 lg:my-20 lg:max-w-7xl mx-auto gap-5 lg:gap-16">
         <div className="col-span-2 lg:col-span-1">
           <h5 className="text-3xl lg:text-5xl font-semibold text-s2s-gray mb-5 lg:mb-10 lg:leading-tight">
             How we work with clients to{" "}
@@ -184,7 +184,7 @@ export default function page() {
             </p>
             <div className="mt-16 mb-5">
               <Link
-                href="/"
+                href="/case-studies"
                 className="w-fit text-white lg:text-2xl font-semibold bg-s2s-purple hover:bg-s2s-orange duration-200 py-2 px-7 rounded-xl"
               >
                 See our work
@@ -193,11 +193,7 @@ export default function page() {
           </div>
         </div>
         <div className="col-span-2 lg:col-span-1 ">
-          <img
-            src="/img/about-us/work-graph.webp"
-            alt="work graph"
-            className=""
-          />
+          <img src="/img/about-us/work-graph.webp" alt="work graph" />
         </div>
       </div>
       <ClientMarquee />

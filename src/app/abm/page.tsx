@@ -12,13 +12,13 @@ export default function page() {
     <>
       {/* HERO */}
       <div className="flex justify-center items-center bg-hero_bg bg-cover bg-bottom bg-no-repeat">
-        <div className="mt-16 lg:mt-20 grid grid-cols-2 gap-5 justify-center items-center p-5 lg:p-16">
+        <div className="mt-16 lg:mt-20 grid grid-cols-2 gap-5 justify-center p-5 lg:px-0 lg:py-16 lg:max-w-7xl mx-auto">
           {/* TEXT */}
           <div className="md:mt-2 lg:mt-0 col-span-2 lg:col-span-1 text-white text-center lg:text-start">
-            <h1 className="text-4xl lg:text-7xl mb-5 font-semibold">
+            <h1 className="text-4xl lg:text-6xl mb-5 font-semibold">
               ABM for B2B Technology Companies{" "}
             </h1>
-            <p className="lg:text-xl font-medium">
+            <p className="lg:text-2xl">
               Focus on personalised and tailored marketing efforts that are
               directed at specific key accounts or a few target companies.{" "}
             </p>
@@ -36,7 +36,7 @@ export default function page() {
         </div>
       </div>
       {/* CONTENT */}
-      <div className="my-16 p-5 lg:py-20 lg:px-16">
+      <div className="my-16 p-5 lg:py-20 lg:px-0 lg:max-w-7xl mx-auto">
         {/* TITLE */}
         <h2 className="text-s2s-gray text-3xl lg:text-5xl font-semibold lg:w-10/12 lg:leading-tight">
           Ensure that your brand will gain{" "}

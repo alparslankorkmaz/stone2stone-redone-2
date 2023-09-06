@@ -15,7 +15,7 @@ export default function CdwGrounds() {
             <div key={study.id}>
               {/* HERO */}
               <div className="flex justify-center items-center bg-hero_bg bg-cover bg-bottom bg-no-repeat">
-                <div className="w-full mt-16 lg:mt-20 grid grid-cols-2 gap-5 justify-center items-center p-5 lg:p-16">
+                <div className="mt-16 lg:mt-20 grid grid-cols-2 gap-5 lg:gap-20 justify-center items-center p-5 lg:px-0 lg:py-16 lg:max-w-7xl mx-auto">
                   {/* TEXT */}
                   <div className="flex flex-col gap-10 md:mt-2 lg:mt-0 col-span-2 lg:col-span-1 text-white text-center lg:text-start">
                     {/* LOGO */}
@@ -44,7 +44,7 @@ export default function CdwGrounds() {
                 </div>
               </div>
               {/* CONTENT */}
-              <div className="p-5 lg:px-20 lg:my-10">
+              <div className="my-16 p-5 lg:py-20 lg:px-0 lg:max-w-7xl mx-auto">
                 <div className="flex justify-between items-center text-2xl lg:text-5xl font-semibold my-14 lg:leading-none">
                   <h2 className="text-black lg:w-4/5">{study.text}</h2>
                 </div>

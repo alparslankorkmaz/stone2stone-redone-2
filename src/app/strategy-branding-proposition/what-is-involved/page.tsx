@@ -17,26 +17,28 @@ export default function page() {
   return (
     <>
       {/* HERO */}
-      <div className="relative bg-hero_bg bg-cover bg-bottom bg-no-repeat pb-10 lg:min-h-screen">
-        <div className="text-center text-white p-4 lg:p-16 top-16 lg:top-34 flex flex-col justify-center items-center ">
-          <h1 className="text-4xl lg:text-7xl leading-none font-semibold mt-16 lg:mt-24 lg:w-3/5">
+      <div className="relative bg-hero_bg bg-cover bg-bottom bg-no-repeat pb-10 lg:h-[45rem]">
+        <div className="text-center text-white p-4 lg:px-0 lg:py-16 top-16 lg:top-34 lg:max-w-7xl mx-auto flex flex-col justify-center items-center ">
+          <h1 className="text-4xl lg:text-7xl leading-none font-semibold mt-16 lg:mt-24">
             What is involved in a Brand, Strategy and Proposition project?{" "}
           </h1>
-          <p className="mt-3 lg:mt-5 px-8 lg:px-60 text-sm leading-none font-medium lg:text-xl">
+          <p className="mt-3 lg:mt-5 px-8 lg:px-60 text-sm leading-none font-medium lg:text-2xl">
             Here are some common challenges that may arise during a Strategy,
             Branding and Proposition project along with how Stone2stone address
             them{" "}
           </p>
         </div>
       </div>
-      {/* CONTENT */}
-      <SBPSlider1 />
-      <SBPSlider2 />
-      <SBPSlider3 />
-      <SBPSlider4 />
-      <SBPSlider5 />
+      <div className="lg:max-w-7xl mx-auto">
+        {/* CONTENT */}
+        <SBPSlider1 />
+        <SBPSlider2 />
+        <SBPSlider3 />
+        <SBPSlider4 />
+        <SBPSlider5 />
+      </div>
       {/* SUMMARY */}
-      <div className="grid grid-cols-10 gap-5 lg:gap-10 bg-white rounded-xl m-5 lg:m-16 p-3 lg:p-5">
+      <div className="grid grid-cols-10 gap-5 lg:gap-10 bg-white rounded-xl my-10 p-3 lg:p-7 lg:max-w-7xl mx-auto">
         <div className="col-span-10 lg:col-span-3">
           <img
             src="/img/accordion/strategy.webp"
@@ -62,7 +64,7 @@ export default function page() {
             business goals.
           </p>
           <Link
-            href="/"
+            href="/contact-us"
             className="text-white font-medium text-lg lg:text-2xl w-fit lg:mt-5 p-3 bg-s2s-purple rounded-lg hover:bg-s2s-orange duration-200"
           >
             Book a meeting with our Branding team

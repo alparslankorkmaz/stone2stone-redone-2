@@ -11,13 +11,13 @@ export default function page() {
     <>
       {/* HERO */}
       <div className="flex justify-center items-center bg-hero_bg bg-cover bg-bottom bg-no-repeat">
-        <div className="mt-16 lg:mt-20 grid grid-cols-2 gap-5 lg:gap-20 justify-center items-center p-5 lg:p-16">
+        <div className="mt-16 lg:mt-20 grid grid-cols-2 gap-5 lg:gap-20 justify-center p-5 lg:px-0 lg:py-16 lg:max-w-7xl mx-auto">
           {/* TEXT */}
           <div className="md:mt-2 lg:mt-0 col-span-2 lg:col-span-1 text-white text-center lg:text-start">
             <h1 className="text-4xl lg:text-7xl mb-5 font-semibold">
               Elevating brands across the B2B Marketing world{" "}
             </h1>
-            <p className="lg:text-xl lg:w-10/12 font-medium">
+            <p className="lg:text-2xl">
               Although our journey began in the technology sector, our path has
               evolved far beyond those origins. Today, we proudly collaborate
               with diverse B2B companies, helping them connect with their target
@@ -36,14 +36,14 @@ export default function page() {
           </div>
         </div>
       </div>
-      <div className="justify-center grid grid-cols-5 mx-5 my-10 p-5 lg:px-20 gap-5 lg:gap-16">
+      <div className="justify-center grid grid-cols-5 my-10 p-5 lg:px-0 lg:py-16 gap-5 lg:gap-16 lg:max-w-7xl mx-auto">
         <h2 className="col-span-5 lg:col-span-3 text-3xl lg:text-5xl font-semibold text-black lg:leading-tight">
           Technology companies{" "}
           <span className="text-s2s-gray block">we have worked with</span>{" "}
         </h2>
       </div>
       {/* TECH LOGOS */}
-      <div className="grid grid-cols-9 lg:grid-cols-10 gap-10 lg:gap-5 justify-center items-center mx-5 p-5 ">
+      <div className="grid grid-cols-9 lg:grid-cols-10 gap-10 lg:gap-5 justify-center items-center p-5 lg:px-0 lg:max-w-7xl mx-auto">
         <div className="col-span-3 lg:col-span-2 flex justify-center items-center">
           <img
             className="aspect-3/2 object-contain"
@@ -178,14 +178,14 @@ export default function page() {
           />
         </div>
       </div>
-      <div className="justify-center grid grid-cols-5 mx-5 my-10 p-5 lg:px-20 gap-5 lg:gap-16">
+      <div className="justify-center grid grid-cols-5 my-10 p-5 lg:px-0 lg:py-16 gap-5 lg:gap-16 lg:max-w-7xl mx-auto">
         <h2 className="col-span-5 lg:col-span-3 text-3xl lg:text-5xl font-semibold text-black">
           Other B2B Businesses{" "}
           <span className="text-s2s-gray block">we have worked with</span>{" "}
         </h2>
       </div>
       {/* LOGOS */}
-      <div className="grid grid-cols-9 lg:grid-cols-10 gap-10 lg:gap-5 justify-center items-center mx-5 p-5 mb-16">
+      <div className="grid grid-cols-9 lg:grid-cols-10 gap-10 lg:gap-5 justify-center items-center p-5 lg:px-0 lg:max-w-7xl mx-auto">
         <div className="col-span-3 lg:col-span-2 flex justify-center items-center">
           <img
             className="aspect-3/2 object-contain"

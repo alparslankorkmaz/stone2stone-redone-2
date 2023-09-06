@@ -10,6 +10,7 @@ body {
   background-color: #f7f7f7;
 }
 
+/* ACCORDION ARROW STYLING */
 .collapse-arrow .collapse-title:after {
   color: #ec9638;
   width: 1rem;
@@ -17,16 +18,17 @@ body {
   right: 2.5rem;
 }
 
+/* HOME PAGE SVG ANIM */
 .line1 {
   stroke-dasharray: 1957px;
   stroke-dashoffset: 1957px;
-  animation: move 3s linear forwards;
+  animation: move 1.5s linear forwards;
 }
 .line2 {
   stroke-dasharray: 2525px;
   stroke-dashoffset: 2525px;
-  animation: move 3s linear forwards;
-  animation-delay: 1.8s;
+  animation: move 1.5s linear forwards;
+  animation-delay: 1s;
 }
 
 @keyframes move {

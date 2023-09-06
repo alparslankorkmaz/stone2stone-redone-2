@@ -12,7 +12,7 @@ export default function page() {
     <>
       {/* HERO */}
       <div className="flex justify-center items-center bg-hero_bg bg-cover bg-bottom bg-no-repeat">
-        <div className="mt-16 w-full lg:mt-20 grid grid-cols-2 gap-5 lg:gap-20 justify-center items-center p-5 lg:p-16">
+        <div className="mt-16 lg:mt-20 grid grid-cols-2 gap-5 lg:gap-20 justify-center items-center p-5 lg:px-0 lg:py-16 w-full lg:max-w-7xl mx-auto">
           {/* TEXT */}
           <div className="md:mt-2 lg:mt-0 col-span-2 lg:col-span-1 text-white text-center lg:text-start">
             <h1 className="text-4xl lg:text-7xl mb-5 font-semibold">
@@ -33,40 +33,42 @@ export default function page() {
         </div>
       </div>
       {/* FORM SECTION */}
-      <div className="p-5 lg:px-28 lg:my-10 flex justify-between items-center text-2xl lg:text-5xl font-semibold lg:leading-tight">
-        <h2 className="text-black w-4/5">
-          <span className="text-s2s-gray">
-            Servicing the B2B market through
-          </span>{" "}
-          lead generation that delivers
-        </h2>
-      </div>
-      <div className="grid grid-cols-5 p-5 lg:px-28 lg:my-10 gap-10">
-        <div className="col-span-5 lg:col-span-2 flex flex-col gap-20">
-          <div>
-            <h3 className="font-semibold text-2xl lg:text-5xl mb-4">
-              Our Office
-            </h3>
-            <address className="not-italic text-xl">
-              Stone2Stone Ltd, <br /> Block B, <br /> Marvan Court, <br /> 1
-              Waldegrave Road, <br />
-              Teddington, TW11 8LZ
-            </address>
-          </div>
-          <div>
-            <h3 className="font-semibold text-2xl lg:text-5xl mb-4">Email</h3>
-            <p className="text-xl">info@stone2stone.co.uk</p>
-          </div>
-          <div>
-            <h3 className="font-semibold text-2xl lg:text-5xl mb-4">
-              Let's talk
-            </h3>
-            <p className="text-xl underline">+44(0)203 4689 945</p>
-          </div>
+      <div className="lg:max-w-7xl mx-auto">
+        <div className="p-5 lg:px-0 lg:my-10 flex justify-between items-center text-2xl lg:text-5xl font-semibold lg:leading-tight">
+          <h2 className="text-black w-4/5">
+            <span className="text-s2s-gray">
+              Servicing the B2B market through
+            </span>{" "}
+            lead generation that delivers
+          </h2>
         </div>
-        {/* FORM */}
-        <div className="col-span-5 lg:col-span-3 order-first lg:order-none">
-          <Form />
+        <div className="grid grid-cols-5 p-5 lg:px-0 lg:my-10 gap-10">
+          <div className="col-span-5 lg:col-span-2 flex flex-col gap-20">
+            <div>
+              <h3 className="font-semibold text-2xl lg:text-5xl mb-4">
+                Our Office
+              </h3>
+              <address className="not-italic text-xl">
+                Stone2Stone Ltd, <br /> Block B, <br /> Marvan Court, <br /> 1
+                Waldegrave Road, <br />
+                Teddington, TW11 8LZ
+              </address>
+            </div>
+            <div>
+              <h3 className="font-semibold text-2xl lg:text-5xl mb-4">Email</h3>
+              <p className="text-xl">info@stone2stone.co.uk</p>
+            </div>
+            <div>
+              <h3 className="font-semibold text-2xl lg:text-5xl mb-4">
+                Let's talk
+              </h3>
+              <p className="text-xl underline">+44(0)203 4689 945</p>
+            </div>
+          </div>
+          {/* FORM */}
+          <div className="col-span-5 lg:col-span-3 order-first lg:order-none">
+            <Form />
+          </div>
         </div>
       </div>
       <ClientMarquee />

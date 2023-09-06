@@ -15,7 +15,7 @@ export default function FilterWork() {
   return (
     <>
       {/* FILTER */}
-      <div className="p-5 lg:px-20 lg:my-10">
+      <div className="p-5 lg:p-0 lg:my-10">
         <div className="flex flex-wrap lg:flex-nowrap justify-between items-center text-2xl lg:text-5xl font-semibold lg:my-14 lg:leading-tight">
           <h4 className="text-black w-4/5">
             Our previous work that has created{" "}
@@ -40,7 +40,7 @@ export default function FilterWork() {
           </div>
         </div>
       </div>
-      <div className="m-5 lg:m-20">
+      <div className="p-5 lg:px-0 lg:py-20">
         <ul className="grid grid-cols-2 lg:grid-cols-9 gap-4 lg:gap-8">
           {filteredStudies.map((study) => {
             const { id, link, img, logo, name, tag } = study;

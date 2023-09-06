@@ -11,13 +11,13 @@ export default function page() {
     <>
       {/* HERO */}
       <div className="flex justify-center items-center bg-hero_bg bg-cover bg-bottom bg-no-repeat">
-        <div className="mt-16 lg:mt-20 grid grid-cols-2 gap-5 lg:gap-20 justify-center items-center p-5 lg:p-16">
+        <div className="mt-16 lg:mt-20 grid grid-cols-2 gap-5 lg:gap-20 justify-center p-5 lg:px-0 lg:py-16 lg:max-w-7xl mx-auto">
           {/* TEXT */}
           <div className="md:mt-2 lg:mt-0 col-span-2 lg:col-span-1 text-white text-center lg:text-start">
             <h1 className="text-4xl lg:text-7xl mb-5 font-semibold">
               Unleash potential in B2B Technology Marketing
             </h1>
-            <p className="lg:text-xl font-medium lg:w-10/12">
+            <p className="lg:text-2xl">
               Stone2Stone has already developed a vast catalogue of treasured
               clients, some old, many new. As a result, we too have had to
               expand. With a dedicated team of 9, we continue to grow as
@@ -38,7 +38,7 @@ export default function page() {
         </div>
       </div>
       {/* TEAM */}
-      <div className="justify-center grid grid-cols-5 mx-5 my-16 p-5 lg:py-20 lg:px-10 gap-5 lg:gap-16">
+      <div className="justify-center grid grid-cols-5 my-16 p-5 lg:px-0 lg:py-20 gap-5 lg:gap-16 lg:max-w-7xl mx-auto">
         <h2 className="col-span-5 lg:col-span-2 text-3xl lg:text-5xl font-semibold text-s2s-gray lg:leading-tight">
           The team behind our{" "}
           <span className="text-black">exceptional results.</span>{" "}
@@ -57,7 +57,7 @@ export default function page() {
         </div>
       </div>
       {/* TEAM GRID */}
-      <div className="m-5 lg:m-16 grid grid-cols-6 gap-5 lg:gap-10 justify-center items-center">
+      <div className="p-5 lg:px-0 lg:py-16 grid grid-cols-6 gap-5 lg:gap-20 justify-center items-center lg:max-w-7xl mx-auto">
         {/* DAVID */}
         <div className="col-span-3 lg:col-span-2 ">
           <div className="relative group ">

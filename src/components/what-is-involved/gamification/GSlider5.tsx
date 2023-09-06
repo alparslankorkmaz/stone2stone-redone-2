@@ -1,9 +1,8 @@
 export default function GSlider5() {
   return (
     <>
-      {" "}
       <div className="flex justify-center items-center">
-        <div className="carousel lg:w-[90%] ">
+        <div className="carousel p-5 lg:p-0">
           {/* CHALLENGE 5 */}
           <div
             id="slide5-1"

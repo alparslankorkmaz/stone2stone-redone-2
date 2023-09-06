@@ -3,20 +3,15 @@ import Link from "next/link";
 export default function PushingTheBoundaries() {
   return (
     <>
-      {" "}
       {/* PUSHING THE BOUNDARIES */}
-      <div className="p-5 lg:px-20 my-10">
+      <div className="p-5 lg:p-0 my-10 lg:max-w-7xl mx-auto">
         <div className="flex flex-wrap lg:flex-nowrap justify-between items-center text-2xl lg:text-5xl font-semibold my-14 lg:leading-tight">
           <h4 className="text-s2s-gray w-3/4">
-            {" "}
-            Why you should{" "}
-            <span className="text-black">
-              continuously push the boundaries of B2B Technology Marketing to
-              create leads
-            </span>
+            <span className="text-black">Pushing the boundaries</span> of B2B
+            Technology Marketing to create leads
           </h4>
           <Link
-            href="/"
+            href="/contact-us"
             className="w-fit h-fit mt-5 lg:mt-0 whitespace-nowrap text-white text-base lg:text-xl font-semibold bg-s2s-purple hover:bg-s2s-orange duration-200 py-2 px-4 rounded-xl"
           >
             Work with us
@@ -30,7 +25,7 @@ export default function PushingTheBoundaries() {
               </span>
             </div>
             <p className="font-medium mt-5 text-xl lg:text-2xl whitespace-nowrap">
-              Competitive <span className="block">Advantage</span>
+              Maximise <span className="block">Competitiveness</span>
             </p>
           </div>
           <div className="col-span-2 lg:col-span-1">
@@ -50,7 +45,7 @@ export default function PushingTheBoundaries() {
               </span>
             </div>
             <p className="font-medium mt-5 text-xl lg:text-2xl whitespace-nowrap">
-              Increased <span className="block">Engagement</span>
+              Increase <span className="block">Engagement</span>
             </p>
           </div>
           <div className="col-span-2 lg:col-span-1">
@@ -60,7 +55,7 @@ export default function PushingTheBoundaries() {
               </span>
             </div>
             <p className="font-medium mt-5 text-xl lg:text-2xl whitespace-nowrap">
-              Ready to Evolve <span className="block">with the Market</span>
+              Evolve with<span className="block"> the Market</span>
             </p>
           </div>
         </div>

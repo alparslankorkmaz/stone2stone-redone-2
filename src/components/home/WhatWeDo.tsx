@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function WhatWeDo() {
   return (
     <>
-      <div className="p-5 lg:px-20">
+      <div className="p-5 lg:p-0 lg:max-w-7xl mx-auto">
         <div className="text-2xl lg:text-5xl font-semibold my-14 lg:leading-tight">
           <h3 className="text-black">
             What we do:{" "}
@@ -19,7 +19,7 @@ export default function WhatWeDo() {
             <div className="collapse-title text-xl lg:text-4xl p-4 lg:p-7 font-medium relative">
               Strategy, Branding and{" "}
               <span className="block lg:inline"> Proposition</span>
-              <div className="p-6 rounded-full border-2 border-s2s-orange absolute top-[1.1rem] right-[1.15rem]"></div>
+              {/* <div className="p-6 rounded-full border-2 border-s2s-orange absolute top-[1.1rem] right-[1.15rem]"></div> */}
             </div>
             <div className="collapse-content ">
               {/* DIVIDER */}
@@ -49,7 +49,7 @@ export default function WhatWeDo() {
                     story and visuals that capture the essence of your business.
                   </p>
                   {/* BUTTON */}
-                  <Link href="/">
+                  <Link href="/contact-us">
                     <div className="text-white w-fit mt-10 lg:mt-20 p-3 bg-s2s-purple rounded-lg hover:bg-s2s-orange duration-200">
                       Book a meeting with our Brand Growth team
                     </div>
@@ -75,7 +75,7 @@ export default function WhatWeDo() {
                 <br />
               </div>
             </div>
-            <div className="p-6 rounded-full border-2 border-s2s-orange absolute top-[1.1rem] right-[1.15rem]"></div>
+            {/* <div className="p-6 rounded-full border-2 border-s2s-orange absolute top-[1.1rem] right-[1.15rem]"></div> */}
 
             <div className="collapse-content ">
               {/* DIVIDER */}
@@ -112,7 +112,7 @@ export default function WhatWeDo() {
                     </span>
                   </p>
                   {/* BUTTON */}
-                  <Link href="/">
+                  <Link href="/contact-us">
                     <div className="text-white w-fit mt-10 lg:mt-20 p-3 bg-s2s-purple rounded-lg hover:bg-s2s-orange duration-200">
                       Book a meeting with our Digital team
                     </div>
@@ -138,7 +138,7 @@ export default function WhatWeDo() {
                 <br />
               </div>
             </div>
-            <div className="p-6 rounded-full border-2 border-s2s-orange absolute top-[1.1rem] right-[1.15rem]"></div>
+            {/* <div className="p-6 rounded-full border-2 border-s2s-orange absolute top-[1.1rem] right-[1.15rem]"></div> */}
 
             <div className="collapse-content ">
               {/* DIVIDER */}
@@ -174,7 +174,7 @@ export default function WhatWeDo() {
                     </span>
                   </p>
                   {/* BUTTON */}
-                  <Link href="/">
+                  <Link href="/contact-us">
                     <div className="text-white w-fit mt-10 lg:mt-20 p-3 bg-s2s-purple rounded-lg hover:bg-s2s-orange duration-200">
                       Book a meeting with our ABM team
                     </div>
@@ -200,7 +200,7 @@ export default function WhatWeDo() {
                 <br />
               </div>
             </div>
-            <div className="p-6 rounded-full border-2 border-s2s-orange absolute top-[1.1rem] right-[1.15rem]"></div>
+            {/* <div className="p-6 rounded-full border-2 border-s2s-orange absolute top-[1.1rem] right-[1.15rem]"></div> */}
 
             <div className="collapse-content ">
               {/* DIVIDER */}
@@ -237,7 +237,7 @@ export default function WhatWeDo() {
                     </span>
                   </p>
                   {/* BUTTON */}
-                  <Link href="/">
+                  <Link href="/contact-us">
                     <div className="text-white w-fit mt-10 lg:mt-20 p-3 bg-s2s-purple rounded-lg hover:bg-s2s-orange duration-200">
                       Book a meeting with our Content team
                     </div>
@@ -263,7 +263,7 @@ export default function WhatWeDo() {
                 <br />
               </div>
             </div>
-            <div className="p-6 rounded-full border-2 border-s2s-orange absolute top-[1.1rem] right-[1.15rem]"></div>
+            {/* <div className="p-6 rounded-full border-2 border-s2s-orange absolute top-[1.1rem] right-[1.15rem]"></div> */}
 
             <div className="collapse-content ">
               {/* DIVIDER */}
@@ -300,7 +300,7 @@ export default function WhatWeDo() {
                     </span>
                   </p>
                   {/* BUTTON */}
-                  <Link href="/">
+                  <Link href="/contact-us">
                     <div className="text-white w-fit mt-10 lg:mt-20 p-3 bg-s2s-purple rounded-lg hover:bg-s2s-orange duration-200">
                       Book a meeting with our Gamification team
                     </div>

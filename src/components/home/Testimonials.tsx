@@ -1,8 +1,8 @@
 export default function Testimonials() {
   return (
     <>
-      <div className="flex justify-center items-center">
-        <div className="carousel lg:w-[90%] ">
+      <div className="flex justify-center items-center lg:max-w-7xl mx-auto">
+        <div className="carousel">
           {/* SLIDE 1 */}
           <div
             id="slide1"

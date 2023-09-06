@@ -12,13 +12,13 @@ export default function page() {
     <>
       {/* HERO */}
       <div className="flex justify-center items-center bg-hero_bg bg-cover bg-bottom bg-no-repeat">
-        <div className="mt-16 lg:mt-20 grid grid-cols-2 gap-5 justify-center items-center p-5 lg:p-16">
+        <div className="mt-16 lg:mt-20 grid grid-cols-2 gap-5 lg:gap-20 justify-center p-5 lg:px-0 lg:py-16 lg:max-w-7xl mx-auto">
           {/* TEXT */}
           <div className="md:mt-2 lg:mt-0 col-span-2 lg:col-span-1 text-white text-center lg:text-start">
             <h1 className="text-4xl lg:text-7xl mb-5 font-semibold">
               Tailored solutions for B2B Technology Marketing{" "}
             </h1>
-            <p className="lg:text-xl font-medium">
+            <p className="lg:text-2xl">
               With a combination of meticulous strategy development, tailored
               solutions, and a deep understanding of your industry landscape,
               you can ensure every effort is dedicated to delivering measurable
@@ -38,7 +38,7 @@ export default function page() {
         </div>
       </div>
       {/* CONTENT */}
-      <div className="my-16 p-5 lg:py-20 lg:px-16">
+      <div className="my-16 p-5 lg:py-20 lg:px-0 lg:max-w-7xl mx-auto">
         {/* TITLE */}
         <h2 className="text-s2s-gray text-3xl lg:text-5xl font-semibold lg:w-10/12 lg:leading-tight">
           Solutions that create lead generation for B2B businesses by
@@ -462,7 +462,7 @@ export default function page() {
             <div className="my-10">
               <Link
                 className="rounded-lg py-3 px-8 text-white bg-s2s-purple w-fit hover:bg-s2s-orange duration-200 text-xl lg:text-2xl"
-                href="/"
+                href="/contact-us"
               >
                 Find out more
               </Link>

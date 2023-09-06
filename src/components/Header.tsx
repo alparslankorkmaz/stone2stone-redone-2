@@ -3,6 +3,7 @@ import Image from "next/image";
 import logo from "public/img/logo/logo.svg";
 import Link from "next/link";
 import { useState } from "react";
+import { FaChevronDown } from "react-icons/fa";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,7 +13,7 @@ export default function Header() {
       <nav className="w-full top-0 left-0 right-0 absolute z-20">
         <div className="lg:flex lg:items-center lg:max-w-7xl mx-auto justify-between items-center">
           <div>
-            <div className="flex items-center justify-between px-4 py-3 lg:py-10 lg:block">
+            <div className="flex items-center justify-between py-3 lg:py-10 lg:block">
               {/* LOGO */}
               <Link href="/">
                 <Image
@@ -20,10 +21,11 @@ export default function Header() {
                   alt="stone2stone logo"
                   width={170}
                   height={30}
+                  className="px-5 lg:px-0"
                 />
               </Link>
               {/* HAMBURGER BUTTON FOR MOBILE */}
-              <div className="lg:hidden">
+              <div className="lg:hidden px-5 lg:px-0">
                 <button
                   onClick={() => setIsOpen(!isOpen)}
                   className="flex items-center px-3 py-2 rounded text-s2s-orange"
@@ -58,7 +60,7 @@ export default function Header() {
                   : "hidden"
               }`}
             >
-              <ul className="gap-8 h-full font-semibold lg:h-auto flex flex-col items-center lg:flex-row lg:items-center text-xl lg:text-sm lg:gap-7">
+              <ul className="gap-8 h-full font-semibold lg:h-auto flex flex-col items-center lg:flex-row lg:items-center text-xl lg:text-base lg:gap-7">
                 {/* HOME */}
                 <li>
                   <Link
@@ -71,17 +73,19 @@ export default function Header() {
                 </li>
                 {/* ABOUT */}
                 <li>
-                  <div className="dropdown dropdown-bottom dropdown-end h-5">
+                  <div className="dropdown dropdown-hover dropdown-bottom dropdown-end">
                     <label
                       tabIndex={0}
-                      className="relative w-fit lg:mt-0 text-white text-center hover:text-s2s-orange duration-200"
+                      className="flex justify-center items-center gap-2 relative w-fit lg:mt-0 text-white text-center hover:text-s2s-orange duration-200"
                     >
                       About Stone2stone{" "}
-                      <i className="font-sans text-[.7rem]">&#x25BC;</i>
+                      <span className="text-xs">
+                        <FaChevronDown />
+                      </span>
                     </label>
                     <ul
                       tabIndex={0}
-                      className="flex justify-center items-center lg:block dropdown-content mt-3 -left-3 lg:-left-7 divide-y-2 divide-s2s-purple z-[1] menu p-2 text-white bg-menu-gray rounded-box w-52"
+                      className="flex justify-center items-center lg:block dropdown-content -left-3 lg:-left-7 divide-y-2 divide-s2s-orange z-[1] menu p-3 text-white bg-menu-gray rounded-lg w-52"
                     >
                       <li>
                         <Link
@@ -115,17 +119,19 @@ export default function Header() {
                 </li>
                 {/* WHAT WE DO */}
                 <li>
-                  <div className="dropdown dropdown-bottom dropdown-end h-5">
+                  <div className="dropdown dropdown-hover dropdown-bottom dropdown-end">
                     <label
                       tabIndex={0}
-                      className=" relative w-fit lg:mt-0 text-white text-center hover:text-s2s-orange duration-200"
+                      className="flex justify-center items-center gap-2 relative w-fit lg:mt-0 text-white text-center hover:text-s2s-orange duration-200"
                     >
                       What we do{" "}
-                      <i className="font-sans text-[.7rem]">&#x25BC;</i>
+                      <span className="text-xs">
+                        <FaChevronDown />
+                      </span>
                     </label>
                     <ul
                       tabIndex={0}
-                      className="flex justify-center items-center lg:block dropdown-content mt-3 -left-[5.3rem] lg:-left-7 divide-y-2 divide-s2s-purple z-[1] menu p-2 text-white bg-menu-gray rounded-box w-72"
+                      className="flex justify-center items-center lg:block dropdown-content -left-[5.3rem] lg:-left-7 divide-y-2 divide-s2s-orange z-[1] menu p-3 text-white bg-menu-gray rounded-lg w-72"
                     >
                       <li>
                         <Link
@@ -214,11 +220,11 @@ export default function Header() {
                     Contact us
                   </Link>
                 </li>
-
-                <li className="hidden lg:block text-s2s-purple text-5xl font-thin">
+                {/* LOGIN BUTTON */}
+                {/* <li className="hidden lg:block text-s2s-purple text-5xl font-thin">
                   I
-                </li>
-                <li>
+                </li> */}
+                {/* <li>
                   <Link
                     className=" w-fit font-bold lg:mt-0 text-white text-center bg-s2s-purple px-10 py-2 rounded-xl hover:bg-s2s-orange duration-200"
                     href="/"
@@ -226,7 +232,7 @@ export default function Header() {
                   >
                     Log in
                   </Link>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
