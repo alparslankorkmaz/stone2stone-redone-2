@@ -1,6 +1,7 @@
 import ClientMarquee from "@/components/ClientMarquee";
 import Link from "next/link";
 import type { Metadata } from "next";
+import { CgInfinity } from "react-icons/cg";
 
 export const metadata: Metadata = {
   title: "About us",
@@ -49,7 +50,7 @@ export default function page() {
               </span>
             </div>
             <div className="flex flex-col justify-center items-center text-3xl lg:text-8xl p-3 lg:py-10 lg:px-20 text-center text-white font-semibold bg-black bg-opacity-50 rounded-xl">
-              1:53{" "}
+              <CgInfinity />
               <span className="text-xs lg:text-xl font-normal">
                 Average ROI
               </span>
