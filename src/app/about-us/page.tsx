@@ -52,7 +52,7 @@ export default function page() {
             <div className="flex flex-col justify-center items-center text-3xl lg:text-8xl p-3 lg:py-10 lg:px-20 text-center text-white font-semibold bg-black bg-opacity-50 rounded-xl">
               <CgInfinity />
               <span className="text-xs lg:text-xl font-normal">
-                Average ROI
+                Leads Generated
               </span>
             </div>
           </div>
