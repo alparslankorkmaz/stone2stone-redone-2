@@ -7,6 +7,19 @@ import { FaChevronDown } from "react-icons/fa";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
+  const [menuDisplay, setmenuDisplay] = useState(true);
+  const [displayMenuStyle, setdisplayMenuStyle] = useState("");
+
+  // click menu item to close it
+  const showMenu = () => {
+    setmenuDisplay(!menuDisplay);
+    if (menuDisplay) {
+      setdisplayMenuStyle("");
+    } else {
+      setdisplayMenuStyle("none");
+    }
+    return;
+  };
 
   return (
     <>
@@ -73,7 +86,10 @@ export default function Header() {
                 </li>
                 {/* ABOUT */}
                 <li>
-                  <div className="dropdown dropdown-hover dropdown-bottom dropdown-end">
+                  <div
+                    className="dropdown dropdown-bottom dropdown-end"
+                    onClick={showMenu}
+                  >
                     <label
                       tabIndex={0}
                       className="flex justify-center items-center gap-2 relative w-fit lg:mt-0 text-white text-center hover:text-s2s-orange duration-200"
@@ -85,7 +101,8 @@ export default function Header() {
                     </label>
                     <ul
                       tabIndex={0}
-                      className="flex justify-center items-center lg:block dropdown-content -left-3 lg:-left-7 divide-y-2 divide-s2s-orange z-[1] menu p-3 text-white bg-menu-gray rounded-lg w-52"
+                      style={{ display: displayMenuStyle }}
+                      className="flex justify-center items-center lg:block dropdown-content -left-3 lg:-left-7 divide-y-2 divide-s2s-orange z-[1] menu mt-3 p-2 text-white bg-menu-gray rounded-lg w-52"
                     >
                       <li>
                         <Link
@@ -119,7 +136,10 @@ export default function Header() {
                 </li>
                 {/* WHAT WE DO */}
                 <li>
-                  <div className="dropdown dropdown-hover dropdown-bottom dropdown-end">
+                  <div
+                    className="dropdown dropdown-bottom dropdown-end"
+                    onClick={showMenu}
+                  >
                     <label
                       tabIndex={0}
                       className="flex justify-center items-center gap-2 relative w-fit lg:mt-0 text-white text-center hover:text-s2s-orange duration-200"
@@ -131,7 +151,8 @@ export default function Header() {
                     </label>
                     <ul
                       tabIndex={0}
-                      className="flex justify-center items-center lg:block dropdown-content -left-[5.3rem] lg:-left-7 divide-y-2 divide-s2s-orange z-[1] menu p-3 text-white bg-menu-gray rounded-lg w-72"
+                      style={{ display: displayMenuStyle }}
+                      className="flex justify-center items-center lg:block dropdown-content -left-[5.3rem] lg:-left-7 divide-y-2 divide-s2s-orange z-[1] menu mt-3 p-2 text-white bg-menu-gray rounded-lg w-72"
                     >
                       <li>
                         <Link
