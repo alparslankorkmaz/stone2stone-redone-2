@@ -10,6 +10,13 @@ export default function Header() {
   const [menuDisplay, setmenuDisplay] = useState(true);
   const [displayMenuStyle, setdisplayMenuStyle] = useState("");
 
+  const [rotateChevron1, setRotateChevron1] = useState(false);
+  const handleRotate1 = () => setRotateChevron1(!rotateChevron1);
+  const rotate1 = rotateChevron1 ? "rotate(180deg)" : "rotate(0)";
+  const [rotateChevron2, setRotateChevron2] = useState(false);
+  const handleRotate2 = () => setRotateChevron2(!rotateChevron2);
+  const rotate2 = rotateChevron2 ? "rotate(180deg)" : "rotate(0)";
+
   // click menu item to close it
   const showMenu = () => {
     setmenuDisplay(!menuDisplay);
@@ -88,7 +95,10 @@ export default function Header() {
                 <li>
                   <div
                     className="dropdown dropdown-bottom dropdown-end"
-                    onClick={showMenu}
+                    onClick={function (event) {
+                      showMenu();
+                      handleRotate1();
+                    }}
                   >
                     <label
                       tabIndex={0}
@@ -96,7 +106,12 @@ export default function Header() {
                     >
                       About Stone2stone{" "}
                       <span className="text-xs">
-                        <FaChevronDown />
+                        <FaChevronDown
+                          style={{
+                            transform: rotate1,
+                            transition: "all 0.2s linear",
+                          }}
+                        />
                       </span>
                     </label>
                     <ul
@@ -138,7 +153,10 @@ export default function Header() {
                 <li>
                   <div
                     className="dropdown dropdown-bottom dropdown-end"
-                    onClick={showMenu}
+                    onClick={function (event) {
+                      showMenu();
+                      handleRotate2();
+                    }}
                   >
                     <label
                       tabIndex={0}
@@ -146,7 +164,12 @@ export default function Header() {
                     >
                       What we do{" "}
                       <span className="text-xs">
-                        <FaChevronDown />
+                        <FaChevronDown
+                          style={{
+                            transform: rotate2,
+                            transition: "all 0.2s linear",
+                          }}
+                        />
                       </span>
                     </label>
                     <ul
