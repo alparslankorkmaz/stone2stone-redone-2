@@ -1,16 +1,20 @@
 "use client";
-import { useState } from "react";
-import { studies } from "../../../constant/caseStudies";
+import { useState, useMemo } from "react";
+import { studies, tags } from "../../../constant/caseStudies";
 import Link from "next/link";
 
 export default function FilterWork() {
-  const [filteredStudies, setFilteredStudies] = useState(studies);
+  const [tag, setTag] = useState("");
 
-  const filterByTag = (tag: string) => {
-    setFilteredStudies(studies.filter((study) => study.tag === tag));
-  };
-
-  const tags = Array.from(new Set(studies.map((study) => study.tag)));
+  const caseStudies = useMemo(() => {
+    return studies.filter((study) => {
+      if (tag === "") {
+        return studies;
+      }
+      const studyTag = study.tag;
+      return studyTag.includes(tag);
+    });
+  }, [tag]);
 
   return (
     <>
@@ -26,15 +30,15 @@ export default function FilterWork() {
           <div className="text-lg">
             <select
               className="form-select mt-5 lg:mt-0 w-32 lg:w-52 rounded-xl bg-blend-color-dodge bg-s2s-purple lg:text-xl text-white font-semibold"
-              onChange={(e) => filterByTag(e.target.value)}
-              value={"default"}
+              onChange={(e) => setTag(e.target.value)}
+              value={tag}
             >
-              <option disabled value="default" className="text-center">
-                Filter
-              </option>
-
-              {tags.map((tag) => {
-                return <option key={tag}>{tag}</option>;
+              {tags.map((tag, i) => {
+                return (
+                  <option value={tag.value} key={i}>
+                    {tag.label}
+                  </option>
+                );
               })}
             </select>
           </div>
@@ -42,7 +46,7 @@ export default function FilterWork() {
       </div>
       <div className="p-5 lg:px-0 lg:py-20">
         <ul className="grid grid-cols-2 lg:grid-cols-9 gap-4 lg:gap-8">
-          {filteredStudies.map((study) => {
+          {caseStudies.map((study) => {
             const { id, link, img, logo, name, tag } = study;
             return (
               <li

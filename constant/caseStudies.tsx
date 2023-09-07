@@ -37,6 +37,33 @@ const controller = GiConsoleController;
 const journey = TbRoute;
 const monitor = MdOutlineMonitor;
 
+export const tags = [
+  {
+    value: "",
+    label: "All",
+  },
+  {
+    value: "Digital Marketing",
+    label: "Digital Marketing",
+  },
+  {
+    value: "Content Marketing",
+    label: "Content Marketing",
+  },
+  {
+    value: "Strategy, Branding and Proposition",
+    label: "Strategy, Branding and Proposition",
+  },
+  {
+    value: "ABM",
+    label: "ABM",
+  },
+  {
+    value: "Gamification",
+    label: "Gamification",
+  },
+];
+
 export const studies = [
   {
     id: 1,
