@@ -16,30 +16,6 @@ export default function Header() {
   const handleRotate2 = () => setRotateChevron2(!rotateChevron2);
   const rotate2 = rotateChevron2 ? "rotate(180deg)" : "rotate(0)";
 
-  // // click menu item to close it
-  // const [menuDisplay1, setmenuDisplay1] = useState(true);
-  // const [displayMenuStyle1, setdisplayMenuStyle1] = useState("");
-  // const [menuDisplay2, setmenuDisplay2] = useState(true);
-  // const [displayMenuStyle2, setdisplayMenuStyle2] = useState("");
-  // const showMenu1 = () => {
-  //   setmenuDisplay1(!menuDisplay1);
-  //   if (menuDisplay1) {
-  //     setdisplayMenuStyle1("");
-  //   } else {
-  //     setdisplayMenuStyle1("none");
-  //   }
-  //   return;
-  // };
-  // const showMenu2 = () => {
-  //   setmenuDisplay2(!menuDisplay2);
-  //   if (menuDisplay2) {
-  //     setdisplayMenuStyle2("");
-  //   } else {
-  //     setdisplayMenuStyle2("none");
-  //   }
-  //   return;
-  // };
-
   return (
     <>
       <nav className="w-full top-0 left-0 right-0 absolute z-20">
@@ -107,10 +83,6 @@ export default function Header() {
                 <li>
                   <div
                     className="dropdown dropdown-hover dropdown-bottom dropdown-end"
-                    // onClick={function () {
-                    //   // showMenu1();
-                    //   handleRotate1();
-                    // }}
                     onMouseEnter={handleRotate1}
                     onMouseLeave={handleRotate1}
                   >
@@ -167,10 +139,6 @@ export default function Header() {
                 <li>
                   <div
                     className="dropdown dropdown-hover dropdown-bottom dropdown-end"
-                    // onClick={function () {
-                    //   // showMenu2();
-                    //   handleRotate2();
-                    // }}
                     onMouseEnter={handleRotate2}
                     onMouseLeave={handleRotate2}
                   >
@@ -190,7 +158,6 @@ export default function Header() {
                     </label>
                     <ul
                       tabIndex={0}
-                      // style={{ display: displayMenuStyle2 }}
                       className="flex justify-center items-center lg:block dropdown-content -left-[5.3rem] lg:-left-7 divide-y-2 divide-s2s-orange z-[1] menu p-3 text-white bg-menu-gray rounded-lg w-72"
                     >
                       <li>
