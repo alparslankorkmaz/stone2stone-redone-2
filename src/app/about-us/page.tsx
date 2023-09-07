@@ -21,7 +21,7 @@ export default function page() {
             </h1>
             <p className="lg:text-2xl">
               Move away from the repetitive cycle that limits your creativity
-              and reduces your core strenghts. Commit to pushing the boundaries
+              and reduces your core strengths. Commit to pushing the boundaries
               of B2B marketing and unleash your potential.
             </p>
           </div>
