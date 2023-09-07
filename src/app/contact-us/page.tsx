@@ -26,7 +26,7 @@ export default function page() {
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2487.70641797858!2d-0.33682782398312505!3d51.42681941658754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760b3d9f75c905%3A0xe8bcda5f337c087d!2sStone2Stone%3A%20A%20B2B%20Marketing%20Agency!5e0!3m2!1sen!2suk!4v1693558737331!5m2!1sen!2suk"
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                className="h-full w-full rounded-xl"
+                className="h-full w-full rounded-xl invert-[90%] grayscale-0"
               ></iframe>
             </div>
           </div>

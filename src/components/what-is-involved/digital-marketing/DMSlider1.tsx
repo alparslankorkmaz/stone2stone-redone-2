@@ -2,11 +2,11 @@ export default function DMSlider1() {
   return (
     <>
       <div className="flex justify-center items-center">
-        <div className="carousel p-5 lg:p-0">
+        <div className="carousel">
           {/* CHALLENGE 1 */}
           <div
             id="slide1-1"
-            className="carousel-item relative w-[90%] bg-white m-6 rounded-xl"
+            className="carousel-item relative w-full lg:w-[90%] bg-white m-6 rounded-xl"
           >
             <div className="p-3 lg:p-5 grid grid-cols-5 gap-3 lg:justify-center lg:items-center">
               {/* TEXT */}
@@ -75,7 +75,7 @@ export default function DMSlider1() {
           {/* SOLUTION 1 */}
           <div
             id="slide1-2"
-            className="carousel-item relative w-[90%] bg-white m-6 rounded-xl"
+            className="carousel-item relative w-full lg:w-[90%] bg-white m-6 rounded-xl"
           >
             <div className="p-3 lg:p-5 grid grid-cols-5 gap-3 lg:justify-center lg:items-center">
               {/* TEXT */}
@@ -152,7 +152,7 @@ export default function DMSlider1() {
           {/* HOW WE TACKLE 1 */}
           <div
             id="slide1-3"
-            className="carousel-item relative w-[90%] bg-white m-6 rounded-xl"
+            className="carousel-item relative w-full lg:w-[90%] bg-white m-6 rounded-xl"
           >
             <div className="p-3 lg:p-5 grid grid-cols-5 gap-3 lg:justify-center lg:items-center">
               {/* TEXT */}
