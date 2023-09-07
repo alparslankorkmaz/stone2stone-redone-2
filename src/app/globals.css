@@ -5,7 +5,6 @@
 /* prevent carousel jolting */
 html {
   scroll-padding-top: 8rem;
-  scroll-behavior: smooth;
 }
 
 body::-webkit-scrollbar {

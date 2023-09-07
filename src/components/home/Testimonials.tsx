@@ -6,7 +6,7 @@ export default function Testimonials() {
           {/* SLIDE 1 */}
           <div
             id="slide1"
-            className="carousel-item relative w-[90%] bg-white m-6 rounded-xl"
+            className="carousel-item relative w-full lg:w-[90%] bg-white m-6 rounded-xl"
           >
             <div className="p-3 lg:p-5 grid grid-cols-10 gap-3 lg:justify-center lg:items-center">
               {/* IMAGE */}
@@ -91,7 +91,7 @@ export default function Testimonials() {
           {/* SLIDE 2 */}
           <div
             id="slide2"
-            className="carousel-item relative w-[90%] bg-white m-6 rounded-xl"
+            className="carousel-item relative w-full lg:w-[90%] bg-white m-6 rounded-xl"
           >
             <div className="p-3 lg:p-5 grid grid-cols-10 gap-3 lg:justify-center lg:items-center">
               {/* IMAGE */}
@@ -174,7 +174,7 @@ export default function Testimonials() {
           {/* SLIDE 3 */}
           <div
             id="slide3"
-            className="carousel-item relative w-[90%] bg-white m-6 rounded-xl"
+            className="carousel-item relative w-full lg:w-[90%] bg-white m-6 rounded-xl"
           >
             <div className="p-3 lg:p-5 grid grid-cols-10 gap-3 lg:justify-center lg:items-center">
               {/* IMAGE */}
@@ -257,7 +257,7 @@ export default function Testimonials() {
           {/* SLIDE 4 */}
           <div
             id="slide4"
-            className="carousel-item relative w-[90%] bg-white m-6 rounded-xl"
+            className="carousel-item relative w-full lg:w-[90%] bg-white m-6 rounded-xl"
           >
             <div className="p-3 lg:p-5 grid grid-cols-10 gap-3 lg:justify-center lg:items-center">
               {/* IMAGE */}
@@ -341,7 +341,7 @@ export default function Testimonials() {
           {/* SLIDE 5 */}
           <div
             id="slide5"
-            className="carousel-item relative w-[90%] bg-white m-6 rounded-xl"
+            className="carousel-item relative w-full lg:w-[90%] bg-white m-6 rounded-xl"
           >
             <div className="p-3 lg:p-5 grid grid-cols-10 gap-3 lg:justify-center lg:items-center">
               {/* IMAGE */}
@@ -425,7 +425,7 @@ export default function Testimonials() {
           {/* SLIDE 6 */}
           <div
             id="slide6"
-            className="carousel-item relative w-[90%] bg-white m-6 rounded-xl"
+            className="carousel-item relative w-full lg:w-[90%] bg-white m-6 rounded-xl"
           >
             <div className="p-3 lg:p-5 grid grid-cols-10 gap-3 lg:justify-center lg:items-center">
               {/* IMAGE */}
