@@ -16,6 +16,14 @@ export default function Header() {
   const handleRotate2 = () => setRotateChevron2(!rotateChevron2);
   const rotate2 = rotateChevron2 ? "rotate(180deg)" : "rotate(0)";
 
+  // close hover menu after click
+  const handleClick = () => {
+    const elem = document.activeElement;
+    if (elem) {
+      (document.activeElement as HTMLElement)?.blur();
+    }
+  };
+
   return (
     <>
       <nav className="w-full top-0 left-0 right-0 absolute z-20">
@@ -108,7 +116,10 @@ export default function Header() {
                       <li>
                         <Link
                           href="/about-us"
-                          onClick={() => setIsOpen(false)}
+                          onClick={() => {
+                            setIsOpen(false);
+                            handleClick();
+                          }}
                           className="hover:text-s2s-orange"
                         >
                           About us
@@ -117,7 +128,10 @@ export default function Header() {
                       <li>
                         <Link
                           href="/who-we-are"
-                          onClick={() => setIsOpen(false)}
+                          onClick={() => {
+                            setIsOpen(false);
+                            handleClick();
+                          }}
                           className="hover:text-s2s-orange"
                         >
                           Who we are
@@ -126,7 +140,10 @@ export default function Header() {
                       <li>
                         <Link
                           href="/our-clients"
-                          onClick={() => setIsOpen(false)}
+                          onClick={() => {
+                            setIsOpen(false);
+                            handleClick();
+                          }}
                           className="hover:text-s2s-orange"
                         >
                           Our clients
@@ -163,7 +180,10 @@ export default function Header() {
                       <li>
                         <Link
                           href="/strategy-branding-proposition"
-                          onClick={() => setIsOpen(false)}
+                          onClick={() => {
+                            setIsOpen(false);
+                            handleClick();
+                          }}
                           className="hover:text-s2s-orange"
                         >
                           Strategy, Branding & Proposition
@@ -172,7 +192,10 @@ export default function Header() {
                       <li>
                         <Link
                           href="/digital-marketing"
-                          onClick={() => setIsOpen(false)}
+                          onClick={() => {
+                            setIsOpen(false);
+                            handleClick();
+                          }}
                           className="hover:text-s2s-orange"
                         >
                           Digital Marketing
@@ -181,7 +204,10 @@ export default function Header() {
                       <li>
                         <Link
                           href="/abm"
-                          onClick={() => setIsOpen(false)}
+                          onClick={() => {
+                            setIsOpen(false);
+                            handleClick();
+                          }}
                           className="hover:text-s2s-orange"
                         >
                           Account Based Marketing
@@ -190,7 +216,10 @@ export default function Header() {
                       <li>
                         <Link
                           href="/content-marketing"
-                          onClick={() => setIsOpen(false)}
+                          onClick={() => {
+                            setIsOpen(false);
+                            handleClick();
+                          }}
                           className="hover:text-s2s-orange"
                         >
                           Content Marketing
@@ -199,7 +228,10 @@ export default function Header() {
                       <li>
                         <Link
                           href="/gamification"
-                          onClick={() => setIsOpen(false)}
+                          onClick={() => {
+                            setIsOpen(false);
+                            handleClick();
+                          }}
                           className="hover:text-s2s-orange"
                         >
                           Gamification
@@ -208,7 +240,10 @@ export default function Header() {
                       <li>
                         <Link
                           href="/what-we-do"
-                          onClick={() => setIsOpen(false)}
+                          onClick={() => {
+                            setIsOpen(false);
+                            handleClick();
+                          }}
                           className="hover:text-s2s-orange"
                         >
                           See all{" "}
