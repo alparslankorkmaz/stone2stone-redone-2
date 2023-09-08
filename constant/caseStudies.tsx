@@ -389,15 +389,15 @@ export const studies = [
     logo: "red-hat",
     img: "innovation-island",
     name: "Innovation Island",
-    text: "Stone2Stone worked with SCC and Red Hat to create Innovation Island. A platform that allowed SCC and Red Hat to market their products and partnership in an innovative way.",
+    text: "Stone2Stone worked with SCC and Red Hat to create Innovation Island. An interactive platform that allows SCC and Red Hat to educate, inform and market their products and partnership in an innovative way.",
     challenge:
-      "To create a central hub for both SCC and Red Hat which would act as a place which clients and targets would go to find out about certain products and services.",
+      "To create a central hub for both SCC and Red Hat, a place for clients and potential customers to learn about the full range of products and services that they offer as a partnership.",
     target:
-      "New, potential and existing Red Hat and SCC clients. Innovation Island served as an informational centre where anyone could go to do an array of activities.",
+      "New, potential and existing Red Hat and SCC customers that influence or use Red Hats open-source solutions.",
     solution:
-      "An informational and captivating platform that engaged users with its retro vibe. Allowing users to explore Innovation Island to find information and collect power-ups for the prize draw.",
+      "An informational and captivating online game that engages users with its retro vibe. Allowing visitors to explore an Island to find information and collect power-ups for a prize draw.",
     outcome:
-      "New, potential and existing Red Hat and SCC clients. Innovation Island served as an informational centre where anyone could go to do an array of activities.",
+      "A highly engaged audience that repeatedly returned to the game. More than 200 users in the first 2 weeks, 600+ playthroughs and 21 forms completed.",
     icon1: person(),
     icon2: controller(),
     icon3: register(),
@@ -412,18 +412,18 @@ export const studies = [
     logo: "abacus",
     img: "abacus",
     name: "Forged Coins",
-    text: "Stone2Stone worked with Abacus to create messaging that highlighted how in-house penetration testing can provide businesses with a comprehensive understanding of their cybersecurity strengths and weaknesses.",
+    text: "Stone2Stone worked with Abacus to create messaging highlighting how working in partnership with newly acquired cyber security business Gotham Security, in-house penetration testing can provide businesses with a comprehensive understanding of their cybersecurity strengths and weaknesses.",
     challenge:
-      "Abacus aimed to develop a campaign highlighting the potential of their recent acquisition, Gotham Security, in bolstering cybersecurity defenses proactively, prior to any cyber-attack.",
+      "To develop a campaign highlighting the potential of this recent acquisition, in bolstering cybersecurity defences proactively, prior to any cyber-attack whilst highlighting this new partnership.",
     target: "New, potential and existing Abacus and Gotham Security customers.",
     solution:
-      "A co-branded coin displayed both the Abacus and Gotham Security logos. It was packaged in an engaging booklet, accompanied by emails and a landing page.",
+      "A co-branded bespoke metal coin displayed both the Abacus and Gotham Security logos and packaged in an engaging A5 booklet and mailed to 119 identified individuals accompanied by teaser emails and a landing page.",
     outcome:
-      "This campaign successfully attracted 15 new customer opportunities, while also bringing back two returning customers, consolidating the customer base and driving business growth.",
+      "A campaign that successfully attracted 15 new customer opportunities, while also bringing back two returning customers, consolidating the customer base and driving business growth.",
     icon1: person(),
     icon2: plus(),
     icon3: arrow(),
-    result1: "100 Targets Identified",
+    result1: "119 Targets Identified",
     result2: "15 New Customer Opportunities",
     result3: "2 Returning Customers",
     tag: "ABM",
@@ -434,15 +434,15 @@ export const studies = [
     logo: "forescout",
     img: "forescout-hoodie",
     name: "Graphic Event Hoodie",
-    text: "Stone2Stone worked with Forescout to create some striking event apparel that would be recognisable whilst displaying visual information regarding Forescout’s services.",
+    text: "Stone2Stone worked with Forescout to create some striking event apparel that would be recognisable whilst displaying visual information on Forescout’s services.",
     challenge:
-      "Forescout approached Stone2Stone with a hoodie design that aimed to establish recognizable branding while effectively conveying information about Forescout's services.",
+      "Forescout approached Stone2Stone to create a hoodie design that was not only recognisable but also informative whilst maintaining Forescouts brand.",
     target:
-      "Event attendees that were actively looking for services at events such as Infosecurity 2023.",
+      "Highly technical attendees to Infosecurity 2023 who were exploring cyber security services.",
     solution:
-      "A hoodie design featured a combination of cyber-related illustrations and the company logo stamp, resulting in a visually striking design. Additionally, the graphic incorporated the event name and relevant cyber-related terminology.",
+      "A highly graphic design featuring a combination of cyber-related illustrations, the company logo, the event name and relevant cyber-related terminology.",
     outcome:
-      "The hoodie design gained significant popularity during the events. This captivating design became a regular feature at every event where Forescout participated, making it a consistent and recognizable element of their branding.",
+      "The design gained significant popularity during the event and continues to be a feature on a mixture of giveaways and supporting marketing materials at events across Europe giving Forescout a recognisable and consistent presence at events.",
     tag: "Strategy, Branding and Proposition",
   },
   {
@@ -451,15 +451,15 @@ export const studies = [
     logo: "trend-micro",
     img: "trendmicro-aws",
     name: "AWS Event Video",
-    text: "Stone2Stone collaborated with Trend Micro to develop engaging social media video content that highlighted their active participation in the AWS event held at the ExCel in London.",
+    text: "Stone2Stone collaborated with Trend Micro to develop engaging social media content highlighting, using crafted video, their active participation, as a platinum partner, in the AWS London summit held at Excel.",
     challenge:
-      "To effectively showcase Trend Micro, its comprehensive services, dedicated employees, and active participation in the AWS event at the ExCel in London.",
+      "To showcase Trend Micro’s comprehensive services and highlight how effective partnerships work.",
     target:
-      "Both existing clients and new potential targets who demonstrated interest in Trend Micro's services, employees, and participation at the AWS event in London.",
+      "Existing partners and potential partners who know the benefits of working with a world leader in cyber security.",
     solution:
-      "Trend Micro leveraged compelling and informative social media content to effectively showcase their company and highlight their presence at the AWS London event on LinkedIn.",
+      "Filmed over 1 day, S2S created 3 x 90 second teasers plus the full presentation of Trend Micro’s speaker slot - resulting in a compelling and informative content that effectively showcased the company and highlighted their presence at the AWS London event on social platforms.",
     outcome:
-      "A collection of videos was produced to showcase the Trend Micro booth, featuring their keynote speaker and demonstrating the range of services offered by the company.",
+      "A collection of high-quality videos that showcase the Trend Micro exhibition space and their keynote speaker.",
     icon1: camera(),
     icon2: click(),
     icon3: share(),
@@ -474,19 +474,19 @@ export const studies = [
     logo: "forescout",
     img: "forescout-infosecurity",
     name: "Infosecurity Event Video",
-    text: "Stone2Stone collaborated with Forescout to develop engaging social media video content that highlighted their active participation in the Infosecurity event held at the ExCel in London.",
+    text: "Stone2Stone worked with Forescout to develop engaging social media content highlighting their participation in the UK’s leading cyber security exhibition Infosecurity held at the ExCel in London.",
     challenge:
-      "To effectively showcase Forescout, its comprehensive services, dedicated employees, and active participation in the Infosecurity event at the ExCel in London.",
+      "To act as teaser in driving footfall to the Forescout stand whilst showcasing its comprehensive services, dedicated employees, and active participation in the event. ",
     target:
-      "Both existing clients and new potential targets who demonstrated interest in Forescout's services, employees, and participation at the Infosecurity event in London.",
+      "Visitors and potential visitors to Excel who have or may have an interest in Forescout's services.",
     solution:
-      "Forescout capitalized on Rik Ferguson, renowned as the Cyber Rockstar, interviewing attendees. This engaging content was shared on LinkedIn, allowing Forescout to effectively demonstrate their expertise and create visibility among their target audience.",
+      "Utilising Rik Ferguson, renowned as the Cyber Rockstar, our video production team filmed him interviewing attendees. This engaging content was edited, uploaded to LinkedIn on the same day allowing Forescout to effectively demonstrate their expertise and create visibility among their target audience.",
     outcome:
-      "A collection of 3 videos was produced to showcase the Forescout booth, presence and demonstrating the range of services offered by the company.",
+      "A collection of 3 videos produced to showcase Forescout’s presence and demonstrated the range of services offered by the company.",
     icon1: camera(),
     icon2: click(),
     icon3: share(),
-    result1: "110,328 Combined Views",
+    result1: "10,328 Combined Views",
     result2: "604 Combined Click Throughs",
     result3: "324 Combined Shares",
     tag: "Content Marketing",
