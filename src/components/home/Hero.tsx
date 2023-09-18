@@ -13,14 +13,17 @@ export default function Hero() {
       <AnimSvg />
       <div className="lg:max-w-7xl mx-auto text-center text-white p-4 lg:p-16 top-16 lg:top-34 flex flex-col justify-center items-center">
         <h1 className="text-4xl lg:text-7xl leading-none font-semibold mt-16 lg:mt-24">
-          Losing leads through outdated B2B technology marketing?
+          An agency that actually understands your business?
         </h1>
-        <p className="mt-3 lg:mt-5 px-8 lg:px-20 text-sm leading-none lg:text-2xl">
-          Stop recycling traditional white papers, webinars and case studies. By
-          using Stone2stone you can generate leads, push boundaries, unleash
-          dynamic potential, and forge meaningful connections that elevate your
-          brand above the competition.{" "}
-        </p>
+        <h2 className="mt-3 lg:mt-5 px-8 lg:px-20 text-sm leading-none lg:text-2xl">
+          We do. We’ve been generating leads, pushing boundaries and helping our
+          IT and security clients forge meaningful connections for years.
+        </h2>
+        <h2 className="mt-3 lg:mt-5 px-8 lg:px-24 text-sm leading-none lg:text-lg">
+          And that’s not by recycling traditional white papers, webinars and
+          case studies. Ask us how we’d do it for you, then watch us drive new
+          business and elevate your brand above the competition.
+        </h2>
         <Link
           href="/contact-us"
           className="w-fit mt-8 text-white lg:text-xl font-semibold bg-s2s-purple hover:bg-s2s-orange duration-200 py-2 px-4 rounded-xl"
