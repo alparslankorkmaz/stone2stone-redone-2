@@ -15,7 +15,7 @@ export default function WhatWeDo() {
         <div className="flex flex-col gap-5 lg:gap-7">
           {/* ACCORDION 1 */}
           <div className="collapse collapse-arrow rounded-lg bg-white">
-            <input type="radio" name="my-accordion-2" />
+            <input type="checkbox" name="my-accordion-2" />
             <div className="collapse-title text-xl lg:text-4xl p-4 lg:p-7 font-medium relative">
               Strategy, Branding and{" "}
               <span className="block lg:inline"> Proposition</span>
@@ -68,7 +68,7 @@ export default function WhatWeDo() {
           </div>
           {/* ACCORDION 2 */}
           <div className="collapse collapse-arrow rounded-lg bg-white">
-            <input type="radio" name="my-accordion-2" />
+            <input type="checkbox" name="my-accordion-2" />
             <div className="collapse-title text-xl lg:text-4xl p-4 lg:p-7 font-medium">
               Digital Marketing
               <div className="lg:hidden">
@@ -131,7 +131,7 @@ export default function WhatWeDo() {
           </div>
           {/* ACCORDION 3 */}
           <div className="collapse collapse-arrow rounded-lg bg-white">
-            <input type="radio" name="my-accordion-2" />
+            <input type="checkbox" name="my-accordion-2" />
             <div className="collapse-title text-xl lg:text-4xl p-4 lg:p-7 font-medium">
               ABM
               <div className="lg:hidden">
@@ -193,7 +193,7 @@ export default function WhatWeDo() {
           </div>
           {/* ACCORDION 4 */}
           <div className="collapse collapse-arrow rounded-lg bg-white">
-            <input type="radio" name="my-accordion-2" />
+            <input type="checkbox" name="my-accordion-2" />
             <div className="collapse-title text-xl lg:text-4xl p-4 lg:p-7 font-medium">
               Content Marketing
               <div className="lg:hidden">
@@ -256,7 +256,7 @@ export default function WhatWeDo() {
           </div>
           {/* ACCORDION 5 */}
           <div className="collapse collapse-arrow rounded-lg bg-white">
-            <input type="radio" name="my-accordion-2" />
+            <input type="checkbox" name="my-accordion-2" />
             <div className="collapse-title text-xl lg:text-4xl p-4 lg:p-7 font-medium">
               Gamification
               <div className="lg:hidden">
