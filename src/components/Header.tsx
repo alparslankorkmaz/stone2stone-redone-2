@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import logo from "public/img/logo/logo.svg";
+import logo from "public/img/logo/logo.png";
 import Link from "next/link";
 import { useState } from "react";
 import { FaChevronDown } from "react-icons/fa";

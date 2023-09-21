@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import logo from "public/img/logo/logo.svg";
+import logo from "public/img/logo/logo.png";
 import linkedin from "public/img/footer/linkedin.svg";
 
 export default function Footer() {
