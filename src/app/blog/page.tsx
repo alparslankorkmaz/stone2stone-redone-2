@@ -1,6 +1,5 @@
-import Posts from "@/components/blog/Posts";
 import type { Metadata } from "next";
-import PaginatedItems from "@/components/PaginatedItems";
+import Posts from "@/components/blog/Posts";
 
 export const metadata: Metadata = {
   title: "Blog",
@@ -39,7 +38,6 @@ export default function page() {
             lead generation for B2B businesses
           </h4>
         </div>
-        {/* <PaginatedItems itemsPerPage={9} />, */}
         <Posts />
       </div>
     </>
