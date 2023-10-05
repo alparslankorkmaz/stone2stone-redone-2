@@ -91,7 +91,7 @@ export default function page() {
       {/* TEAM */}
       <div className="bg-hub_bg bg-center bg-cover py-8 px-5 lg:p-12 my-5 lg:my-20 lg:max-w-7xl mx-auto rounded-xl">
         <div className="grid grid-cols-5 justify-center items-center gap-5">
-          <div className="text-white col-span-5 lg:col-span-3 w-11/12">
+          <div className="text-white col-span-5 lg:col-span-3 ">
             <h3 className="text-3xl lg:text-5xl font-semibold mb-10">
               Who are our team
             </h3>
@@ -116,7 +116,7 @@ export default function page() {
             </div>
           </div>
           <div className="col-span-5 lg:col-span-2 flex justify-end items-center">
-            <div className="h-48 w-full lg:h-[38rem] lg:w-80">
+            <div className="h-48 w-full lg:h-[38rem] lg:w-[25rem]">
               <img
                 src="/img/about-us/team.webp"
                 alt="bird's eye view of a curvy road"
