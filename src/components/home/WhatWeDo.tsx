@@ -71,9 +71,6 @@ export default function WhatWeDo() {
             <input type="checkbox" name="my-accordion-2" />
             <div className="collapse-title text-xl lg:text-4xl p-4 lg:p-7 font-medium">
               Digital Marketing
-              <div className="lg:hidden">
-                <br />
-              </div>
             </div>
             {/* <div className="p-6 rounded-full border-2 border-s2s-orange absolute top-[1.1rem] right-[1.15rem]"></div> */}
 
@@ -134,9 +131,6 @@ export default function WhatWeDo() {
             <input type="checkbox" name="my-accordion-2" />
             <div className="collapse-title text-xl lg:text-4xl p-4 lg:p-7 font-medium">
               ABM
-              <div className="lg:hidden">
-                <br />
-              </div>
             </div>
             {/* <div className="p-6 rounded-full border-2 border-s2s-orange absolute top-[1.1rem] right-[1.15rem]"></div> */}
 
@@ -196,9 +190,6 @@ export default function WhatWeDo() {
             <input type="checkbox" name="my-accordion-2" />
             <div className="collapse-title text-xl lg:text-4xl p-4 lg:p-7 font-medium">
               Content Marketing
-              <div className="lg:hidden">
-                <br />
-              </div>
             </div>
             {/* <div className="p-6 rounded-full border-2 border-s2s-orange absolute top-[1.1rem] right-[1.15rem]"></div> */}
 
@@ -259,9 +250,6 @@ export default function WhatWeDo() {
             <input type="checkbox" name="my-accordion-2" />
             <div className="collapse-title text-xl lg:text-4xl p-4 lg:p-7 font-medium">
               Gamification
-              <div className="lg:hidden">
-                <br />
-              </div>
             </div>
             {/* <div className="p-6 rounded-full border-2 border-s2s-orange absolute top-[1.1rem] right-[1.15rem]"></div> */}
 

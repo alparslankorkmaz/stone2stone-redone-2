@@ -3,7 +3,7 @@ import Link from "next/link";
 import { studies } from "../../../constant/caseStudies";
 
 export default function OurWork() {
-  const featuredIds = [9, 12, 15];
+  const featuredIds = [15, 16, 18];
   const featuredStudies = studies.filter(({ id }) => featuredIds.includes(id));
 
   return (
