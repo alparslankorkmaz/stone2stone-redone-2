@@ -26,12 +26,12 @@ export default function page() {
           </div>
           {/* IMAGE */}
           <div className="col-span-2 lg:col-span-1 flex justify-center lg:justify-end items-center">
-            <div className="lg:h-[30rem] lg:w-[30rem]">
+            <div className="w-full overflow-hidden h-[300px] rounded-xl">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2487.70641797858!2d-0.33682782398312505!3d51.42681941658754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760b3d9f75c905%3A0xe8bcda5f337c087d!2sStone2Stone%3A%20A%20B2B%20Marketing%20Agency!5e0!3m2!1sen!2suk!4v1693558737331!5m2!1sen!2suk"
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                className="h-full w-full rounded-xl invert-[90%] grayscale-0"
+                src="https://www.google.com/maps/d/embed?mid=1Jsa2cWt6YSYoVV_oBOLxtmHTVdXOq3Q&ehbc=2E312F"
+                width="100%"
+                height="600"
+                className="border-0 mt-[-150px]"
               ></iframe>
             </div>
           </div>
