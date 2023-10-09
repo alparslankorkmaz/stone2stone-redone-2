@@ -16,12 +16,13 @@ export default function page() {
           {/* TEXT */}
           <div className="md:mt-2 lg:mt-0 col-span-2 lg:col-span-1 text-white text-center lg:text-start">
             <h1 className="text-4xl lg:text-7xl mb-5 font-semibold">
-              Our work for B2B Technology Companies{" "}
+              Our work for B2B Companies{" "}
             </h1>
             <p className="lg:text-2xl">
-              More than 50 leading technology companies have trusted Stone2Stone
-              so far. Learn how our clients, small and large, have grown their
-              marketing results and rapidly hit and exceeded their targets.{" "}
+              More than 50 leading technology companies and others have trusted
+              Stone2Stone so far. Learn how our clients, small and large, have
+              grown their lead generation results and rapidly hit and exceeded
+              their targets.{" "}
             </p>
           </div>
           {/* IMAGE */}

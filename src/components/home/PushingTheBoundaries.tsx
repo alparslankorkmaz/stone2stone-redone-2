@@ -8,7 +8,7 @@ export default function PushingTheBoundaries() {
         <div className="flex flex-wrap lg:flex-nowrap justify-between items-center text-2xl lg:text-5xl font-semibold my-14 lg:leading-tight">
           <h4 className="text-s2s-gray w-3/4">
             <span className="text-black">Pushing the boundaries</span> of B2B
-            Technology Marketing to create leads
+            Technology Marketing to generate leads
           </h4>
           <Link
             href="/contact-us"

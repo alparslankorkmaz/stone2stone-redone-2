@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Who we are",
   description:
-    "We are a dedicated team specialized in B2B technology marketing, helping businesses unleash their potential and achieve their marketing goals. Learn more about us and how we can assist your company.",
+    "We are a dedicated team specialised in B2B technology marketing, helping businesses unleash their potential and achieve their marketing goals.",
 };
 
 export default function page() {
@@ -16,7 +16,7 @@ export default function page() {
           {/* TEXT */}
           <div className="md:mt-2 lg:mt-0 col-span-2 lg:col-span-1 text-white text-center lg:text-start">
             <h1 className="text-4xl lg:text-7xl mb-5 font-semibold">
-              Unleash potential in B2B Technology Marketing
+              Unleash potential through lead generation
             </h1>
             <p className="lg:text-2xl">
               Stone2Stone has already developed a vast catalogue of treasured

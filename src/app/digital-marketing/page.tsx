@@ -5,7 +5,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Digital Marketing",
   description:
-    "In the ever-evolving world of digital marketing, it is crucial for B2B technology companies to leverage current trends, set specific objectives, and implement comprehensive strategies. See how we navigate this landscape and drive success.",
+    "In the ever-evolving world of digital marketing, it is crucial for B2B technology companies to leverage current trends, set specific objectives, and implement comprehensive strategies.",
 };
 
 export default function page() {
@@ -17,7 +17,7 @@ export default function page() {
           {/* TEXT */}
           <div className="md:mt-2 lg:mt-0 col-span-2 lg:col-span-1 text-white text-center lg:text-start">
             <h1 className="text-4xl lg:text-6xl mb-5 font-semibold">
-              Digital Marketing for B2B Technology Companies{" "}
+              Digital Marketing for B2B Companies{" "}
             </h1>
             <p className="lg:text-2xl">
               You need a team of skilled digital marketers that leverage the

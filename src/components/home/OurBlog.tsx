@@ -12,7 +12,7 @@ export default function OurBlog() {
           <h4 className="text-black w-3/5">
             Our blog{" "}
             <span className="text-s2s-gray">
-              for the B2B Technology Marketing Sector
+              that offers insight into helping generate new leads
             </span>
           </h4>
           <Link

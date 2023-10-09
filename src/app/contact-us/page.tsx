@@ -19,6 +19,10 @@ export default function page() {
             <h1 className="text-4xl lg:text-7xl mb-5 font-semibold">
               Contact us
             </h1>
+            <p className="lg:text-2xl">
+              <span className="block">Servicing the B2B market through</span>{" "}
+              lead generation that delivers
+            </p>
           </div>
           {/* IMAGE */}
           <div className="col-span-2 lg:col-span-1 flex justify-center lg:justify-end items-center">
@@ -35,14 +39,6 @@ export default function page() {
       </div>
       {/* FORM SECTION */}
       <div className="lg:max-w-7xl mx-auto">
-        <div className="p-5 lg:px-0 lg:my-10 flex justify-between items-center text-2xl lg:text-5xl font-semibold lg:leading-tight">
-          <h2 className="text-black w-4/5">
-            <span className="text-s2s-gray">
-              Servicing the B2B market through
-            </span>{" "}
-            lead generation that delivers
-          </h2>
-        </div>
         <div className="grid grid-cols-5 p-5 lg:px-0 lg:my-10 gap-10">
           <div className="col-span-5 lg:col-span-2 flex flex-col gap-20">
             <div>

@@ -5,7 +5,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Gamification",
   description:
-    "Gamification is an effective strategy for B2B technology companies to increase engagement among employees and customers. By tapping into desires for competition, achievement, and rewards, learn how gamification can drive success in your business.",
+    "Gamification is an effective strategy for B2B technology companies to increase engagement among employees and customers. By tapping into desires for competition, achievement, and rewards.",
 };
 
 export default function page() {
@@ -17,7 +17,7 @@ export default function page() {
           {/* TEXT */}
           <div className="md:mt-2 lg:mt-0 col-span-2 lg:col-span-1 text-white text-center lg:text-start">
             <h1 className="text-4xl lg:text-6xl mb-5 font-semibold">
-              Gamification for B2B Technology Companies{" "}
+              Gamification for B2B Companies{" "}
             </h1>
             <p className="lg:text-2xl">
               Leverage the inherent human desire for competition, achievement,

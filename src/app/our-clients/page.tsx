@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Our clients",
   description:
-    "Our list of clients includes a diverse range of brands that we have collaborated with to elevate their business and engage their target audience. Discover the success stories behind our partnerships.",
+    "Our list of clients includes a diverse range of brands that we have collaborated with to elevate their business and engage their target audience.",
 };
 
 export default function page() {
@@ -40,7 +40,7 @@ export default function page() {
       <div className="justify-center grid grid-cols-5 my-10 p-5 lg:px-0 lg:py-16 gap-5 lg:gap-16 lg:max-w-7xl mx-auto">
         <h2 className="col-span-5 lg:col-span-3 text-3xl lg:text-5xl font-semibold text-black lg:leading-tight">
           Technology companies{" "}
-          <span className="text-s2s-gray block">we have worked with</span>{" "}
+          <span className="text-s2s-gray block">we work with</span>{" "}
         </h2>
       </div>
       {/* TECH LOGOS */}
@@ -182,7 +182,7 @@ export default function page() {
       <div className="justify-center grid grid-cols-5 my-10 p-5 lg:px-0 lg:py-16 gap-5 lg:gap-16 lg:max-w-7xl mx-auto">
         <h2 className="col-span-5 lg:col-span-3 text-3xl lg:text-5xl font-semibold text-black">
           Other B2B Businesses{" "}
-          <span className="text-s2s-gray block">we have worked with</span>{" "}
+          <span className="text-s2s-gray block">we work with</span>{" "}
         </h2>
       </div>
       {/* LOGOS */}

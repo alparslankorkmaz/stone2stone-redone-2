@@ -7,7 +7,7 @@ export default function ClientMarquee() {
         <div className="col-span-2 lg:col-span-1 font-semibold text-2xl lg:text-5xl lg:leading-tight">
           <p className="text-s2s-gray">
             <span className="text-black font-semibold">50+ clients </span> who
-            are pushing B2B marketing boundaries
+            are pushing the limits of B2B Lead Generation
           </p>
         </div>
         <div className="col-span-2 lg:col-span-1 flex justify-center items-center">

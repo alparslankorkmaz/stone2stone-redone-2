@@ -8,7 +8,7 @@ const gantari = Gantari({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Stone2stone",
-  description: "Digital Marketing Agency",
+  description: "Lead Generation Agency",
 };
 
 export default function RootLayout({

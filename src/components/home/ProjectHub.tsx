@@ -5,7 +5,7 @@ export default function ProjectHub() {
         <div className="flex flex-col justify-center items-center rounded-2xl p-5 lg:p-8 bg-hub_bg bg-cover bg-no-repeat bg-center text-white text-center">
           <div className="flex flex-col justify-center items-center w-4/5">
             <h5 className="my-5 font-semibold text-2xl lg:text-5xl">
-              Real time visibility of your marketing projects with the
+              Real time visibility of your lead generation projects with the
               Stone2stone project hub
             </h5>
             <p className="lg:font-medium text-sm lg:text-xl">

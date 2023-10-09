@@ -11,7 +11,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "What is involved?",
   description:
-    "A Content Marketing project involves various elements such as content creation, strategy development, distribution, and analysis. However, several common challenges can arise during a project. Here, we address these challenges and provide effective solutions to ensure successful content marketing campaigns.",
+    "A Content Marketing project involves various elements such as content creation, strategy development, distribution, and analysis. Here, we address these challenges and provide effective solutions to ensure successful content marketing campaigns.",
 };
 
 export default function page() {

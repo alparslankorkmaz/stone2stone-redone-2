@@ -5,7 +5,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Content Marketing",
   description:
-    "Content marketing is essential for B2B technology companies to establish thought leadership and attract potential customers. Discover how to leverage talented content creators to produce high-quality and relevant content that resonates with your target audience.",
+    "Content marketing is essential for B2B technology companies to establish thought leadership and attract potential customers. Discover how to leverage talented content creators to produce high-quality and relevant content.",
 };
 
 export default function page() {
@@ -17,7 +17,7 @@ export default function page() {
           {/* TEXT */}
           <div className="md:mt-2 lg:mt-0 col-span-2 lg:col-span-1 text-white text-center lg:text-start">
             <h1 className="text-4xl lg:text-6xl mb-5 font-semibold">
-              Content Marketing for B2B Technology Companies{" "}
+              Content Marketing for B2B Companies{" "}
             </h1>
             <p className="lg:text-2xl">
               By using Stone2stone you have access to talented content creators

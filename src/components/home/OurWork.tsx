@@ -10,10 +10,10 @@ export default function OurWork() {
     <>
       <div className="p-5 lg:p-0 lg:max-w-7xl mx-auto my-10">
         <div className="flex flex-wrap lg:flex-nowrap justify-between items-center text-2xl lg:text-5xl font-semibold my-14 lg:leading-tight">
-          <h4 className="text-black w-3/5">
+          <h4 className="text-black w-1/2">
             Our work{" "}
             <span className="text-s2s-gray">
-              in the B2B Technology Marketing Sector
+              that generated leads for B2B companies
             </span>
           </h4>
           <Link

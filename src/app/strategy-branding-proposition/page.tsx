@@ -17,7 +17,7 @@ export default function page() {
           {/* TEXT */}
           <div className="md:mt-2 lg:mt-0 col-span-2 lg:col-span-1 text-white text-center lg:text-start">
             <h1 className="text-4xl lg:text-6xl mb-5 font-semibold">
-              Strategy, Branding and Proposition for B2B Technology Companies{" "}
+              Strategy, Branding and Proposition for B2B Companies{" "}
             </h1>
             <p className="lg:text-2xl">
               Your strategic approach must combine meticulous market analysis,

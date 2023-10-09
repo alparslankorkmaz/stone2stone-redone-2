@@ -4,7 +4,7 @@ import Posts from "@/components/blog/Posts";
 export const metadata: Metadata = {
   title: "Blog",
   description:
-    "Stone2Stone is a captivating blog that covers a range of topics, providing valuable insights and inspiration. Explore our posts and discover a wealth of information on various subjects that will leave you informed and entertained.",
+    "Our blog covers a range of topics, providing valuable insights and inspiration. Explore our posts and discover a wealth of information on various subjects that will leave you informed and entertained.",
 };
 
 export default function page() {
@@ -18,6 +18,10 @@ export default function page() {
             <h1 className="text-4xl lg:text-7xl mb-5 font-semibold">
               Our Blog
             </h1>
+            <p className="lg:text-2xl ">
+              Our posts that speak about{" "}
+              <span className="block">lead generation for B2B businesses</span>
+            </p>
           </div>
           {/* IMAGE */}
           <div className="col-span-2 lg:col-span-1 flex justify-end items-center">
@@ -33,12 +37,6 @@ export default function page() {
       </div>
 
       <div className="flex flex-col justify-center items-center p-5 lg:px-0 lg:my-10 lg:max-w-7xl mx-auto">
-        <div className="flex justify-between items-center text-2xl lg:text-5xl font-semibold lg:my-14 lg:leading-tight">
-          <h4 className="text-black">
-            <span className="text-s2s-gray">Our posts that speak about</span>{" "}
-            lead generation for B2B businesses
-          </h4>
-        </div>
         <Posts />
       </div>
     </>

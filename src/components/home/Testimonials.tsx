@@ -30,7 +30,7 @@ export default function Testimonials() {
                     our needs.{" "}
                   </span>
                   Stone2stone listens to our briefs, understands the challenges
-                  and has always created solutions that hit the spot.
+                  and has always created lead generation solutions that deliver.
                 </p>
 
                 <div>
@@ -108,7 +108,7 @@ export default function Testimonials() {
 
                 <p className=" text-s2s-gray">
                   Working with Stone2stone has been an absolute game-changer for
-                  our marketing initiatives.{" "}
+                  our lead generation initiatives.{" "}
                   <span className="text-black">
                     From the very beginning, their team demonstrated an in-depth
                     understanding of our unique needs, challenges, and target
@@ -357,14 +357,14 @@ export default function Testimonials() {
                 <p className="text-5xl font-semibold text-s2s-purple ">“</p>
 
                 <p className=" text-s2s-gray">
-                  Stone2stone have been my go to marketing agency for over a
-                  year now.
+                  Stone2stone have been my go to lead generation agency for over
+                  a year now.
                   <span className="text-black">
                     {" "}
                     They are always reactive and imaginative in their approach
                     and are definitely fun to work with.{" "}
                   </span>
-                  I would 1000% recommend them.{" "}
+                  I would definitely recommend them.{" "}
                 </p>
 
                 <div>
@@ -446,8 +446,8 @@ export default function Testimonials() {
                   <span className="text-black">
                     {" "}
                     They are always a pleasure to work with and I will continue
-                    to recommend them to anybody looking for a B2B Marketing
-                    Agency.{" "}
+                    to recommend them to anybody looking for a B2B lead
+                    generation agency.{" "}
                   </span>
                 </p>
 

@@ -5,7 +5,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "ABM",
   description:
-    "Account Based Marketing (ABM) is a strategic approach that focuses on targeting and personalizing marketing efforts towards specific key accounts and target companies in the B2B technology sector. Find out how to effectively implement ABM strategies.",
+    "Account Based Marketing (ABM) is a strategic approach that focuses on targeting and personalising marketing efforts towards specific key accounts and target companies in the B2B technology sector.",
 };
 
 export default function page() {
@@ -17,7 +17,7 @@ export default function page() {
           {/* TEXT */}
           <div className="md:mt-2 lg:mt-0 col-span-2 lg:col-span-1 text-white text-center lg:text-start">
             <h1 className="text-4xl lg:text-6xl mb-5 font-semibold">
-              ABM for B2B Technology Companies{" "}
+              ABM for B2B Companies{" "}
             </h1>
             <p className="lg:text-2xl">
               Focus on personalised and tailored marketing efforts that are

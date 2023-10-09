@@ -11,7 +11,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "What is involved?",
   description:
-    "An Account-Based Marketing (ABM) project involves several key components and challenges. See five common challenges in ABM projects and how we provide five effective solutions to overcome them.",
+    "An Account-Based Marketing (ABM) project involves several key components and challenges. Here are five common challenges in ABM projects and how we provide five effective solutions to overcome them.",
 };
 
 export default function page() {
