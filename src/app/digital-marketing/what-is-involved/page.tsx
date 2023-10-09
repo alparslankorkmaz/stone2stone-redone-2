@@ -10,7 +10,8 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "What is involved",
-  description: "Digital Marketing Agency",
+  description:
+    "A digital marketing project can involve various tasks and challenges. Explore the 5 most common challenges faced in digital marketing projects and how we provide effective solutions to address them.",
 };
 
 export default function page() {

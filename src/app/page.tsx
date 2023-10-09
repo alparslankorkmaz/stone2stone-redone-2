@@ -10,7 +10,8 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Home | Stone2stone",
-  description: "Digital Marketing Agency",
+  description:
+    "Looking for a B2B digital marketing agency that truly understands your business and specializes in technology? Look no further. Our expert team is here to help you achieve your marketing goals and drive measurable results.",
 };
 
 export default function Home() {

@@ -10,7 +10,8 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "What is involved?",
-  description: "Digital Marketing Agency",
+  description:
+    "A Brand, Strategy, and Proposition project typically involves defining and refining a company's brand identity, developing a strategic plan, and creating a compelling value proposition. Let us explore the 5 challenges that often arise in such projects and provide corresponding solutions to overcome them.",
 };
 
 export default function page() {

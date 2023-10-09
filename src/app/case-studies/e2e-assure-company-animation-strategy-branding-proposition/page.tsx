@@ -4,7 +4,8 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "e2e Assure Animation",
-  description: "Digital Marketing Agency",
+  description:
+    "A short, engaging and informative animation showcasing the benefits of e2e assure’s cyber security solutions.",
 };
 
 export default function page() {

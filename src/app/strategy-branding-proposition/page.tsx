@@ -4,7 +4,8 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Strategy, Branding and Proposition",
-  description: "Digital Marketing Agency",
+  description:
+    "Developing a strategic approach for branding and proposition is essential for clients. See how we create a tailored plan and establish a unique identity to effectively communicate your brand's value to your target audience.",
 };
 
 export default function page() {

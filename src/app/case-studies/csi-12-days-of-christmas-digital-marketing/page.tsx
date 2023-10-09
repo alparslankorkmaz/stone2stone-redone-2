@@ -4,7 +4,8 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "CSI 12 Days of Christmas",
-  description: "Digital Marketing Agency",
+  description:
+    "An easy-to-use interactive Christmas calendar informing customers about CSI and IBM’s solutions through the magic of Santa’s Workshop.",
 };
 
 export default function page() {

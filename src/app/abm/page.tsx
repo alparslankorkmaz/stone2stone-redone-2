@@ -4,7 +4,8 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "ABM",
-  description: "Digital Marketing Agency",
+  description:
+    "Account Based Marketing (ABM) is a strategic approach that focuses on targeting and personalizing marketing efforts towards specific key accounts and target companies in the B2B technology sector. Find out how to effectively implement ABM strategies.",
 };
 
 export default function page() {

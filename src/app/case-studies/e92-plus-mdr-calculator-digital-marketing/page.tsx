@@ -4,7 +4,8 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "e92Plus MDR calculator",
-  description: "Digital Marketing Agency",
+  description:
+    "An interactive calculator demonstrating the benefits of using e92plus’ vendor partner Bitdefender’s MDR services.",
 };
 
 export default function page() {

@@ -4,7 +4,8 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Dell Technologies Video",
-  description: "Digital Marketing Agency",
+  description:
+    "An educational, long form promotional video explaining the support CDW and Dell Technologies can offer customers evolving into a hybrid working environment.",
 };
 
 export default function page() {

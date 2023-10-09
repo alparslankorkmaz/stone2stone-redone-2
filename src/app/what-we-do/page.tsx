@@ -4,7 +4,8 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "What we do",
-  description: "Digital Marketing Agency",
+  description:
+    "We specialize in providing tailored solutions for B2B technology marketing. With a deep understanding of the industry, we engage in meticulous strategy development to help our clients achieve their marketing goals.",
 };
 
 export default function page() {

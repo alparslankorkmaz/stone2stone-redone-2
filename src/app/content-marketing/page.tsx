@@ -4,7 +4,8 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Content Marketing",
-  description: "Digital Marketing Agency",
+  description:
+    "Content marketing is essential for B2B technology companies to establish thought leadership and attract potential customers. Discover how to leverage talented content creators to produce high-quality and relevant content that resonates with your target audience.",
 };
 
 export default function page() {

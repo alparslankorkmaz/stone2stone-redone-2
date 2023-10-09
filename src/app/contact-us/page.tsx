@@ -4,7 +4,8 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Contact us",
-  description: "Digital Marketing Agency",
+  description:
+    "If you have any questions, feedback, or inquiries about Stone2Stone, please feel free to contact us. We are here to assist you and provide the information you need.",
 };
 
 export default function page() {

@@ -4,7 +4,8 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Gamification",
-  description: "Digital Marketing Agency",
+  description:
+    "Gamification is an effective strategy for B2B technology companies to increase engagement among employees and customers. By tapping into desires for competition, achievement, and rewards, learn how gamification can drive success in your business.",
 };
 
 export default function page() {

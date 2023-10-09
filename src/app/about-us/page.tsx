@@ -5,7 +5,8 @@ import { CgInfinity } from "react-icons/cg";
 
 export const metadata: Metadata = {
   title: "About us",
-  description: "Digital Marketing Agency",
+  description:
+    "Stone2Stone is a technology company that believes in unleashing the creativity and potential of individuals to pave new paths. Learn more about our innovative solutions and how we are pushing the boundaries of what is possible.",
 };
 
 export default function page() {

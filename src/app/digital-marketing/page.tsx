@@ -4,7 +4,8 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Digital Marketing",
-  description: "Digital Marketing Agency",
+  description:
+    "In the ever-evolving world of digital marketing, it is crucial for B2B technology companies to leverage current trends, set specific objectives, and implement comprehensive strategies. See how we navigate this landscape and drive success.",
 };
 
 export default function page() {

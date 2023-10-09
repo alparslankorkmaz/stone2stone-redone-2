@@ -3,7 +3,8 @@ import Posts from "@/components/blog/Posts";
 
 export const metadata: Metadata = {
   title: "Blog",
-  description: "Digital Marketing Agency",
+  description:
+    "Stone2Stone is a captivating blog that covers a range of topics, providing valuable insights and inspiration. Explore our posts and discover a wealth of information on various subjects that will leave you informed and entertained.",
 };
 
 export default function page() {

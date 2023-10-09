@@ -3,7 +3,8 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Our clients",
-  description: "Digital Marketing Agency",
+  description:
+    "Our list of clients includes a diverse range of brands that we have collaborated with to elevate their business and engage their target audience. Discover the success stories behind our partnerships.",
 };
 
 export default function page() {

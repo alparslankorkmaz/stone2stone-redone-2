@@ -3,7 +3,8 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Case studies",
-  description: "Digital Marketing Agency",
+  description:
+    "Our case studies highlight our rapid and targeted approach, showcasing how we consistently exceed expectations. Discover the results we have achieved for our clients.",
 };
 
 export default function page() {

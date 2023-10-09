@@ -10,7 +10,8 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "What is involved?",
-  description: "Digital Marketing Agency",
+  description:
+    "A gamification project involves incorporating game elements and mechanics into a non-game context to engage and motivate participants. Discover potential challenges that may arise during a gamification project and how Stone2stone provide solutions to overcome them.",
 };
 
 export default function page() {
