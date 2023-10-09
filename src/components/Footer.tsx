@@ -49,10 +49,10 @@ export default function Footer() {
               </h6>
               <ul className="flex flex-col text-footer-gray text-sm lg:text-xl">
                 <li>
-                  <Link href="/">Terms</Link>
+                  <Link href="/terms">Terms</Link>
                 </li>
                 <li>
-                  <Link href="/">Usage</Link>
+                  <Link href="/privacy-policy">Privacy Policy</Link>
                 </li>
               </ul>
             </div>
