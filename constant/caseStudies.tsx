@@ -514,4 +514,27 @@ export const studies = [
     result3: "46 Shares",
     tag: "Strategy, Branding and Proposition",
   },
+  {
+    id: 21,
+    link: "/case-studies/cycoffee",
+    logo: "cynet",
+    img: "cycoffee",
+    name: "CyCoffee Case Study",
+    text: "A series of 6 virtual coffee morning-inspired videos, which promote Cynet’s solutions and position them as thought leaders on cybersecurity.",
+    challenge:
+      "To create an engaging and informative social media campaign to showcase Cynet’s solutions.",
+    target:
+      "Potential Cynet users who are looking for a trustworthy cyber security solution for their organisation’s issues.",
+    solution:
+      "Creation of ‘CyCoffee’, a series of conversational and informative social media videos to teach viewers about the wide-reaching benefits of Cynet’s solutions.",
+    outcome:
+      "Stone2Stone created a series of 6 videos, which centred around Cynet employees speaking in depth about Cynet solutions and discussing real-life case studies.",
+    icon1: like(),
+    icon2: camera(),
+    icon3: register(),
+    result1: "386 Post Interactions",
+    result2: "2350 Video Views",
+    result3: "237 CyCoffee Club Sign-ups",
+    tag: "Content Marketing",
+  },
 ];
