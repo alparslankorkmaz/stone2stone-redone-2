@@ -25,7 +25,7 @@ export default function page() {
           </h1>
           <p className="mt-3 lg:mt-10 px-8 lg:px-72 text-sm leading-none font-medium lg:text-xl">
             Here are some common challenges that may arise during a ABM project
-            along with how Stone2stone address them{" "}
+            along with how Stone2Stone address them{" "}
           </p>
         </div>
       </div>

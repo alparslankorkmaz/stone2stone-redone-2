@@ -25,7 +25,7 @@ export default function page() {
           </h1>
           <p className="mt-3 lg:mt-5 px-8 lg:px-60 text-sm leading-none font-medium lg:text-2xl">
             Here are some common challenges that may arise during a Strategy,
-            Branding and Proposition project along with how Stone2stone address
+            Branding and Proposition project along with how Stone2Stone address
             them{" "}
           </p>
         </div>

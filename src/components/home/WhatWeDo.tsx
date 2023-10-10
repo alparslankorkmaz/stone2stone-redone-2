@@ -45,7 +45,7 @@ export default function WhatWeDo() {
                     </span>
                   </p>
                   <p>
-                    Collaborate with Stone2stone to develop a compelling brand
+                    Collaborate with Stone2Stone to develop a compelling brand
                     story and visuals that capture the essence of your business.
                   </p>
                   {/* BUTTON */}
@@ -211,7 +211,7 @@ export default function WhatWeDo() {
                     </span>
                     Do you understand that compelling and valuable content is
                     the cornerstone of any successful digital strategy? By using
-                    Stone2stone you have{" "}
+                    Stone2Stone you have{" "}
                     <span className="text-black">
                       access to talented content creators and strategists who
                       craft high-quality, relevant, and shareable content that

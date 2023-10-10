@@ -16,8 +16,8 @@ export default function page() {
         <p>Version 1.0</p>
 
         <p>
-          The Stone2stone website located at https://stone2stone.co.uk/ is a
-          copyrighted work belonging to Stone2stone. Certain features of the
+          The Stone2Stone website located at https://stone2stone.co.uk/ is a
+          copyrighted work belonging to Stone2Stone. Certain features of the
           Site may be subject to additional guidelines, terms, or rules, which
           will be posted on the Site in connection with such features.
         </p>

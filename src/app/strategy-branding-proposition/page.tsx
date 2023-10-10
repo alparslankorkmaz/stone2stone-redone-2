@@ -42,7 +42,7 @@ export default function page() {
       <div className="my-16 p-5 lg:py-20 lg:px-0 lg:max-w-7xl mx-auto">
         {/* TITLE */}
         <h2 className="text-s2s-gray text-3xl lg:text-5xl font-semibold lg:w-10/12 lg:leading-tight">
-          Collaborate with Stone2stone to develop a
+          Collaborate with Stone2Stone to develop a
           <span className="text-black">
             {" "}
             compelling brand story and visuals that capture the essence of your

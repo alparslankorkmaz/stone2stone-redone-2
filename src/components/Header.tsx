@@ -98,7 +98,7 @@ export default function Header() {
                       tabIndex={0}
                       className="flex justify-center items-center gap-2 relative w-fit lg:mt-0 text-white text-center hover:text-s2s-orange duration-200"
                     >
-                      About Stone2stone{" "}
+                      About Stone2Stone{" "}
                       <span className="text-xs">
                         <FaChevronDown
                           style={{

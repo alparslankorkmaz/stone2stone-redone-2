@@ -46,8 +46,8 @@ export default function page() {
                 Our Office
               </h3>
               <address className="not-italic text-xl">
-                Stone2Stone Ltd, <br /> Block B, <br /> Marvan Court, <br /> 1
-                Waldegrave Road, <br />
+                Stone2Stone Ltd, <br /> Marvan Court, <br /> 1 Waldegrave Road,{" "}
+                <br />
                 Teddington, TW11 8LZ
               </address>
             </div>

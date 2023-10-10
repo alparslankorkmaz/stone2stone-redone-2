@@ -178,6 +178,13 @@ export default function page() {
             alt="turbonomic"
           />
         </div>
+        <div className="col-span-3 lg:col-span-2 flex justify-center items-center">
+          <img
+            className="aspect-3/2 object-contain"
+            src="/img/our-clients/tech/forescout.svg"
+            alt="forescout"
+          />
+        </div>
       </div>
       <div className="justify-center grid grid-cols-5 my-10 p-5 lg:px-0 lg:py-16 gap-5 lg:gap-16 lg:max-w-7xl mx-auto">
         <h2 className="col-span-5 lg:col-span-3 text-3xl lg:text-5xl font-semibold text-black">

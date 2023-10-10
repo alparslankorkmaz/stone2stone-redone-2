@@ -22,14 +22,14 @@ export default function Testimonials() {
                 <p className="text-5xl font-semibold text-s2s-purple ">“</p>
 
                 <p className=" text-s2s-gray">
-                  Having worked with Stone2stone on many projects,{" "}
+                  Having worked with Stone2Stone on many projects,{" "}
                   <span className="text-black">
                     {" "}
                     we have always found that the team possesses the right
                     balance of professionalism, knowledge and creativity to suit
                     our needs.{" "}
                   </span>
-                  Stone2stone listens to our briefs, understands the challenges
+                  Stone2Stone listens to our briefs, understands the challenges
                   and has always created lead generation solutions that deliver.
                 </p>
 
@@ -107,7 +107,7 @@ export default function Testimonials() {
                 <p className="text-5xl font-semibold text-s2s-purple ">“</p>
 
                 <p className=" text-s2s-gray">
-                  Working with Stone2stone has been an absolute game-changer for
+                  Working with Stone2Stone has been an absolute game-changer for
                   our lead generation initiatives.{" "}
                   <span className="text-black">
                     From the very beginning, their team demonstrated an in-depth
@@ -190,7 +190,7 @@ export default function Testimonials() {
                 <p className="text-5xl font-semibold text-s2s-purple ">“</p>
 
                 <p className=" text-s2s-gray">
-                  I have used Stone2stone for a year now and would highly
+                  I have used Stone2Stone for a year now and would highly
                   recommend them.
                   <span className="text-black">
                     {" "}
@@ -273,7 +273,7 @@ export default function Testimonials() {
                 <p className="text-5xl font-semibold text-s2s-purple ">“</p>
 
                 <p className=" text-s2s-gray">
-                  I have always used the team at Stone2stone. They have always
+                  I have always used the team at Stone2Stone. They have always
                   been great to work with.
                   <span className="text-black">
                     {" "}
@@ -357,7 +357,7 @@ export default function Testimonials() {
                 <p className="text-5xl font-semibold text-s2s-purple ">“</p>
 
                 <p className=" text-s2s-gray">
-                  Stone2stone have been my go to lead generation agency for over
+                  Stone2Stone have been my go to lead generation agency for over
                   a year now.
                   <span className="text-black">
                     {" "}
@@ -441,7 +441,7 @@ export default function Testimonials() {
                 <p className="text-5xl font-semibold text-s2s-purple ">“</p>
 
                 <p className=" text-s2s-gray">
-                  Stone2stone have a great team in place, a fab creative outlook
+                  Stone2Stone have a great team in place, a fab creative outlook
                   and are brilliantly responsive.
                   <span className="text-black">
                     {" "}

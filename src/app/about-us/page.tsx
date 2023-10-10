@@ -80,7 +80,7 @@ export default function page() {
             </span>
           </p>
           <p className="text-black">
-            Stone2stone lays a new path forward,{" "}
+            Stone2Stone lays a new path forward,{" "}
             <span className="text-s2s-gray">
               {" "}
               moving away from the repetitive cycle that limits your creativity

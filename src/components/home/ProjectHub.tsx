@@ -6,7 +6,7 @@ export default function ProjectHub() {
           <div className="flex flex-col justify-center items-center w-4/5">
             <h5 className="my-5 font-semibold text-2xl lg:text-5xl">
               Real time visibility of your lead generation projects with the
-              Stone2stone project hub
+              Stone2Stone project hub
             </h5>
             <p className="lg:font-medium text-sm lg:text-xl">
               As a client, you get exclusive access to real-time project

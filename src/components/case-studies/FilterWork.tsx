@@ -21,11 +21,9 @@ export default function FilterWork() {
       {/* FILTER */}
       <div className="p-5 lg:p-0 lg:my-10">
         <div className="flex flex-wrap lg:flex-nowrap justify-between items-center text-2xl lg:text-5xl font-semibold lg:my-14 lg:leading-tight">
-          <h4 className="text-black w-4/5">
-            Our previous work that has created{" "}
-            <span className="text-s2s-gray">
-              lead generation for B2B businesses
-            </span>
+          <h4 className="text-black w-1/2">
+            Creative lead generation projects{" "}
+            <span className="text-s2s-gray">for B2B businesses.</span>
           </h4>
           <div className="text-lg">
             <select
