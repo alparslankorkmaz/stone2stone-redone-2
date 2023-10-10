@@ -11,530 +11,864 @@ export default function page() {
         </div>
       </div>
       <div className="my-24 text-slate-900 prose xl:prose-xl container max-w-7xl mx-auto">
-        <h2>Website Terms of Use</h2>
+        <h2>TERMS OF USE</h2>
 
-        <p>Version 1.0</p>
+        <i>Last updated October 10, 2023</i>
+
+        <h2>AGREEMENT TO OUR LEGAL TERMS</h2>
 
         <p>
-          The Stone2Stone website located at https://stone2stone.co.uk/ is a
-          copyrighted work belonging to Stone2Stone. Certain features of the
-          Site may be subject to additional guidelines, terms, or rules, which
-          will be posted on the Site in connection with such features.
+          We are Stone2Stone Limited ('Company', 'we', 'us', or 'our'), a
+          company registered in the United Kingdom at Stone2Stone Ltd, Marvan
+          Court, 1 Waldegrave Road, London, Teddington TW11 8LZ.
         </p>
 
         <p>
-          All such additional terms, guidelines, and rules are incorporated by
-          reference into these Terms.
+          We operate the website https://stone2stone.co.uk/ (the 'Site'), as
+          well as any other related products and services that refer or link to
+          these legal terms (the 'Legal Terms') (collectively, the 'Services').
         </p>
 
         <p>
-          These Terms of Use described the legally binding terms and conditions
-          that oversee your use of the Site. BY LOGGING INTO THE SITE, YOU ARE
-          BEING COMPLIANT THAT THESE TERMS and you represent that you have the
-          authority and capacity to enter into these Terms. YOU SHOULD BE AT
-          LEAST 18 YEARS OF AGE TO ACCESS THE SITE. IF YOU DISAGREE WITH ALL OF
-          THE PROVISION OF THESE TERMS, DO NOT LOG INTO AND/OR USE THE SITE.
+          Stone2Stone Digital Marketing Agency offers comprehensive digital
+          marketing services to help businesses increase their online
+          visibility, attract more customers, and drive conversions.
         </p>
 
         <p>
-          These terms require the use of arbitration Section 10.2 on an
-          individual basis to resolve disputes and also limit the remedies
-          available to you in the event of a dispute.
-        </p>
-
-        <h2>Access to the Site</h2>
-
-        <p>
-          <strong>Subject to these Terms.</strong> Company grants you a
-          non-transferable, non-exclusive, revocable, limited license to access
-          the Site solely for your own personal, noncommercial use.
+          You can contact us by phone at +44(0)203 4689 945, email at
+          info@stone2stone.co.uk, or by mail to Stone2Stone Ltd, Marvan Court, 1
+          Waldegrave Road, London, Teddington TW11 8LZ, United Kingdom.
         </p>
 
         <p>
-          <strong>Certain Restrictions.</strong> The rights approved to you in
-          these Terms are subject to the following restrictions: (a) you shall
-          not sell, rent, lease, transfer, assign, distribute, host, or
-          otherwise commercially exploit the Site; (b) you shall not change,
-          make derivative works of, disassemble, reverse compile or reverse
-          engineer any part of the Site; (c) you shall not access the Site in
-          order to build a similar or competitive website; and (d) except as
-          expressly stated herein, no part of the Site may be copied,
-          reproduced, distributed, republished, downloaded, displayed, posted or
-          transmitted in any form or by any means unless otherwise indicated,
-          any future release, update, or other addition to functionality of the
-          Site shall be subject to these Terms.  All copyright and other
-          proprietary notices on the Site must be retained on all copies
-          thereof.
+          These Legal Terms constitute a legally binding agreement made between
+          you, whether personally or on behalf of an entity ('you'), and
+          Stone2Stone Limited, concerning your access to and use of the
+          Services. You agree that by accessing the Services, you have read,
+          understood, and agreed to be bound by all of these Legal Terms. IF YOU
+          DO NOT AGREE WITH ALL OF THESE LEGAL TERMS, THEN YOU ARE EXPRESSLY
+          PROHIBITED FROM USING THE SERVICES AND YOU MUST DISCONTINUE USE
+          IMMEDIATELY.
         </p>
 
         <p>
-          Company reserves the right to change, suspend, or cease the Site with
-          or without notice to you.  You approved that Company will not be held
-          liable to you or any third-party for any change, interruption, or
-          termination of the Site or any part.
+          Supplemental terms and conditions or documents that may be posted on
+          the Services from time to time are hereby expressly incorporated
+          herein by reference. We reserve the right, in our sole discretion, to
+          make changes or modifications to these Legal Terms from time to time.
+          We will alert you about any changes by updating the 'Last updated'
+          date of these Legal Terms, and you waive any right to receive specific
+          notice of each such change. It is your responsibility to periodically
+          review these Legal Terms to stay informed of updates. You will be
+          subject to, and will be deemed to have been made aware of and to have
+          accepted, the changes in any revised Legal Terms by your continued use
+          of the Services after the date such revised Legal Terms are posted.
         </p>
 
         <p>
-          <strong>No Support or Maintenance.</strong> You agree that Company
-          will have no obligation to provide you with any support in connection
-          with the Site.
+          The Services are intended for users who are at least 18 years old.
+          Persons under the age of 18 are not permitted to use or register for
+          the Services.
         </p>
 
         <p>
-          Excluding any User Content that you may provide, you are aware that
-          all the intellectual property rights, including copyrights, patents,
-          trademarks, and trade secrets, in the Site and its content are owned
-          by Company or Company's suppliers. Note that these Terms and access to
-          the Site do not give you any rights, title or interest in or to any
-          intellectual property rights, except for the limited access rights
-          expressed in Section 2.1. Company and its suppliers reserve all rights
-          not granted in these Terms.
+          We recommend that you print a copy of these Legal Terms for your
+          records.
         </p>
 
-        <h2>Third-Party Links & Ads; Other Users</h2>
+        <h2>TABLE OF CONTENTS</h2>
+
+        <ol>
+          <li>OUR SERVICES</li>
+          <li>INTELLECTUAL PROPERTY RIGHTS</li>
+          <li>USER REPRESENTATIONS</li>
+          <li>PROHIBITED ACTIVITIES</li>
+          <li>USER GENERATED CONTRIBUTIONS</li>
+          <li>CONTRIBUTION LICENCE</li>
+          <li>THIRD-PARTY WEBSITES AND CONTENT</li>
+          <li>SERVICES MANAGEMENT</li>
+          <li>PRIVACY POLICY</li>
+          <li>TERM AND TERMINATION</li>
+          <li>MODIFICATIONS AND INTERRUPTIONS</li>
+          <li>GOVERNING LAW</li>
+          <li>DISPUTE RESOLUTION</li>
+          <li>CORRECTIONS</li>
+          <li>DISCLAIMER</li>
+          <li>LIMITATIONS OF LIABILITY</li>
+          <li>INDEMNIFICATION</li>
+          <li>USER DATA</li>
+          <li>ELECTRONIC COMMUNICATIONS, TRANSACTIONS, AND SIGNATURES</li>
+          <li>CALIFORNIA USERS AND RESIDENTS</li>
+          <li>MISCELLANEOUS</li>
+          <li>CONTACT US</li>
+        </ol>
+
+        <h2>1. OUR SERVICES</h2>
 
         <p>
-          <strong>Third-Party Links & Ads.</strong> The Site may contain links
-          to third-party websites and services, and/or display advertisements
-          for third-parties.  Such Third-Party Links & Ads are not under the
-          control of Company, and Company is not responsible for any Third-Party
-          Links & Ads.  Company provides access to these Third-Party Links & Ads
-          only as a convenience to you, and does not review, approve, monitor,
-          endorse, warrant, or make any representations with respect to
-          Third-Party Links & Ads.  You use all Third-Party Links & Ads at your
-          own risk, and should apply a suitable level of caution and discretion
-          in doing so. When you click on any of the Third-Party Links & Ads, the
-          applicable third party's terms and policies apply, including the third
-          party's privacy and data gathering practices.
-        </p>
-
-        <p>
-          <strong>Other Users.</strong> Each Site user is solely responsible for
-          any and all of its own User Content.  Because we do not control User
-          Content, you acknowledge and agree that we are not responsible for any
-          User Content, whether provided by you or by others.  You agree that
-          Company will not be responsible for any loss or damage incurred as the
-          result of any such interactions.  If there is a dispute between you
-          and any Site user, we are under no obligation to become involved.
-        </p>
-
-        <p>
-          You hereby release and forever discharge the Company and our officers,
-          employees, agents, successors, and assigns from, and hereby waive and
-          relinquish, each and every past, present and future dispute, claim,
-          controversy, demand, right, obligation, liability, action and cause of
-          action of every kind and nature, that has arisen or arises directly or
-          indirectly out of, or that relates directly or indirectly to, the
-          Site. If you are a California resident, you hereby waive California
-          civil code section 1542 in connection with the foregoing, which
-          states: "a general release does not extend to claims which the
-          creditor does not know or suspect to exist in his or her favor at the
-          time of executing the release, which if known by him or her must have
-          materially affected his or her settlement with the debtor."
+          The information provided when using the Services is not intended for
+          distribution to or use by any person or entity in any jurisdiction or
+          country where such distribution or use would be contrary to law or
+          regulation or which would subject us to any registration requirement
+          within such jurisdiction or country. Accordingly, those persons who
+          choose to access the Services from other locations do so on their own
+          initiative and are solely responsible for compliance with local laws,
+          if and to the extent local laws are applicable.
         </p>
 
         <p>
-          <strong>Cookies and Web Beacons.</strong> Like any other website,
-          stone2stone.co.uk uses ‘cookies'. These cookies are used to store
-          information including visitors' preferences, and the pages on the
-          website that the visitor accessed or visited. The information is used
-          to optimize the users' experience by customizing our web page content
-          based on visitors' browser type and/or other information.
+          The Services are not tailored to comply with industry-specific
+          regulations (Health Insurance Portability and Accountability Act
+          (HIPAA), Federal Information Security Management Act (FISMA), etc.),
+          so if your interactions would be subjected to such laws, you may not
+          use the Services. You may not use the Services in a way that would
+          violate the Gramm-Leach-Bliley Act (GLBA).
         </p>
 
-        <h2>Disclaimers</h2>
+        <h2>2. INTELLECTUAL PROPERTY RIGHTS</h2>
+
+        <h3>Our intellectual property</h3>
 
         <p>
-          The site is provided on an "as-is" and "as available" basis, and
-          company and our suppliers expressly disclaim any and all warranties
-          and conditions of any kind, whether express, implied, or statutory,
-          including all warranties or conditions of merchantability, fitness for
-          a particular purpose, title, quiet enjoyment, accuracy, or
-          non-infringement.  We and our suppliers make not guarantee that the
-          site will meet your requirements, will be available on an
-          uninterrupted, timely, secure, or error-free basis, or will be
-          accurate, reliable, free of viruses or other harmful code, complete,
-          legal, or safe.  If applicable law requires any warranties with
-          respect to the site, all such warranties are limited in duration to
-          ninety (90) days from the date of first use.
+          We are the owner or the licensee of all intellectual property rights
+          in our Services, including all source code, databases, functionality,
+          software, website designs, audio, video, text, photographs, and
+          graphics in the Services (collectively, the 'Content'), as well as the
+          trademarks, service marks, and logos contained therein (the 'Marks').
         </p>
 
         <p>
-          Some jurisdictions do not allow the exclusion of implied warranties,
-          so the above exclusion may not apply to you.  Some jurisdictions do
-          not allow limitations on how long an implied warranty lasts, so the
-          above limitation may not apply to you.
-        </p>
-
-        <h2>Limitation on Liability</h2>
-
-        <p>
-          To the maximum extent permitted by law, in no event shall company or
-          our suppliers be liable to you or any third-party for any lost
-          profits, lost data, costs of procurement of substitute products, or
-          any indirect, consequential, exemplary, incidental, special or
-          punitive damages arising from or relating to these terms or your use
-          of, or incapability to use the site even if company has been advised
-          of the possibility of such damages.  Access to and use of the site is
-          at your own discretion and risk, and you will be solely responsible
-          for any damage to your device or computer system, or loss of data
-          resulting therefrom.
+          Our Content and Marks are protected by copyright and trademark laws
+          (and various other intellectual property rights and unfair competition
+          laws) and treaties in the United States and around the world.
         </p>
 
         <p>
-          To the maximum extent permitted by law, notwithstanding anything to
-          the contrary contained herein, our liability to you for any damages
-          arising from or related to this agreement, will at all times be
-          limited to a maximum of fifty U.S. dollars (u.s. $50). The existence
-          of more than one claim will not enlarge this limit.  You agree that
-          our suppliers will have no liability of any kind arising from or
-          relating to this agreement.
+          The Content and Marks are provided in or through the Services 'AS IS'
+          for your personal, non-commercial use or internal business purpose
+          only.
         </p>
+
+        <h3>Your use of our Services</h3>
 
         <p>
-          Some jurisdictions do not allow the limitation or exclusion of
-          liability for incidental or consequential damages, so the above
-          limitation or exclusion may not apply to you.
+          Subject to your compliance with these Legal Terms, including the
+          'PROHIBITED ACTIVITIES' section below, we grant you a non-exclusive,
+          non-transferable, revocable licence to:
         </p>
-
-        <p>
-          <strong>Term and Termination.</strong> Subject to this Section, these
-          Terms will remain in full force and effect while you use the Site.  We
-          may suspend or terminate your rights to use the Site at any time for
-          any reason at our sole discretion, including for any use of the Site
-          in violation of these Terms.  Upon termination of your rights under
-          these Terms, your Account and right to access and use the Site will
-          terminate immediately.  You understand that any termination of your
-          Account may involve deletion of your User Content associated with your
-          Account from our live databases.  Company will not have any liability
-          whatsoever to you for any termination of your rights under these
-          Terms.  Even after your rights under these Terms are terminated, the
-          following provisions of these Terms will remain in effect: Sections 2
-          through 2.5, Section 3 and Sections 4 through 10.
-        </p>
-
-        <h2>Copyright Policy.</h2>
-
-        <p>
-          Company respects the intellectual property of others and asks that
-          users of our Site do the same.  In connection with our Site, we have
-          adopted and implemented a policy respecting copyright law that
-          provides for the removal of any infringing materials and for the
-          termination of users of our online Site who are repeated infringers of
-          intellectual property rights, including copyrights.  If you believe
-          that one of our users is, through the use of our Site, unlawfully
-          infringing the copyright(s) in a work, and wish to have the allegedly
-          infringing material removed, the following information in the form of
-          a written notification (pursuant to 17 U.S.C. § 512(c)) must be
-          provided to our designated Copyright Agent:
-        </p>
-
         <ul>
-          <li>your physical or electronic signature;</li>
+          <li>access the Services; and</li>
           <li>
-            identification of the copyrighted work(s) that you claim to have
-            been infringed;
-          </li>
-          <li>
-            identification of the material on our services that you claim is
-            infringing and that you request us to remove;
-          </li>
-          <li>sufficient information to permit us to locate such material;</li>
-          <li>your address, telephone number, and e-mail address;</li>
-          <li>
-            a statement that you have a good faith belief that use of the
-            objectionable material is not authorized by the copyright owner, its
-            agent, or under the law; and
-          </li>
-          <li>
-            a statement that the information in the notification is accurate,
-            and under penalty of perjury, that you are either the owner of the
-            copyright that has allegedly been infringed or that you are
-            authorized to act on behalf of the copyright owner.
+            download or print a copy of any portion of the Content to which you
+            have properly gained access.
           </li>
         </ul>
-
         <p>
-          Please note that, pursuant to 17 U.S.C. § 512(f), any
-          misrepresentation of material fact in a written notification
-          automatically subjects the complaining party to liability for any
-          damages, costs and attorney's fees incurred by us in connection with
-          the written notification and allegation of copyright infringement.
-        </p>
-
-        <h2>General</h2>
-
-        <p>
-          These Terms are subject to occasional revision, and if we make any
-          substantial changes, we may notify you by sending you an e-mail to the
-          last e-mail address you provided to us and/or by prominently posting
-          notice of the changes on our Site.  You are responsible for providing
-          us with your most current e-mail address.  In the event that the last
-          e-mail address that you have provided us is not valid our dispatch of
-          the e-mail containing such notice will nonetheless constitute
-          effective notice of the changes described in the notice.  Any changes
-          to these Terms will be effective upon the earliest of thirty (30)
-          calendar days following our dispatch of an e-mail notice to you or
-          thirty (30) calendar days following our posting of notice of the
-          changes on our Site.  These changes will be effective immediately for
-          new users of our Site.  Continued use of our Site following notice of
-          such changes shall indicate your acknowledgement of such changes and
-          agreement to be bound by the terms and conditions of such changes.
-          Dispute Resolution. Please read this Arbitration Agreement carefully.
-          It is part of your contract with Company and affects your rights.  It
-          contains procedures for MANDATORY BINDING ARBITRATION AND A CLASS
-          ACTION WAIVER.
+          solely for your personal, non-commercial use or internal business
+          purpose.
         </p>
 
         <p>
-          <strong>Applicability of Arbitration Agreement.</strong> All claims
-          and disputes in connection with the Terms or the use of any product or
-          service provided by the Company that cannot be resolved informally or
-          in small claims court shall be resolved by binding arbitration on an
-          individual basis under the terms of this Arbitration Agreement. 
-          Unless otherwise agreed to, all arbitration proceedings shall be held
-          in English.  This Arbitration Agreement applies to you and the
-          Company, and to any subsidiaries, affiliates, agents, employees,
-          predecessors in interest, successors, and assigns, as well as all
-          authorized or unauthorized users or beneficiaries of services or goods
-          provided under the Terms.
+          Except as set out in this section or elsewhere in our Legal Terms, no
+          part of the Services and no Content or Marks may be copied,
+          reproduced, aggregated, republished, uploaded, posted, publicly
+          displayed, encoded, translated, transmitted, distributed, sold,
+          licensed, or otherwise exploited for any commercial purpose
+          whatsoever, without our express prior written permission.
         </p>
 
         <p>
-          <strong>Notice Requirement and Informal Dispute Resolution.</strong>{" "}
-          Before either party may seek arbitration, the party must first send to
-          the other party a written Notice of Dispute describing the nature and
-          basis of the claim or dispute, and the requested relief.  A Notice to
-          the Company should be sent to: Stone2Stone Ltd, Block B, Marvan Court,
-          1 Waldegrave Road, Teddington, TW11 8LZ. After the Notice is received,
-          you and the Company may attempt to resolve the claim or dispute
-          informally.  If you and the Company do not resolve the claim or
-          dispute within thirty (30) days after the Notice is received, either
-          party may begin an arbitration proceeding.  The amount of any
-          settlement offer made by any party may not be disclosed to the
-          arbitrator until after the arbitrator has determined the amount of the
-          award to which either party is entitled.
+          If you wish to make any use of the Services, Content, or Marks other
+          than as set out in this section or elsewhere in our Legal Terms,
+          please address your request to: info@stone2stone.co.uk. If we ever
+          grant you the permission to post, reproduce, or publicly display any
+          part of our Services or Content, you must identify us as the owners or
+          licensors of the Services, Content, or Marks and ensure that any
+          copyright or proprietary notice appears or is visible on posting,
+          reproducing, or displaying our Content.
         </p>
 
         <p>
-          <strong>Arbitration Rules.</strong> Arbitration shall be initiated
-          through the American Arbitration Association, an established
-          alternative dispute resolution provider that offers arbitration as set
-          forth in this section.  If AAA is not available to arbitrate, the
-          parties shall agree to select an alternative ADR Provider.  The rules
-          of the ADR Provider shall govern all aspects of the arbitration except
-          to the extent such rules are in conflict with the Terms.  The AAA
-          Consumer Arbitration Rules governing the arbitration are available
-          online at adr.org or by calling the AAA at 1-800-778-7879.  The
-          arbitration shall be conducted by a single, neutral arbitrator.  Any
-          claims or disputes where the total amount of the award sought is less
-          than Ten Thousand U.S. Dollars (US $10,000.00) may be resolved through
-          binding non-appearance-based arbitration, at the option of the party
-          seeking relief.  For claims or disputes where the total amount of the
-          award sought is Ten Thousand U.S. Dollars (US $10,000.00) or more, the
-          right to a hearing will be determined by the Arbitration Rules.  Any
-          hearing will be held in a location within 100 miles of your residence,
-          unless you reside outside of the United States, and unless the parties
-          agree otherwise.  If you reside outside of the U.S., the arbitrator
-          shall give the parties reasonable notice of the date, time and place
-          of any oral hearings. Any judgment on the award rendered by the
-          arbitrator may be entered in any court of competent jurisdiction.  If
-          the arbitrator grants you an award that is greater than the last
-          settlement offer that the Company made to you prior to the initiation
-          of arbitration, the Company will pay you the greater of the award or
-          $2,500.00.  Each party shall bear its own costs and disbursements
-          arising out of the arbitration and shall pay an equal share of the
-          fees and costs of the ADR Provider.
+          We reserve all rights not expressly granted to you in and to the
+          Services, Content, and Marks.
         </p>
 
         <p>
-          <strong>
-            Additional Rules for Non-Appearance Based Arbitration.
-          </strong>{" "}
-          If non-appearance based arbitration is elected, the arbitration shall
-          be conducted by telephone, online and/or based solely on written
-          submissions; the specific manner shall be chosen by the party
-          initiating the arbitration.  The arbitration shall not involve any
-          personal appearance by the parties or witnesses unless otherwise
-          agreed by the parties.
+          Any breach of these Intellectual Property Rights will constitute a
+          material breach of our Legal Terms and your right to use our Services
+          will terminate immediately.
+        </p>
+
+        <h3>Your submissions</h3>
+
+        <p>
+          Please review this section and the 'PROHIBITED ACTIVITIES' section
+          carefully prior to using our Services to understand the (a) rights you
+          give us and (b) obligations you have when you post or upload any
+          content through the Services.
         </p>
 
         <p>
-          <strong>Time Limits.</strong> If you or the Company pursues
-          arbitration, the arbitration action must be initiated and/or demanded
-          within the statute of limitations and within any deadline imposed
-          under the AAA Rules for the pertinent claim.
+          Submissions: By directly sending us any question, comment, suggestion,
+          idea, feedback, or other information about the Services
+          ('Submissions'), you agree to assign to us all intellectual property
+          rights in such Submission. You agree that we shall own this Submission
+          and be entitled to its unrestricted use and dissemination for any
+          lawful purpose, commercial or otherwise, without acknowledgment or
+          compensation to you.
         </p>
 
         <p>
-          <strong>Authority of Arbitrator.</strong> If arbitration is initiated,
-          the arbitrator will decide the rights and liabilities of you and the
-          Company, and the dispute will not be consolidated with any other
-          matters or joined with any other cases or parties.  The arbitrator
-          shall have the authority to grant motions dispositive of all or part
-          of any claim.  The arbitrator shall have the authority to award
-          monetary damages, and to grant any non-monetary remedy or relief
-          available to an individual under applicable law, the AAA Rules, and
-          the Terms.  The arbitrator shall issue a written award and statement
-          of decision describing the essential findings and conclusions on which
-          the award is based.  The arbitrator has the same authority to award
-          relief on an individual basis that a judge in a court of law would
-          have.  The award of the arbitrator is final and binding upon you and
-          the Company.
+          You are responsible for what you post or upload: By sending us
+          Submissions through any part of the Services you:
+        </p>
+        <ul>
+          <li>
+            confirm that you have read and agree with our 'PROHIBITED
+            ACTIVITIES' and will not post, send, publish, upload, or transmit
+            through the Services any Submission that is illegal, harassing,
+            hateful, harmful, defamatory, obscene, bullying, abusive,
+            discriminatory, threatening to any person or group, sexually
+            explicit, false, inaccurate, deceitful, or misleading;
+          </li>
+          <li>
+            to the extent permissible by applicable law, waive any and all moral
+            rights to any such Submission;
+          </li>
+          <li>
+            warrant that any such Submission are original to you or that you
+            have the necessary rights and licences to submit such Submissions
+            and that you have full authority to grant us the above-mentioned
+            rights in relation to your Submissions; and
+          </li>
+          <li>
+            warrant and represent that your Submissions do not constitute
+            confidential information.
+          </li>
+        </ul>
+        <p>
+          You are solely responsible for your Submissions and you expressly
+          agree to reimburse us for any and all losses that we may suffer
+          because of your breach of (a) this section, (b) any third party’s
+          intellectual property rights, or (c) applicable law.
+        </p>
+
+        <h2>3. USER REPRESENTATIONS</h2>
+
+        <p>
+          By using the Services, you represent and warrant that: (1) you have
+          the legal capacity and you agree to comply with these Legal Terms; (2)
+          you are not a minor in the jurisdiction in which you reside; (3) you
+          will not access the Services through automated or non-human means,
+          whether through a bot, script or otherwise; (4) you will not use the
+          Services for any illegal or unauthorised purpose; and (5) your use of
+          the Services will not violate any applicable law or regulation.
         </p>
 
         <p>
-          <strong>Waiver of Jury Trial.</strong> THE PARTIES HEREBY WAIVE THEIR
-          CONSTITUTIONAL AND STATUTORY RIGHTS TO GO TO COURT AND HAVE A TRIAL IN
-          FRONT OF A JUDGE OR A JURY, instead electing that all claims and
-          disputes shall be resolved by arbitration under this Arbitration
-          Agreement.  Arbitration procedures are typically more limited, more
-          efficient and less expensive than rules applicable in a court and are
-          subject to very limited review by a court.  In the event any
-          litigation should arise between you and the Company in any state or
-          federal court in a suit to vacate or enforce an arbitration award or
-          otherwise, YOU AND THE COMPANY WAIVE ALL RIGHTS TO A JURY TRIAL,
-          instead electing that the dispute be resolved by a judge.
+          If you provide any information that is untrue, inaccurate, not
+          current, or incomplete, we have the right to suspend or terminate your
+          account and refuse any and all current or future use of the Services
+          (or any portion thereof).
+        </p>
+
+        <h2>4. PROHIBITED ACTIVITIES</h2>
+
+        <p>
+          You may not access or use the Services for any purpose other than that
+          for which we make the Services available. The Services may not be used
+          in connection with any commercial endeavours except those that are
+          specifically endorsed or approved by us.
+        </p>
+
+        <p>As a user of the Services, you agree not to:</p>
+        <ul>
+          <li>
+            Systematically retrieve data or other content from the Services to
+            create or compile, directly or indirectly, a collection,
+            compilation, database, or directory without written permission from
+            us.
+          </li>
+          <li>
+            Trick, defraud, or mislead us and other users, especially in any
+            attempt to learn sensitive account information such as user
+            passwords.
+          </li>
+          <li>
+            Circumvent, disable, or otherwise interfere with security-related
+            features of the Services, including features that prevent or
+            restrict the use or copying of any Content or enforce limitations on
+            the use of the Services and/or the Content contained therein.
+          </li>
+          <li>
+            Disparage, tarnish, or otherwise harm, in our opinion, us and/or the
+            Services.
+          </li>
+          <li>
+            Use any information obtained from the Services in order to harass,
+            abuse, or harm another person.
+          </li>
+          <li>
+            Make improper use of our support services or submit false reports of
+            abuse or misconduct.
+          </li>
+          <li>
+            Use the Services in a manner inconsistent with any applicable laws
+            or regulations.
+          </li>
+          <li>Engage in unauthorised framing of or linking to the Services.</li>
+          <li>
+            Upload or transmit (or attempt to upload or to transmit) viruses,
+            Trojan horses, or other material, including excessive use of capital
+            letters and spamming (continuous posting of repetitive text), that
+            interferes with any party’s uninterrupted use and enjoyment of the
+            Services or modifies, impairs, disrupts, alters, or interferes with
+            the use, features, functions, operation, or maintenance of the
+            Services.
+          </li>
+          <li>
+            Engage in any automated use of the system, such as using scripts to
+            send comments or messages, or using any data mining, robots, or
+            similar data gathering and extraction tools.
+          </li>
+          <li>
+            Delete the copyright or other proprietary rights notice from any
+            Content.
+          </li>
+          <li>
+            Attempt to impersonate another user or person or use the username of
+            another user.
+          </li>
+          <li>
+            Upload or transmit (or attempt to upload or to transmit) any
+            material that acts as a passive or active information collection or
+            transmission mechanism, including without limitation, clear graphics
+            interchange formats ('gifs'), 1×1 pixels, web bugs, cookies, or
+            other similar devices (sometimes referred to as 'spyware' or
+            'passive collection mechanisms' or 'pcms').
+          </li>
+          <li>
+            Interfere with, disrupt, or create an undue burden on the Services
+            or the networks or services connected to the Services.
+          </li>
+          <li>
+            Harass, annoy, intimidate, or threaten any of our employees or
+            agents engaged in providing any portion of the Services to you.
+          </li>
+          <li>
+            Attempt to bypass any measures of the Services designed to prevent
+            or restrict access to the Services, or any portion of the Services.
+          </li>
+          <li>
+            Copy or adapt the Services' software, including but not limited to
+            Flash, PHP, HTML, JavaScript, or other code.
+          </li>
+          <li>
+            Except as permitted by applicable law, decipher, decompile,
+            disassemble, or reverse engineer any of the software comprising or
+            in any way making up a part of the Services.
+          </li>
+          <li>
+            Except as may be the result of standard search engine or Internet
+            browser usage, use, launch, develop, or distribute any automated
+            system, including without limitation, any spider, robot, cheat
+            utility, scraper, or offline reader that accesses the Services, or
+            use or launch any unauthorised script or other software.
+          </li>
+          <li>
+            Use a buying agent or purchasing agent to make purchases on the
+            Services.
+          </li>
+          <li>
+            Make any unauthorised use of the Services, including collecting
+            usernames and/or email addresses of users by electronic or other
+            means for the purpose of sending unsolicited email, or creating user
+            accounts by automated means or under false pretences.
+          </li>
+          <li>
+            Use the Services as part of any effort to compete with us or
+            otherwise use the Services and/or the Content for any
+            revenue-generating endeavour or commercial enterprise.
+          </li>
+          <li>
+            Use the Services to advertise or offer to sell goods and services.
+          </li>
+          <li>Sell or otherwise transfer your profile.</li>
+        </ul>
+
+        <h2>5. USER GENERATED CONTRIBUTIONS</h2>
+
+        <p>
+          The Services does not offer users to submit or post content. We may
+          provide you with the opportunity to create, submit, post, display,
+          transmit, perform, publish, distribute, or broadcast content and
+          materials to us or on the Services, including but not limited to text,
+          writings, video, audio, photographs, graphics, comments, suggestions,
+          or personal information or other material (collectively,
+          'Contributions'). Contributions may be viewable by other users of the
+          Services and through third-party websites. As such, any Contributions
+          you transmit may be treated in accordance with the Services' Privacy
+          Policy. When you create or make available any Contributions, you
+          thereby represent and warrant that:
+        </p>
+        <ul>
+          <li>
+            The creation, distribution, transmission, public display, or
+            performance, and the accessing, downloading, or copying of your
+            Contributions do not and will not infringe the proprietary rights,
+            including but not limited to the copyright, patent, trademark, trade
+            secret, or moral rights of any third party.
+          </li>
+          <li>
+            You are the creator and owner of or have the necessary licences,
+            rights, consents, releases, and permissions to use and to authorise
+            us, the Services, and other users of the Services to use your
+            Contributions in any manner contemplated by the Services and these
+            Legal Terms.
+          </li>
+          <li>
+            You have the written consent, release, and/or permission of each and
+            every identifiable individual person in your Contributions to use
+            the name or likeness of each and every such identifiable individual
+            person to enable inclusion and use of your Contributions in any
+            manner contemplated by the Services and these Legal Terms.
+          </li>
+          <li>Your Contributions are not false, inaccurate, or misleading.</li>
+          <li>
+            Your Contributions are not unsolicited or unauthorised advertising,
+            promotional materials, pyramid schemes, chain letters, spam, mass
+            mailings, or other forms of solicitation.
+          </li>
+          <li>
+            Your Contributions are not obscene, lewd, lascivious, filthy,
+            violent, harassing, libellous, slanderous, or otherwise
+            objectionable (as determined by us).
+          </li>
+          <li>
+            Your Contributions do not ridicule, mock, disparage, intimidate, or
+            abuse anyone.
+          </li>
+          <li>
+            Your Contributions are not used to harass or threaten (in the legal
+            sense of those terms) any other person and to promote violence
+            against a specific person or class of people.
+          </li>
+          <li>
+            Your Contributions do not violate any applicable law, regulation, or
+            rule.
+          </li>
+          <li>
+            Your Contributions do not violate the privacy or publicity rights of
+            any third party.
+          </li>
+          <li>
+            Your Contributions do not violate any applicable law concerning
+            child pornography, or otherwise intended to protect the health or
+            well-being of minors.
+          </li>
+          <li>
+            Your Contributions do not include any offensive comments that are
+            connected to race, national origin, gender, sexual preference, or
+            physical handicap.
+          </li>
+          <li>
+            Your Contributions do not otherwise violate, or link to material
+            that violates, any provision of these Legal Terms, or any applicable
+            law or regulation.
+          </li>
+        </ul>
+        <p>
+          Any use of the Services in violation of the foregoing violates these
+          Legal Terms and may result in, among other things, termination or
+          suspension of your rights to use the Services.
+        </p>
+
+        <h2>6. CONTRIBUTION LICENCE</h2>
+
+        <p>
+          You and Services agree that we may access, store, process, and use any
+          information and personal data that you provide following the terms of
+          the Privacy Policy and your choices (including settings).
         </p>
 
         <p>
-          <strong>Waiver of Class or Consolidated Actions.</strong> All claims
-          and disputes within the scope of this arbitration agreement must be
-          arbitrated or litigated on an individual basis and not on a class
-          basis, and claims of more than one customer or user cannot be
-          arbitrated or litigated jointly or consolidated with those of any
-          other customer or user.
+          By submitting suggestions or other feedback regarding the Services,
+          you agree that we can use and share such feedback for any purpose
+          without compensation to you.
         </p>
 
         <p>
-          <strong>Confidentiality.</strong> All aspects of the arbitration
-          proceeding shall be strictly confidential.  The parties agree to
-          maintain confidentiality unless otherwise required by law.  This
-          paragraph shall not prevent a party from submitting to a court of law
-          any information necessary to enforce this Agreement, to enforce an
-          arbitration award, or to seek injunctive or equitable relief.
+          We do not assert any ownership over your Contributions. You retain
+          full ownership of all of your Contributions and any intellectual
+          property rights or other proprietary rights associated with your
+          Contributions. We are not liable for any statements or representations
+          in your Contributions provided by you in any area on the Services. You
+          are solely responsible for your Contributions to the Services and you
+          expressly agree to exonerate us from any and all responsibility and to
+          refrain from any legal action against us regarding your Contributions.
+        </p>
+
+        <h2>7. THIRD-PARTY WEBSITES AND CONTENT</h2>
+
+        <p>
+          The Services may contain (or you may be sent via the Site) links to
+          other websites ('Third-Party Websites') as well as articles,
+          photographs, text, graphics, pictures, designs, music, sound, video,
+          information, applications, software, and other content or items
+          belonging to or originating from third parties ('Third-Party
+          Content'). Such Third-Party Websites and Third-Party Content are not
+          investigated, monitored, or checked for accuracy, appropriateness, or
+          completeness by us, and we are not responsible for any Third-Party
+          Websites accessed through the Services or any Third-Party Content
+          posted on, available through, or installed from the Services,
+          including the content, accuracy, offensiveness, opinions, reliability,
+          privacy practices, or other policies of or contained in the
+          Third-Party Websites or the Third-Party Content. Inclusion of, linking
+          to, or permitting the use or installation of any Third-Party Websites
+          or any Third-Party Content does not imply approval or endorsement
+          thereof by us. If you decide to leave the Services and access the
+          Third-Party Websites or to use or install any Third-Party Content, you
+          do so at your own risk, and you should be aware these Legal Terms no
+          longer govern. You should review the applicable terms and policies,
+          including privacy and data gathering practices, of any website to
+          which you navigate from the Services or relating to any applications
+          you use or install from the Services. Any purchases you make through
+          Third-Party Websites will be through other websites and from other
+          companies, and we take no responsibility whatsoever in relation to
+          such purchases which are exclusively between you and the applicable
+          third party. You agree and acknowledge that we do not endorse the
+          products or services offered on Third-Party Websites and you shall
+          hold us blameless from any harm caused by your purchase of such
+          products or services. Additionally, you shall hold us blameless from
+          any losses sustained by you or harm caused to you relating to or
+          resulting in any way from any Third-Party Content or any contact with
+          Third-Party Websites.
+        </p>
+
+        <h2>8. SERVICES MANAGEMENT</h2>
+
+        <p>
+          We reserve the right, but not the obligation, to: (1) monitor the
+          Services for violations of these Legal Terms; (2) take appropriate
+          legal action against anyone who, in our sole discretion, violates the
+          law or these Legal Terms, including without limitation, reporting such
+          user to law enforcement authorities; (3) in our sole discretion and
+          without limitation, refuse, restrict access to, limit the availability
+          of, or disable (to the extent technologically feasible) any of your
+          Contributions or any portion thereof; (4) in our sole discretion and
+          without limitation, notice, or liability, to remove from the Services
+          or otherwise disable all files and content that are excessive in size
+          or are in any way burdensome to our systems; and (5) otherwise manage
+          the Services in a manner designed to protect our rights and property
+          and to facilitate the proper functioning of the Services.
+        </p>
+
+        <h2>9. PRIVACY POLICY</h2>
+
+        <p>
+          We care about data privacy and security. Please review our Privacy
+          Policy: https://stone2stone.co.uk/privacy-policy. By using the
+          Services, you agree to be bound by our Privacy Policy, which is
+          incorporated into these Legal Terms. Please be advised the Services
+          are hosted in the United Kingdom. If you access the Services from any
+          other region of the world with laws or other requirements governing
+          personal data collection, use, or disclosure that differ from
+          applicable laws in the United Kingdom, then through your continued use
+          of the Services, you are transferring your data to the United Kingdom,
+          and you expressly consent to have your data transferred to and
+          processed in the United Kingdom.
+        </p>
+
+        <h2>10. TERM AND TERMINATION</h2>
+
+        <p>
+          These Legal Terms shall remain in full force and effect while you use
+          the Services. WITHOUT LIMITING ANY OTHER PROVISION OF THESE LEGAL
+          TERMS, WE RESERVE THE RIGHT TO, IN OUR SOLE DISCRETION AND WITHOUT
+          NOTICE OR LIABILITY, DENY ACCESS TO AND USE OF THE SERVICES (INCLUDING
+          BLOCKING CERTAIN IP ADDRESSES), TO ANY PERSON FOR ANY REASON OR FOR NO
+          REASON, INCLUDING WITHOUT LIMITATION FOR BREACH OF ANY REPRESENTATION,
+          WARRANTY, OR COVENANT CONTAINED IN THESE LEGAL TERMS OR OF ANY
+          APPLICABLE LAW OR REGULATION. WE MAY TERMINATE YOUR USE OR
+          PARTICIPATION IN THE SERVICES OR DELETE ANY CONTENT OR INFORMATION
+          THAT YOU POSTED AT ANY TIME, WITHOUT WARNING, IN OUR SOLE DISCRETION.
         </p>
 
         <p>
-          <strong>Severability.</strong> If any part or parts of this
-          Arbitration Agreement are found under the law to be invalid or
-          unenforceable by a court of competent jurisdiction, then such specific
-          part or parts shall be of no force and effect and shall be severed and
-          the remainder of the Agreement shall continue in full force and
-          effect.
+          If we terminate or suspend your account for any reason, you are
+          prohibited from registering and creating a new account under your
+          name, a fake or borrowed name, or the name of any third party, even if
+          you may be acting on behalf of the third party. In addition to
+          terminating or suspending your account, we reserve the right to take
+          appropriate legal action, including without limitation pursuing civil,
+          criminal, and injunctive redress.
+        </p>
+
+        <h2>11. MODIFICATIONS AND INTERRUPTIONS</h2>
+
+        <p>
+          We reserve the right to change, modify, or remove the contents of the
+          Services at any time or for any reason at our sole discretion without
+          notice. However, we have no obligation to update any information on
+          our Services. We will not be liable to you or any third party for any
+          modification, price change, suspension, or discontinuance of the
+          Services.
         </p>
 
         <p>
-          <strong>Right to Waive.</strong> Any or all of the rights and
-          limitations set forth in this Arbitration Agreement may be waived by
-          the party against whom the claim is asserted.  Such waiver shall not
-          waive or affect any other portion of this Arbitration Agreement.
+          We cannot guarantee the Services will be available at all times. We
+          may experience hardware, software, or other problems or need to
+          perform maintenance related to the Services, resulting in
+          interruptions, delays, or errors. We reserve the right to change,
+          revise, update, suspend, discontinue, or otherwise modify the Services
+          at any time or for any reason without notice to you. You agree that we
+          have no liability whatsoever for any loss, damage, or inconvenience
+          caused by your inability to access or use the Services during any
+          downtime or discontinuance of the Services. Nothing in these Legal
+          Terms will be construed to obligate us to maintain and support the
+          Services or to supply any corrections, updates, or releases in
+          connection therewith.
         </p>
+
+        <h2>12. GOVERNING LAW</h2>
 
         <p>
-          <strong>Survival of Agreement.</strong> This Arbitration Agreement
-          will survive the termination of your relationship with Company.
+          These Legal Terms are governed by and interpreted following the laws
+          of the United Kingdom, and the use of the United Nations Convention of
+          Contracts for the International Sales of Goods is expressly excluded.
+          If your habitual residence is in the EU, and you are a consumer, you
+          additionally possess the protection provided to you by obligatory
+          provisions of the law in your country to residence. Stone2Stone
+          Limited and yourself both agree to submit to the non-exclusive
+          jurisdiction of the courts of London, which means that you may make a
+          claim to defend your consumer protection rights in regards to these
+          Legal Terms in the United Kingdom, or in the EU country in which you
+          reside.
         </p>
+
+        <h2>13. DISPUTE RESOLUTION</h2>
+
+        <h3>Informal Negotiations</h3>
 
         <p>
-          <strong>Small Claims Court.</strong> Nonetheless the foregoing, either
-          you or the Company may bring an individual action in small claims
-          court.
+          To expedite resolution and control the cost of any dispute,
+          controversy, or claim related to these Legal Terms (each a 'Dispute'
+          and collectively, the 'Disputes') brought by either you or us
+          (individually, a 'Party' and collectively, the 'Parties'), the Parties
+          agree to first attempt to negotiate any Dispute (except those Disputes
+          expressly provided below) informally for at least thirty (30) days
+          before initiating arbitration. Such informal negotiations commence
+          upon written notice from one Party to the other Party.
         </p>
+
+        <h3>Binding Arbitration</h3>
 
         <p>
-          <strong>Emergency Equitable Relief.</strong> Anyhow the foregoing,
-          either party may seek emergency equitable relief before a state or
-          federal court in order to maintain the status quo pending
-          arbitration.  A request for interim measures shall not be deemed a
-          waiver of any other rights or obligations under this Arbitration
-          Agreement.
+          Any dispute arising from the relationships between the Parties to
+          these Legal Terms shall be determined by one arbitrator who will be
+          chosen in accordance with the Arbitration and Internal Rules of the
+          European Court of Arbitration being part of the European Centre of
+          Arbitration having its seat in Strasbourg, and which are in force at
+          the time the application for arbitration is filed, and of which
+          adoption of this clause constitutes acceptance. The seat of
+          arbitration shall be London, United Kingdom. The language of the
+          proceedings shall be English. Applicable rules of substantive law
+          shall be the law of the United Kingdom.
         </p>
+
+        <h3>Restrictions</h3>
 
         <p>
-          <strong>Claims Not Subject to Arbitration.</strong> Notwithstanding
-          the foregoing, claims of defamation, violation of the Computer Fraud
-          and Abuse Act, and infringement or misappropriation of the other
-          party's patent, copyright, trademark or trade secrets shall not be
-          subject to this Arbitration Agreement.
+          The Parties agree that any arbitration shall be limited to the Dispute
+          between the Parties individually. To the full extent permitted by law,
+          (a) no arbitration shall be joined with any other proceeding; (b)
+          there is no right or authority for any Dispute to be arbitrated on a
+          class-action basis or to utilise class action procedures; and (c)
+          there is no right or authority for any Dispute to be brought in a
+          purported representative capacity on behalf of the general public or
+          any other persons.
         </p>
+
+        <h3>Exceptions to Informal Negotiations and Arbitration</h3>
 
         <p>
-          In any circumstances where the foregoing Arbitration Agreement permits
-          the parties to litigate in court, the parties hereby agree to submit
-          to the personal jurisdiction of the courts located within gb County,
-          California, for such purposes.
+          The Parties agree that the following Disputes are not subject to the
+          above provisions concerning informal negotiations binding arbitration:
+          (a) any Disputes seeking to enforce or protect, or concerning the
+          validity of, any of the intellectual property rights of a Party; (b)
+          any Dispute related to, or arising from, allegations of theft, piracy,
+          invasion of privacy, or unauthorised use; and (c) any claim for
+          injunctive relief. If this provision is found to be illegal or
+          unenforceable, then neither Party will elect to arbitrate any Dispute
+          falling within that portion of this provision found to be illegal or
+          unenforceable and such Dispute shall be decided by a court of
+          competent jurisdiction within the courts listed for jurisdiction
+          above, and the Parties agree to submit to the personal jurisdiction of
+          that court.
         </p>
+
+        <h2>14. CORRECTIONS</h2>
 
         <p>
-          The Site may be subject to U.S. export control laws and may be subject
-          to export or import regulations in other countries. You agree not to
-          export, re-export, or transfer, directly or indirectly, any U.S.
-          technical data acquired from Company, or any products utilizing such
-          data, in violation of the United States export laws or regulations.
+          There may be information on the Services that contains typographical
+          errors, inaccuracies, or omissions, including descriptions, pricing,
+          availability, and various other information. We reserve the right to
+          correct any errors, inaccuracies, or omissions and to change or update
+          the information on the Services at any time, without prior notice.
         </p>
+
+        <h2>15. DISCLAIMER</h2>
 
         <p>
-          Company is located at the address in Section 10.8. If you are a
-          California resident, you may report complaints to the Complaint
-          Assistance Unit of the Division of Consumer Product of the California
-          Department of Consumer Affairs by contacting them in writing at 400 R
-          Street, Sacramento, CA 95814, or by telephone at (800) 952-5210.
+          THE SERVICES ARE PROVIDED ON AN AS-IS AND AS-AVAILABLE BASIS. YOU
+          AGREE THAT YOUR USE OF THE SERVICES WILL BE AT YOUR SOLE RISK. TO THE
+          FULLEST EXTENT PERMITTED BY LAW, WE DISCLAIM ALL WARRANTIES, EXPRESS
+          OR IMPLIED, IN CONNECTION WITH THE SERVICES AND YOUR USE THEREOF,
+          INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF
+          MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND
+          NON-INFRINGEMENT. WE MAKE NO WARRANTIES OR REPRESENTATIONS ABOUT THE
+          ACCURACY OR COMPLETENESS OF THE SERVICES' CONTENT OR THE CONTENT OF
+          ANY WEBSITES OR MOBILE APPLICATIONS LINKED TO THE SERVICES AND WE WILL
+          ASSUME NO LIABILITY OR RESPONSIBILITY FOR ANY (1) ERRORS, MISTAKES, OR
+          INACCURACIES OF CONTENT AND MATERIALS, (2) PERSONAL INJURY OR PROPERTY
+          DAMAGE, OF ANY NATURE WHATSOEVER, RESULTING FROM YOUR ACCESS TO AND
+          USE OF THE SERVICES, (3) ANY UNAUTHORISED ACCESS TO OR USE OF OUR
+          SECURE SERVERS AND/OR ANY AND ALL PERSONAL INFORMATION AND/OR
+          FINANCIAL INFORMATION STORED THEREIN, (4) ANY INTERRUPTION OR
+          CESSATION OF TRANSMISSION TO OR FROM THE SERVICES, (5) ANY BUGS,
+          VIRUSES, TROJAN HORSES, OR THE LIKE WHICH MAY BE TRANSMITTED TO OR
+          THROUGH THE SERVICES BY ANY THIRD PARTY, AND/OR (6) ANY ERRORS OR
+          OMISSIONS IN ANY CONTENT AND MATERIALS OR FOR ANY LOSS OR DAMAGE OF
+          ANY KIND INCURRED AS A RESULT OF THE USE OF ANY CONTENT POSTED,
+          TRANSMITTED, OR OTHERWISE MADE AVAILABLE VIA THE SERVICES. WE DO NOT
+          WARRANT, ENDORSE, GUARANTEE, OR ASSUME RESPONSIBILITY FOR ANY PRODUCT
+          OR SERVICE ADVERTISED OR OFFERED BY A THIRD PARTY THROUGH THE
+          SERVICES, ANY HYPERLINKED WEBSITE, OR ANY WEBSITE OR MOBILE
+          APPLICATION FEATURED IN ANY BANNER OR OTHER ADVERTISING, AND WE WILL
+          NOT BE A PARTY TO OR IN ANY WAY BE RESPONSIBLE FOR MONITORING ANY
+          TRANSACTION BETWEEN YOU AND ANY THIRD-PARTY PROVIDERS OF PRODUCTS OR
+          SERVICES. AS WITH THE PURCHASE OF A PRODUCT OR SERVICE THROUGH ANY
+          MEDIUM OR IN ANY ENVIRONMENT, YOU SHOULD USE YOUR BEST JUDGEMENT AND
+          EXERCISE CAUTION WHERE APPROPRIATE.
         </p>
+
+        <h2>16. LIMITATIONS OF LIABILITY</h2>
 
         <p>
-          <strong>Electronic Communications.</strong> The communications between
-          you and Company use electronic means, whether you use the Site or send
-          us emails, or whether Company posts notices on the Site or
-          communicates with you via email. For contractual purposes, you (a)
-          consent to receive communications from Company in an electronic form;
-          and (b) agree that all terms and conditions, agreements, notices,
-          disclosures, and other communications that Company provides to you
-          electronically satisfy any legal obligation that such communications
-          would satisfy if it were be in a hard copy writing.
+          IN NO EVENT WILL WE OR OUR DIRECTORS, EMPLOYEES, OR AGENTS BE LIABLE
+          TO YOU OR ANY THIRD PARTY FOR ANY DIRECT, INDIRECT, CONSEQUENTIAL,
+          EXEMPLARY, INCIDENTAL, SPECIAL, OR PUNITIVE DAMAGES, INCLUDING LOST
+          PROFIT, LOST REVENUE, LOSS OF DATA, OR OTHER DAMAGES ARISING FROM YOUR
+          USE OF THE SERVICES, EVEN IF WE HAVE BEEN ADVISED OF THE POSSIBILITY
+          OF SUCH DAMAGES.
         </p>
+
+        <h2>17. INDEMNIFICATION</h2>
 
         <p>
-          <strong>Entire Terms.</strong> These Terms constitute the entire
-          agreement between you and us regarding the use of the Site. Our
-          failure to exercise or enforce any right or provision of these Terms
-          shall not operate as a waiver of such right or provision. The section
-          titles in these Terms are for convenience only and have no legal or
-          contractual effect. The word "including" means "including without
-          limitation". If any provision of these Terms is held to be invalid or
-          unenforceable, the other provisions of these Terms will be unimpaired
-          and the invalid or unenforceable provision will be deemed modified so
-          that it is valid and enforceable to the maximum extent permitted by
-          law.  Your relationship to Company is that of an independent
-          contractor, and neither party is an agent or partner of the other. 
-          These Terms, and your rights and obligations herein, may not be
-          assigned, subcontracted, delegated, or otherwise transferred by you
-          without Company's prior written consent, and any attempted assignment,
-          subcontract, delegation, or transfer in violation of the foregoing
-          will be null and void.  Company may freely assign these Terms.  The
-          terms and conditions set forth in these Terms shall be binding upon
-          assignees.
+          You agree to defend, indemnify, and hold us harmless, including our
+          subsidiaries, affiliates, and all of our respective officers, agents,
+          partners, and employees, from and against any loss, damage, liability,
+          claim, or demand, including reasonable attorneys’ fees and expenses,
+          made by any third party due to or arising out of: (1) use of the
+          Services; (2) breach of these Legal Terms; (3) any breach of your
+          representations and warranties set forth in these Legal Terms; (4)
+          your violation of the rights of a third party, including but not
+          limited to intellectual property rights; or (5) any overt harmful act
+          toward any other user of the Services with whom you connected via the
+          Services. Notwithstanding the foregoing, we reserve the right, at your
+          expense, to assume the exclusive defence and control of any matter for
+          which you are required to indemnify us, and you agree to cooperate, at
+          your expense, with our defence of such claims. We will use reasonable
+          efforts to notify you of any such claim, action, or proceeding which
+          is subject to this indemnification upon becoming aware of it.
         </p>
+
+        <h2>18. USER DATA</h2>
 
         <p>
-          <strong>Your Privacy.</strong> Please read our Privacy Policy.
+          We will maintain certain data that you transmit to the Services for
+          the purpose of managing the performance of the Services, as well as
+          data relating to your use of the Services. Although we perform regular
+          routine backups of data, you are solely responsible for all data that
+          you transmit or that relates to any activity you have undertaken using
+          the Services. You agree that we shall have no liability to you for any
+          loss or corruption of any such data, and you hereby waive any right of
+          action against us arising from any such loss or corruption of such
+          data.
         </p>
+
+        <h2>19. ELECTRONIC COMMUNICATIONS, TRANSACTIONS, AND SIGNATURES</h2>
 
         <p>
-          <strong>Copyright/Trademark Information.</strong> Copyright ©. All
-          rights reserved.  All trademarks, logos and service marks displayed on
-          the Site are our property or the property of other third-parties. You
-          are not permitted to use these Marks without our prior written consent
-          or the consent of such third party which may own the Marks.
+          Visiting the Services, sending us emails, and completing online forms
+          constitute electronic communications. You consent to receive
+          electronic communications, and you agree that all agreements, notices,
+          disclosures, and other communications we provide to you
+          electronically, via email and on the Services, satisfy any legal
+          requirement that such communication be in writing. YOU HEREBY AGREE TO
+          THE USE OF ELECTRONIC SIGNATURES, CONTRACTS, ORDERS, AND OTHER
+          RECORDS, AND TO ELECTRONIC DELIVERY OF NOTICES, POLICIES, AND RECORDS
+          OF TRANSACTIONS INITIATED OR COMPLETED BY US OR VIA THE SERVICES. You
+          hereby waive any rights or requirements under any statutes,
+          regulations, rules, ordinances, or other laws in any jurisdiction
+          which require an original signature or delivery or retention of
+          non-electronic records, or to payments or the granting of credits by
+          any means other than electronic means.
         </p>
 
-        <h2>Contact Information</h2>
+        <h2>20. CALIFORNIA USERS AND RESIDENTS</h2>
 
         <p>
-          Address: Stone2Stone Ltd, Block B, Marvan Court, 1 Waldegrave Road,
-          Teddington, TW11 8LZ
+          If any complaint with us is not satisfactorily resolved, you can
+          contact the Complaint Assistance Unit of the Division of Consumer
+          Services of the California Department of Consumer Affairs in writing
+          at 1625 North Market Blvd., Suite N 112, Sacramento, California 95834
+          or by telephone at (800) 952-5210 or (916) 445-1254.
         </p>
-        <p>Email: info@stone2stone.co.uk</p>
+
+        <h2>21. MISCELLANEOUS</h2>
+
+        <p>
+          These Legal Terms and any policies or operating rules posted by us on
+          the Services or in respect to the Services constitute the entire
+          agreement and understanding between you and us. Our failure to
+          exercise or enforce any right or provision of these Legal Terms shall
+          not operate as a waiver of such right or provision. These Legal Terms
+          operate to the fullest extent permissible by law. We may assign any or
+          all of our rights and obligations to others at any time. We shall not
+          be responsible or liable for any loss, damage, delay, or failure to
+          act caused by any cause beyond our reasonable control. If any
+          provision or part of a provision of these Legal Terms is determined to
+          be unlawful, void, or unenforceable, that provision or part of the
+          provision is deemed severable from these Legal Terms and does not
+          affect the validity and enforceability of any remaining provisions.
+          There is no joint venture, partnership, employment or agency
+          relationship created between you and us as a result of these Legal
+          Terms or use of the Services. You agree that these Legal Terms will
+          not be construed against us by virtue of having drafted them. You
+          hereby waive any and all defences you may have based on the electronic
+          form of these Legal Terms and the lack of signing by the parties
+          hereto to execute these Legal Terms.
+        </p>
+
+        <h2>22. CONTACT US</h2>
+
+        <p>
+          In order to resolve a complaint regarding the Services or to receive
+          further information regarding use of the Services, please contact us
+          at:
+        </p>
+
+        <address>
+          Stone2Stone Limited <br />
+          Stone2Stone Ltd, Marvan Court, 1 Waldegrave Road <br />
+          London, Teddington TW11 8LZ <br />
+          United Kingdom <br />
+          Phone: +44(0)203 4689 945 <br />
+          info@stone2stone.co.uk
+        </address>
       </div>
     </>
   );
