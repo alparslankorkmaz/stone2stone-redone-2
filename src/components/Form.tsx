@@ -2,7 +2,7 @@
 import { useForm, ValidationError } from "@formspree/react";
 
 export default function Form() {
-  const [state, handleSubmit] = useForm("xdorzape");
+  const [state, handleSubmit] = useForm(process.env.formKey!);
   if (state.succeeded) {
     return (
       <div className="flex justify-center items-center text-5xl font-semibold text-green-700">
