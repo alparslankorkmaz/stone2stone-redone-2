@@ -28,7 +28,7 @@ const CookieConsentBanner = () => {
   }
 
   return (
-    <div className="flex flex-wrap lg:gap-5 justify-center items-center sticky bottom-0 z-20 bg-hub_bg bg-bottom text-white p-3 text-center">
+    <div className="flex flex-wrap lg:gap-5 justify-center items-center sticky bottom-0 z-20 bg-[#505050] text-white p-3 text-center">
       <p>This website uses cookies to improve your browsing experience.</p>
       <p>Please click Accept to continue.</p>
       <div>
@@ -39,7 +39,7 @@ const CookieConsentBanner = () => {
           Reject
         </button>
         <button
-          className="text-white font-bold py-2 px-8 bg-green-700 rounded-xl m-5"
+          className="text-white font-bold py-2 px-8 bg-s2s-orange rounded-xl m-5"
           onClick={handleAccept}
         >
           Accept
