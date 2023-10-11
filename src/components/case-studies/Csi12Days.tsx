@@ -23,7 +23,7 @@ export default function Csi12Days() {
                         className="w-1/4"
                       />{" "}
                     </div>
-                    <h1 className="text-4xl lg:text-7xl font-semibold">
+                    <h1 className="text-4xl lg:text-6xl font-semibold">
                       {study.name}
                     </h1>
                     <p className="lg:text-xl font-medium">{study.tag}</p>

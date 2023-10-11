@@ -23,7 +23,7 @@ export default function SccQuiz() {
                         className="w-1/2"
                       />{" "}
                     </div>
-                    <h1 className="text-4xl lg:text-7xl font-semibold">
+                    <h1 className="text-4xl lg:text-6xl font-semibold">
                       {study.name}
                     </h1>
                     <p className="lg:text-xl font-medium">{study.tag}</p>

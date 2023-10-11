@@ -20,7 +20,7 @@ export default function page() {
       {/* HERO */}
       <div className="relative bg-hero_bg bg-cover bg-bottom bg-no-repeat pb-10 lg:h-[45rem]">
         <div className="text-center text-white p-4 lg:px-0 lg:py-16 top-16 lg:top-34 lg:max-w-7xl mx-auto flex flex-col justify-center items-center ">
-          <h1 className="text-4xl lg:text-7xl leading-none font-semibold mt-16 lg:mt-24">
+          <h1 className="text-4xl lg:text-6xl leading-none font-semibold mt-16 lg:mt-24">
             What is involved in a Digital Marketing project?{" "}
           </h1>
           <p className="mt-3 lg:mt-5 px-8 lg:px-60 text-sm leading-none font-medium lg:text-2xl">
