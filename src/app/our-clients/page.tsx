@@ -132,6 +132,13 @@ export default function page() {
         <div className="col-span-3 lg:col-span-2 flex justify-center items-center">
           <img
             className="aspect-3/2 object-contain"
+            src="/img/our-clients/tech/forescout.svg"
+            alt="forescout"
+          />
+        </div>
+        <div className="col-span-3 lg:col-span-2 flex justify-center items-center">
+          <img
+            className="aspect-3/2 object-contain"
             src="/img/our-clients/tech/philips.svg"
             alt="philips"
           />
@@ -176,13 +183,6 @@ export default function page() {
             className="aspect-3/2 object-contain"
             src="/img/our-clients/tech/turbonomic.svg"
             alt="turbonomic"
-          />
-        </div>
-        <div className="col-span-3 lg:col-span-2 flex justify-center items-center">
-          <img
-            className="aspect-3/2 object-contain"
-            src="/img/our-clients/tech/forescout.svg"
-            alt="forescout"
           />
         </div>
       </div>
