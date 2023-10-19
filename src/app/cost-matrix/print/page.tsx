@@ -3,7 +3,7 @@ import Link from "next/link";
 import React, { useState } from "react";
 import { FaChevronLeft, FaChevronRight, FaArrowLeft } from "react-icons/fa";
 
-export default function page() {
+export default function Page() {
   const [items, setItems] = useState([
     {
       itemName: "A4 Informational Document",

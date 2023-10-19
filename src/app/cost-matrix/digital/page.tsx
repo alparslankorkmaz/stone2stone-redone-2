@@ -3,7 +3,7 @@ import Link from "next/link";
 import React, { useState } from "react";
 import { FaArrowLeft, FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
-export default function page() {
+export default function Page() {
   const [items, setItems] = useState([
     {
       itemName: "Email Design",
