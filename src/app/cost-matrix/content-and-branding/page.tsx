@@ -66,7 +66,7 @@ export default function Page() {
       quantity: 0,
     },
     {
-      itemName: "+Additional Pages",
+      itemName: "+ Additional Pages",
       price: 550.0,
       quantity: 0,
     },
@@ -76,7 +76,7 @@ export default function Page() {
       quantity: 0,
     },
     {
-      itemName: "+Additional Pages",
+      itemName: "+ Additional Pages",
       price: 850.0,
       quantity: 0,
     },
@@ -130,7 +130,7 @@ export default function Page() {
           <div className="col-span-2 lg:col-span-1 flex justify-end items-center">
             <div className="h-48 w-full lg:h-[30rem] lg:w-[30rem]">
               <img
-                src="/img/our-clients/our-clients.webp"
+                src="/img/cost-of-matrix/cost-of-matrix.webp"
                 alt="meeting table"
                 className="h-full w-full object-cover rounded-xl"
               />
