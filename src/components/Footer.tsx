@@ -58,7 +58,9 @@ export default function Footer() {
             </div>
           </div>
           <div className="basis-full flex justify-between my-10 lg:my-0 items-center">
-            <div className="text-footer-gray">Copyright @ Stone2Stone 2023</div>
+            <div className="text-footer-gray">
+              Copyright @ Stone2Stone {new Date().getFullYear()}
+            </div>
             <div className="">
               <Link
                 href="https://www.linkedin.com/company/stone2stone/"
