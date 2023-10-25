@@ -11,11 +11,11 @@ export default function page() {
   return (
     <>
       {/* HERO */}
-      <div className="flex justify-center items-center bg-hero_bg bg-cover bg-bottom bg-no-repeat">
-        <div className="mt-16 lg:mt-20 grid grid-cols-2 gap-5 lg:gap-20 justify-center items-center p-5 lg:px-0 lg:py-16 w-full lg:max-w-7xl mx-auto">
+      <div className="flex items-center justify-center bg-hero_bg bg-cover bg-bottom bg-no-repeat">
+        <div className="mx-auto mt-16 grid w-full grid-cols-2 items-center justify-center gap-5 p-5 lg:mt-20 lg:max-w-7xl lg:gap-20 lg:px-0 lg:py-16">
           {/* TEXT */}
-          <div className="md:mt-2 lg:mt-0 col-span-2 lg:col-span-1 text-white text-center lg:text-start">
-            <h1 className="text-4xl lg:text-6xl mb-5 font-semibold">
+          <div className="col-span-2 text-center text-white md:mt-2 lg:col-span-1 lg:mt-0 lg:text-start">
+            <h1 className="mb-5 text-4xl font-semibold lg:text-6xl">
               Our Blog
             </h1>
             <p className="lg:text-2xl ">
@@ -24,19 +24,19 @@ export default function page() {
             </p>
           </div>
           {/* IMAGE */}
-          <div className="col-span-2 lg:col-span-1 flex justify-end items-center">
+          <div className="col-span-2 flex items-center justify-end lg:col-span-1">
             <div className=" lg:h-[30rem] lg:w-[30rem]">
               <img
                 src="/img/our-blog/our-blog.webp"
                 alt="girl writing a blog post"
-                className="h-full w-full object-cover rounded-xl"
+                className="h-full w-full rounded-xl object-cover"
               />
             </div>
           </div>
         </div>
       </div>
 
-      <div className="flex flex-col justify-center items-center p-5 lg:px-0 lg:my-10 lg:max-w-7xl mx-auto">
+      <div className="mx-auto flex flex-col items-center justify-center p-5 lg:my-10 lg:max-w-7xl lg:px-0">
         <Posts />
       </div>
     </>

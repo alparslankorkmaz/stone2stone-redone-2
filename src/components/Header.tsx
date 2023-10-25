@@ -26,10 +26,10 @@ export default function Header() {
 
   return (
     <>
-      <nav className="w-full top-0 left-0 right-0 absolute z-20">
-        <div className="lg:flex lg:items-center lg:max-w-7xl mx-auto justify-between items-center">
+      <nav className="absolute left-0 right-0 top-0 z-20 w-full">
+        <div className="mx-auto items-center justify-between lg:flex lg:max-w-7xl lg:items-center">
           <div>
-            <div className="flex items-center justify-between py-3 lg:py-10 lg:block">
+            <div className="flex items-center justify-between py-3 lg:block lg:py-10">
               {/* LOGO */}
               <Link href="/">
                 <Image
@@ -41,13 +41,13 @@ export default function Header() {
                 />
               </Link>
               {/* HAMBURGER BUTTON FOR MOBILE */}
-              <div className="lg:hidden px-5 lg:px-0">
+              <div className="px-5 lg:hidden lg:px-0">
                 <button
                   onClick={() => setIsOpen(!isOpen)}
-                  className="flex items-center px-3 py-2 rounded text-s2s-orange"
+                  className="flex items-center rounded px-3 py-2 text-s2s-orange"
                 >
                   <svg
-                    className={`fill-current h-6 w-6 ${
+                    className={`h-6 w-6 fill-current ${
                       isOpen ? "hidden" : "block"
                     }`}
                     viewBox="0 0 20 20"
@@ -56,7 +56,7 @@ export default function Header() {
                     <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
                   </svg>
                   <svg
-                    className={`fill-current h-6 w-6 ${
+                    className={`h-6 w-6 fill-current ${
                       isOpen ? "block" : "hidden"
                     }`}
                     viewBox="0 0 20 20"
@@ -70,19 +70,19 @@ export default function Header() {
           </div>
           <div>
             <div
-              className={`flex-1 justify-self-center p-10 lg:block lg:p-0 lg:mt-0 ${
+              className={`flex-1 justify-self-center p-10 lg:mt-0 lg:block lg:p-0 ${
                 isOpen
-                  ? "p-12 rounded-lg lg:p-0 block bg-mobile_menu_bg bg-cover bg-bottom lg:bg-transparent h-screen lg:h-auto"
+                  ? "block h-screen rounded-lg bg-mobile_menu_bg bg-cover bg-bottom p-12 lg:h-auto lg:bg-transparent lg:p-0"
                   : "hidden"
               }`}
             >
-              <ul className="gap-8 h-full font-semibold lg:h-auto flex flex-col items-center lg:flex-row lg:items-center text-xl lg:text-base lg:gap-7">
+              <ul className="flex h-full flex-col items-center gap-8 text-xl font-semibold lg:h-auto lg:flex-row lg:items-center lg:gap-7 lg:text-base">
                 {/* HOME */}
                 <li>
                   <Link
                     href="/"
                     onClick={() => setIsOpen(false)}
-                    className="w-fit lg:mt-0 text-white text-center hover:text-s2s-orange duration-200"
+                    className="w-fit text-center text-white duration-200 hover:text-s2s-orange lg:mt-0"
                   >
                     Home
                   </Link>
@@ -90,13 +90,13 @@ export default function Header() {
                 {/* ABOUT */}
                 <li>
                   <div
-                    className="dropdown dropdown-hover dropdown-bottom dropdown-end"
+                    className="dropdown dropdown-end dropdown-bottom dropdown-hover"
                     onMouseEnter={handleRotate1}
                     onMouseLeave={handleRotate1}
                   >
                     <label
                       tabIndex={0}
-                      className="flex justify-center items-center gap-2 relative w-fit lg:mt-0 text-white text-center hover:text-s2s-orange duration-200"
+                      className="relative flex w-fit items-center justify-center gap-2 text-center text-white duration-200 hover:text-s2s-orange lg:mt-0"
                     >
                       About Stone2Stone{" "}
                       <span className="text-xs">
@@ -111,7 +111,7 @@ export default function Header() {
                     <ul
                       tabIndex={0}
                       // style={{ display: displayMenuStyle1 }}
-                      className="flex justify-center items-center lg:block dropdown-content -left-3 lg:-left-7 divide-y-2 divide-s2s-orange z-[1] menu p-3 text-white bg-menu-gray rounded-lg w-52"
+                      className="menu dropdown-content -left-3 z-[1] flex w-52 items-center justify-center divide-y-2 divide-s2s-orange rounded-lg bg-menu-gray p-3 text-white lg:-left-7 lg:block"
                     >
                       <li>
                         <Link
@@ -155,13 +155,13 @@ export default function Header() {
                 {/* WHAT WE DO */}
                 <li>
                   <div
-                    className="dropdown dropdown-hover dropdown-bottom dropdown-end"
+                    className="dropdown-hover dropdown-bottom dropdown-end dropdown"
                     onMouseEnter={handleRotate2}
                     onMouseLeave={handleRotate2}
                   >
                     <label
                       tabIndex={0}
-                      className="flex justify-center items-center gap-2 relative w-fit lg:mt-0 text-white text-center hover:text-s2s-orange duration-200"
+                      className="relative flex w-fit items-center justify-center gap-2 text-center text-white duration-200 hover:text-s2s-orange lg:mt-0"
                     >
                       What we do{" "}
                       <span className="text-xs">
@@ -175,7 +175,7 @@ export default function Header() {
                     </label>
                     <ul
                       tabIndex={0}
-                      className="flex justify-center items-center lg:block dropdown-content -left-[5.3rem] lg:-left-7 divide-y-2 divide-s2s-orange z-[1] menu p-3 text-white bg-menu-gray rounded-lg w-72"
+                      className="menu dropdown-content -left-[5.3rem] z-[1] flex w-72 items-center justify-center divide-y-2 divide-s2s-orange rounded-lg bg-menu-gray p-3 text-white lg:-left-7 lg:block"
                     >
                       <li>
                         <Link
@@ -257,7 +257,7 @@ export default function Header() {
                   <Link
                     href="/case-studies"
                     onClick={() => setIsOpen(false)}
-                    className="w-fit lg:mt-0 text-white text-center hover:text-s2s-orange duration-200"
+                    className="w-fit text-center text-white duration-200 hover:text-s2s-orange lg:mt-0"
                   >
                     Work
                   </Link>
@@ -267,7 +267,7 @@ export default function Header() {
                   <Link
                     href="/blog"
                     onClick={() => setIsOpen(false)}
-                    className="w-fit lg:mt-0 text-white text-center hover:text-s2s-orange duration-200"
+                    className="w-fit text-center text-white duration-200 hover:text-s2s-orange lg:mt-0"
                   >
                     Blog
                   </Link>
@@ -277,11 +277,25 @@ export default function Header() {
                   <Link
                     href="/contact-us"
                     onClick={() => setIsOpen(false)}
-                    className="w-fit lg:mt-0 text-white text-center hover:text-s2s-orange duration-200"
+                    className="w-fit text-center text-white duration-200 hover:text-s2s-orange lg:mt-0"
                   >
                     Contact us
                   </Link>
                 </li>
+                <li className="hidden text-5xl font-thin text-s2s-purple lg:block">
+                  I
+                </li>
+                <li>
+                  <Link
+                    className=" w-fit rounded-xl bg-s2s-purple px-10 py-2 text-center font-bold text-white duration-200 hover:bg-s2s-orange lg:mt-0"
+                    href="https://www.edventuremarketing.co.uk/"
+                    target="_blank"
+                    onClick={() => setIsOpen(false)}
+                  >
+                    EdVenture: Gamification
+                  </Link>
+                </li>
+
                 {/* LOGIN BUTTON */}
                 {/* <li className="hidden lg:block text-s2s-purple text-5xl font-thin">
                   I

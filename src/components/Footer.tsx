@@ -6,8 +6,8 @@ import linkedin from "public/img/footer/linkedin.svg";
 export default function Footer() {
   return (
     <>
-      <div className="bg-footer_bg bg-cover bg-no-repeat bg-top">
-        <div className="lg:max-w-7xl mx-auto flex flex-wrap justify-between p-10 lg:px-0 lg:py-44">
+      <div className="bg-footer_bg bg-cover bg-top bg-no-repeat">
+        <div className="mx-auto flex flex-wrap justify-between p-10 lg:max-w-7xl lg:px-0 lg:py-44">
           {/* LOGO */}
           <div className="my-10 lg:my-0">
             <Link href="/">
@@ -20,12 +20,12 @@ export default function Footer() {
             </Link>
           </div>
           {/* QUICK LINKS */}
-          <div className="flex gap-16 lg:gap-44 lg:mr-16">
+          <div className="flex gap-16 lg:mr-16 lg:gap-44">
             <div>
-              <h6 className="font-semibold text-white lg:text-3xl mb-4">
+              <h6 className="mb-4 font-semibold text-white lg:text-3xl">
                 Quick Links
               </h6>
-              <ul className="flex flex-col text-footer-gray text-sm lg:text-xl">
+              <ul className="flex flex-col text-sm text-footer-gray lg:text-xl">
                 <li>
                   <Link href="/who-we-are">Who we are</Link>
                 </li>
@@ -44,10 +44,10 @@ export default function Footer() {
               </ul>
             </div>
             <div>
-              <h6 className="font-semibold text-white lg:text-3xl mb-4">
+              <h6 className="mb-4 font-semibold text-white lg:text-3xl">
                 Company
               </h6>
-              <ul className="flex flex-col text-footer-gray text-sm lg:text-xl">
+              <ul className="flex flex-col text-sm text-footer-gray lg:text-xl">
                 <li>
                   <Link href="/terms">Terms</Link>
                 </li>
@@ -57,7 +57,7 @@ export default function Footer() {
               </ul>
             </div>
           </div>
-          <div className="basis-full flex justify-between my-10 lg:my-0 items-center">
+          <div className="my-10 flex basis-full items-center justify-between lg:my-0">
             <div className="text-footer-gray">
               Copyright @ Stone2Stone {new Date().getFullYear()}
             </div>

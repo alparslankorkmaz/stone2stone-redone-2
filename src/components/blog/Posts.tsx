@@ -6,7 +6,7 @@ export default function Posts() {
 
   return (
     <section>
-      <ul className="w-full grid gap-5 lg:gap-10 justify-center items-center grid-cols-2 lg:grid-cols-9">
+      <ul className="grid w-full grid-cols-2 items-center justify-center gap-5 lg:grid-cols-9 lg:gap-10">
         {posts.map((post) => (
           <ListItem key={post.id} post={post} />
         ))}
