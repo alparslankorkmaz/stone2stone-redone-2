@@ -90,7 +90,7 @@ export default function Header() {
                 {/* ABOUT */}
                 <li>
                   <div
-                    className="dropdown dropdown-end dropdown-bottom dropdown-hover"
+                    className="dropdown-end dropdown-bottom dropdown-hover dropdown"
                     onMouseEnter={handleRotate1}
                     onMouseLeave={handleRotate1}
                   >
@@ -287,7 +287,7 @@ export default function Header() {
                 </li>
                 <li>
                   <Link
-                    className=" w-fit rounded-xl bg-s2s-purple px-10 py-2 text-center font-bold text-white duration-200 hover:bg-s2s-orange lg:mt-0"
+                    className=" w-fit whitespace-nowrap rounded-xl bg-s2s-purple px-10 py-2 text-center font-bold text-white duration-200 hover:bg-s2s-orange lg:mt-0"
                     href="https://www.edventuremarketing.co.uk/"
                     target="_blank"
                     onClick={() => setIsOpen(false)}
