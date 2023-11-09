@@ -3,8 +3,8 @@ import Link from "next/link";
 export default function WhatWeDo() {
   return (
     <>
-      <div className="p-5 lg:p-0 lg:max-w-7xl mx-auto">
-        <div className="text-2xl lg:text-5xl font-semibold my-14 lg:leading-tight">
+      <div className="mx-auto p-5 lg:max-w-7xl lg:p-0">
+        <div className="my-14 text-2xl font-semibold lg:text-5xl lg:leading-tight">
           <h3 className="text-black">
             What we do:{" "}
             <span className="block text-s2s-gray">
@@ -16,22 +16,21 @@ export default function WhatWeDo() {
           {/* ACCORDION 1 */}
           <div className="collapse collapse-arrow rounded-lg bg-white">
             <input type="checkbox" name="my-accordion-2" />
-            <div className="collapse-title text-xl lg:text-4xl p-4 lg:p-7 font-medium relative">
+            <div className="collapse-title relative p-4 text-xl font-medium lg:p-7 lg:text-4xl">
               Strategy, Branding and{" "}
               <span className="block lg:inline"> Proposition</span>
-              {/* <div className="p-6 rounded-full border-2 border-s2s-orange absolute top-[1.1rem] right-[1.15rem]"></div> */}
             </div>
             <div className="collapse-content ">
               {/* DIVIDER */}
               <img
                 src="/img/misc/divider.webp"
-                className="w-full h-[2px] my-5"
+                className="my-5 h-[2px] w-full"
                 alt="divider"
               />
 
-              <div className="grid grid-cols-5 lg:p-5 gap-5 lg:gap-14 justify-center">
+              <div className="grid grid-cols-5 justify-center gap-5 lg:gap-14 lg:p-5">
                 {/* TEXT */}
-                <div className="col-span-5 lg:col-span-3 text-s2s-gray lg:text-xl font-medium">
+                <div className="col-span-5 font-medium text-s2s-gray lg:col-span-3 lg:text-xl">
                   <p className="my-5 lg:my-10">
                     Struggling to elevate your brand and drive success? Your
                     strategic approach must combine meticulous market analysis,
@@ -50,16 +49,16 @@ export default function WhatWeDo() {
                   </p>
                   {/* BUTTON */}
                   <Link href="/contact-us">
-                    <div className="text-white w-fit mt-10 lg:mt-20 p-3 bg-s2s-purple rounded-lg hover:bg-s2s-orange duration-200">
+                    <div className="mt-10 w-fit rounded-lg bg-s2s-purple p-3 text-white duration-200 hover:bg-s2s-orange lg:mt-20">
                       Book a meeting with our Brand Growth team
                     </div>
                   </Link>
                 </div>
                 {/* IMAGE */}
-                <div className="col-span-5 lg:col-span-2 flex justify-center items-center order-first lg:order-none">
+                <div className="order-first col-span-5 flex items-center justify-center lg:order-none lg:col-span-2">
                   <img
                     src="/img/accordion/strategy.webp"
-                    className="w-full h-52 lg:h-[28rem] object-top object-cover rounded-xl"
+                    className="h-52 w-full rounded-xl object-cover object-top lg:h-[28rem]"
                     alt="man in a meeting"
                   />
                 </div>
@@ -67,24 +66,23 @@ export default function WhatWeDo() {
             </div>
           </div>
           {/* ACCORDION 2 */}
-          <div className="collapse collapse-arrow rounded-lg bg-white">
+          <div className="collapse-arrow collapse rounded-lg bg-white">
             <input type="checkbox" name="my-accordion-2" />
-            <div className="collapse-title text-xl lg:text-4xl p-4 lg:p-7 font-medium">
+            <div className="collapse-title p-4 text-xl font-medium lg:p-7 lg:text-4xl">
               Digital Marketing
             </div>
-            {/* <div className="p-6 rounded-full border-2 border-s2s-orange absolute top-[1.1rem] right-[1.15rem]"></div> */}
 
             <div className="collapse-content ">
               {/* DIVIDER */}
               <img
                 src="/img/misc/divider.webp"
-                className="w-full h-[2px] my-5"
+                className="my-5 h-[2px] w-full"
                 alt="divider"
               />
 
-              <div className="grid grid-cols-5 lg:p-5 gap-5 lg:gap-14 justify-center">
+              <div className="grid grid-cols-5 justify-center gap-5 lg:gap-14 lg:p-5">
                 {/* TEXT */}
-                <div className="col-span-5 lg:col-span-3 text-s2s-gray lg:text-xl font-medium">
+                <div className="col-span-5 font-medium text-s2s-gray lg:col-span-3 lg:text-xl">
                   <p className="my-5 lg:my-10">
                     <span className="text-black">
                       {" "}
@@ -110,16 +108,16 @@ export default function WhatWeDo() {
                   </p>
                   {/* BUTTON */}
                   <Link href="/contact-us">
-                    <div className="text-white w-fit mt-10 lg:mt-20 p-3 bg-s2s-purple rounded-lg hover:bg-s2s-orange duration-200">
+                    <div className="mt-10 w-fit rounded-lg bg-s2s-purple p-3 text-white duration-200 hover:bg-s2s-orange lg:mt-20">
                       Book a meeting with our Digital team
                     </div>
                   </Link>
                 </div>
                 {/* IMAGE */}
-                <div className="col-span-5 lg:col-span-2 flex justify-center items-center order-first lg:order-none">
+                <div className="order-first col-span-5 flex items-center justify-center lg:order-none lg:col-span-2">
                   <img
                     src="/img/accordion/digital.webp"
-                    className="w-full h-52 lg:h-[28rem] object-cover rounded-xl"
+                    className="h-52 w-full rounded-xl object-cover lg:h-[28rem]"
                     alt="man in a meeting"
                   />
                 </div>
@@ -127,24 +125,23 @@ export default function WhatWeDo() {
             </div>
           </div>
           {/* ACCORDION 3 */}
-          <div className="collapse collapse-arrow rounded-lg bg-white">
+          <div className="collapse-arrow collapse rounded-lg bg-white">
             <input type="checkbox" name="my-accordion-2" />
-            <div className="collapse-title text-xl lg:text-4xl p-4 lg:p-7 font-medium">
+            <div className="collapse-title p-4 text-xl font-medium lg:p-7 lg:text-4xl">
               ABM
             </div>
-            {/* <div className="p-6 rounded-full border-2 border-s2s-orange absolute top-[1.1rem] right-[1.15rem]"></div> */}
 
             <div className="collapse-content ">
               {/* DIVIDER */}
               <img
                 src="/img/misc/divider.webp"
-                className="w-full h-[2px] my-5"
+                className="my-5 h-[2px] w-full"
                 alt="divider"
               />
 
-              <div className="grid grid-cols-5 lg:p-5 gap-5 lg:gap-14 justify-center">
+              <div className="grid grid-cols-5 justify-center gap-5 lg:gap-14 lg:p-5">
                 {/* TEXT */}
-                <div className="col-span-5 lg:col-span-3 text-s2s-gray lg:text-xl font-medium">
+                <div className="col-span-5 font-medium text-s2s-gray lg:col-span-3 lg:text-xl">
                   <p className="my-5 lg:my-10">
                     Are you struggling to effectively target and engage chosen
                     accounts?{" "}
@@ -169,16 +166,16 @@ export default function WhatWeDo() {
                   </p>
                   {/* BUTTON */}
                   <Link href="/contact-us">
-                    <div className="text-white w-fit mt-10 lg:mt-20 p-3 bg-s2s-purple rounded-lg hover:bg-s2s-orange duration-200">
+                    <div className="mt-10 w-fit rounded-lg bg-s2s-purple p-3 text-white duration-200 hover:bg-s2s-orange lg:mt-20">
                       Book a meeting with our ABM team
                     </div>
                   </Link>
                 </div>
                 {/* IMAGE */}
-                <div className="col-span-5 lg:col-span-2 flex justify-center items-center order-first lg:order-none">
+                <div className="order-first col-span-5 flex items-center justify-center lg:order-none lg:col-span-2">
                   <img
                     src="/img/accordion/abm.webp"
-                    className="w-full h-52 lg:h-[28rem] object-cover rounded-xl"
+                    className="h-52 w-full rounded-xl object-cover lg:h-[28rem]"
                     alt="man in a meeting"
                   />
                 </div>
@@ -186,24 +183,23 @@ export default function WhatWeDo() {
             </div>
           </div>
           {/* ACCORDION 4 */}
-          <div className="collapse collapse-arrow rounded-lg bg-white">
+          <div className="collapse-arrow collapse rounded-lg bg-white">
             <input type="checkbox" name="my-accordion-2" />
-            <div className="collapse-title text-xl lg:text-4xl p-4 lg:p-7 font-medium">
+            <div className="collapse-title p-4 text-xl font-medium lg:p-7 lg:text-4xl">
               Content Marketing
             </div>
-            {/* <div className="p-6 rounded-full border-2 border-s2s-orange absolute top-[1.1rem] right-[1.15rem]"></div> */}
 
             <div className="collapse-content ">
               {/* DIVIDER */}
               <img
                 src="/img/misc/divider.webp"
-                className="w-full h-[2px] my-5"
+                className="my-5 h-[2px] w-full"
                 alt="divider"
               />
 
-              <div className="grid grid-cols-5 lg:p-5 gap-5 lg:gap-14 justify-center">
+              <div className="grid grid-cols-5 justify-center gap-5 lg:gap-14 lg:p-5">
                 {/* TEXT */}
-                <div className="col-span-5 lg:col-span-3 text-s2s-gray lg:text-xl font-medium">
+                <div className="col-span-5 font-medium text-s2s-gray lg:col-span-3 lg:text-xl">
                   <p className="my-5 lg:my-10">
                     <span className="text-black">
                       Do you want to drive brand awareness, engagement, and
@@ -229,16 +225,16 @@ export default function WhatWeDo() {
                   </p>
                   {/* BUTTON */}
                   <Link href="/contact-us">
-                    <div className="text-white w-fit mt-10 lg:mt-20 p-3 bg-s2s-purple rounded-lg hover:bg-s2s-orange duration-200">
+                    <div className="mt-10 w-fit rounded-lg bg-s2s-purple p-3 text-white duration-200 hover:bg-s2s-orange lg:mt-20">
                       Book a meeting with our Content team
                     </div>
                   </Link>
                 </div>
                 {/* IMAGE */}
-                <div className="col-span-5 lg:col-span-2 flex justify-center items-center order-first lg:order-none">
+                <div className="order-first col-span-5 flex items-center justify-center lg:order-none lg:col-span-2">
                   <img
                     src="/img/accordion/content.webp"
-                    className="w-full h-52 lg:h-[28rem] object-cover rounded-xl"
+                    className="h-52 w-full rounded-xl object-cover lg:h-[28rem]"
                     alt="man in a meeting"
                   />
                 </div>
@@ -246,24 +242,23 @@ export default function WhatWeDo() {
             </div>
           </div>
           {/* ACCORDION 5 */}
-          <div className="collapse collapse-arrow rounded-lg bg-white">
+          <div className="collapse-arrow collapse rounded-lg bg-white">
             <input type="checkbox" name="my-accordion-2" />
-            <div className="collapse-title text-xl lg:text-4xl p-4 lg:p-7 font-medium">
+            <div className="collapse-title p-4 text-xl font-medium lg:p-7 lg:text-4xl">
               Gamification
             </div>
-            {/* <div className="p-6 rounded-full border-2 border-s2s-orange absolute top-[1.1rem] right-[1.15rem]"></div> */}
 
             <div className="collapse-content ">
               {/* DIVIDER */}
               <img
                 src="/img/misc/divider.webp"
-                className="w-full h-[2px] my-5"
+                className="my-5 h-[2px] w-full"
                 alt="divider"
               />
 
-              <div className="grid grid-cols-5 lg:p-5 gap-5 lg:gap-14 justify-center">
+              <div className="grid grid-cols-5 justify-center gap-5 lg:gap-14 lg:p-5">
                 {/* TEXT */}
-                <div className="col-span-5 lg:col-span-3 text-s2s-gray lg:text-xl font-medium">
+                <div className="col-span-5 font-medium text-s2s-gray lg:col-span-3 lg:text-xl">
                   <p className="my-5 lg:my-10">
                     Do you want to create captivating and interactive
                     experiences that captivate your target audience? From
@@ -289,16 +284,16 @@ export default function WhatWeDo() {
                   </p>
                   {/* BUTTON */}
                   <Link href="/contact-us">
-                    <div className="text-white w-fit mt-10 lg:mt-20 p-3 bg-s2s-purple rounded-lg hover:bg-s2s-orange duration-200">
+                    <div className="mt-10 w-fit rounded-lg bg-s2s-purple p-3 text-white duration-200 hover:bg-s2s-orange lg:mt-20">
                       Book a meeting with our Gamification team
                     </div>
                   </Link>
                 </div>
                 {/* IMAGE */}
-                <div className="col-span-5 lg:col-span-2 flex justify-center items-center order-first lg:order-none">
+                <div className="order-first col-span-5 flex items-center justify-center lg:order-none lg:col-span-2">
                   <img
                     src="/img/accordion/gamification.webp"
-                    className="w-full h-52 lg:h-[28rem] object-top object-cover rounded-xl"
+                    className="h-52 w-full rounded-xl object-cover object-top lg:h-[28rem]"
                     alt="man in a meeting"
                   />
                 </div>
