@@ -117,40 +117,40 @@ export default function Page() {
   return (
     <>
       {/* HERO */}
-      <div className="flex justify-center items-center bg-hero_bg bg-cover bg-bottom bg-no-repeat">
-        <div className="mt-16 w-full lg:mt-20 grid grid-cols-2 gap-5 lg:gap-20 justify-center items-center p-5 lg:px-0 lg:py-16 lg:max-w-7xl mx-auto">
+      <div className="flex items-center justify-center bg-hero_bg bg-cover bg-bottom bg-no-repeat">
+        <div className="mx-auto mt-16 grid w-full grid-cols-2 items-center justify-center gap-5 p-5 lg:mt-20 lg:max-w-7xl lg:gap-20 lg:px-0 lg:py-16">
           {/* TEXT */}
-          <div className="md:mt-2 lg:mt-0 col-span-2 lg:col-span-1 text-white text-center lg:text-start">
-            <h1 className="text-4xl lg:text-6xl mb-5 font-semibold">
+          <div className="col-span-2 text-center text-white md:mt-2 lg:col-span-1 lg:mt-0 lg:text-start">
+            <h1 className="mb-5 text-4xl font-semibold lg:text-6xl">
               Content & Branding
             </h1>
             {/* <p className="lg:text-2xl">Printing to be quoted separately</p> */}
           </div>
           {/* IMAGE */}
-          <div className="col-span-2 lg:col-span-1 flex justify-end items-center">
+          <div className="col-span-2 flex items-center justify-end lg:col-span-1">
             <div className="h-48 w-full lg:h-[30rem] lg:w-[30rem]">
               <img
                 src="/img/cost-of-matrix/cost-of-matrix.webp"
                 alt="meeting table"
-                className="h-full w-full object-cover rounded-xl"
+                className="h-full w-full rounded-xl object-cover"
               />
             </div>
           </div>
         </div>
       </div>
-      <div className="grid gap-10 grid-cols-2 container max-w-7xl mx-auto my-10">
+      <div className="container mx-auto my-10 grid max-w-7xl grid-cols-2 gap-10">
         <div className="col-span-2">
           <Link
             href="/cost-matrix"
-            className="flex justify-center items-center gap-5 w-fit font-bold text-white text-center bg-s2s-purple px-10 py-2 rounded-xl hover:bg-s2s-orange duration-200"
+            className="flex w-fit items-center justify-center gap-5 rounded-xl bg-s2s-purple px-10 py-2 text-center font-bold text-white duration-200 hover:bg-s2s-orange"
           >
             <FaArrowLeft /> Go back
           </Link>
         </div>
 
-        <div className="col-span-2 lg:col-span-1 rounded-xl bg-white p-5">
+        <div className="col-span-2 rounded-xl bg-white p-5 lg:col-span-1">
           {items.map((item, index) => (
-            <div key={index} className="flex py-5 border-s2s-purple border-b-2">
+            <div key={index} className="flex border-b-2 border-s2s-purple py-5">
               <div className="flex items-center">
                 <button>
                   <FaChevronLeft
@@ -164,26 +164,26 @@ export default function Page() {
                   />
                 </button>
               </div>
-              <div className="mx-5">{item.itemName}</div>
-              <div className="font-semibold ms-auto">£{item.price}</div>
+              <div className="mx-5 text-lg text-s2s-gray">{item.itemName}</div>
+              <div className="ms-auto font-semibold">£{item.price}</div>
             </div>
           ))}
         </div>
-        <div className="flex flex-col gap-10 text-center items-center justify-center col-span-2 lg:col-span-1 rounded-xl bg-white p-16 h-fit">
-          <h3 className="font-bold text-4xl">Something missing?</h3>
+        <div className="col-span-2 flex h-fit flex-col items-center justify-center gap-10 rounded-xl bg-white p-16 text-center lg:col-span-1">
+          <h3 className="text-4xl font-bold">Something missing?</h3>
           <p className="text-4xl">
             For anything that is not included in this list, please contact us
             below.
           </p>
           <Link
             href="contact-us"
-            className="w-fit font-bold text-white text-center bg-s2s-purple px-10 py-2 rounded-xl hover:bg-s2s-orange duration-200"
+            className="w-fit rounded-xl bg-s2s-purple px-10 py-2 text-center font-bold text-white duration-200 hover:bg-s2s-orange"
           >
             Enquire
           </Link>
         </div>
       </div>
-      <div className="flex flex-wrap font-semibold text-xl lg:gap-5 justify-center items-center sticky bottom-0 z-20 bg-s2s-purple text-white p-3 text-center">
+      <div className="sticky bottom-0 z-20 flex flex-wrap items-center justify-center bg-s2s-purple p-3 text-center text-xl font-semibold text-white lg:gap-5">
         Total: £{totalItemCount} + VAT
       </div>
     </>
