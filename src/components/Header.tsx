@@ -4,6 +4,7 @@ import logo from "public/img/logo/logo.png";
 import Link from "next/link";
 import { useState } from "react";
 import { FaChevronDown } from "react-icons/fa";
+import { useParams, usePathname } from "next/navigation";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -23,6 +24,7 @@ export default function Header() {
       (document.activeElement as HTMLElement)?.blur();
     }
   };
+  const pathname = usePathname();
 
   return (
     <>
@@ -82,7 +84,11 @@ export default function Header() {
                   <Link
                     href="/"
                     onClick={() => setIsOpen(false)}
-                    className="w-fit text-center text-white duration-200 hover:text-s2s-orange lg:mt-0"
+                    className={
+                      pathname === "/"
+                        ? "text-s2s-orange"
+                        : "w-fit text-center text-white duration-200 hover:text-s2s-orange lg:mt-0"
+                    }
                   >
                     Home
                   </Link>
@@ -90,13 +96,19 @@ export default function Header() {
                 {/* ABOUT */}
                 <li>
                   <div
-                    className="dropdown-end dropdown-bottom dropdown-hover dropdown"
+                    className="dropdown dropdown-end dropdown-bottom dropdown-hover"
                     onMouseEnter={handleRotate1}
                     onMouseLeave={handleRotate1}
                   >
                     <label
                       tabIndex={0}
-                      className="relative flex w-fit items-center justify-center gap-2 text-center text-white duration-200 hover:text-s2s-orange lg:mt-0"
+                      className={
+                        pathname === "/about-us" ||
+                        pathname === "/who-we-are" ||
+                        pathname === "/our-clients"
+                          ? "relative flex w-fit items-center justify-center gap-2 text-center text-s2s-orange lg:mt-0"
+                          : "relative flex w-fit items-center justify-center gap-2 text-center text-white duration-200 hover:text-s2s-orange lg:mt-0"
+                      }
                     >
                       About Stone2Stone{" "}
                       <span className="text-xs">
@@ -161,7 +173,16 @@ export default function Header() {
                   >
                     <label
                       tabIndex={0}
-                      className="relative flex w-fit items-center justify-center gap-2 text-center text-white duration-200 hover:text-s2s-orange lg:mt-0"
+                      className={
+                        pathname === "/strategy-branding-proposition" ||
+                        pathname === "/digital-marketing" ||
+                        pathname === "/abm" ||
+                        pathname === "/content-marketing" ||
+                        pathname === "/gamification" ||
+                        pathname === "/what-we-do"
+                          ? "relative flex w-fit items-center justify-center gap-2 text-center text-s2s-orange lg:mt-0"
+                          : "relative flex  w-fit items-center justify-center gap-2 text-center text-white duration-200 hover:text-s2s-orange lg:mt-0"
+                      }
                     >
                       What we do{" "}
                       <span className="text-xs">
@@ -257,7 +278,11 @@ export default function Header() {
                   <Link
                     href="/case-studies"
                     onClick={() => setIsOpen(false)}
-                    className="w-fit text-center text-white duration-200 hover:text-s2s-orange lg:mt-0"
+                    className={
+                      pathname === "/case-studies"
+                        ? "text-s2s-orange"
+                        : "w-fit text-center text-white duration-200 hover:text-s2s-orange lg:mt-0"
+                    }
                   >
                     Work
                   </Link>
@@ -267,7 +292,11 @@ export default function Header() {
                   <Link
                     href="/blog"
                     onClick={() => setIsOpen(false)}
-                    className="w-fit text-center text-white duration-200 hover:text-s2s-orange lg:mt-0"
+                    className={
+                      pathname === "/blog"
+                        ? "text-s2s-orange"
+                        : "w-fit text-center text-white duration-200 hover:text-s2s-orange lg:mt-0"
+                    }
                   >
                     Blog
                   </Link>
@@ -277,7 +306,11 @@ export default function Header() {
                   <Link
                     href="/contact-us"
                     onClick={() => setIsOpen(false)}
-                    className="w-fit text-center text-white duration-200 hover:text-s2s-orange lg:mt-0"
+                    className={
+                      pathname === "/contact-us"
+                        ? "text-s2s-orange"
+                        : "w-fit text-center text-white duration-200 hover:text-s2s-orange lg:mt-0"
+                    }
                   >
                     Contact us
                   </Link>
