@@ -4,6 +4,7 @@ import logo from "public/img/logo/logo.png";
 import linkedin from "public/img/footer/linkedin.svg";
 
 export default function Footer() {
+  const date = new Date().getFullYear();
   return (
     <>
       <div className="bg-footer_bg bg-cover bg-top bg-no-repeat">
@@ -59,7 +60,7 @@ export default function Footer() {
           </div>
           <div className="my-10 flex basis-full items-center justify-between lg:my-0">
             <div className="text-footer-gray">
-              Copyright @ Stone2Stone {new Date().getFullYear()}
+              Copyright @ Stone2Stone {date}
             </div>
             <div className="">
               <Link
